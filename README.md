@@ -14,46 +14,56 @@
 git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
 
+- Install the Gatsby CLI
+
+```
+npm install -g gatsby-cli
+```
+- Change directories into site folder
+
+```
+cd oscommunityafrica.github.io
+````
 - Create a new branch for your feature
 
 ```shell
  git checkout -b speakers-component
 ```
 
-## Gatsby Setup
-
-- Install the Gatsby CLI
-
-```
-npm install -g gatsby-cli
-```
-
-- Change directories into site folder
-
-```
-cd oscommunityafrica.github.io
-````
-
 - Start development server
 
 ```
-gatsby develop
+npm run develop
 ```
 
-Gatsby will start a hot-reloading development environment accessible by default at localhost:8000
+*Gatsby will start a hot-reloading development environment accessible by default at localhost:8000*
 
 - Create a production build
 
 ```
-gatsby build
+npm run build
 ```
 
-Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles.
+*Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles.*
 
 - Serve the production build locally
 
 ```
-gatsby serve
+npm run serve
 ```
 
-Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command.
+*Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command.*
+
+## Format and lint
+
+- See what ESLint and Prettier can fix
+
+```
+npm run analyze
+```
+
+- Run Prettier and ESLint with the --fix option
+
+```
+npm run fix
+```
