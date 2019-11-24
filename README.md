@@ -2,6 +2,8 @@
     <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys)
+
 ## Getting Started
 
 - Fork this repository
