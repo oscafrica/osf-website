@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "osf-website",
+  "description": "Website for OSCA Open Source Festival",
   "version": "3.0.141",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "OSCAFRICA",
   "dependencies": {
     "gatsby": "2.17.15",
     "gatsby-plugin-manifest": "2.2.27",
