@@ -9,13 +9,13 @@
 - Clone the forked repository like so:
 
 ```shell
-git clone https://github.com/<your username>/oscommunityafrica.github.io.git && cd oscommunityafrica.github.io
+git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
 
-- Switch to the **new-festival** branch
+- Create a new branch for your feature
 
 ```shell
-git checkout new-festival
+ git checkout -b speakers-component
 ```
 
 ## Gatsby Setup
@@ -37,4 +37,21 @@ cd oscommunityafrica.github.io
 ```
 gatsby develop
 ```
-Gatsby will start a hot-reloading development environment a
+
+Gatsby will start a hot-reloading development environment accessible by default at localhost:8000
+
+- Create a production build
+
+```
+gatsby build
+```
+
+Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles.
+
+- Serve the production build locally
+
+```
+gatsby serve
+```
+
+Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command.
