@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://gatsby-advanced-starter-demo.netlify.com/sitemap.xml
+sitemap: http://festival.oscafrica.org/sitemap.xml

@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { graphql, useStaticQuery} from "gatsby";
 import React from "react";
 import nextBillionCreators from "../images/NXTBC.png";
 

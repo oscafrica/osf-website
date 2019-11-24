@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/bolaji/Desktop/osf/osf-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-tailwind","short_name":"starter","start_url":"/","background_color":"#ffffff","theme_color":"#4dc0b5","display":"minimal-ui","icon":"src/images/tailwind-icon.png"},
+      options: {"plugins":[],"name":"Open Source Festival","short_name":"OSF","start_url":"/","background_color":"#ffffff","theme_color":"#283756","display":"minimal-ui","icon":"src/images/osca-logo.png"},
     },{
       plugin: require('/home/bolaji/Desktop/osf/osf-website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
