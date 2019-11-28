@@ -3,14 +3,8 @@ import classNames from 'classnames';
 
 import styles from './style.module.css';
 
-const defaultProps = {
-  className: '',
-  disabled: false,
-  background: '#283656'
-};
 
-function Button({ onClick, children, className, disabled, background, ...props }) {
-  // const _className = `btn_container p-2 m-2 ${className}`;
+function Button({ onClick, children, className, disabled, ...props }) {
   const _className = classNames(styles.btn_container, className);
 
   return (
@@ -20,6 +14,9 @@ function Button({ onClick, children, className, disabled, background, ...props }
   );
 };
 
-Button.defaultProps = defaultProps;
+Button.defaultProps = {
+  className: '',
+  disabled: false
+};
 
 export default Button;
