@@ -4,6 +4,7 @@
   "version": "3.0.141",
   "author": "OSCAFRICA",
   "dependencies": {
+    "classnames": "2.2.6",
     "gatsby": "2.17.15",
     "gatsby-plugin-manifest": "2.2.27",
     "gatsby-plugin-offline": "3.0.21",
@@ -40,7 +41,7 @@
     "storybook": "start-storybook"
   },
   "devDependencies": {
-    "@storybook/react": "^5.2.6",
+    "@storybook/react": "5.2.6",
     "@typescript-eslint/eslint-plugin": "2.7.0",
     "@typescript-eslint/parser": "2.7.0",
     "babel-eslint": "10.0.3",
