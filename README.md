@@ -23,11 +23,13 @@ git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
 npm install -g gatsby-cli
 ```
+
 - Change directories into site folder
 
 ```
 cd osf-website
-````
+```
+
 - Create a new branch for your feature
 
 ```shell
@@ -40,7 +42,7 @@ cd osf-website
 npm run develop
 ```
 
-*Gatsby will start a hot-reloading development environment accessible by default at localhost:8000*
+_Gatsby will start a hot-reloading development environment accessible by default at localhost:8000_
 
 - Create a production build
 
@@ -48,7 +50,7 @@ npm run develop
 npm run build
 ```
 
-*Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles.*
+_Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles._
 
 - Serve the production build locally
 
@@ -56,7 +58,7 @@ npm run build
 npm run serve
 ```
 
-*Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command.*
+_Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command._
 
 ## Format and lint
 

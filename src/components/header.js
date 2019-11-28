@@ -9,11 +9,11 @@ function Header() {
     <header className="bg-blue-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
         <Link className="flex items-center no-underline text-white" to="/">
-        <img
-          alt="OSCAFRICA Logo"
-          className="block mx-auto w-1/1"
-          src={oscaLogo}
-        />
+          <img
+            alt="OSCAFRICA Logo"
+            className="block mx-auto w-1/1"
+            src={oscaLogo}
+          />
         </Link>
 
         <button

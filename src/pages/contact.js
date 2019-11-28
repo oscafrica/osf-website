@@ -12,7 +12,6 @@ function ContactPage() {
       />
       <section>
         <form className="mx-auto md:w-1/2">
-
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="first-name"
