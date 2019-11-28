@@ -1,5 +1,6 @@
 const path = require('path');
 
+// https://webpack.js.org/loaders/css-loader/#modules
 const cssModuleOpts = {
   modules: {
     mode: 'local',
@@ -13,6 +14,7 @@ const cssModuleOpts = {
 
 module.exports = ({ config }) => {
   // https://www.gatsbyjs.org/docs/visual-testing-with-storybook/
+  // https://storybook.js.org/docs/configurations/custom-webpack-config/#full-control-mode
 
   // Prefer Gatsby ES6 entrypoint (module) over commonjs (main) entrypoint
   config.resolve.mainFields = ['browser', 'module', 'main'];
