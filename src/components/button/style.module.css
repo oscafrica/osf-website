@@ -1,0 +1,21 @@
+.btn_container {
+  border-radius: 6px;
+  background: #283756;
+  padding: 10px;
+  color: #FFF;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.btn_container:hover {
+  opacity: 0.8;
+}
+
+.btn_container:active {
+  opacity: 0.6;
+}
+
+.btn_container:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

@@ -3,8 +3,13 @@
 </div>
 
 <div align="center">
+<<<<<<< HEAD
     
 [![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
+=======
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
+>>>>>>> feat: complete button component implementation
 
 </div>
 
@@ -26,6 +31,7 @@ git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```sh
 npm install -g gatsby-cli
 ```
+
 - Change directories into site folder
 
 ```sh
