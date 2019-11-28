@@ -1,7 +1,16 @@
-import { configure } from '@storybook/react';
+import { configure, addParameters } from '@storybook/react';
 import '../src/css/style.css';
 
 configure(require.context('../src', true, /\.stories\.js$/), module);
+
+addParameters({
+  options: {
+      name: 'OSF',
+      url: 'https://osf.com',
+      hierarchySeparator: /\//,
+      hierarchyRootSeparator: /\|/,
+  },
+});
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
