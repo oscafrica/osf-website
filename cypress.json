@@ -2,6 +2,7 @@
   "viewportWidth": 1000,
   "viewportHeight": 1660,
   "chromeWebSecurity": false,
+  "video": false,
 
   "fixturesFolder": "test/cypress/fixtures",
   "integrationFolder": "test/cypress/integration",
