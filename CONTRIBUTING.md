@@ -30,10 +30,6 @@ Anyone can file an expense. If the expense makes sense for the development of th
 
 ## Credits
 
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/oscommunityafrica/osf-website/graphs/contributors"><img src="https://opencollective.com/osca/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
