@@ -1,11 +1,11 @@
-.btn_container {
+.oc_btn_container {
   border-radius: 6px;
   padding: 10px;
   min-width: 150px;
   cursor: pointer;
 }
 
-.btn_container:disabled {
+.oc_btn_container:disabled {
   border: 0;
 }
 

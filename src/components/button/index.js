@@ -12,7 +12,7 @@ import styles from './style.module.css';
  */
 function Button({ onClick, children, className, type, ...props }) {
   const btnVariation = styles[type];
-  const _className = classNames(styles.btn_container, btnVariation, className);
+  const _className = classNames(styles.oc_btn_container, btnVariation, className);
 
   return (
     <button className={_className} onClick={onClick} {...props}>
