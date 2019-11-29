@@ -11,6 +11,7 @@
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.14",
     "graphql": "14.5.8",
+    "opencollective": "^1.0.3",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.11.0",
@@ -34,13 +35,16 @@
     "fix": "npm run fix:lint && npm run fix:prettier",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.7.0",
     "@typescript-eslint/parser": "2.7.0",
     "babel-eslint": "10.0.3",
+    "commitizen": "^4.0.3",
     "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.6.0",
     "eslint-config-react-app": "5.0.2",
     "eslint-plugin-flowtype": "4.4.1",
@@ -58,5 +62,10 @@
   },
   "bugs": {
     "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
