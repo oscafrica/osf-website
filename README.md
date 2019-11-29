@@ -1,4 +1,5 @@
 <div align="center"  style="margin-bottom:30px">
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
     <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 </div>
 
@@ -85,6 +86,15 @@ npm run fix
 
 ## Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 ### Financial Contributors
 
 Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/osca/contribute)]
