@@ -4,7 +4,7 @@
 
 <div align="center">
     
-[![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
 
 </div>
 
@@ -84,11 +84,6 @@ npm run fix
 ```
 
 ## Contributors
-
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/oscommunityafrica/osf-website/graphs/contributors"><img src="https://opencollective.com/osca/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
