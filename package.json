@@ -31,7 +31,6 @@
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
-    "predevelop": "chmod +x scripts/**.*",
     "develop": "gatsby develop",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
@@ -45,7 +44,7 @@
     "test": "cross-env NODE_ENV=test npm run test:unit && npm run test:e2e",
     "test:unit": "nyc --silent --no-clean jest",
     "test:e2e": "nyc --silent --no-clean start-server-and-test develop http://localhost:8000 cypress:run",
-    "pretest": "cross-env ./scripts/pre-test.sh",
+    "pretest": "chmod +x scripts/**.* && cross-env ./scripts/pre-test.sh",
     "posttest": "cross-env ./scripts/build_report.sh"
   },
   "devDependencies": {
