@@ -86,14 +86,18 @@ npm run fix
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/perriefidelis"><img src="https://avatars1.githubusercontent.com/u/30669761?v=4" width="100px;" alt="Peace Ojemeh"/><br /><sub><b>Peace Ojemeh</b></sub></a><br /><a href="#design-perriefidelis" title="Design">🎨</a></td>
+    <td align="center"><a href="http:// http://steve-anthony.com/"><img src="https://avatars1.githubusercontent.com/u/45064217?v=4" width="100px;" alt="Steve Anthony"/><br /><sub><b>Steve Anthony</b></sub></a><br /><a href="#design-mrstevea" title="Design">🎨</a></td>
   </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ### Financial Contributors
 
