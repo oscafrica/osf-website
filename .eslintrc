@@ -1,3 +1,8 @@
 {
-    "extends": ["react-app", "plugin:jsx-a11y/recommended"]
+  "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+  "env": { "jest": true },
+  "rules": {
+    "no-console": "warn",
+    "require-atomic-updates": "warn"
   }
+}
