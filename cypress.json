@@ -8,5 +8,6 @@
   "integrationFolder": "test/cypress/integration",
   "videosFolder": "test/cypress/video",
   "pluginsFile": "test/cypress/plugins/index.js",
-  "supportFile": "test/cypress/support/index.js"
+  "supportFile": "test/cypress/support/index.js",
+  "screenshotsFolder": "test/cypress/screenshots"
 }

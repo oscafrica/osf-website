@@ -1,10 +1,22 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { expect } from 'chai';
+import { mount } from 'enzyme';
 
 import Header from '../header';
 
-test('Displays the correct title', () => {
-  const wrapper = shallow(<Header />);
-  expect(wrapper.html()).to.contain('img');
+let wrapper;
+
+beforeAll(() => {
+  wrapper = mount(<Header />);
+});
+
+describe('header component', () => {
+  it('should have img', () => {
+    expect(wrapper.html()).to.contain('img');
+  });
+
+  it('nav should have 3 children', () => {
+    expect(wrapper.find('nav'))
+      .to.have.exactly(3)
+      .descendants('a');
+  });
 });
