@@ -50,7 +50,7 @@ function TailwindDemoPage() {
                 H6 heading
               </h6>
               <p className = 'text-base'>
-                This is an example praragraph
+                This is an example paragraph
               </p>
           </section>
          
