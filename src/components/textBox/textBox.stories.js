@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextBox, TextArea, inputTypes } from '.';
+import { TextBox, TextArea } from '.';
 
 export default { title: 'TextBox' };
 
@@ -13,8 +13,8 @@ export const defaultTextArea = () => <TextArea onChange={onChange} placeholder='
 
 export const textAreaDisabled = () => <TextArea onChange={onChange} className='w-full' placeholder='Placeholder' disabled />
 
-export const textBoxEmail = () => <TextBox onChange={onChange} type={inputTypes.email} className='w-full' placeholder='Placeholder' />
+export const textBoxEmail = () => <TextBox onChange={onChange} type='email' className='w-full' placeholder='Placeholder' />
 
-export const textBoxPassword = () => <TextBox onChange={onChange} type={inputTypes.password} className='w-full' placeholder='Placeholder' />
+export const textBoxPassword = () => <TextBox onChange={onChange} type='password' className='w-full' placeholder='Placeholder' />
 
-export const textBoxNumber = () => <TextBox onChange={onChange} type={inputTypes.number} className='w-full' placeholder='Placeholder' />
+export const textBoxNumber = () => <TextBox onChange={onChange} type='number' className='w-full' placeholder='Placeholder' />
