@@ -1,9 +1,9 @@
 <div align="center"  style="margin-bottom:30px">
-    <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
+  <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 </div>
 
 <div align="center">
-    
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
 
 </div>
@@ -17,6 +17,7 @@
 ```sh
 git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
+
 - Read the [Contributors Guide](https://github.com/oscommunityafrica/osf-website/blob/master/CONTRIBUTING.md)
 
 ## Installation Guide
@@ -26,11 +27,13 @@ git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```sh
 npm install -g gatsby-cli
 ```
+
 - Change directories into site folder
 
 ```sh
 cd osf-website
 ```
+
 - Create and checkout to a new branch for your feature
 
 ```sh
