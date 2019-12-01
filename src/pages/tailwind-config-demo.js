@@ -152,11 +152,6 @@ function TailwindDemoPage() {
               </div>
             </div>
           </section>
-         
-          <section>
-
-          </section>
-
         </section>
       
       </section>
