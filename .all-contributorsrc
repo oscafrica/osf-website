@@ -50,6 +50,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BolajiOlajide",
+      "name": "Bolaji Olajide",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25608335?v=4",
+      "profile": "https://www.patreon.com/cooproton",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
