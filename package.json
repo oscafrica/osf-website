@@ -42,6 +42,7 @@
     "storybook": "start-storybook"
   },
   "devDependencies": {
+    "@storybook/addon-docs": "^5.2.8",
     "@storybook/addon-viewport": "^5.2.8",
     "@storybook/react": "5.2.8",
     "@typescript-eslint/eslint-plugin": "2.7.0",
