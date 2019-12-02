@@ -35,7 +35,7 @@ To get started:
   - ♿ [Storybook A11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y): Addon to check for accessibility issues during development
   - 📝 [Storysource](https://github.com/storybookjs/storybook/tree/master/addons/storysource): Addon to view story code to paste it in your project
   - 📕 [Docs](https://github.com/storybookjs/storybook/tree/master/addons/docs): Addon for automatic documentation generation from stories 
-- ⚛️ [Gatsby](https://gatsbyjs.org) [React + GraphQL + Webpack]: For building declarative component-centric UI & static website, managing data & content management
+- ⚛️ [Gatsby](https://gatsbyjs.org) [React + GraphQL + Webpack]: For building declarative component-centric UI and static websites
 - 💥 [Tailwindcss](https://tailwindcss.com/): For building rapidly custom designs
 - ✨ [PostCSS](https://postcss.org/): For transforming CSS with JavaScript
 - 🚥 [CircleCI](https://circleci.com/): For continuous integration
