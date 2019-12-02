@@ -1,6 +1,6 @@
 # Contributors Guide
 
-Hey, there! 👋 We welcome all kinds of contributions, please feel free.
+Hey, there! 👋 We welcome all kinds of contributions, please feel free to contribute and/or ask questions.
 
 To get started:
 
@@ -67,8 +67,8 @@ function textComponent () {
 
 ### Naming 
 
-- A constructor function starting with new should use the TitleCase
-- Directories, functions and methods should use the camelCase
+- Constructor functions should use the TitleCase
+- Variables, directories and methods should use the camelCase
 - Variables or elements with multiple words should always use an underscore between words.
 ```js
 const user_params = null;
