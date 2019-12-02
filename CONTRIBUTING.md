@@ -8,7 +8,7 @@ To get started:
 
 - Join our [ZulipChat](https://oscafrica.zulipchat.com) and subscribe to the OSF-Dev-Team stream [here](https://oscafrica.zulipchat.com/#narrow/stream/215491-OSF-Dev-Team)
 
-- Check the [issues](https://github.com/oscommunityafrica/osf-websit/issues) for open tickets and request to be assigned to whichever you want to work on.
+- Check the [issues](https://github.com/oscommunityafrica/osf-website/issues) for open tickets and request to be assigned to whichever you want to work on.
 
 - Ensure to explain the estimated duration it would take you to complete the task upon assignment.
 
