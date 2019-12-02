@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextBox, TextArea } from '.';
 
-export default { title: 'TextBox' };
+export default { title: 'TextBox', component: 'TextBox'};
 
 const onChange = () => console.log('Value has changed');
 
