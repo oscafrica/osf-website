@@ -1,27 +1,93 @@
-## Contributing
+# Contributors Guide
 
 Hey, there! 👋 We welcome all kinds of contributions, please feel free.
 
 To get started:
 
 - Ensure you read the [Getting Started](https://github.com/oscommunityafrica/osf-website#getting-started) && [Installation](https://github.com/oscommunityafrica/osf-website#installation-guide) guide.
+
 - Join our [ZulipChat](https://oscafrica.zulipchat.com) and subscribe to the OSF-Dev-Team stream [here](https://oscafrica.zulipchat.com/#narrow/stream/215491-OSF-Dev-Team)
+
 - Check the [issues](https://github.com/oscommunityafrica/osf-websit/issues) for open tickets and request to be assigned to whichever you want to work on.
+
 - Ensure to explain the estimated duration it would take you to complete the task upon assignment.
+
 - Feel free to also open issue(s) if you want to work on something else, propose an idea or report a bug.
-- Make your desired changes
+
  - We use [commitizen](https://github.com/commitizen/cz-cli) on this project, ensure to read the docs if you are not familar with commitizen.
 
  > When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.
-- [Create a pull request](https://help.github.com/articles/creating-a-pull-request/)
 
-> Ensure to follow the PULL REQUEST TEMPLATE
+- [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) and ensure to follow the PULL REQUEST TEMPLATE
+
 - Wait for a review, you will be notified if your PR is ready to be merged or still needs some modifications or clarifications.
+
 - Once merged, feel free and pick another ticket :tada:
+
 - We recognize contributors in a way that rewards each and every contribution, not just code. Check out the reward [Emoji keys](https://allcontributors.org/docs/en/emoji-key).
 
+## Tech Stacks
 
+> A tech stack is the set of technologies an organization uses to build a web or mobile application. It is a combination of programming languages, frameworks, libraries, patterns, servers, design tools, and tools used by its developers.
 
+- 🌈 [Figma](https://figma.com): For designing common reusable UI components, prototypes and collaboration.
+- 📚 [Storybook](http://storybook.js.org/): For developing UI components in isolation
+  - ♿ [Storybook A11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y): Addon to check for accessibility issues during development
+  - 📝 [Storysource](https://github.com/storybookjs/storybook/tree/master/addons/storysource): Addon to view story code to paste it in your project
+  - 📕 [Docs](https://github.com/storybookjs/storybook/tree/master/addons/docs): Addon for automatic documentation generation from stories 
+- ⚛️ [Gatsby](https://gatsbyjs.org) [React + GraphQL + Webpack]: For building declarative component-centric UI & static website, managing data & content management
+- 💥 [Tailwindcss](https://tailwindcss.com/): For building rapidly custom designs
+- ✨ [PostCSS](https://postcss.org/): For transforming CSS with JavaScript
+- 🚥 [CircleCI](https://circleci.com/): For continuous integration
+- 🃏 [Jest](https://jestjs.io/): For unit testing components
+- ✅ [Cypress](https://www.cypress.io/): For JavaScript e2e testing
+- 📐 [ESLint](https://eslint.org/): For JavaScript linting
+- 📦 [npm](https://www.npmjs.com/): For distributing JavaScript libraries
+- 🗃️ [GitHub](https://github.com): Hosting service for version control 
+- 🚀 [Netlify](https://www.netlify.com/): For fast & continuous deployment
+- 🛠 [Commitizen](https://github.com/commitizen/cz-cli): Command line utility tool for git commits
+
+## Conventions
+
+> Conventions include generic patterns that ensure that written code adheres to certain formatting conventions.
+
+### Code
+
+- Tabs or two-space indentation
+- Use shorthand for conditional statements
+- Always open braces on the same line as the previous statement and close braces on the same indent as the original function like so:
+```js
+function textComponent () {
+  return {
+    "name": "OSCA"
+  };
+}
+
+```
+
+### Naming 
+
+- A constructor function starting with new should use the TitleCase
+- Directories, functions and methods should use the camelCase
+- Variables or elements with multiple words should always use an underscore between words.
+```js
+const user_params = null;
+```
+- Private methods should start with a leading underscore to separate them from public methods
+```js
+const _inputType = inputType;
+```
+- Abbreviations should be avoided please to avoid confusion
+- Comments should include enough information about what a part of code is supposed to do.
+```js
+// Define default props of the TextBox component
+TextBox.defaultProps = {
+    className: '',
+    disabled: false,
+    inputType: 'text'
+};
+```
+---
 
 ## Financial contributions
 
