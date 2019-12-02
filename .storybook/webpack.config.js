@@ -61,7 +61,7 @@ module.exports = ({ config }) => {
     enforce: 'pre',
   });
 
-  //
+  // Understand MDX story files and annotate TS/JS story files with source code (storybook addon-docs)
   const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin');
 
   module.exports = async ({ config }) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button, { buttonTypes } from '.';
 
-export default { title: 'Button' };
+export default { title: 'Button', component: 'Button' };
 
 const onClick = () => console.log('Button clicked!');
 const SampleComponent = () => <span style={{fontSize: '20px'}}>OSCAfrica!!!</span>;
