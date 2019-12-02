@@ -32,12 +32,13 @@ To get started:
 
 - 🌈 [Figma](https://figma.com): For designing common reusable UI components, prototypes and collaboration.
 - 📚 [Storybook](http://storybook.js.org/): For developing UI components in isolation
-  - ♿ [Storybook A11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y): Addon to check for accessibility issues during development
   - 📝 [Storysource](https://github.com/storybookjs/storybook/tree/master/addons/storysource): Addon to view story code to paste it in your project
+  - [Viewport](https://github.com/storybookjs/storybook/tree/release/3.4/addons/viewport): Addon to allow stories to be displayed in different sizes and layouts in Storybook
   - 📕 [Docs](https://github.com/storybookjs/storybook/tree/master/addons/docs): Addon for automatic documentation generation from stories 
 - ⚛️ [Gatsby](https://gatsbyjs.org) [React + GraphQL + Webpack]: For building declarative component-centric UI and static websites
-- 💥 [Tailwindcss](https://tailwindcss.com/): For building rapidly custom designs
-- ✨ [PostCSS](https://postcss.org/): For transforming CSS with JavaScript
+- 🖌️ [Tailwindcss](https://tailwindcss.com/): For building rapidly custom designs
+- 💥 [PostCSS](https://postcss.org/): For transforming CSS with JavaScript
+- ✨ [Prettier](https://prettier.io/) for automatic code formatting
 - 🚥 [CircleCI](https://circleci.com/): For continuous integration
 - 🃏 [Jest](https://jestjs.io/): For unit testing components
 - ✅ [Cypress](https://www.cypress.io/): For JavaScript e2e testing
