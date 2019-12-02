@@ -43,5 +43,23 @@ module.exports = ({ config }) => {
   // Prefer Gatsby ES6 entrypoint (module) over commonjs (main) entrypoint
   config.resolve.mainFields = ['browser', 'module', 'main'];
 
+  //Generate a decorator call in every story (storybook addon-storysource)
+  config.module.rules.push({
+    test: /\.stories\.jsx?$/,
+    loaders: [
+      {
+        loader: require.resolve('@storybook/source-loader'),
+        options: {
+          uglyCommentsRegex: [/^eslint-.*/, /^global.*/],
+          prettierConfig: {
+            printWidth: 100,
+            singleQuote: false,
+          },
+        },
+      },
+    ],
+    enforce: 'pre',
+  });
+
   return config;
 };
