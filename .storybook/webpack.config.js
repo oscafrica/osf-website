@@ -43,5 +43,54 @@ module.exports = ({ config }) => {
   // Prefer Gatsby ES6 entrypoint (module) over commonjs (main) entrypoint
   config.resolve.mainFields = ['browser', 'module', 'main'];
 
+  //Generate a decorator call in every story (storybook addon-storysource)
+  config.module.rules.push({
+    test: /\.stories\.jsx?$/,
+    loaders: [
+      {
+        loader: require.resolve('@storybook/source-loader'),
+        options: {
+          uglyCommentsRegex: [/^eslint-.*/, /^global.*/],
+          prettierConfig: {
+            printWidth: 100,
+            singleQuote: false,
+          },
+        },
+      },
+    ],
+    enforce: 'pre',
+  });
+  
+  // Understand MDX story files and annotate TS/JS story files with source code (storybook addon-docs)
+  const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin');
+
+   module.exports = async ({ config }) => {
+    config.module.rules.push({
+      test: /\.(stories|story)\.mdx$/,
+      use: [
+        {
+          loader: 'babel-loader',
+          // may or may not need this line depending on your app's setup        
+          options: {
+            plugins: ['@babel/plugin-transform-react-jsx'],
+            },
+        },
+        {
+          loader: '@mdx-js/loader',
+          options: {
+            compilers: [createCompiler({})],
+          },
+        },
+      ],
+    });
+    config.module.rules.push({
+      test: /\.(stories|story)\.[tj]sx?$/,
+      loader: require.resolve('@storybook/source-loader'),
+      exclude: [/node_modules/],
+      enforce: 'pre',
+    });
+    return config;
+  };
+
   return config;
 };
