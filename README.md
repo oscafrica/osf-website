@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
 
 </div>
 
@@ -99,6 +99,7 @@ npm run fix
     <td align="center"><a href="https://github.com/legendaryofor"><img src="https://avatars2.githubusercontent.com/u/56217883?v=4" width="100px;" alt="OFOR"/><br /><sub><b>OFOR</b></sub></a><br /><a href="#design-legendaryofor" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/alabobriggs"><img src="https://avatars3.githubusercontent.com/u/38571291?v=4" width="100px;" alt="Alabo David Briggs"/><br /><sub><b>Alabo David Briggs</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=alabobriggs" title="Code">💻</a></td>
     <td align="center"><a href="https://www.patreon.com/cooproton"><img src="https://avatars0.githubusercontent.com/u/25608335?v=4" width="100px;" alt="Bolaji Olajide"/><br /><sub><b>Bolaji Olajide</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://johs.dev"><img src="https://avatars0.githubusercontent.com/u/29008971?v=4" width="100px;" alt="Ike Josh"/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=NotJohs" title="Documentation">📖</a></td>
   </tr>
 </table>
 

@@ -3,12 +3,11 @@ import classNames from 'classnames';
 import styles from './style.module.css';
 
 function RadioButton({value, label, onChange, onBlur, name, children, className, ...props}) {
-    const _className = classNames(styles.oc_radiobutton_container, styles.oc_checkmark, className);
-
+  
     return (
-        <label className={_className}>
+        <label>
             <input
-                className={_className}
+                className={className}
                 type="radio"
                 name={name}
                 onChange={onChange}
@@ -25,10 +24,6 @@ RadioButton.defaultProps = {
     name: '',
     className: '',
     disabled: false,
-    // onChange: PropTypes.func,
-    // onBlur: PropTypes.func
 };
-
-
 
 export default RadioButton;

@@ -1,4 +1,6 @@
 import { configure, addParameters } from '@storybook/react';
+import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
+
 import '../src/css/style.css';
 
 configure(require.context('../src', true, /\.stories\.js$/), module);
@@ -9,6 +11,10 @@ addParameters({
       url: 'https://osca-festival.netlify.com/',
       hierarchySeparator: /\//,
       hierarchyRootSeparator: /\|/,
+  },
+  docs: {
+    container: DocsContainer,
+    page: DocsPage,
   },
 });
 
