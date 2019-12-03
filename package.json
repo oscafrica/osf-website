@@ -6,7 +6,7 @@
   "dependencies": {
     "@storybook/addon-storysource": "^5.2.8",
     "classnames": "2.2.6",
-    "gatsby": "^2.18.6",
+    "gatsby": "2.18.6",
     "dotenv": "8.2.0",
     "gatsby-plugin-manifest": "2.2.27",
     "gatsby-plugin-offline": "3.0.21",
@@ -14,7 +14,7 @@
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.14",
     "graphql": "14.5.8",
-    "opencollective": "^1.0.3",
+    "opencollective": "1.0.3",
     "prop-types": "15.7.2",
     "react-dom": "16.11.0",
     "react-helmet": "5.2.1"
@@ -39,13 +39,13 @@
     "serve": "gatsby serve",
     "commit": "git-cz",
     "storybook": "start-storybook",
-    "cypress:open": "cross-env TZ=UTC node_modules/.bin/cypress open",
-    "cypress:run": "cross-env TZ=UTC node_modules/.bin/cypress run",
-    "test": "cross-env NODE_ENV=test npm run test:unit && npm run test:e2e",
+    "cypress:open": "cross-env TZ=UTC cypress open",
+    "cypress:run": "cross-env TZ=UTC cypress run",
+    "test": "cross-env npm run test:unit && npm run test:e2e",
     "test:unit": "nyc --silent --no-clean jest",
     "test:e2e": "nyc --silent --no-clean start-server-and-test develop http://localhost:8000 cypress:run",
-    "pretest": "chmod +x scripts/**.* && cross-env ./scripts/pre-test.sh",
-    "posttest": "cross-env ./scripts/build_report.sh"
+    "pretest": "cross-env ./scripts/pre-test.sh",
+    "posttest": "cross-env $(env echo $(cat .env)) ./scripts/build_report.sh"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^5.2.8",
@@ -67,6 +67,7 @@
     "cross-env": "^6.0.3",
     "cssnano": "^4.1.10",
     "cypress": "^3.7.0",
+    "dotenv": "8.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^6.6.0",

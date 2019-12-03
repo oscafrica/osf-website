@@ -1,7 +1,3 @@
-# packages
-# makes conflict resolution a nightmare
-package-lock.json
-
 # Logs
 logs
 *.log

@@ -1,23 +1,38 @@
-ROOT=./coverage/
-REPORT=reports/
-CYPRESS=cypress-coverage/
-JEST=jest-coverage/
-CFF=coverage-final.json
-CF=coverage.json
-NYC_DIR=./.nyc_output/
+#!/bin/bash
 
-echo "> build coverage report \n"
+ROOT_DIR=./coverage/
+REPORT_DIR=reports/
+JEST_DIR=jest-coverage/
+CYPRESS_DIR=cypress-coverage/
+COVERAGE_JSON=coverage.json
+COVERAGE_FINAL_JSON=coverage-final.json
 
+if [[ ! "$NODE_ENV" == 'testing' ]]; then
+    echo 'Exit at "build_report.sh"'
+    echo 'Only exec build report NODE_ENV == "testing"'
+    exit 0
+fi
 
-[[ -f "$ROOT$REPORT" ]] || shx mkdir "$ROOT$REPORT"
+echo "> Initiating -- build coverage report"
 
-[[ -f "$ROOT$CYPRESS$CFF" ]] &&
-    shx cp "$ROOT$CYPRESS$CFF" $ROOT$REPORT"report-cypress.json"
+if [[ ! -f "${ROOT_DIR}${CYPRESS_DIR}${COVERAGE_FINAL_JSON}" ]] ||
+    [[ ! -f "${ROOT_DIR}${JEST_DIR}${COVERAGE_FINAL_JSON}" ]]; then
+    echo "> ERROR: dir ${ROOT_DIR}{${CYPRESS_DIR} || ${JEST_DIR}} not found"
+    exit 1
+fi
 
-[[ -f "$ROOT$JEST$CFF" ]] &&
-    shx cp "$ROOT$JEST$CFF" $ROOT$REPORT"report-jest.json"
+echo "> building coverage report..."
 
-nyc merge $ROOT$REPORT $ROOT$REPORT$CF && shx mv $ROOT$REPORT$CF $NYC_DIR"out.json"
+[[ ! -d "${ROOT_DIR}${REPORT_DIR}" ]] && mkdir -p "${ROOT_DIR}${REPORT_DIR}"
 
-echo "\n> nyc report --reporter text-lcov --report-dir $ROOT"
-nyc report --reporter lcov --report-dir $ROOT
+cp "${ROOT_DIR}${CYPRESS_DIR}${COVERAGE_FINAL_JSON}" "${ROOT_DIR}${REPORT_DIR}report-cypress.json"
+cp "${ROOT_DIR}${JEST_DIR}${COVERAGE_FINAL_JSON}" "${ROOT_DIR}${REPORT_DIR}report-jest.json"
+
+nyc merge "${ROOT_DIR}${REPORT_DIR}" "${ROOT_DIR}${REPORT_DIR}${COVERAGE_JSON}" &&
+    mv "${ROOT_DIR}${REPORT_DIR}${COVERAGE_JSON}" "./.nyc_output/out.json"
+
+echo "nyc report --reporter text-lcov --report-dir $ROOT_DIR"
+nyc report --reporter lcov --report-dir "$ROOT_DIR"
+
+echo "> coverage report ready!"
+exit 0

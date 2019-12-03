@@ -1,9 +1,11 @@
-NYC=./.nyc_output
-OUT=out.json
+#!/bin/bash
 
-echo "> Cleaning .nyc_output/out.json"
+NYC_DIR=./.nyc_output
+OUT_JSON=out.json
 
-rm -rf $NYC
-mkdir -p $NYC && touch $NYC/$OUT
+echo "> Cleaning ${NYC_DIR}/${OUT_JSON}"
 
-echo "{}" >$NYC/$OUT
+rm -rf "${NYC_DIR}"
+mkdir -p "${NYC_DIR}" && touch "${NYC_DIR}/${OUT_JSON}"
+
+echo '{}' >"${NYC_DIR}/${OUT_JSON}"
