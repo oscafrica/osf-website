@@ -4,7 +4,10 @@ import styles from './style.module.css';
 
 function RadioButton({value, label, onChange, onBlur, name, children, className, ...props}) {
   
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5d61dda5fcfbad6c90cb0b44671b172c8ab36741
     return (
         <label>
             <input
@@ -27,6 +30,9 @@ RadioButton.defaultProps = {
     disabled: false,
 };
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5d61dda5fcfbad6c90cb0b44671b172c8ab36741
 export default RadioButton;
