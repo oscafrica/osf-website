@@ -1,26 +1,22 @@
-import React from 'react';;
+import React from 'react';
 import  RadioButton from '.';
-import styles from './style.module.css';
+
 
 export default {
   title: 'RadioButton',
   component: 'RadioButton'
 };
+
+
 const onChange = () => console.log('Value has changed');
 
-export const Radiobutton = () => 
-  <RadioButton
-  className={('Class Name', 'custom-class')}
-  onChange={('change')}
-  onBlur={('blur')}
-  name="my-radio-group"
 
-/>
+   export const radioButton = () =>  <RadioButton  />
+
+  export const radioButtonChecked = () => <RadioButton defaultChecked onChange={onChange} className='form-radio h-4 w-4'></RadioButton>
   
-  export const RadioButtonChecked = () => <RadioButton defaultChecked onChange={onChange}></RadioButton>
+  export const disabledRadioButton = () =>  <RadioButton disabled></RadioButton>
   
-  export const DisabledRadioButton = () =>  <RadioButton disabled></RadioButton>
-  
-  export const DisabledCheckedRadioButton = () => <RadioButton disabled defaultChecked></RadioButton>
+  export const disabledCheckedRadioButton = () => <RadioButton disabled defaultChecked></RadioButton>
   
   

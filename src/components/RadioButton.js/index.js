@@ -1,30 +1,38 @@
-import React, { Children } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import styles from './style.module.css';
 
-function RadioButton({value, label, onChange, onBlur, name, children, className, ...props}) {
-  
+
+function RadioButton({value, onChange,label, onBlur, name, children, className,checked, ...props}) {
+    const _className = classNames(styles.oc_radiobutton_container,styles.oc_field,className);
+    const _fieldClass = classNames(styles.oc_field_label, className)
+    const _wrapper = classNames(styles.oc_wrapper, className)
+    const _item = classNames(styles.oc_item, className)
+
     return (
-        <label>
-            <input
-                className={className}
+        <div className={_wrapper}>
+            <div className={_item}>
+            <input 
+                className={_className}
                 type="radio"
-                class="form-checked-input"
                 name={name}
                 onChange={onChange}
                 onBlur={onBlur}
                 value={value}
-                {...props}
+                checked={checked}
+                  {...props}
             />
             {children}
-        </label>
+        <label className={_fieldClass} />
+        </div>
+        </div>
+        
     );
 };
 
 RadioButton.defaultProps = {
-    name: '',
-    className: '',
     disabled: false,
+    className: '',
 };
 
 
