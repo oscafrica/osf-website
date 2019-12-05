@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import styles from './style.module.css';
 
 
-function RadioButton({value, onChange,label, onBlur, name, children, className,checked, ...props}) {
+function RadioButton({value, onChange,label,style, onBlur, name, children, className,checked, ...props}) {
     const _className = classNames(styles.oc_radiobutton_container,styles.oc_field,className);
-    const _fieldClass = classNames(styles.oc_field_label, className)
+    const _fieldClass = classNames(styles.oc_field_label,styles.oc_label, className)
     const _wrapper = classNames(styles.oc_wrapper, className)
     const _item = classNames(styles.oc_item, className)
 
@@ -23,12 +23,13 @@ function RadioButton({value, onChange,label, onBlur, name, children, className,c
                   {...props}
             />
             {children}
-        <label className={_fieldClass} />
+        <label className={_fieldClass}style={{...style}} />
         </div>
         </div>
         
     );
 };
+
 
 RadioButton.defaultProps = {
     disabled: false,

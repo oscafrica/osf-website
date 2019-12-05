@@ -1,5 +1,5 @@
 import React from 'react';
-import  RadioButton from '.';
+import RadioButton from '.';
 
 
 export default {
@@ -11,12 +11,12 @@ export default {
 const onChange = () => console.log('Value has changed');
 
 
-   export const radioButton = () =>  <RadioButton  />
+   export const defaultRadioButton = () =>  <RadioButton  />
 
-  export const radioButtonChecked = () => <RadioButton defaultChecked onChange={onChange} className='form-radio h-4 w-4'></RadioButton>
+  export const radioButtonChecked = () => <RadioButton defaultChecked onChange={onChange}></RadioButton>
   
-  export const disabledRadioButton = () =>  <RadioButton disabled></RadioButton>
+  export const disabledRadioButton = () =>  <RadioButton disabled style={{ border: '2px solid #96ADDC' }}></RadioButton>
   
-  export const disabledCheckedRadioButton = () => <RadioButton disabled defaultChecked></RadioButton>
+  export const enabledRadioButton = () => <RadioButton enabled style={{ border: '2px solid #96ADDC' }}></RadioButton>
   
   
