@@ -1,0 +1,22 @@
+.paginationButton {
+  border-radius: 8px;
+  background-color: white;
+  color: #283756;
+  padding: 10px;
+  margin: 0 6px;
+  border: none;
+  cursor: pointer;
+}
+.paginationButton:first-of-type {
+  transform: rotateZ(180deg);
+}
+
+.active {
+  color: white;
+  background-color: #283756;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: #F0F0F0;
+}
