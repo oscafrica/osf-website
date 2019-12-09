@@ -11,7 +11,7 @@ export default {
 const onChange = () => console.log('Value has changed');
 
 
-   export const defaultRadioButton = () =>  <RadioButton  />
+  export const defaultRadioButton = () =>  <RadioButton />
 
   export const radioButtonChecked = () => <RadioButton defaultChecked onChange={onChange}></RadioButton>
   
