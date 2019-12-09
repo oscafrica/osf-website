@@ -4,9 +4,6 @@
   padding: 0px 16px 24px 16px;
   box-sizing: border-box;
   cursor: pointer;
-}
-
-.oc_item {
   display: flex;
   align-items: center;
   height: 48px;
