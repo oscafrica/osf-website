@@ -9,9 +9,10 @@ function RadioButton({value, onChange,label,style, onBlur, name, children, class
     const _wrapper = classNames(styles.oc_wrapper, className)
     const _item = classNames(styles.oc_item, className)
 
-    return (
+   return (
         <div className={_wrapper}>
             <div className={_item}>
+            <label className={_fieldClass}style={{...style}}>
             <input 
                 className={_className}
                 type="radio"
@@ -23,11 +24,12 @@ function RadioButton({value, onChange,label,style, onBlur, name, children, class
                   {...props}
             />
             {children}
-        <label className={_fieldClass}style={{...style}} />
+    </label>
         </div>
         </div>
         
     );
+};
 };
 
 
