@@ -10,7 +10,7 @@ function RadioButton({value, onChange,label,style, onBlur, name, children, class
   
     return (
         <div className={_wrapper}>
-            <label className={_fieldClass}style={{...style}}>
+            <label className={_fieldClass} style={{...style}}>
             <input 
                 className={_className}
                 type="radio"
