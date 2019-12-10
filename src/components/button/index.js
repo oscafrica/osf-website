@@ -1,7 +1,8 @@
-import React from 'react';
-import classNames from 'classnames';
+import React from "react";
+import classNames from "classnames";
+import PropTypes from "prop-types";
 
-import styles from './style.module.css';
+import styles from "./style.module.css";
 
 
 /**
@@ -19,23 +20,28 @@ function Button({ onClick, children, className, type, ...props }) {
       {children}
     </button>
   );
+}
+
+Button.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  type: PropTypes.string
 };
 
 Button.defaultProps = {
-  className: '',
+  className: "",
   disabled: false,
-  type: 'oc_btn_01'
+  type: "oc_btn_01"
 };
 
 // freezing the object to ensure it's immutable :)
 export const buttonTypes = Object.freeze({
-  oc_btn_01: 'oc_btn_01',
-  oc_btn_02: 'oc_btn_02',
-  oc_btn_03: 'oc_btn_03',
-  oc_btn_04: 'oc_btn_04',
-  oc_btn_05: 'oc_btn_05',
-  oc_btn_06: 'oc_btn_06',
-  oc_btn_07: 'oc_btn_07'
+  oc_btn_01: "oc_btn_01",
+  oc_btn_02: "oc_btn_02",
+  oc_btn_03: "oc_btn_03",
+  oc_btn_04: "oc_btn_04",
+  oc_btn_05: "oc_btn_05",
+  oc_btn_06: "oc_btn_06",
+  oc_btn_07: "oc_btn_07"
 });
 
 export default Button;

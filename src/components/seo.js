@@ -25,44 +25,44 @@ function SEO({ description, lang, meta, keywords, title }) {
       }}
       meta={[
         {
-          name: `description`,
+          name: "description",
           content: metaDescription
         },
         {
-          property: `og:title`,
+          property: "og:title",
           content: title
         },
         {
-          property: `og:description`,
+          property: "og:description",
           content: metaDescription
         },
         {
-          property: `og:type`,
-          content: `website`
+          property: "og:type",
+          content: "website"
         },
         {
-          name: `twitter:card`,
-          content: `summary`
+          name: "twitter:card",
+          content: "summary"
         },
         {
-          name: `twitter:creator`,
+          name: "twitter:creator",
           content: site.siteMetadata.author
         },
         {
-          name: `twitter:title`,
+          name: "twitter:title",
           content: title
         },
         {
-          name: `twitter:description`,
+          name: "twitter:description",
           content: metaDescription
         }
       ]
         .concat(
           keywords.length > 0
             ? {
-                name: `keywords`,
-                content: keywords.join(`, `)
-              }
+              name: "keywords",
+              content: keywords.join(", ")
+            }
             : []
         )
         .concat(meta)}
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: "en",
   keywords: [],
   meta: []
 };
@@ -84,6 +84,10 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   title: PropTypes.string.isRequired
+};
+
+SEO.defaultProps = {
+  description: ""
 };
 
 export default SEO;

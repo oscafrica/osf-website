@@ -7,7 +7,7 @@ function TailwindDemoPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `tailwind config`, `tailwindcss`]}
+        keywords={["gatsby", "tailwind", "tailwind config", "tailwindcss"]}
         title="Tailwind config demo page"
       />
       <section>
