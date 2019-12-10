@@ -11,12 +11,12 @@
 }
 
 .oc_radiobutton_container {
-    opacity: 1;
-    z-index: 1;
-    border-radius: 50%;
-    width: 18px;
-    height: 16px;
-    margin-right: 10px;
+  opacity: 1;
+  z-index: 1;
+  border-radius: 50%;
+  width: 18px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .oc_radiobutton_container:hover {
@@ -24,15 +24,15 @@
 }
 
 .oc_field_label {
-    position: absolute;
-    top: 19%;
-    left: 7px;
-    left: 1px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: white;
-    border: 2px solid #283756;
+  position: absolute;
+  top: 19%;
+  left: 7px;
+  left: 1px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #283756;
 }
 
 .oc_field {
@@ -54,15 +54,15 @@
 }
 .oc_field:checked::after {
   border: 1px solid #283756;
-    content: "";
-    display: block;
-    border-radius: 50%;
-    width: 14px;
-    height: 15px;
-    /* left: 2px; */
-    margin: 1px;
-    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    background: #283756;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 14px;
+  height: 15px;
+  /* left: 2px; */
+  margin: 1px;
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.1);
+  background: #283756;
 }
 .oc_field_label:disabled,
 .oc_field[disabled] {
@@ -79,13 +79,13 @@
 }
 .oc_field:disabled:after {
   content: "";
-    display: block;
-    border-radius: 50%;
-    width: 16px;
-    height: 15px;
-    /* left: 2px; */
-    margin: 1px;
-    background: white;
+  display: block;
+  border-radius: 50%;
+  width: 16px;
+  height: 15px;
+  /* left: 2px; */
+  margin: 1px;
+  background: white;
 }
 .oc_field:disabled:checked:after {
   content: "";
