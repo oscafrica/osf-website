@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Tabs, Tab } from ".";
 
-export default { title: "Tabs" };
+export default {
+  title: "Tabs",
+  component: "Tabs"
+};
 
 export const SimpleTabs = () => (
   <Tabs>

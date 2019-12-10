@@ -27,7 +27,7 @@ const Tabs = props => {
       const isDisabled = child.props.disabled;
       return (
         <div
-          className={classNames(classes.tabsTab, {
+          className={classNames(classes.tabsTab, "py-4", {
             [classes.selectedTab]: index === selectedTab
           })}
           role={isDisabled ? undefined : "tab"}

@@ -61,6 +61,32 @@ module.exports = ({ config }) => {
     enforce: 'pre',
   });
   
+  
+  /* PostCSS Support */
+  config.module.rules.push({
+    test: /\.css$/,
+    loaders: [
+      // Loader for webpack to process CSS with PostCSS
+      {
+        loader: 'postcss-loader',
+        options: {
+          /* 
+            Enable Source Maps
+           */
+          sourceMap: true,
+          /*
+            Set postcss.config.js config path && ctx 
+           */
+          config: {
+            path: './.storybook/',
+          },
+        },
+      },
+    ],
+
+    include: path.resolve(__dirname, '../'),
+  });
+  
   // Understand MDX story files and annotate TS/JS story files with source code (storybook addon-docs)
   const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin');
 

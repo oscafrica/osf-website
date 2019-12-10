@@ -1,18 +1,11 @@
-@value colors: "../../css/colors.css";
-@value primaryColor from colors;
-
 .tabList {
   height: 48px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
   box-shadow: inset 0px -1px 0px rgba(208, 201, 214, 0.4);
-  font-family: Avenir;
+  @apply font-avenir bg-white flex justify-around;
 }
 
 .tabsTab {
-  height: 100%;
-  position: relative;
+  @apply h-full relative;
 }
 
 .tabsTab:active,
@@ -21,30 +14,22 @@
 }
 
 .tabContainer {
-  position: relative;
   height: 48px;
-  padding: 0;
-  cursor: pointer;
+  padding: 0 20px;
+  @apply rounded-sm cursor-pointer relative;
 }
 
 .tabContainerDisabled {
   cursor: default;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .tabTextContainer {
-  position: relative;
-  height: 100%;
-  width: 100%;
   color: rgba(40, 55, 86, 0.33);
-  display: flex;
-  text-transform: uppercase;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   font-size: 14px;
   /* Without this; Safari briefly fades the text color whilst ::active.*/
   -webkit-fontsmoothing: subpixel-antialiased;
+  @apply uppercase relative h-full w-full text-center justify-center flex items-center;
 }
 
 .tabContainer:hover {
@@ -56,16 +41,14 @@
 }
 
 .selectedTab .tabTextContainer {
-  color: primaryColor;
+  @apply text-dark-blue-primary;
 }
 
 .tabIndicator {
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  height: 0px;
-  background-color: primaryColor;
+  width: Calc(100% - 40px);
+  margin: 0px 20px;
+  @apply bg-dark-blue-primary h-0 absolute bottom-0;
   border-radius: 200px 200px 0px 0px;
 }
 
