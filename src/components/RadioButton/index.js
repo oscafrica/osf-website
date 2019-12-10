@@ -9,20 +9,20 @@ function RadioButton({value, onChange, label, style, onBlur, name, children, cla
     const _wrapper = classNames(styles.oc_wrapper, className)
   
     return (
-        <div className={_wrapper}>
+          <div className={_wrapper}>
             <label className={_fieldClass} style={{...style}}>
-            <input 
-                className={_className}
-                type="radio"
-                name={name}
-                onChange={onChange}
-                onBlur={onBlur}
-                value={value}
-                checked={checked}
-                {...props}
-            />
-            {children}
-    </label>
+                <input 
+                    className={_className}
+                    type="radio"
+                    name={name}
+                    onChange={onChange}
+                    onBlur={onBlur}
+                    value={value}
+                    checked={checked}
+                    {...props}
+                />
+                {children}
+            </label>
         </div>
     
     );
