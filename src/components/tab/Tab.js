@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 
-import classes from "./tab.module.css";
+import classes from "./style.module.css";
 
 const noob = () => {};
 
