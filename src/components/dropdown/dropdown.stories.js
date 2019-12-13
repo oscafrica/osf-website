@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import DropDown from '.';
+import React, { useState } from "react";
+import DropDown from ".";
 
 
 export default {
-    title: 'Dropdown',
-    component: 'Dropdown'
+  title: "Dropdown",
+  component: "Dropdown"
 };
 
 const options = [
   { label: "Ekene Ashinze", value: "ashinzekene" },
   { label: "Bolaji Ayodeji", value: "BolajiAyodeji" },
   { label: "Peace Ojemeh", value: "perriefidelis" }
-]
+];
 
 export const DropdownComponent = () => {
-  const [value, setValue] = useState("ashinzekene")
-  
-  return <DropDown options={options} value={value} onChange={setValue} />
-}
+  const [value, setValue] = useState("ashinzekene");
+
+  return <DropDown options={options} value={value} onChange={setValue} />;
+};

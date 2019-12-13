@@ -1,40 +1,40 @@
-import React, { useState } from 'react';
-import SearchBar from '.';
+import React, { useState } from "react";
+import SearchBar from ".";
 
 export default {
-    title: 'SearchBar',
-    component: 'SearchBar'
+  title: "SearchBar",
+  component: "SearchBar"
 };
 
 const style = {
   container: {
     padding: "5px 10px",
-    fontFamily: "Avenir",
+    fontFamily: "Avenir"
   },
   head: {
-    color: "#444",
+    color: "#444"
   },
   p: {
     color: "#CCC",
     margin: "0px"
   }
-}
+};
 
 const options = [
   { label: "Ekene Ashinze", value: "ashinzekene" },
   { label: "Bolaji Ayodeji", value: "BolajiAyodeji" },
   { label: "Peace Ojemeh", value: "perriefidelis" }
-]
+];
 
 export const SearchBarComponent = () => {
-  const [value, setValue] = useState("ashinzekene")
-  
-  return <SearchBar options={options} value={value} onChange={setValue} />
-}
+  const [value, setValue] = useState("ashinzekene");
+
+  return <SearchBar options={options} value={value} onChange={setValue} />;
+};
 
 export const SearchBarComponentCustomRender = () => {
-  const [value, setValue] = useState("ashinzekene")
-  
+  const [value, setValue] = useState("ashinzekene");
+
   return (<SearchBar
     options={options}
     value={value}
@@ -45,5 +45,5 @@ export const SearchBarComponentCustomRender = () => {
         <p style={style.p}>{option.value}</p>
       </div>
     )}
-  />)
-}
+  />);
+};
