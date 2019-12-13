@@ -1,21 +1,21 @@
-import React from 'react';
-import Button, { buttonTypes } from '.';
+import React from "react";
+import Button, { buttonTypes } from ".";
 
-export default { 
-  title: 'Button',
-  component: 'Button' 
+export default {
+  title: "Button",
+  component: "Button"
 };
 
-const onClick = () => console.log('Button clicked!');
-const SampleComponent = () => <span style={{fontSize: '20px'}}>OSCAfrica!!!</span>;
+const onClick = () => console.log("Button clicked!");
+const SampleComponent = () => <span style={{ fontSize: "20px" }}>OSCAfrica!!!</span>;
 
 export const withEmoji = () => (
-  <Button onClick={onClick}><span role="img" aria-label="so cool" style={{fontSize: '20px'}}>😀 😎 👍 💯</span></Button>
+  <Button onClick={onClick}><span role="img" aria-label="so cool" style={{ fontSize: "20px" }}>😀 😎 👍 💯</span></Button>
 );
 
 export const disabledWithEmoji = () => (
   <Button onClick={onClick} disabled>
-    <span role="img" aria-label="so cool" style={{fontSize: '20px'}}>
+    <span role="img" aria-label="so cool" style={{ fontSize: "20px" }}>
       😀 😎 👍 💯
     </span>
   </Button>
