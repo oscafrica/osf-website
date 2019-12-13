@@ -17,11 +17,12 @@ function AboutPage() {
 
       <section className="flex flex-col md:flex-row items-center">
 
-      <figure className="w-2/3 md:w-1/3">
-          <img alt={site.siteMetadata.title}
-               src={nextBillionCreators}
+        <figure className="w-2/3 md:w-1/3">
+          <img
+            alt={site.siteMetadata.title}
+            src={nextBillionCreators}
           />
-      </figure>
+        </figure>
 
         <div className="md:w-2/3 md:mr-8">
           <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">

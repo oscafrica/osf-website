@@ -1,7 +1,7 @@
-import React from 'react';
-import classNames from 'classnames';
-
-import styles from './style.module.css';
+import React from "react";
+import classNames from "classnames";
+import PropTypes from "prop-types";
+import styles from "./style.module.css";
 
 
 /**
@@ -9,36 +9,39 @@ import styles from './style.module.css';
  *
  * @param {Object} props  properties of this component
  */
-function TextLink({ onClick, children, type, key, href, className, id, target, rel, ...props }) {
-    const textVariation = styles[type];
-    const _className = classNames(styles.oc_link_container, textVariation, className);
+function TextLink({ onClick, children, type, href, className, ...props }) {
+  const textVariation = styles[type];
+  const _className = classNames(styles.oc_link_container, textVariation, className);
 
-    return (
-        <a
-        key={key}
-        href={href}
-        className={_className}
-        id={id}
-        target={target}
-        rel={rel}
-        onClick={onClick}
-        {...props}
-        >
-        {children}
-      </a>
-    );
+  return (
+    <a
+      href={href}
+      className={_className}
+      onClick={onClick}
+      {...props}
+    >
+      {children}
+    </a>
+  );
+}
+
+TextLink.propTypes = {
+  onClick: PropTypes.func,
+  type: PropTypes.string,
+  href: PropTypes.string.isRequired
 };
 
 TextLink.defaultProps = {
-    className: '',
-    type: 'oc_link_default'
+  className: "",
+  type: "oc_link_default",
+  onClick: undefined
 };
 
 // freezing the object to ensure it's immutable :)
 export const linkTypes = Object.freeze({
-    oc_link_default: 'oc_link_default',
-    oc_link_white: 'oc_link_white',
-    oc_link_dark: 'oc_link_dark'
-  });
+  oc_link_default: "oc_link_default",
+  oc_link_white: "oc_link_white",
+  oc_link_dark: "oc_link_dark"
+});
 
 export default TextLink;

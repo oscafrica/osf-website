@@ -1,7 +1,7 @@
-import React from 'react';
-import classNames from 'classnames';
-
-import styles from './style.module.css';
+import React from "react";
+import classNames from "classnames";
+import PropTypes from "prop-types";
+import styles from "./style.module.css";
 
 
 /**
@@ -9,68 +9,68 @@ import styles from './style.module.css';
  *
  * @param {Object} props  properties of this component
  */
-function TextBox({ onChange, className, id, placeholder, inputType, inputName, ariaLabel, ...props }) {
-    const _className = classNames(styles.oc_textbox_container, styles.oc_textbox, className);
-    const _inputType = inputType;
-    const _inputName = inputName;
-    const _ariaLabel = ariaLabel;
-    const _id = id;
-    const _placeholder = placeholder;
+function TextBox({ onChange, className, placeholder, inputType, inputName, ariaLabel, ...props }) {
+  const _className = classNames(styles.oc_textbox_container, styles.oc_textbox, className);
+  const _ariaLabel = ariaLabel;
 
-    return (
-        <input
-            className={_className}
-            id={_id}
-            placeholder={_placeholder}
-            type={_inputType}
-            name={_inputName}
-            aria-label={_ariaLabel}
-            onChange={onChange}
-            {...props}
-        />
-    );
+  return (
+    <input
+      className={_className}
+      placeholder={placeholder}
+      type={inputType}
+      name={inputName}
+      aria-label={_ariaLabel}
+      onChange={onChange}
+      {...props}
+    />
+  );
+}
+
+TextBox.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  className: PropTypes.string,
+  placeholder: PropTypes.string.isRequired,
+  inputType: PropTypes.string,
+  inputName: PropTypes.string.isRequired,
+  ariaLabel: PropTypes.string.isRequired
 };
+
+TextBox.defaultProps = {
+  className: "",
+  disabled: false,
+  inputType: "text"
+};
+
 
 /**
  * renders a textarea following the detailed mock in the style guide
  *
  * @param {Object} props  properties of this component
  */
-function TextArea({ onChange, className, id, label, rows, cols, placeholder, inputName, ...props }) {
-    const _className = classNames(styles.oc_textarea_container, styles.oc_textarea, className);
-    const _inputName = inputName;
-    const _id = id;
-    const _label = label;
-    const _rows = rows;
-    const _cols = cols;
-    const _placeholder = placeholder;
+function TextArea({ onChange, className, inputName, ...props }) {
+  const _className = classNames(styles.oc_textarea_container, styles.oc_textarea, className);
 
-    return (
-        <textarea
-            className={_className}
-            name={_inputName}
-            id={_id}
-            label={_label}
-            rows={_rows}
-            cols={_cols}
-            placeholder={_placeholder}
-            onChange={onChange}
-            {...props}
-        />
-    );
-};
+  return (
+    <textarea
+      className={_className}
+      name={inputName}
+      onChange={onChange}
+      {...props}
+    />
+  );
+}
 
-TextBox.defaultProps = {
-    className: '',
-    disabled: false,
-    inputType: 'text'
+TextArea.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  inputName: PropTypes.string
 };
 
 TextArea.defaultProps = {
-    className: '',
-    disabled: false,
-    rows: '4',
-    cols: '20'
-}
+  className: "",
+  inputName: "text",
+  disabled: false,
+  rows: "4",
+  cols: "20"
+};
 
 export { TextBox, TextArea };
