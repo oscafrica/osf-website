@@ -103,6 +103,7 @@ npm run fix
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4" width="100px;" alt=""/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=fakela" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/ashinzekene"><img src="https://avatars2.githubusercontent.com/u/20991583?v=4" width="100px;" alt=""/><br /><sub><b>Ashinze Ekene</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=ashinzekene" title="Code">💻</a></td>
   </tr>
 </table>
 
