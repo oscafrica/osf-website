@@ -13,9 +13,9 @@ module.exports = {
         short_name: "OSF",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#283756",
+        theme_color: "#081e32",
         display: "minimal-ui",
-        icon: "https://res.cloudinary.com/osca/image/upload/v1576374354/osf/Logo/PNG/orange.png"
+        icon: "src/images/osca-logo.png"
       }
     },
     "gatsby-plugin-postcss",

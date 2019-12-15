@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-const logoPngOrange = "https://res.cloudinary.com/osca/image/upload/v1576374354/osf/Logo/PNG/orange.png";
+import url from "../components/cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -13,7 +13,7 @@ function Nav() {
           <img
             alt="OSCAFRICA Logo"
             className="block mx-auto w-12"
-            src={logoPngOrange}
+            src={url.pngOrange}
           />
         </Link>
 
