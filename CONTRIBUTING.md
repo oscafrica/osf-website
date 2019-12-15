@@ -88,6 +88,27 @@ TextBox.defaultProps = {
     inputType: 'text'
 };
 ```
+
+### Styling
+
+This project uses the [BEM](https://en.bem.info) Methodology with camelCase style. Read the start guide [here](https://en.bem.info/methodology/quick-start/)
+
+> BEM (Block, Element, Modifier) is a component-based approach to web development. The idea behind it is to divide the user interface into independent blocks
+
+Naming Rules:
+
+```css
+blockName__elementName_modifierName_modifierValue
+```
+
+- Names are written in lowercase Latin letters.
+- Each word inside a name begins with an uppercase letter.
+- The block name defines the namespace for its elements and modifiers.
+- The element name is separated from the block name by a double underscore (__).
+- The modifier name is separated from the block or element name by a single underscore (_).
+- The modifier value is separated from the modifier name by a single underscore (_).
+- For boolean modifiers, the value is not included in the name.
+
 ---
 
 ## Financial contributions
