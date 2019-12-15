@@ -44,7 +44,11 @@ module.exports = {
         h3: "1.75rem",
         h4: "1.5rem",
         h5: "1.25rem",
-        h6: "1rem"
+        h6: "1rem",
+        nav: "0.875rem"
+      },
+      lineHeight: {
+        text: "22px"
       }
     }
   },
