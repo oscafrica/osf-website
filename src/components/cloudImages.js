@@ -1,4 +1,4 @@
-const url = Object.freeze({
+const logo = Object.freeze({
   svgOrange: "https://res.cloudinary.com/osca/image/upload/v1576374332/osf/Logo/SVG/orange.svg",
   svgWhite: "https://res.cloudinary.com/osca/image/upload/v1576374332/osf/Logo/SVG/white.svg",
   svgBlue: "https://res.cloudinary.com/osca/image/upload/v1576374331/osf/Logo/SVG/blue.svg",
@@ -9,4 +9,4 @@ const url = Object.freeze({
   pngGray: "https://res.cloudinary.com/osca/image/upload/v1576374354/osf/Logo/PNG/gray.png"
 });
 
-export default url;
+export default logo;

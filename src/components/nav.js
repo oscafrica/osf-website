@@ -1,19 +1,19 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import url from "../components/cloudImages";
+import logo from "../components/cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="bg-dark-blue-primary">
+    <header className="w-full bg-dark-blue-primary fixed top-0 left-0 z-50 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-4 md:p-8">
         <Link className="flex items-center no-underline text-white" to="/">
           <img
             alt="OSCAFRICA Logo"
             className="block mx-auto w-12"
-            src={url.pngOrange}
+            src={logo.pngOrange}
           />
         </Link>
 

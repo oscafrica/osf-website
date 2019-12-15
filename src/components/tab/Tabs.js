@@ -66,7 +66,7 @@ Tabs.propTypes = {
 Tabs.defaultProps = {
   defaultSelectedTab: 0,
   onChangeTab: noob,
-  style: {},
+  style: {}
 };
 
 export default Tabs;
