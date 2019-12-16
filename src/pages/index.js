@@ -1,6 +1,5 @@
 import React from "react";
 
-import AboutPage from "../components/about";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 

@@ -14,12 +14,12 @@ function About() {
   `);
   return (
     <section className="flex flex-col md:flex-row items-center mt-16">
-      <figure className="w-2/3 md:w-1/3 w-12">
+      <figure className="w-full md:w-1/3 w-12">
         <img alt={site.siteMetadata.title} src={nextBillionCreators} />
       </figure>
 
       <div className="md:w-1/2 md:mx-12">
-        <blockquote className="pl-4 text-justify">
+        <blockquote className="px-4 text-justify">
           Open Source Community Africa is a community aimed at creating and
           supporting the open source movement within Africa. As a community, we
           intend to help integrate the act of open source contribution to

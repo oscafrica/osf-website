@@ -17,13 +17,13 @@ function Header() {
               </i>
                 20TH - 22ND FEB, 2020
             </span>
-            <span className="uppercase">
+            <span className="uppercase break-all">
               <i className="pr-2">
                 <FontAwesomeIcon icon="map-marker-alt" />
               </i>
                 Lagos, Nigeria
             </span>
-            <p className="text-base leading-snug text-gray-700 mt-4">
+            <p className="text-base text-gray-700 mt-4">
               An annual open source gathering under
               Open Source Community Africa
             </p>
