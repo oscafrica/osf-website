@@ -6,6 +6,12 @@ import Header from "./header";
 import Cta from "./cta";
 import Footer from "./footer";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faTwitter, faFacebookSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faCalendar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare, faGithub);
+
 function Layout({ children }) {
   return (
     <div className="flex flex-col font-sans min-h-screen text-gray-900">

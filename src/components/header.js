@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Header() {
   return (
@@ -10,8 +11,18 @@ function Header() {
             <h1 className="text-3xl lg:text-4xl xl:text-5xl leading-tight font-bold uppercase">
             Open Source Festival 2020 + Sustain OSS
             </h1>
-            <span className="pr-4 uppercase">20TH - 22ND FEB, 2020</span>
-            <span className="uppercase">Lagos, Nigeria</span>
+            <span className="pr-4 uppercase">
+              <i className="pr-2">
+                <FontAwesomeIcon icon="calendar" />
+              </i>
+                20TH - 22ND FEB, 2020
+            </span>
+            <span className="uppercase">
+              <i className="pr-2">
+                <FontAwesomeIcon icon="map-marker-alt" />
+              </i>
+                Lagos, Nigeria
+            </span>
             <p className="text-base leading-snug text-gray-700 mt-4">
               An annual open source gathering under
               Open Source Community Africa

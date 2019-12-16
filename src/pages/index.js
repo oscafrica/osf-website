@@ -12,7 +12,6 @@ function IndexPage() {
         title="Home"
       />
 
-
       <AboutPage />
 
     </Layout>

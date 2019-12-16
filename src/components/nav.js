@@ -56,7 +56,7 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "#",
+              route: "#sponsor",
               title: "Sponsorship"
             }
 

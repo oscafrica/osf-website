@@ -1,63 +1,73 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <footer className="w-full bg-dark-blue-primary">
-      <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-        {[
-          {
-            route: "https://git.io/Jemzv",
-            title: "Code of Conduct"
-          },
-          {
-            route: "https://oscafrica.org/community",
-            title: "Community"
-          },
-          {
-            route: "https://opencollective.com/osca",
-            title: "Open Collective"
-          },
-          {
-            route: "https://blog.oscafrica.org",
-            title: "Blog"
-          }
-        ].map(link => (
-          <a
-            className="block md:inline-block mt-4 md:mt-0 md:ml-0 no-underline text-white"
-            key={link.title}
-            href={link.route}
-          >
-            {link.title}
-          </a>
-        ))}
-
-        <p>
-          <a
-            className="font-bold p-2 no-underline text-white"
-            href="/"
-          >
-              E
-          </a>
+    <footer className="w-full bg-dark-blue-primary p-8">
+      <div className="flex flex items-center justify-between max-w-8xl mx-auto p-4 md:p-8 text-sm">
+        <div className="w-1/2h-2">
+          {[
+            {
+              route: "https://git.io/Jemzv",
+              title: "Code of Conduct"
+            },
+            {
+              route: "https://oscafrica.org/community",
+              title: "Community"
+            },
+            {
+              route: "https://opencollective.com/osca",
+              title: "Open Collective"
+            },
+            {
+              route: "https://blog.oscafrica.org",
+              title: "Blog"
+            }
+          ].map(link => (
+            <a
+              className="pr-8 no-underline text-white"
+              key={link.title}
+              href={link.route}
+            >
+              {link.title}
+            </a>
+          ))}
+        </div>
+        <div className="w-1/2h-2">
           <a
             className="font-bold p-2 no-underline text-white"
-            href="/"
+            href="mailto:info@oscafrica.org"
           >
-              T
+            <i className="pr-2">
+              <FontAwesomeIcon icon="envelope" />
+            </i>
           </a>
           <a
             className="font-bold p-2 no-underline text-white"
-            href="/"
+            href="https://twitter.com/oscafrica"
           >
-              F
+            <i className="pr-2">
+              <FontAwesomeIcon icon={["fab", "twitter"]} />
+            </i>
           </a>
           <a
             className="font-bold p-2 no-underline text-white"
-            href="/"
+            href="https://facebook.com/opensourcecommunityafrica"
           >
-              G
+            <i className="pr-2">
+              <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+            </i>
           </a>
-        </p>
-      </nav>
+          <a
+            className="font-bold p-2 no-underline text-white"
+            href="https://github.com/oscommunityafrica"
+          >
+            <i className="pr-2">
+              <FontAwesomeIcon icon={["fab", "github"]} />
+            </i>
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }

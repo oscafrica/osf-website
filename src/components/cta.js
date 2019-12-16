@@ -6,28 +6,24 @@ function Cta() {
       <div className="flex justify-between items-center max-w-4xl mx-auto md:p-8 text-sm">
         {[
           {
-            key: 0,
             value: "800+",
             title: "Attendees"
           },
           {
-            key: 1,
             value: "2",
             title: "Days"
           },
           {
-            key: 2,
             value: "20+",
             title: "Talks"
           },
           {
-            key: 3,
             value: "10+",
             title: "Workshops"
           }
         ].map(data => (
           <section
-            key={data.key}
+            key={data.title}
             className="px-2 font-bold text-white uppercase"
           >
             <span className="text-h2">
