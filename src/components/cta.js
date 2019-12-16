@@ -2,8 +2,8 @@ import React from "react";
 
 function Cta() {
   return (
-    <section className="bg-dark-blue-primary">
-      <div className="flex justify-between items-center max-w-4xl mx-auto md:p-8 text-sm">
+    <section className="bg-dark-blue-500">
+      <div className="flex flex-wrap justify-between items-center max-w-4xl mx-auto p-12 text-center">
         {[
           {
             value: "800+",
@@ -22,19 +22,10 @@ function Cta() {
             title: "Workshops"
           }
         ].map(data => (
-          <section
-            key={data.title}
-            className="px-2 font-bold text-white uppercase"
-          >
-            <span className="text-h2">
-              {data.value}
-            </span>
-            <p
-              className="text-h6 text-gray-200 uppercase"
-            >
-              {data.title}
-            </p>
-          </section>
+          <div key={data.title} className="w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-6">
+            <span className="text-h2 font-bold text-white uppercase">{data.value}</span>
+            <p className="text-h6 font-bold text-gray-200 uppercase">{data.title}</p>
+          </div>
         ))}
       </div>
     </section>

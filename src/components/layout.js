@@ -4,6 +4,7 @@ import React from "react";
 import Nav from "./nav";
 import Header from "./header";
 import Cta from "./cta";
+import About from "./about";
 import Footer from "./footer";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -18,6 +19,7 @@ function Layout({ children }) {
       <Nav />
       <Header />
       <Cta />
+      <About />
 
       <main className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
         {children}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutPage from "./about";
+import AboutPage from "../components/about";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
@@ -11,9 +11,6 @@ function IndexPage() {
         keywords={["Open Source Community Africa", "Open Source Festival", "OSCA", "OSF"]}
         title="Home"
       />
-
-      <AboutPage />
-
     </Layout>
   );
 }
