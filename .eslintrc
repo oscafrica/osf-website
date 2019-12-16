@@ -42,3 +42,4 @@
       "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"]
     }
   }
+
