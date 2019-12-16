@@ -5,11 +5,11 @@ import Header from '../header';
 
 let wrapper;
 
-beforeAll(() => {
-  wrapper = mount(<Header />);
-});
-
 describe('header component', () => {
+  beforeAll(() => {
+    wrapper = mount(<Header />);
+  });
+  
   it('should have img', () => {
     expect(wrapper.html()).to.contain('img');
   });
