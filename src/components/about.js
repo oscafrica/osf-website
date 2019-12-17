@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
-import nextBillionCreators from "../images/NXTBC.png";
+import { patterns } from "../components/cloudImages";
 
 function About() {
   const { site } = useStaticQuery(graphql`
@@ -14,12 +14,16 @@ function About() {
   `);
   return (
     <section className="flex flex-col md:flex-row items-center mt-16">
-      <figure className="w-full md:w-1/3 w-12">
-        <img alt={site.siteMetadata.title} src={nextBillionCreators} />
+      <figure className="w-full md:w-1/3">
+        <img
+          className="p-12"
+          alt={site.siteMetadata.title}
+          src={patterns.nextBillion}
+        />
       </figure>
 
       <div className="md:w-1/2 md:mx-12">
-        <blockquote className="px-4 text-justify">
+        <blockquote className="px-4 text-justify text-dark-blue-500">
           Open Source Community Africa is a community aimed at creating and
           supporting the open source movement within Africa. As a community, we
           intend to help integrate the act of open source contribution to
@@ -37,6 +41,13 @@ function About() {
           Through this festival, we intend to move Africans from just the
           billion users to the NEXT BILLION CREATORS.
         </blockquote>
+      </div>
+      <div className="hidden md:block absolute right-0 fixed">
+        <img
+          className="-mt-24 -mb-12 -pl-4"
+          src={patterns.africanMap}
+          alt="An Africa Pattern Design"
+        />
       </div>
     </section>
   );
