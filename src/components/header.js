@@ -20,13 +20,13 @@ function Header() {
           </h1>
           <div className="flex flex-wrap mt-2">
             <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 uppercase">
-              <i className="pr-4">
+              <i className="pr-2">
                 <FontAwesomeIcon icon="calendar" />
               </i>
               20TH - 22ND FEB, 2020
             </div>
             <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 md:-ml-12 uppercase">
-              <i className="pr-4">
+              <i className="pr-2">
                 <FontAwesomeIcon icon="map-marker-alt" />
               </i>
               Lagos, Nigeria
@@ -38,7 +38,7 @@ function Header() {
           </p>
           <a
             href="https://opencollective.com/osca/events/open-source-festival-2020-4abe0517"
-            className="w-1/2 block sm:inline-block sm:w-auto px-10 py-2 bg-orange-primary text-black rounded-lg text-center mt-8 uppercase"
+            className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-2 bg-orange-primary text-black rounded-lg text-center uppercase"
           >
             Register
           </a>

@@ -57,7 +57,7 @@ function Footer() {
         ].map(icon => (
           <a
             key={icon.key}
-            className="font-bold p-2 no-underline text-white"
+            className="font-bold p-2 no-underline text-white text-lg"
             href={icon.href}
           >
             <i className="pr-2">
