@@ -1,4 +1,12 @@
 @tailwind base;
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 @tailwind components;
 @tailwind utilities;
 
@@ -6,6 +14,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+    @apply font-avenir
 }
 
 ::-webkit-scrollbar {
