@@ -43,7 +43,7 @@ function Nav() {
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } md:block md:flex md:items-center w-full md:w-auto text-center`}
+          } md:block md:flex md:items-center w-full md:w-auto mt-12`}
         >
           {[
             {
