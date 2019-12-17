@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu"],
       body: ["source sans", "avenir", "gotham", "ubuntu"],
-      Avenir: ["avenir"]
+      avenir: ["avenir"]
     },
     prefix: "oc-",
     extend: {

@@ -15,7 +15,7 @@ library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare,
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col font-sans min-h-screen text-gray-900">
+    <div className="flex flex-col font-avenir min-h-screen">
       <Nav />
       <Header />
       <Cta />

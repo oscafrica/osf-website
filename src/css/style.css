@@ -16,10 +16,6 @@
   box-sizing: border-box;
 }
 
-html {
-    @apply font-avenir
-}
-
 ::-webkit-scrollbar {
   width: 6px;
 }
