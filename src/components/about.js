@@ -13,7 +13,7 @@ function About() {
     }
   `);
   return (
-    <section className="flex flex-col md:flex-row items-center mt-16">
+    <section id="about" className="flex flex-col md:flex-row items-center my-16">
       <figure className="w-full md:w-1/3">
         <img
           className="p-12"

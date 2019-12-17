@@ -14,7 +14,7 @@ function Header() {
             alt="An Africa Pattern Design"
           />
         </div>
-        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative w-full sm:w-2/3 lg:w-1/2 z-10 text-white">
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl leading-tight font-bold uppercase">
             Open Source Festival 2020 + Sustain OSS
           </h1>

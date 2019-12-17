@@ -13,7 +13,12 @@ const patterns = Object.freeze({
   africanMap: "https://res.cloudinary.com/osca/image/upload/v1576543138/osf/Patterns/map.png",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/v1576548571/osf/Patterns/navRec.png",
-  headerRec: "https://res.cloudinary.com/osca/image/upload/v1576548796/osf/Patterns/headerRec.png"
+  headerRec: "https://res.cloudinary.com/osca/image/upload/v1576548796/osf/Patterns/headerRec.png",
+  speakers: "https://res.cloudinary.com/osca/image/upload/v1576565664/osf/Patterns/speakers.png"
 });
 
-export { logo, patterns };
+const speakers = Object.freeze({
+  dummyPng: "https://res.cloudinary.com/osca/image/upload/v1576565438/osf/speakers/dummy.png"
+});
+
+export { logo, patterns, speakers };
