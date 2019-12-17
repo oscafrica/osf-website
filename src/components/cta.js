@@ -2,43 +2,30 @@ import React from "react";
 
 function Cta() {
   return (
-    <section className="bg-dark-blue-primary">
-      <div className="flex justify-between items-center max-w-4xl mx-auto md:p-8 text-sm">
+    <section className="z-10 bg-dark-blue-500">
+      <div className="flex flex-wrap justify-between items-center max-w-4xl mx-auto p-12 text-center">
         {[
           {
-            key: 0,
             value: "800+",
             title: "Attendees"
           },
           {
-            key: 1,
-            value: "2",
+            value: "3",
             title: "Days"
           },
           {
-            key: 2,
             value: "20+",
             title: "Talks"
           },
           {
-            key: 3,
             value: "10+",
             title: "Workshops"
           }
         ].map(data => (
-          <section
-            key={data.key}
-            className="px-2 font-bold text-white uppercase"
-          >
-            <span className="text-h2">
-              {data.value}
-            </span>
-            <p
-              className="text-h6 text-gray-200 uppercase"
-            >
-              {data.title}
-            </p>
-          </section>
+          <div key={data.title} className="w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-6">
+            <span className="text-h2 font-bold text-white uppercase">{data.value}</span>
+            <p className="text-h6 font-bold text-gray-200 uppercase">{data.title}</p>
+          </div>
         ))}
       </div>
     </section>

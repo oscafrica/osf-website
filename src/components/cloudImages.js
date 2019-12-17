@@ -9,4 +9,11 @@ const logo = Object.freeze({
   pngGray: "https://res.cloudinary.com/osca/image/upload/v1576374354/osf/Logo/PNG/gray.png"
 });
 
-export default logo;
+const patterns = Object.freeze({
+  africanMap: "https://res.cloudinary.com/osca/image/upload/v1576543138/osf/Patterns/map.png",
+  nextBillion: "https://res.cloudinary.com/osca/image/upload/v1575379564/NXTBC.png",
+  navRec: "https://res.cloudinary.com/osca/image/upload/v1576548571/osf/Patterns/navRec.png",
+  headerRec: "https://res.cloudinary.com/osca/image/upload/v1576548796/osf/Patterns/headerRec.png"
+});
+
+export { logo, patterns };

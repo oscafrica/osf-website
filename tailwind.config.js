@@ -4,19 +4,20 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu"],
-      avenir: ["avenir", "source sans", "gotham", "ubuntu"],
-      body: ["source sans", "avenir", "gotham", "ubuntu"]
+      body: ["source sans", "avenir", "gotham", "ubuntu"],
+      avenir: ["avenir"]
     },
     prefix: "oc-",
     extend: {
       colors: {
         white: "#FFFFFF",
         "dark-blue": {
-          primary: "#283756",
+          primary: "#081E31",
           100: "#96ADDD",
           200: "#5A75AB",
           300: "#445984",
-          400: "#283756"
+          400: "#283756",
+          500: "#283756"
         },
         orange: {
           primary: "#F79313",
