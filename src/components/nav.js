@@ -55,7 +55,7 @@ function Nav() {
               title: "Speakers"
             },
             {
-              route: "#travel",
+              route: "/travel",
               title: "Travel"
             },
             {
@@ -64,7 +64,7 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "#sponsor",
+              route: "https://opencollective.com/open-source-festival-2020-4abe0517/donate",
               title: "Sponsorship"
             }
           ].map(link => (

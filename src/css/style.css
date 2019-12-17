@@ -5,7 +5,7 @@
     src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 @tailwind components;
 @tailwind utilities;
@@ -14,10 +14,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
