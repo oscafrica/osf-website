@@ -15,7 +15,7 @@ function Nav() {
           alt="An Africa Pattern Design"
         />
       </div>
-      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 md:pt-8">
+      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 md:py-8">
         <Link className="flex items-center no-underline text-white" to="/">
           <img
             alt="OSCAFRICA Logo"
@@ -69,7 +69,7 @@ function Nav() {
             }
           ].map(link => (
             <a
-              className="block md:inline-block mt-4 md:mt-0 md:ml-8 no-underline text-white text-nav uppercase"
+              className="block md:inline-block mt-4 md:-my-2 md:ml-8 no-underline text-white text-nav uppercase"
               key={link.title}
               href={link.route}
             >

@@ -1,10 +1,17 @@
 @tailwind base;
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @tailwind components;

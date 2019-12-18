@@ -12,11 +12,11 @@ function Speaker() {
         <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
-        <div className="w-full md:w-1/2 text-white">
-          <h1 className="text-5xl font-bold">Meet our Speakers</h1>
+        <div className="mb-8 md:mb-0 w-full md:w-1/2 text-white">
+          <h1 className="text-5xl font-bold font-ubuntu">Meet our Speakers</h1>
         </div>
         <div className="w-full hidden md:block md:w-1/2 mt-6 text-white">
-          <img src={patterns.speakers} alt="" className="" />
+          <img src={patterns.speakers} alt="" className="w-auto" />
         </div>
       </div>
 
@@ -47,16 +47,16 @@ function Speaker() {
             value: ""
           }
         ].map(speaker => (
-          <div key={speaker.name} className="relative w-full md:w-1/4 max-w-sm rounded my-8 md:my-20 px-2">
+          <div key={speaker.name} className="relative w-full md:w-1/4 max-w-sm rounded my-2 md:my-8 px-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
-            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-32 bg-dark-blue-500 opacity-75 text-center text-white">
-              <h3 className="font-bold text-lg">{speaker.name}</h3>
+            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
+              <h3 className="font-bold text-base">{speaker.name}</h3>
               <p className="text-sm md:text-xs">{speaker.title}</p>
             </div>
           </div>
         ))}
-        <div className="float-right">
-          <a href="/speakers" className="px-6 py-3 border-2 order-white text-white rounded-lg text-center uppercase">
+        <div className="mx-auto mt-12 md:-mt-2">
+          <a href="/speakers" className="px-6 py-3 border-2 border-white text-white rounded-lg text-center uppercase">
             See all Speakers
           </a>
         </div>
