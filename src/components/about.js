@@ -13,10 +13,10 @@ function About() {
     }
   `);
   return (
-    <section id="about" className="flex flex-col md:flex-row items-center my-16">
+    <section id="about" className="flex flex-col md:flex-row items-center my-16 mx-4 md:mx-32">
       <figure className="w-full md:w-1/3">
         <img
-          className="p-12"
+          className="pb-4 md:pl-4"
           alt={site.siteMetadata.title}
           src={patterns.nextBillion}
         />

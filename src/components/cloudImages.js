@@ -18,7 +18,13 @@ const patterns = Object.freeze({
 });
 
 const speakers = Object.freeze({
-  dummyPng: "https://res.cloudinary.com/osca/image/upload/v1576565438/osf/speakers/dummy.png"
+  dummyImage: "https://res.cloudinary.com/osca/image/upload/v1576565438/osf/speakers/dummy.png",
+  amanda: "https://res.cloudinary.com/osca/image/upload/v1576682461/osf/Speakers/amanda.png",
+  aniedi: "https://res.cloudinary.com/osca/image/upload/v1576682465/osf/Speakers/aniedi.png",
+  stephen: "https://res.cloudinary.com/osca/image/upload/v1576682474/osf/Speakers/stephen.png",
+  eriol: "https://res.cloudinary.com/osca/image/upload/v1576682474/osf/Speakers/eriol.png",
+  prosper: "https://res.cloudinary.com/osca/image/upload/v1576682470/osf/Speakers/prosper.png",
+  marlene: "https://res.cloudinary.com/osca/image/upload/v1576682472/osf/Speakers/marlene.png"
 });
 
 export { logo, patterns, speakers };

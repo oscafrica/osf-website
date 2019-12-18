@@ -25,37 +25,33 @@ function Speaker() {
           {
             name: "Amanda Casari",
             title: "Engineering Manager | Google",
-            image: speakers.dummyPng,
-            alt: "An amazing picture of ",
+            image: speakers.amanda,
+            value: ""
+          },
+          {
+            name: "Prosper Otemuyiwa",
+            title: "Co-founder | Eden & forloop Africa",
+            image: speakers.prosper,
             value: ""
           },
           {
             name: "Stephen Walli",
             title: "Principal Program Manager | Microsoft",
-            image: speakers.dummyPng,
-            alt: "An amazing picture of ",
-            value: ""
-          },
-          {
-            name: "Eriol Fox",
-            title: "Design Lead, Ushahidi",
-            image: speakers.dummyPng,
-            alt: "An amazing picture of Jon ",
+            image: speakers.stephen,
             value: ""
           },
           {
             name: "Aniedi Udo-Obong",
             title: "Developer Relations, Sub-Saharan Africa | Google",
-            image: speakers.dummyPng,
-            alt: "An amazing picture of ",
+            image: speakers.aniedi,
             value: ""
           }
         ].map(speaker => (
-          <div key={speaker.name} className="relative w-full md:w-1/4 max-w-sm rounded my-8 md:my-24 px-2">
-            <img className="w-full" src={speaker.image} alt={speaker.alt + speaker.name} />
-            <div className="-mt-20 px-4">
-              <h2 className="font-bold text-lg">{speaker.name}</h2>
-              <p className="text-sm">{speaker.title}</p>
+          <div key={speaker.name} className="relative w-full md:w-1/4 max-w-sm rounded my-8 md:my-20 px-2">
+            <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
+            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-32 bg-dark-blue-500 opacity-75 text-center text-white">
+              <h3 className="font-bold text-lg">{speaker.name}</h3>
+              <p className="text-sm md:text-xs">{speaker.title}</p>
             </div>
           </div>
         ))}
