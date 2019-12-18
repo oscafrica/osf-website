@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Nav from "../components/nav";
+import HeaderSpeak from "../components/headerSpeak";
 import Footer from "../components/footer";
 
 import { speakers } from "../components/cloudImages";
@@ -15,6 +16,7 @@ function SpeakerPage() {
         title="Speakers"
       />
       <Nav />
+      <HeaderSpeak />
       <section
         id="speakers"
         className="md:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 pb-10 sm:pb-6 md:pt-12 md:pb-12 lg:pt-24 xl:pb-24 2xl:pt-48 2xl:pb-48"
@@ -46,15 +48,15 @@ function SpeakerPage() {
               value: ""
             },
             {
-              name: "Amanda Casari",
+              name: "Eriol Fox",
               title: "Engineering Manager | Google",
-              image: speakers.amanda,
+              image: speakers.eriol,
               value: ""
             },
             {
               name: "Prosper Otemuyiwa",
               title: "Co-founder | Eden & forloop Africa",
-              image: speakers.prosper,
+              image: speakers.marlene,
               value: ""
             },
             {
