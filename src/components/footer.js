@@ -36,27 +36,32 @@ function Footer() {
         {[
           {
             key: 0,
+            label: "Email",
             faIcon: ["fa", "envelope"],
             href: "mailto:info@oscafrica.org"
           },
           {
             key: 1,
+            label: "Twitter",
             faIcon: ["fab", "twitter"],
             href: "https://twitter.com/oscafrica"
           },
           {
             key: 2,
+            label: "Facebook",
             faIcon: ["fab", "facebook-square"],
             href: "https://facebook.com/opensourcecommunityafrica"
           },
           {
             key: 3,
+            label: "GitHub",
             faIcon: ["fab", "github"],
             href: "https://github.com/oscommunityafrica"
           }
         ].map(icon => (
           <a
             key={icon.key}
+            aria-label={icon.label}
             className="font-bold p-2 no-underline text-white text-lg"
             href={icon.href}
           >
