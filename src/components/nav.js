@@ -8,7 +8,7 @@ function Nav() {
 
   return (
     <header className="w-full bg-dark-blue-primary fixed top-0 left-0 z-50 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
-      <div className="absolute left-0 fixed">
+      <div className="z-10 absolute left-0 fixed">
         <img
           className="-pl-4"
           src={patterns.navRec}
@@ -16,7 +16,7 @@ function Nav() {
         />
       </div>
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 md:py-8">
-        <Link className="flex items-center no-underline text-white" to="/">
+        <Link className="z-20 flex items-center no-underline text-white" to="/">
           <img
             alt="OSCAFRICA Logo"
             className="block mx-auto w-12"

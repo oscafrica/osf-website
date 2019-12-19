@@ -38,7 +38,8 @@ module.exports = {
           200: "#D7D9B4"
         },
         "dark-green": "#B2B396",
-        "trans-gray": "rgba(10, 34, 55, 0.5)"
+        "trans-gray": "rgba(10, 34, 55, 0.5)",
+        "modal-gray": "#E7ECF8"
       },
       fontSize: {
         base: "1rem",
