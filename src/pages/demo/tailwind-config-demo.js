@@ -5,29 +5,26 @@ import Nav from "../../components/nav";
 function TailwindDemoPage() {
   return (
     <div className="flex flex-col font-avenir min-h-screen">
-    <Nav/>
-    <SEO
-        keywords={["gatsby", "tailwind", "tailwind typography page", "tailwindcss"]}
-        title="Typography demo pages"
-    />
-    <main className="flex flex-col flex-1 md:justify-center mt-20 max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
+      <Nav />
+      <SEO keywords={["gatsby", "tailwind", "tailwind typography page", "tailwindcss"]} title="Typography demo pages" />
+      <main className="flex flex-col flex-1 md:justify-center mt-20 max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
         <h2 className="font-avenir text-h1 mb-10 mt-20 font-bold font-avenir capitalize">
-            Tailwind configuration demo page
+          Tailwind configuration demo page
         </h2>
         <section>
-          <article className = 'mb-10'>
-            <h3 className = 'mb-2 font-bold text-h5 uppercase text-orange-300'>Font sizes</h3>
+          <article className="mb-10">
+            <h3 className="mb-2 font-bold text-h5 uppercase text-orange-300">Font sizes</h3>
             <div className="mb-4 ">
-                <p className="text-h1">H1 heading</p>
-                <p className="text-h2">H2 heading</p>
-                <p className="text-h3">H3 heading</p>
-                <p className="text-h4">H4 heading</p>
-                <p className="text-h5">H5 heading</p>
-                <p className="text-h6">H6 heading</p>
-                <p className="text-base">This is an example paragraph</p>
+              <p className="text-h1">H1 heading</p>
+              <p className="text-h2">H2 heading</p>
+              <p className="text-h3">H3 heading</p>
+              <p className="text-h4">H4 heading</p>
+              <p className="text-h5">H5 heading</p>
+              <p className="text-h6">H6 heading</p>
+              <p className="text-base">This is an example paragraph</p>
             </div>
           </article>
-          <article className = 'mb-10'>
+          <article className="mb-10">
             <h3 className="font-avenir font-bold mb-2 text-h5 font-bold uppercase text-orange-primary">colors</h3>
             <div className="flex mb-4 -mx-2">
               <div className="lg:w-1/5 px-2">
@@ -78,8 +75,8 @@ function TailwindDemoPage() {
             </div>
           </article>
         </section>
-    </main>
-</div>
+      </main>
+    </div>
   );
 }
 
