@@ -5,8 +5,8 @@ import { patterns } from "../components/cloudImages";
 
 function Header() {
   return (
-    <div>
-      <section className="z-20 flex flex-wrap md:flex-row bg-dark-blue-primary px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-32 pb-10 sm:pb-6 md:pt-40 md:pb-12 lg:pt-40 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
+    <section>
+      <div className="z-20 flex flex-wrap md:flex-row bg-dark-blue-primary px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-32 pb-10 sm:pb-6 md:pt-40 md:pb-12 lg:pt-40 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
         <div className="absolute left-0 fixed">
           <img
             className="-mt-24 -mb-12 -pl-4"
@@ -51,8 +51,8 @@ function Header() {
             alt="Map of Africa Pattern Design"
           />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

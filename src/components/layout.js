@@ -3,7 +3,7 @@ import React from "react";
 
 function Layout({ children }) {
   return (
-    <section className="m-0 p-0">
+    <section className="flex flex-col">
       {children}
     </section>
   );
