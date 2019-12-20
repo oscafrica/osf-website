@@ -1,11 +1,99 @@
 @tailwind base;
 
+/* IMPORT AVENIR FONT START */
+
+/* avenir roman */
 @font-face {
     font-family: 'Avenir';
-    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
+    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+/* avenir black */
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('../fonts/Avenir/AvenirLTStd-Black.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* avenir book */
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* IMPORT AVENIR FONT END */
+
+/* IMPORT UBUNTU FONT  START*/
+
+/* light */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('TrueType');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* light italic */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-LightItalic.ttf') format('TrueType');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* regular */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* medium */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf') format('TrueType');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* medium italic */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('TrueType');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* bold */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf') format('TrueType');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* bold italic */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('TrueType');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* italic */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Italic.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: italic;
+}
+/* IMPORT UBUNTU FONT END */
 
 @tailwind components;
 @tailwind utilities;

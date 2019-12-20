@@ -3,9 +3,10 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ["source sans", "avenir", "gotham", "ubuntu"],
-      body: ["source sans", "avenir", "gotham", "ubuntu"],
-      avenir: ["avenir"]
+      avenir: ["Avenir"],
+      'avenir-black': ["AvenirBlack"],
+      'avenir-book': ["AvenirBook"],
+      ubuntu: ['Ubuntu']
     },
     prefix: "oc-",
     extend: {
