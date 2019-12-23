@@ -10,6 +10,9 @@ module.exports = {
     },
     prefix: "oc-",
     extend: {
+      spacing: {
+        "oc-10": "10px"
+      },
       colors: {
         white: "#FFFFFF",
         "dark-blue": {

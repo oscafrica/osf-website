@@ -2,7 +2,7 @@ import React from "react";
 import Popup from "reactjs-popup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { speakers } from "../components/cloudImages";
+import { speakers, patterns } from "../components/cloudImages";
 
 function Speaker() {
   return (
@@ -10,6 +10,18 @@ function Speaker() {
       id="speakers"
       className="bg-dark-blue-primary md:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 pb-10 sm:pb-6 md:pt-12 md:pb-12 lg:pt-24 xl:pb-24 2xl:pt-48 2xl:pb-48"
     >
+      <div className="absolute left-0 fixed">
+        <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
+      </div>
+      <div className="flex flex-wrap">
+        <div className="mb-8 md:mb-12 w-full md:w-1/2 text-white">
+          <h1 className="text-5xl font-bold font-ubuntu">Meet our Speakers</h1>
+        </div>
+        <div className="w-full hidden md:block md:w-1/2 mt-6 text-white">
+          <img src={patterns.speakers} alt="" className="w-auto" />
+        </div>
+      </div>
+
       <div className="cursor-pointer flex flex-wrap text-white">
         {[
           {
@@ -67,10 +79,11 @@ function Speaker() {
             linkedin: "#"
           }
         ].map(speaker => (
-          <div key={speaker.name} className="relative w-full h-full md:w-1/4 max-w-sm rounded my-2 md:my-8 px-2">
+          <div key={speaker.name} className="relative w-full h-full md:w-1/4 max-w-sm rounded my-2 px-2 md:my-8">
             <Popup
+              className="w-full"
               trigger={
-                <div>
+                <figure className="w-full">
                   <img
                     className="w-auto mx-auto"
                     src={speaker.image}
@@ -80,7 +93,7 @@ function Speaker() {
                     <h3 className="font-bold text-base">{speaker.name}</h3>
                     <p className="text-sm md:text-xs">{speaker.title}</p>
                   </div>
-                </div>
+                </figure>
               }
               modal
             >
@@ -98,23 +111,23 @@ function Speaker() {
                       alt={`An amazing photograph of ${speaker.name}`}
                       src={speaker.image}
                     />
-                    <div className="md:pl-4 md:py-4">
+                    <div className="mb-8 md:pl-4 md:py-4">
                       <h3 className="md:-mt-8 font-bold text-base">{speaker.name}</h3>
                       <p className="text-sm md:text-xs">{speaker.title}</p>
                     </div>
                   </figure>
 
                   <div className="w-full md:w-3/4">
-                    <blockquote className="md:absolute md:fixed md:top-0 px-0 md:mt-20 md:px-10 text-sm text-justify tracking-tighter text-dark-blue-500">
+                    <blockquote className="md:absolute md:fixed md:top-0 px-0 md:mt-20 md:px-10 text-base text-justify tracking-tighter text-dark-blue-500">
                       {speaker.bio}
                     </blockquote>
-                    <div className="absolute fixed bottom-0 md:w-3/4 md:px-8 md:mb-8">
+                    <div className="absolute fixed bottom-0 md:w-3/4 md:px-8 md:mb-16">
                       <a
                         aria-label="Twitter"
-                        className="p-2 font-bold no-underline text-dark-blue text-sm"
+                        className="pl-1 pr-6 font-bold no-underline text-dark-blue text-sm"
                         href={speaker.twitter}
                       >
-                        <i className="bg-circle-gray rounded-full circle-icon">
+                        <i className="bg-circle-gray rounded-full p-oc-10">
                           <FontAwesomeIcon icon={["fab", "twitter"]} />
                         </i>
                       </a>
@@ -124,7 +137,7 @@ function Speaker() {
                         className="font-bold no-underline text-dark-blue text-sm"
                         href={speaker.linkedin}
                       >
-                        <i className="bg-circle-gray rounded-full circle-icon">
+                        <i className="bg-circle-gray rounded-full p-oc-10">
                           <FontAwesomeIcon icon={["fab", "linkedin"]} />
                         </i>
                       </a>
