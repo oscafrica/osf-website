@@ -57,3 +57,6 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+.circle-icon {
+    padding: 10px;
+}
