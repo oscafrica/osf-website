@@ -8,7 +8,7 @@ import searchImg from "./searchbar-search.png";
 
 const noob = () => {};
 
-const SearchBar = ({ placeholder, value, options, onChange, onInput, renderItem, ...props }) => {
+const SearchBar = ({ placeholder, value, options, onChange, onInput, label, renderItem, ...props }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [textVal, setTextVal] = useState(() => {
     const option = options.find(({ value: v }) => v === value);
@@ -44,15 +44,18 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, renderItem,
 
   return (
     <div className={classNames(style.searchbar, props.className)} {...props}>
-      <div className={style.searchbarInput} onPointerDown={() => setIsOpen(true)}>
-        <object aria-label="Search Icon" className={style.searchImg} data={searchImg}>search icon</object>
-        <input type="text" value={textVal} inputMode="search" onChange={handleInput} />
-        <object
-          onPointerDown={() => setTextVal("")}
-          aria-label="Cancel icon"
-          className={style.cancelImg}
-          data={cancelImg}>cancel icon</object>
-      </div>
+      <label>
+        {!!label && <div className={style.label}>{label}</div>}
+        <div className={style.searchbarInput} onPointerDown={() => setIsOpen(true)}>
+          <object aria-label="Search Icon" className={style.searchImg} data={searchImg}>search icon</object>
+          <input type="text" value={textVal} inputMode="search" onChange={handleInput} />
+          <object
+            onPointerDown={() => setTextVal("")}
+            aria-label="Cancel icon"
+            className={style.cancelImg}
+            data={cancelImg}>cancel icon</object>
+        </div>
+      </label>
       <div className={isOpen ? style.searchOptions : style.searchOptionsClosed}>
         {filteredOptions.slice(0, 5).map((option, i) =>
           typeof renderItem === "function" ?
@@ -84,6 +87,7 @@ SearchBar.propTypes = {
     ]).isRequired
   })).isRequired,
   onInput: PropTypes.func,
+  label: PropTypes.string,
   onChange: PropTypes.func,
   value: PropTypes.oneOfType([
     PropTypes.string, PropTypes.number
@@ -97,6 +101,7 @@ SearchBar.defaultProps = {
   className: "",
   onInput: noob,
   onChange: noob,
+  label: "",
   renderItem: null
 };
 

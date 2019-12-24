@@ -32,6 +32,12 @@ export const SearchBarComponent = () => {
   return <SearchBar options={options} value={value} onChange={setValue} />;
 };
 
+export const SearchBarComponentWithLabel = () => {
+  const [value, setValue] = useState("ashinzekene");
+
+  return <SearchBar options={options} value={value} label="Contributors" onChange={setValue} />;
+};
+
 export const SearchBarComponentCustomRender = () => {
   const [value, setValue] = useState("ashinzekene");
 

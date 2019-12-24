@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.label {
+  color: #5A75AB;
+  font-size: 18px;
+}
+
 .searchbarInput input {
   color: #5A75AB;
   font-family: Avenir;
