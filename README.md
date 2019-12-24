@@ -46,7 +46,7 @@ git checkout -b speakers-component
 npm run develop
 ```
 
-*Gatsby will start a hot-reloading development environment accessible by default at localhost:8000*
+_Gatsby will start a hot-reloading development environment accessible by default at localhost:8000_
 
 - Create a production build
 
@@ -54,7 +54,7 @@ npm run develop
 npm run build
 ```
 
-*Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles.*
+_Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles._
 
 - Serve the production build locally
 
@@ -62,7 +62,7 @@ npm run build
 npm run serve
 ```
 
-*Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command.*
+_Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command._
 
 - Make Git commits
 
@@ -70,7 +70,7 @@ npm run serve
 npm run commit
 ```
 
-*We use the [commitizen command line utility](https://github.com/commitizen/cz-cli), you'll be prompted to fill out any required commit fields at commit time. You would not need to run `git commit` again.*
+_We use the [commitizen command line utility](https://github.com/commitizen/cz-cli), you'll be prompted to fill out any required commit fields at commit time. You would not need to run `git commit` again._
 
 ## Format and lint
 
@@ -109,7 +109,9 @@ npm run fix
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ### Financial Contributors
 
 Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/osca/contribute)]

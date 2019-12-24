@@ -63,7 +63,11 @@ function Speaker() {
             sched: "#"
           }
         ].map(speaker => (
-          <a href={speakers.sched} key={speaker.name} className="relative w-full h-full md:w-1/4 max-w-sm rounded my-2 px-2 md:my-8">
+          <a
+            href={speakers.sched}
+            key={speaker.name}
+            className="relative w-full h-full md:w-1/4 max-w-sm rounded my-2 px-2 md:my-8"
+          >
             <figure className="w-full">
               <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
               <div className="z-0 -mt-20 pt-4 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">

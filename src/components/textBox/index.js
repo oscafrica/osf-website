@@ -3,7 +3,6 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import styles from "./style.module.css";
 
-
 /**
  * renders a text box following the detailed mock in the style guide
  *
@@ -41,7 +40,6 @@ TextBox.defaultProps = {
   inputType: "text"
 };
 
-
 /**
  * renders a textarea following the detailed mock in the style guide
  *
@@ -50,14 +48,7 @@ TextBox.defaultProps = {
 function TextArea({ onChange, className, inputName, ...props }) {
   const _className = classNames(styles.oc_textarea_container, styles.oc_textarea, className);
 
-  return (
-    <textarea
-      className={_className}
-      name={inputName}
-      onChange={onChange}
-      {...props}
-    />
-  );
+  return <textarea className={_className} name={inputName} onChange={onChange} {...props} />;
 }
 
 TextArea.propTypes = {

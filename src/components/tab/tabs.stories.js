@@ -72,8 +72,7 @@ export const CustomLabels = () => {
           </div>
         }
       >
-        Home: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-        veritatis, saepe architecto deleniti ex
+        Home: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veritatis, saepe architecto deleniti ex
       </Tab>
       <Tab
         label={
@@ -83,8 +82,7 @@ export const CustomLabels = () => {
           </div>
         }
       >
-        About: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-        veritatis, saepe architecto deleniti ex
+        About: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veritatis, saepe architecto deleniti ex
       </Tab>
       <Tab
         label={
@@ -94,8 +92,7 @@ export const CustomLabels = () => {
           </div>
         }
       >
-        Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-        veritatis, saepe architecto deleniti ex
+        Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veritatis, saepe architecto deleniti ex
       </Tab>
       <Tab
         label={
@@ -105,8 +102,7 @@ export const CustomLabels = () => {
           </div>
         }
       >
-        Other: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-        veritatis, saepe architecto deleniti ex
+        Other: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veritatis, saepe architecto deleniti ex
       </Tab>
     </Tabs>
   );

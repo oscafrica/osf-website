@@ -19,10 +19,7 @@ library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare,
 function IndexPage() {
   return (
     <Layout>
-      <SEO
-        keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]}
-        title="Home"
-      />
+      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Home" />
       <Nav />
       <Header />
       <Cta />

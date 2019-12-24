@@ -24,7 +24,6 @@ function RadioButton({ value, onChange, label, style, onBlur, name, children, cl
         {children}
       </label>
     </div>
-
   );
 }
 
@@ -45,6 +44,5 @@ RadioButton.defaultProps = {
   style: {},
   label: ""
 };
-
 
 export default RadioButton;

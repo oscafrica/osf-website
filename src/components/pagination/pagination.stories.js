@@ -14,9 +14,10 @@ const props = {
   }
 };
 
-const generateList = count => Array(count)
-  .fill("OSCA AFRICA")
-  .map((t, i) => `${t} ${i+1}`);
+const generateList = count =>
+  Array(count)
+    .fill("OSCA AFRICA")
+    .map((t, i) => `${t} ${i + 1}`);
 
 export const LessThan10Pages = () => {
   const perPage = 10;
@@ -31,18 +32,11 @@ export const LessThan10Pages = () => {
   return (
     <div {...props}>
       <ul>
-        {
-          list.slice(start, end).map(text => (
-            <li key={text}>{text}</li>
-          ))
-        }
+        {list.slice(start, end).map(text => (
+          <li key={text}>{text}</li>
+        ))}
       </ul>
-      <Pagination
-        currentPage={page}
-        onChange={setParams}
-        totalCount={list.length}
-        resultsPerPage={perPage}
-      />
+      <Pagination currentPage={page} onChange={setParams} totalCount={list.length} resultsPerPage={perPage} />
     </div>
   );
 };
@@ -60,18 +54,11 @@ export const MoreThan10Pages = () => {
   return (
     <div {...props}>
       <ul>
-        {
-          list.slice(start, end).map(text => (
-            <li key={text}>{text}</li>
-          ))
-        }
+        {list.slice(start, end).map(text => (
+          <li key={text}>{text}</li>
+        ))}
       </ul>
-      <Pagination
-        currentPage={page}
-        onChange={setParams}
-        totalCount={list.length}
-        resultsPerPage={perPage}
-      />
+      <Pagination currentPage={page} onChange={setParams} totalCount={list.length} resultsPerPage={perPage} />
     </div>
   );
 };

@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 
 import styles from "./style.module.css";
 
-
 /**
  * renders a button following the detailed mock in the style guide
  * the types must be used to render a different kind of button
