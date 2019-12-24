@@ -7,8 +7,8 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="w-full bg-dark-blue-primary fixed top-0 left-0 z-50 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
-      <div className="z-10 absolute left-0 fixed">
+    <header className="z-50 w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+      <div className="absolute left-0 fixed">
         <img
           className="-pl-4"
           src={patterns.navRec}
@@ -53,6 +53,10 @@ function Nav() {
             {
               route: "#speakers",
               title: "Speakers"
+            },
+            {
+              route: "/schedule",
+              title: "Schedule"
             },
             {
               route: "/travel",

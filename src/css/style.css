@@ -57,17 +57,3 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
-.popup-content {
-  width: 100% !important;
-}
-
-.popup-overlay {
-  top: 55px !important;
-}
-
-@media (min-width: 768px) {
-  .popup-content {
-    width: 70% !important;
-  }
-}
