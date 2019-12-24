@@ -15,23 +15,38 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
     return option ? option.label : "";
   });
 
+  /**
+   * Fired when an option is selected from the dropdown
+   */
   const handleChange = ({ value, label }) => () => {
     setIsOpen(false);
     setTextVal(label);
     onChange(value);
   };
 
+  /**
+   * Fired on text input
+   * Sets the input element vaue and fires the `onInput` event
+   */
   const handleInput = ({ target }) => {
     if (!isOpen) setIsOpen(true);
     setTextVal(target.value);
     onInput(target.value);
   };
 
+  /**
+   * Filters the options based on the input value.
+   * Filtered options containes options whose labels match the text value
+   */
   const filteredOptions = useMemo(() => options.filter(({ label }) => (
     label.toLowerCase().includes(textVal.toLowerCase())
   )), [options, textVal]);
 
 
+  /**
+   * Closes the dropdown if anyother part of the page is clicked
+   * except the searchbar
+   */
   const close = e => {
     if (e.target.closest(`.${style.searchbar}`) || !isOpen) return;
     setIsOpen(false);
