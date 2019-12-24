@@ -1,13 +1,13 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import Header from '../header';
+import Nav from '../nav';
 
 let wrapper;
 
 describe('header component', () => {
   beforeAll(() => {
-    wrapper = mount(<Header />);
+    wrapper = mount(<Nav />);
   });
   
   it('should have img', () => {
@@ -15,8 +15,7 @@ describe('header component', () => {
   });
 
   it('nav should have 3 children', () => {
-    expect(wrapper.find('nav'))
-      .to.have.exactly(3)
-      .descendants('a');
+    expect(wrapper.find('section'))
+      .to.have.exactly(3);
   });
 });
