@@ -7,7 +7,7 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="w-full bg-dark-blue-primary fixed top-0 left-0 z-50 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <header className="z-50 w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="absolute left-0 fixed">
         <img
           className="-pl-4"
@@ -15,8 +15,8 @@ function Nav() {
           alt="An Africa Pattern Design"
         />
       </div>
-      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-4 md:p-8">
-        <Link className="flex items-center no-underline text-white" to="/">
+      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 md:py-8">
+        <Link className="z-20 flex items-center no-underline text-white" to="/">
           <img
             alt="OSCAFRICA Logo"
             className="block mx-auto w-12"
@@ -43,7 +43,7 @@ function Nav() {
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } md:block md:flex md:items-center w-full md:w-auto mt-12`}
+          } md:block md:flex md:items-center w-full md:w-auto mt-2`}
         >
           {[
             {
@@ -55,7 +55,11 @@ function Nav() {
               title: "Speakers"
             },
             {
-              route: "#travel",
+              route: "/schedule",
+              title: "Schedule"
+            },
+            {
+              route: "/travel",
               title: "Travel"
             },
             {
@@ -64,12 +68,12 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "#sponsor",
+              route: "https://opencollective.com/open-source-festival-2020-4abe0517/donate",
               title: "Sponsorship"
             }
           ].map(link => (
             <a
-              className="block md:inline-block mt-4 md:mt-0 md:ml-8 no-underline text-white text-nav uppercase"
+              className="block md:inline-block mt-4 md:-my-2 md:ml-8 no-underline text-white text-nav uppercase"
               key={link.title}
               href={link.route}
             >
