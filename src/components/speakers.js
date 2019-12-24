@@ -26,16 +26,12 @@ function Speaker() {
             name: "Amanda Casari",
             title: "Engineering Manager | Google",
             image: speakers.amanda,
-            bio: `Amanda Casari is an engineering manager on the Google Open Source team, where she is leading research and engineering to better understand open source systems.  She has worked in a breadth of cross-functional roles and engineering disciplines for the last 18 years, including developer relations, data science, complexity science, and robotics.  She creates projects and programs to make the data world more responsible and approachable, recently co-authoring the O'Reilly book, Feature Engineering for Machine Learning Principles and Techniques for Data Scientists.
-            Amanda is endlessly fascinated by the difference between the systems we aim to create and the ones that emerge.`,
             sched: "#"
           },
           {
             name: "Stephen Walli",
             title: "Principal Program Manager | Microsoft",
             image: speakers.stephen,
-            bio: `Stephen is a principal program manager in the Azure Office of the CTO at Microsoft. Prior to that, he has been a distinguished technologist (HPE), technical executive, a founder, a consultant, a writer, a systems developer, a software construction geek, and a standards diplomat.
-            He loves to build teams and products that make customers ecstatic. He has worked in the IT industry since 1980 as both customer and vendor, working with open source for almost 30 years.`,
             sched: "#"
           },
           {
