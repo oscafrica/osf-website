@@ -12,11 +12,7 @@ function ContactPage() {
       />
       <section>
         <form className="mx-auto md:w-1/2">
-
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="first-name"
-          >
+          <label className="block font-bold mb-2 text-xs uppercase" htmlFor="first-name">
             First Name
           </label>
 
@@ -27,10 +23,7 @@ function ContactPage() {
             type="text"
           />
 
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="last-name"
-          >
+          <label className="block font-bold mb-2 text-xs uppercase" htmlFor="last-name">
             Last Name
           </label>
 
@@ -41,10 +34,7 @@ function ContactPage() {
             type="text"
           />
 
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="message"
-          >
+          <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
             Message
           </label>
 
