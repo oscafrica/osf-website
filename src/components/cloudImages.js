@@ -27,4 +27,9 @@ const speakers = Object.freeze({
   marlene: "https://res.cloudinary.com/osca/image/upload/v1576722395/osf/Speakers/marlene.png"
 });
 
-export { logo, patterns, speakers };
+const sponsors = Object.freeze({
+  google: "https://res.cloudinary.com/osca/image/upload/v1577310011/osf/Sponsors/google.png",
+  facebook: "https://res.cloudinary.com/osca/image/upload/v1577310010/osf/Sponsors/facebook.png"
+});
+
+export { logo, patterns, speakers, sponsors };
