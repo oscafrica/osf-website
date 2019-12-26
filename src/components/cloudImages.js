@@ -29,7 +29,7 @@ const speakers = Object.freeze({
 
 const sponsors = Object.freeze({
   google: "https://res.cloudinary.com/osca/image/upload/v1577310011/osf/Sponsors/google.png",
-  facebook: "https://res.cloudinary.com/osca/image/upload/v1577310010/osf/Sponsors/facebook.png"
+  facebook: "https://res.cloudinary.com/osca/image/upload/v1577321033/osf/Sponsors/facebook-oss.svg"
 });
 
 export { logo, patterns, speakers, sponsors };

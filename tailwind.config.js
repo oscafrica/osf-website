@@ -43,7 +43,8 @@ module.exports = {
         "dark-green": "#B2B396",
         "trans-gray": "rgba(10, 34, 55, 0.5)",
         "circle-gray": "#E7ECF8",
-        "brown": "#440101"
+        "brown": "#440101",
+        "white-smoke": "#F4F4F4"
       },
       fontSize: {
         base: "1rem",
