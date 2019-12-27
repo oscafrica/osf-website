@@ -77,7 +77,7 @@ jobs:
 
       - run: npm run analyze:prettier
 
-  test and coverage:
+  test-and-coverage:
     runs-on: ubuntu-latest
 
     steps:
