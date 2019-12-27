@@ -6,7 +6,6 @@ export default {
   component: "CheckBox"
 };
 
-export const defaultCheckBox = () => <CheckBox />;
 
 export const defaultCheckBox = () => <CheckBox/>;
 
