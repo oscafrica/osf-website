@@ -1,19 +1,19 @@
-import 'jest-enzyme';
+import "jest-enzyme";
 
-import chai from 'chai';
-import chaiEnzyme from 'chai-enzyme';
+import chai from "chai";
+import chaiEnzyme from "chai-enzyme";
 
-import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Enzyme from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 
 chai.use(chaiEnzyme()); // Note the invocation at the end
 
 /**
  * Set up DOM in node.js environment for Enzyme to mount to
  */
-const { JSDOM } = require('jsdom');
+const { JSDOM } = require("jsdom");
 
-const jsdom = new JSDOM('<!doctype html><html><body></body></html>');
+const jsdom = new JSDOM("<!doctype html><html><body></body></html>");
 const { window } = jsdom;
 
 function copyProps(src, target) {
@@ -26,7 +26,7 @@ function copyProps(src, target) {
 global.window = window;
 global.document = window.document;
 global.navigator = {
-  userAgent: 'node.js'
+  userAgent: "node.js"
 };
 copyProps(window, global);
 
@@ -37,11 +37,8 @@ copyProps(window, global);
 Enzyme.configure({ adapter: new Adapter() });
 
 // Make sure chai and jasmine ".not" play nice together
-const originalNot = Object.getOwnPropertyDescriptor(
-  chai.Assertion.prototype,
-  'not'
-).get;
-Object.defineProperty(chai.Assertion.prototype, 'not', {
+const originalNot = Object.getOwnPropertyDescriptor(chai.Assertion.prototype, "not").get;
+Object.defineProperty(chai.Assertion.prototype, "not", {
   get() {
     Object.assign(this, this.assignedNot);
     return originalNot.apply(this);

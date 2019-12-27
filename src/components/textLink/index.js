@@ -3,7 +3,6 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import styles from "./style.module.css";
 
-
 /**
  * renders an anchor tag following the detailed mock in the style guide
  *
@@ -14,12 +13,7 @@ function TextLink({ onClick, children, type, href, className, ...props }) {
   const _className = classNames(styles.oc_link_container, textVariation, className);
 
   return (
-    <a
-      href={href}
-      className={_className}
-      onClick={onClick}
-      {...props}
-    >
+    <a href={href} className={_className} onClick={onClick} {...props}>
       {children}
     </a>
   );

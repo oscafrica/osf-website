@@ -1,11 +1,18 @@
 @tailwind base;
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Avenir";
+  src: url("../fonts/Avenir/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @tailwind components;
 @tailwind utilities;
@@ -29,8 +36,24 @@
   background: #081e32;
 }
 
-.__africaMap {
-    background-image: url("https://res.cloudinary.com/osca/image/upload/v1576543138/osf/Patterns/map.png");
-    background-position: bottom right;
-    @apply pl-24 bg-cover bg-repeat-y;
+::selection {
+  background: #283756;
+  color: #fff;
+}
+::-moz-selection {
+  background: #283756;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

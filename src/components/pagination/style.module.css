@@ -9,7 +9,7 @@
 }
 
 .active {
-  @apply text-white bg-dark-blue-primary
+  @apply text-white bg-dark-blue-primary;
 }
 
 .disabled {

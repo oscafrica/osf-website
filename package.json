@@ -30,12 +30,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:lint": "eslint --ext .jsx --ext .js src",
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:lint": "eslint --ext .jsx --ext .js src --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
     "fix": "npm run fix:lint && npm run fix:prettier",
     "start": "npm run develop",
@@ -99,10 +99,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
+    "url": "https://github.com/oscommunityafrica/osf-website"
   },
   "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/oscommunityafrica/osf-website/issues"
   },
   "config": {
     "commitizen": {

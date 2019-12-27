@@ -5,10 +5,14 @@ module.exports = {
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu"],
       body: ["source sans", "avenir", "gotham", "ubuntu"],
-      avenir: ["avenir"]
+      avenir: ["avenir"],
+      ubuntu: ["ubuntu"]
     },
     prefix: "oc-",
     extend: {
+      spacing: {
+        "oc-10": "10px"
+      },
       colors: {
         white: "#FFFFFF",
         "dark-blue": {
@@ -36,7 +40,9 @@ module.exports = {
           100: "#FCFDED",
           200: "#D7D9B4"
         },
-        "dark-green": "#B2B396"
+        "dark-green": "#B2B396",
+        "trans-gray": "rgba(10, 34, 55, 0.5)",
+        "circle-gray": "#E7ECF8"
       },
       fontSize: {
         base: "1rem",

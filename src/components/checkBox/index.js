@@ -9,16 +9,9 @@ function CheckBox({ onChange, style, disabled, children, className, checked, ...
 
   return (
     <label className={_wrapper}>
-      <input
-        type="checkbox"
-        checked={checked}
-        disabled={disabled}
-        onChange={onChange}
-        {...props}
-      />
+      <input type="checkbox" checked={checked} disabled={disabled} onChange={onChange} {...props} />
       <span className={_className} style={{ ...style }} />
     </label>
-
   );
 }
 
@@ -34,6 +27,5 @@ CheckBox.defaultProps = {
   style: {},
   label: ""
 };
-
 
 export default CheckBox;

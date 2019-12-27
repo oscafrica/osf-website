@@ -7,9 +7,7 @@ import classes from "./style.module.css";
 const noob = () => {};
 
 const Tabs = props => {
-  const [selectedTab, setSelectedTab] = useState(
-    props.selectedTab || props.defaultSelectedTab
-  );
+  const [selectedTab, setSelectedTab] = useState(props.selectedTab || props.defaultSelectedTab);
 
   useEffect(() => {
     if (typeof props.selectedTab !== "number") return;
@@ -48,9 +46,7 @@ const Tabs = props => {
       <div role="tablist" className={classes.tabList}>
         {renderTabLabels()}
       </div>
-      <div role="tabpanel">
-        {Children.toArray(props.children)[selectedTab].props.children}
-      </div>
+      <div role="tabpanel">{Children.toArray(props.children)[selectedTab].props.children}</div>
     </div>
   );
 };
