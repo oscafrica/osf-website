@@ -5,123 +5,45 @@ import { sponsors, patterns } from "../components/cloudImages";
 const sponsorsData = [
   {
     tier: "headline",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "https://opensource.google/"
-  },
-  {
-    tier: "headline",
-    companyName: "Facebook",
-    image: sponsors.facebook,
+    companyName: "Facebook Open Source",
+    image: sponsors.facebookOSS,
     link: "https://opensource.facebook.com/"
   },
   {
-    tier: "headline",
-    companyName: "Google",
-    image: sponsors.google,
-    link: ""
-  },
-  {
-    tier: "headline",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
-  },
-  {
     tier: "diamond",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "diamond",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
-  },
-  {
-    tier: "diamond",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "diamond",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
+    companyName: "Google Open Source",
+    image: sponsors.googleOSS,
+    link: "https://opensource.google/"
   },
   {
     tier: "gold",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "gold",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
-  },
-  {
-    tier: "gold",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "gold",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
+    companyName: "",
+    image: sponsors.dummyImage,
+    link: "https://opencollective.com/osca/"
   },
   {
     tier: "silver",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "silver",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
-  },
-  {
-    tier: "silver",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "silver",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
+    companyName: "",
+    image: sponsors.dummyImage,
+    link: "https://opencollective.com/osca/"
   },
   {
     tier: "bronze",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
+    companyName: "Salesforce",
+    image: sponsors.salesforce,
+    link: "https://salesforce.com/"
   },
   {
     tier: "bronze",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
+    companyName: "Webflow",
+    image: sponsors.webflow,
+    link: "https://webflow.com/"
   },
   {
     tier: "bronze",
-    companyName: "Google",
-    image: sponsors.google,
-    link: "#"
-  },
-  {
-    tier: "bronze",
-    companyName: "Facebook",
-    image: sponsors.facebook,
-    link: "#"
+    companyName: "Open Source Collective",
+    image: sponsors.osc,
+    link: "https://www.oscollective.org/"
   }
 ];
 

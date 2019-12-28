@@ -28,8 +28,12 @@ const speakers = Object.freeze({
 });
 
 const sponsors = Object.freeze({
-  google: "https://res.cloudinary.com/osca/image/upload/v1577310011/osf/Sponsors/google.png",
-  facebook: "https://res.cloudinary.com/osca/image/upload/v1577321033/osf/Sponsors/facebook-oss.svg"
+  dummyImage: "https://res.cloudinary.com/osca/image/upload/v1577569402/osf/Sponsors/dummy.png",
+  googleOSS: "https://res.cloudinary.com/osca/image/upload/v1577310011/osf/Sponsors/google.png",
+  facebookOSS: "https://res.cloudinary.com/osca/image/upload/v1577321033/osf/Sponsors/facebook-oss.svg",
+  salesforce: "https://res.cloudinary.com/osca/image/upload/v1577569156/osf/Sponsors/salesforce.svg",
+  webflow: "https://res.cloudinary.com/osca/image/upload/v1577568790/osf/Sponsors/webflow.png",
+  osc: "https://res.cloudinary.com/osca/image/upload/v1577569027/osf/Sponsors/osc.png"
 });
 
 export { logo, patterns, speakers, sponsors };
