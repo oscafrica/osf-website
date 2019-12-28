@@ -127,15 +127,15 @@ const sponsorsData = [
 
 function Sponsors() {
   return (
-    <section id="sponsors" className="bg-white-smoke md:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
+    <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
       <div className="absolute left-0 fixed">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
-        <div className="mb-8 md:mb-12 w-full md:w-1/2 text-dark-blue-primary">
+        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary">
           <h1 className="text-5xl font-bold font-ubuntu">Sponsors</h1>
         </div>
-        <div className="w-full hidden md:block md:w-1/2 mt-6">
+        <div className="w-full hidden lg:block lg:w-1/2 mt-6">
           <img src={patterns.speakers} alt="" className="w-auto" />
         </div>
       </div>
@@ -152,7 +152,7 @@ function Sponsors() {
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full md:w-1/4 max-w-sm rounded my-6 px-2 md:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -165,14 +165,14 @@ function Sponsors() {
         <h1 className="line font-bold">
           Diamond <span></span>
         </h1>
-        <div className="mt-4 mb-8 md:mt-2 md:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("diamond"))
             .map(sponsors => (
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full md:w-1/4 max-w-sm rounded my-6 px-2 md:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -185,14 +185,14 @@ function Sponsors() {
         <h1 className="line font-bold">
           Gold <span></span>
         </h1>
-        <div className="mt-4 mb-8 md:mt-2 md:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("gold"))
             .map(sponsors => (
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full md:w-1/4 max-w-sm rounded my-6 px-2 md:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -205,14 +205,14 @@ function Sponsors() {
         <h1 className="line font-bold">
           Silver <span></span>
         </h1>
-        <div className="mt-4 mb-8 md:mt-2 md:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("silver"))
             .map(sponsors => (
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full md:w-1/4 max-w-sm rounded my-6 px-2 md:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -225,14 +225,14 @@ function Sponsors() {
         <h1 className="line font-bold">
           Bronze <span></span>
         </h1>
-        <div className="mt-4 mb-8 md:mt-2 md:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("bronze"))
             .map(sponsors => (
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full md:w-1/4 max-w-sm rounded my-6 px-2 md:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />

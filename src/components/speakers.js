@@ -6,16 +6,16 @@ function Speaker() {
   return (
     <section
       id="speakers"
-      className="bg-dark-blue-primary md:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24"
+      className="bg-dark-blue-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24"
     >
       <div className="absolute left-0 fixed">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
-        <div className="mb-8 md:mb-12 w-full md:w-1/2 text-white">
+        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
           <h1 className="text-5xl font-bold font-ubuntu">Meet our Speakers</h1>
         </div>
-        <div className="w-full hidden md:block md:w-1/2 mt-6 text-white">
+        <div className="w-full hidden lg:block lg:w-1/2 mt-6 text-white">
           <img src={patterns.speakers} alt="" className="w-auto" />
         </div>
       </div>
@@ -74,13 +74,13 @@ function Speaker() {
           <a
             href={speakers.sched}
             key={speaker.name}
-            className="relative w-full h-full md:w-1/4 max-w-sm rounded px-2 my-2"
+            className="relative w-full h-full lg:w-1/4 max-w-sm rounded px-2 my-2"
           >
             <figure className="cursor-pointer w-full">
               <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
               <div className="z-0 -mt-20 pt-4 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
                 <h3 className="font-bold text-base">{speaker.name}</h3>
-                <p className="text-sm md:text-xs">{speaker.title}</p>
+                <p className="text-sm lg:text-xs">{speaker.title}</p>
               </div>
             </figure>
           </a>

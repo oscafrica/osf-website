@@ -13,12 +13,12 @@ function About() {
     }
   `);
   return (
-    <section id="about" className="flex flex-col md:flex-row items-center my-16 mx-4 md:mx-32">
-      <figure className="w-full md:w-1/3">
-        <img className="pb-4 md:pl-4" alt={site.siteMetadata.title} src={patterns.nextBillion} />
+    <section id="about" className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
+      <figure className="w-full lg:w-1/3">
+        <img className="pb-4 lg:pl-4" alt={site.siteMetadata.title} src={patterns.nextBillion} />
       </figure>
 
-      <div className="md:w-1/2 md:mx-12">
+      <div className="lg:w-1/2 lg:mx-12">
         <blockquote className="px-4 text-justify tracking-tight text-dark-blue-500">
           Open Source Community Africa is a community aimed at creating and supporting the open source movement within
           Africa. As a community, we intend to help integrate the act of open source contribution to African developers
@@ -32,7 +32,7 @@ function About() {
           Through this festival, we intend to move Africans from just the billion users to the NEXT BILLION CREATORS.
         </blockquote>
       </div>
-      <div className="hidden md:block absolute right-0 fixed">
+      <div className="hidden lg:block absolute right-0 fixed">
         <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="An Africa Pattern Design" />
       </div>
     </section>

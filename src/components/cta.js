@@ -22,7 +22,7 @@ function Cta() {
             title: "Workshops"
           }
         ].map(data => (
-          <div key={data.title} className="w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-6">
+          <div key={data.title} className="w-1/2 lg:w-1/4 p-6">
             <span className="text-h2 font-bold text-white uppercase">{data.value}</span>
             <p className="text-h6 font-bold text-gray-200 uppercase">{data.title}</p>
           </div>
