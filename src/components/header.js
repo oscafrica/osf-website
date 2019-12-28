@@ -33,7 +33,7 @@ function Header() {
           </p>
           <a
             href="https://opencollective.com/osca/events/open-source-festival-2020-4abe0517"
-            className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-2 bg-orange-primary text-black rounded-lg text-center uppercase"
+            className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"
           >
             Register
           </a>

@@ -6,10 +6,10 @@ function Speaker() {
   return (
     <section
       id="speakers"
-      className="bg-dark-blue-primary md:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 pb-10 sm:pb-6 md:pt-12 md:pb-12 lg:pt-24 xl:pb-24 2xl:pt-48 2xl:pb-48"
+      className="bg-dark-blue-primary md:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24"
     >
       <div className="absolute left-0 fixed">
-        <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
+        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 md:mb-12 w-full md:w-1/2 text-white">
@@ -20,7 +20,7 @@ function Speaker() {
         </div>
       </div>
 
-      <div className="flex flex-wrap text-white">
+      <div className="flex flex-wrap text-white my-8">
         {[
           {
             name: "Amanda Casari",
@@ -57,12 +57,24 @@ function Speaker() {
             title: "Director | PSF & Co-founder | ZimboPy",
             image: speakers.marlene,
             sched: "#"
+          },
+          {
+            name: "Marlene Mhangami",
+            title: "Director | PSF & Co-founder | ZimboPy",
+            image: speakers.marlene,
+            sched: "#"
+          },
+          {
+            name: "Marlene Mhangami",
+            title: "Director | PSF & Co-founder | ZimboPy",
+            image: speakers.marlene,
+            sched: "#"
           }
         ].map(speaker => (
           <a
             href={speakers.sched}
             key={speaker.name}
-            className="relative w-full h-full md:w-1/4 max-w-sm rounded my-2 px-2 md:my-8"
+            className="relative w-full h-full md:w-1/4 max-w-sm rounded px-2 my-2"
           >
             <figure className="cursor-pointer w-full">
               <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
@@ -75,8 +87,8 @@ function Speaker() {
         ))}
       </div>
 
-      <div className="mx-auto mt-8 mb-24 absolute right-0 md:mr-40">
-        <a href="/" className="px-6 py-3 border-2 border-white text-white rounded-lg text-center uppercase">
+      <div className="relative mt-12 text-center lg:text-right">
+        <a href="/" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
           See all Speakers
         </a>
       </div>
