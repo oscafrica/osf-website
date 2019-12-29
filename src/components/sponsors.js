@@ -162,11 +162,23 @@ function Sponsors() {
               </a>
             ))}
         </div>
+
+        {/* Individual Sponsors */}
+        <h1 className="line font-bold">
+          Open Collective Backers <span></span>
+        </h1>
+        <div className="overflow-hidden mt-4">
+          <object
+            aria-label="Open Collective Backers"
+            type="image/svg+xml"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&amp;width=320"
+          ></object>
+        </div>
       </div>
 
-      <div className="relative mt-12 text-center">
+      <div className="relative mt-24 text-center">
         <a
-          href="https://opencollective.com/osca/"
+          href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
           className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
         >
           Become a Sponsor
