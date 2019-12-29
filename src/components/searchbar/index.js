@@ -38,10 +38,10 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
    * Filters the options based on the input value.
    * Filtered options containes options whose labels match the text value
    */
-  const filteredOptions = useMemo(() => options.filter(({ label }) => (
-    label.toLowerCase().includes(textVal.toLowerCase())
-  )), [options, textVal]);
-
+  const filteredOptions = useMemo(
+    () => options.filter(({ label }) => label.toLowerCase().includes(textVal.toLowerCase())),
+    [options, textVal]
+  );
 
   /**
    * Closes the dropdown if anyother part of the page is clicked
@@ -62,51 +62,47 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
       <label>
         {!!label && <div className={style.label}>{label}</div>}
         <div className={style.searchbarInput} onPointerDown={() => setIsOpen(true)}>
-          <object aria-label="Search Icon" className={style.searchImg} data={searchImg}>search icon</object>
+          <object aria-label="Search Icon" className={style.searchImg} data={searchImg}>
+            search icon
+          </object>
           <input type="text" value={textVal} inputMode="search" onChange={handleInput} />
           <object
             onPointerDown={() => setTextVal("")}
             aria-label="Cancel icon"
             className={style.cancelImg}
-            data={cancelImg}>cancel icon</object>
+            data={cancelImg}
+          >
+            cancel icon
+          </object>
         </div>
       </label>
       <div className={isOpen ? style.searchOptions : style.searchOptionsClosed}>
         {filteredOptions.slice(0, 5).map((option, i) =>
-          typeof renderItem === "function" ?
-            (
-              <div onPointerDown={handleChange(option)}>
-                {renderItem(option, i)}
-              </div>
-            ) : (
-              <div
-                key={option.value}
-                className={style.searchOption}
-                onPointerDown={handleChange(option)}
-              >
-                {option.label}
-              </div>
-            ))}
+          typeof renderItem === "function" ? (
+            <div onPointerDown={handleChange(option)}>{renderItem(option, i)}</div>
+          ) : (
+            <div key={option.value} className={style.searchOption} onPointerDown={handleChange(option)}>
+              {option.label}
+            </div>
+          )
+        )}
       </div>
     </div>
   );
 };
 
-
 SearchBar.propTypes = {
   placeholder: PropTypes.string,
-  options: PropTypes.arrayOf(PropTypes.shape({
-    label: PropTypes.string.isRequired,
-    value: PropTypes.oneOfType([
-      PropTypes.string, PropTypes.number
-    ]).isRequired
-  })).isRequired,
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
+    })
+  ).isRequired,
   onInput: PropTypes.func,
   label: PropTypes.string,
   onChange: PropTypes.func,
-  value: PropTypes.oneOfType([
-    PropTypes.string, PropTypes.number
-  ]).isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   className: PropTypes.string,
   renderItem: PropTypes.func
 };
