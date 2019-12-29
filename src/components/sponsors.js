@@ -58,7 +58,7 @@ function Sponsors() {
           <h1 className="text-5xl font-bold font-ubuntu">Sponsors</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 mt-6">
-          <img src={patterns.speakers} alt="" className="w-auto" />
+          <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
 

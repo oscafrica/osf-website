@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <footer className="z-20 lg:flex w-full bg-dark-blue-500 p-8 items-center text-center justify-between max-w-8xl mx-auto lg:px-40 p-4 lg:p-8 text-sm">
+    <footer className="z-20 lg:flex w-full h-full bg-dark-blue-500 p-8 items-center text-center justify-between max-w-8xl mx-auto lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
