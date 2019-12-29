@@ -1,5 +1,5 @@
 .searchbarInput {
-  border: 1px solid #5A75AB;
+  border: 1px solid #5a75ab;
   border-radius: 4px;
   padding: 13px 23px;
   display: flex;
@@ -7,12 +7,12 @@
 }
 
 .label {
-  color: #5A75AB;
+  color: #5a75ab;
   font-size: 18px;
 }
 
 .searchbarInput input {
-  color: #5A75AB;
+  color: #5a75ab;
   font-family: Avenir;
   font-size: 18px;
   border: none;
@@ -48,11 +48,9 @@
   font-family: Avenir;
   font-size: 14px;
   padding: 10px 23px;
-  color: #5A75AB;
+  color: #5a75ab;
 }
 
 .searchOption:hover {
-  background: #FAFAFA;
+  background: #fafafa;
 }
-
-

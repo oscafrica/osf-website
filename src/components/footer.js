@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <footer className="z-20 md:flex w-full bg-dark-blue-500 p-8 items-center text-center justify-between max-w-8xl mx-auto md:px-40 p-4 md:p-8 text-sm">
-      <div className="flex flex-col md:flex-row text-center">
+    <footer className="z-20 lg:flex w-full bg-dark-blue-500 p-8 items-center text-center justify-between max-w-8xl mx-auto lg:px-40 p-4 lg:p-8 text-sm">
+      <div className="flex flex-col lg:flex-row">
         {[
           {
             route: "https://git.io/Jemzv",
@@ -24,7 +24,7 @@ function Footer() {
           }
         ].map(link => (
           <ul className="m-0 p-0" key={link.title}>
-            <li className="pb-8 md:pr-8 md:pb-0 p2">
+            <li className="pb-8 lg:pr-8 lg:pb-0 p2">
               <a className="no-underline text-white" href={link.route}>
                 {link.title}
               </a>

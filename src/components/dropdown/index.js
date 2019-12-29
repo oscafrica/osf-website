@@ -31,8 +31,10 @@ const Dropdown = ({ placeholder, value, options, onChange, ...props }) => {
   return (
     <div className={classNames(style.dropdown, props.className)} {...props}>
       <div onPointerDown={() => setIsOpen(open => !open)} className={style.dropdownInput}>
-        <div className={style.dropdownText}>{ selectedLabel }</div>
-        <object aria-label="caret" className={style.caret} data={caretImg}>caret</object>
+        <div className={style.dropdownText}>{selectedLabel}</div>
+        <object aria-label="caret" className={style.caret} data={caretImg}>
+          caret
+        </object>
       </div>
       <div className={isOpen ? style.dropdownOptions : style.dropdownOptionsClosed}>
         {options.map(({ label, value: val }) => (
@@ -51,16 +53,14 @@ const Dropdown = ({ placeholder, value, options, onChange, ...props }) => {
 
 Dropdown.propTypes = {
   placeholder: PropTypes.string,
-  options: PropTypes.arrayOf(PropTypes.shape({
-    label: PropTypes.string.isRequired,
-    value: PropTypes.oneOfType([
-      PropTypes.string, PropTypes.number
-    ]).isRequired
-  })).isRequired,
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
+    })
+  ).isRequired,
   onChange: PropTypes.func.isRequired,
-  value: PropTypes.oneOfType([
-    PropTypes.string, PropTypes.number
-  ]).isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   className: PropTypes.string
 };
 

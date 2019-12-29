@@ -11,13 +11,13 @@ function Nav() {
       <div className="absolute left-0 fixed">
         <img className="-pl-4" src={patterns.navRec} alt="An Africa Pattern Design" />
       </div>
-      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 md:py-8">
+      <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
           <img alt="OSCAFRICA Logo" className="block mx-auto w-12" src={logo.pngOrange} />
         </Link>
 
         <button
-          className="block md:hidden flex items-center px-3 py-2 rounded text-white"
+          className="block lg:hidden flex items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg className="fill-current h-4 w-8" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ function Nav() {
           </svg>
         </button>
 
-        <nav className={`${isExpanded ? "block" : "hidden"} md:block md:flex md:items-center w-full md:w-auto mt-2`}>
+        <nav className={`${isExpanded ? "block" : "hidden"} lg:block lg:flex lg:items-center w-full lg:w-auto mt-2`}>
           {[
             {
               route: "#about",
@@ -50,12 +50,12 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "https://opencollective.com/open-source-festival-2020-4abe0517/donate",
+              route: "#sponsors",
               title: "Sponsorship"
             }
           ].map(link => (
             <a
-              className="block md:inline-block mt-4 md:-my-2 md:ml-8 no-underline text-white text-nav uppercase"
+              className="block lg:inline-block mt-4 lg:-my-2 lg:ml-8 no-underline text-white text-nav uppercase"
               key={link.title}
               href={link.route}
             >

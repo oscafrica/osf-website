@@ -41,15 +41,17 @@ export const SearchBarComponentWithLabel = () => {
 export const SearchBarComponentCustomRender = () => {
   const [value, setValue] = useState("ashinzekene");
 
-  return (<SearchBar
-    options={options}
-    value={value}
-    onChange={setValue}
-    renderItem={(option, i) => (
-      <div style={style.container}>
-        <div style={style.head}>{option.label}</div>
-        <p style={style.p}>{option.value}</p>
-      </div>
-    )}
-  />);
+  return (
+    <SearchBar
+      options={options}
+      value={value}
+      onChange={setValue}
+      renderItem={(option, i) => (
+        <div style={style.container}>
+          <div style={style.head}>{option.label}</div>
+          <p style={style.p}>{option.value}</p>
+        </div>
+      )}
+    />
+  );
 };

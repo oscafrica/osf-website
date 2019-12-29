@@ -57,3 +57,15 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.line span {
+  content: "";
+  flex: 1 1 auto;
+  border-top: 1px dashed #c4c4c4;
+  margin-left: 20px;
+}
