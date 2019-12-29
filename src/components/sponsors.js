@@ -54,11 +54,11 @@ function Sponsors() {
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
-        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary">
+        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
           <h1 className="text-5xl font-bold font-ubuntu">Sponsors</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 mt-6">
-          <img src={patterns.speakers} alt="" className="w-auto" />
+          <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
 

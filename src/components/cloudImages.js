@@ -14,7 +14,7 @@ const patterns = Object.freeze({
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  speakers: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
 });
 
 const speakers = Object.freeze({
@@ -36,4 +36,10 @@ const sponsors = Object.freeze({
   osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png"
 });
 
-export { logo, patterns, speakers, sponsors };
+const gallery = Object.freeze({
+  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg",
+  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649720/osf/Gallery/two.jpg",
+  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg"
+});
+
+export { logo, patterns, speakers, sponsors, gallery };

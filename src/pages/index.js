@@ -9,6 +9,7 @@ import Cta from "../components/cta";
 import About from "../components/about";
 import Speakers from "../components/speakers";
 import Sponsors from "../components/sponsors";
+import Gallery from "../components/gallery";
 import Footer from "../components/footer";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -27,6 +28,7 @@ function IndexPage() {
       <About />
       <Speakers />
       <Sponsors />
+      <Gallery />
       <Footer />
     </Layout>
   );

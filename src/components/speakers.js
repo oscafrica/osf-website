@@ -13,7 +13,7 @@ function Speaker() {
           <h1 className="text-5xl font-bold font-ubuntu">Meet our Speakers</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 mt-6 text-white">
-          <img src={patterns.speakers} alt="" className="w-auto" />
+          <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
 
