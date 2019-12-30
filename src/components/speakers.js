@@ -56,15 +56,15 @@ function Speaker() {
             sched: "#"
           },
           {
-            name: "Marlene Mhangami",
-            title: "Director | PSF & Co-founder | ZimboPy",
-            image: speakers.marlene,
+            name: "John Bellion",
+            title: "Program Manager | Google",
+            image: speakers.dummyImage,
             sched: "#"
           },
           {
-            name: "Marlene Mhangami",
-            title: "Director | PSF & Co-founder | ZimboPy",
-            image: speakers.marlene,
+            name: "Jane Bellion",
+            title: "Program Manager | Google",
+            image: speakers.dummyImage,
             sched: "#"
           }
         ].map(speaker => (

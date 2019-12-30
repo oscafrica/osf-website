@@ -74,7 +74,7 @@ function Sponsors() {
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-1 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -114,7 +114,7 @@ function Sponsors() {
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-4 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -134,7 +134,7 @@ function Sponsors() {
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-8 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -154,7 +154,7 @@ function Sponsors() {
               <a
                 href={sponsors.link}
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
+                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-12 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo`} />
@@ -171,7 +171,7 @@ function Sponsors() {
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&amp;width=320"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&amp;width=300"
           ></object>
         </div>
       </div>
