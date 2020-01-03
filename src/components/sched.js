@@ -3,7 +3,7 @@ import useScript from "../hooks/useScript";
 
 function Sched() {
   return (
-    <section className="flex flex-col lg:flex-row items-center my-20 mx-4 lg:mx-32">
+    <section className="lg:flex-row px-4 lg:px-40 pt-32 pb-24 lg:pt-24">
       <div>
         <a id="sched-embed" href="https://oscafest.sched.com/">
           View the Open Source Festival 2020 schedule &amp; directory.
