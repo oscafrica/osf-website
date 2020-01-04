@@ -14,7 +14,7 @@ function SchedHead() {
           />
         </div>
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">
-          <h1 className="font-ubuntu text-3xl lg:text-4xl xl:text-5xl leading-tight font-bold">
+          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold">
             Event Schedule
           </h1>
         </div>

@@ -4,15 +4,15 @@ import { gallery, patterns } from "../components/cloudImages";
 
 function Gallery() {
   return (
-    <section id="gallery" className="min-h-screen bg-white lg:flex-row px-4 lg:px-40 pt-12">
+    <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12">
       <div className="absolute left-0 fixed">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-5xl font-bold font-ubuntu">Gallery</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Gallery</h1>
         </div>
-        <div className="w-full hidden lg:block lg:w-1/2 mt-6 text-white">
+        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
           <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>

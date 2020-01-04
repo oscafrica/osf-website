@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <footer className="z-20 lg:flex w-full h-full bg-dark-blue-500 p-8 items-center text-center justify-between max-w-8xl mx-auto lg:px-40 text-sm">
+    <footer className="z-20 lg:flex bg-dark-blue-500 p-8 items-center text-center justify-between lg:px-40 lg:mt-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
@@ -25,7 +25,7 @@ function Footer() {
         ].map(link => (
           <ul className="m-0 p-0" key={link.title}>
             <li className="pb-8 lg:pr-8 lg:pb-0 p2">
-              <a className="no-underline text-white" href={link.route}>
+              <a className="no-underline text-white text-base" href={link.route}>
                 {link.title}
               </a>
             </li>

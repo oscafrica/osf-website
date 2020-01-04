@@ -11,24 +11,24 @@ function Header() {
           <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">
-          <h1 className="font-ubuntu text-3xl lg:text-4xl xl:text-5xl leading-tight font-bold uppercase">
+          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">
             Open Source Festival 2020 + Sustain OSS
           </h1>
           <div className="font-ubuntu flex flex-wrap mt-2">
-            <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 uppercase">
+            <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 text-lg lg:text-xl uppercase">
               <i className="pr-2">
                 <FontAwesomeIcon icon="calendar" />
               </i>
               20TH - 22ND FEB, 2020
             </div>
-            <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 lg:-ml-12 uppercase">
+            <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 lg:-ml-2 text-lg lg:text-xl uppercase">
               <i className="pr-2">
                 <FontAwesomeIcon icon="map-marker-alt" />
               </i>
               Lagos, Nigeria
             </div>
           </div>
-          <p className="text-base text-gray-700 mt-4">
+          <p className="text-lg lg:text-xl text-gray-700 mt-4">
             An annual open source gathering under <br /> Open Source Community Africa
           </p>
           <a

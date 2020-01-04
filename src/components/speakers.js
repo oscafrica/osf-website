@@ -10,9 +10,9 @@ function Speaker() {
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
-          <h1 className="text-5xl font-bold font-ubuntu">Meet our Speakers</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Meet our Speakers</h1>
         </div>
-        <div className="w-full hidden lg:block lg:w-1/2 mt-6 text-white">
+        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
           <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
@@ -71,13 +71,13 @@ function Speaker() {
           <a
             href={speakers.sched}
             key={speaker.name}
-            className="relative w-full h-full lg:w-1/4 max-w-sm rounded px-2 my-2"
+            className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2"
           >
             <figure className="cursor-pointer w-full">
               <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
-              <div className="z-0 -mt-20 pt-4 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
-                <h3 className="font-bold text-base">{speaker.name}</h3>
-                <p className="text-sm lg:text-xs">{speaker.title}</p>
+              <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
+                <h3 className="font-bold text-xl">{speaker.name}</h3>
+                <p className="text-sm">{speaker.title}</p>
               </div>
             </figure>
           </a>

@@ -7,7 +7,7 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-50 w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <header className="z-50 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="absolute left-0 fixed">
         <img className="-pl-4" src={patterns.navRec} alt="An Africa Pattern Design" />
       </div>
@@ -55,7 +55,7 @@ function Nav() {
             }
           ].map(link => (
             <a
-              className="block lg:inline-block mt-4 lg:-my-2 lg:ml-8 no-underline text-white text-nav uppercase"
+              className="block lg:inline-block mt-4 lg:-my-2 lg:ml-8 no-underline text-white text-sm uppercase"
               key={link.title}
               href={link.route}
             >

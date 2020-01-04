@@ -55,16 +55,16 @@ function Sponsors() {
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-5xl font-bold font-ubuntu">Sponsors</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Sponsors</h1>
         </div>
-        <div className="w-full hidden lg:block lg:w-1/2 mt-6">
+        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
           <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
 
       <div className="my-8">
         {/* Headline Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Headline <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:my-6 flex flex-wrap">
@@ -84,7 +84,7 @@ function Sponsors() {
         </div>
 
         {/* Diamond Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Diamond <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
@@ -104,7 +104,7 @@ function Sponsors() {
         </div>
 
         {/* Gold Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Gold <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
@@ -124,7 +124,7 @@ function Sponsors() {
         </div>
 
         {/* Silver Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Silver <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
@@ -144,7 +144,7 @@ function Sponsors() {
         </div>
 
         {/* Bronze Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Bronze <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
@@ -164,7 +164,7 @@ function Sponsors() {
         </div>
 
         {/* Individual Sponsors */}
-        <h1 className="line font-bold">
+        <h1 className="line text-spo font-bold">
           Open Collective Backers <span></span>
         </h1>
         <div className="overflow-hidden mt-4">
@@ -176,7 +176,7 @@ function Sponsors() {
         </div>
       </div>
 
-      <div className="relative mt-24 text-center">
+      <div className="relative mt-20 text-center">
         <a
           href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
           className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
