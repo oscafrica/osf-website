@@ -27,7 +27,7 @@ function Nav() {
           </svg>
         </button>
 
-        <nav className={`${isExpanded ? "block" : "hidden"} lg:block lg:flex lg:items-center w-full lg:w-auto mt-2`}>
+        <nav className={`${isExpanded ? "block" : "hidden"} w-full text-center lg:block lg:flex lg:items-center lg:w-auto mt-2`}>
           {[
             {
               route: "#about",
