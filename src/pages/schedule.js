@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import Nav from "../components/nav";
-import SchedHead from "../components/schedHead"
+import SchedHead from "../components/schedHead";
 import Sched from "../components/sched";
 import Footer from "../components/footer";
 
