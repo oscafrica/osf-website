@@ -69,3 +69,8 @@ img {
   border-top: 1px dashed #c4c4c4;
   margin-left: 20px;
 }
+
+.travel-bg {
+  background: linear-gradient(90deg, #283757 42.79%, rgba(40, 55, 87, 0) 100%);
+opacity: 0.55;
+}

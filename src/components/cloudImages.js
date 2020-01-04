@@ -42,4 +42,8 @@ const gallery = Object.freeze({
   three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg"
 });
 
-export { logo, patterns, speakers, sponsors, gallery };
+const travel = Object.freeze({
+  header: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578147776/osf/Travel/bg.png"
+});
+
+export { logo, patterns, speakers, sponsors, gallery, travel };

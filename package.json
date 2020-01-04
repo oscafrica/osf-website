@@ -16,6 +16,7 @@
     "gatsby-plugin-postcss": "2.1.15",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.14",
+    "google-maps-react": "^2.0.2",
     "graphql": "14.5.8",
     "opencollective": "1.0.3",
     "prop-types": "15.7.2",
