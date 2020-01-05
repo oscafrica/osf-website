@@ -63,9 +63,17 @@ function Restaurants() {
             link: "#"
           }
         ].map(restaurant => (
-          <a href={restaurant.link} key={restaurant.name} className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4">
+          <a
+            href={restaurant.link}
+            key={restaurant.name}
+            className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4"
+          >
             <figure className="cursor-pointer w-full">
-              <img className="w-auto mx-auto" src={restaurant.image} alt={`An amazing photograph of ${restaurant.name}.`} />
+              <img
+                className="w-auto mx-auto"
+                src={restaurant.image}
+                alt={`An amazing photograph of ${restaurant.name}.`}
+              />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
                 <h3 className="font-bold text-base">{restaurant.name}</h3>
               </div>

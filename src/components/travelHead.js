@@ -5,12 +5,10 @@ function TravelHead() {
     <section>
       <div className="bg-dark-blue-primary w-full h-full z-20 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-12 pb-10 sm:pb-6 lg:pt-32 lg:pt-32 xl:pb-24 2xl:pt-56 2xl:pb-48">
         <div className="text-white items-center py-32">
-          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">
-            Zone Tech Park
-          </h1>
+          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">Zone Tech Park</h1>
 
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
-          Plot 9 Gbagada Industrial Scheme, Beside UPS, Gbagada Expressway
+            Plot 9 Gbagada Industrial Scheme, Beside UPS, Gbagada Expressway
           </p>
 
           <a

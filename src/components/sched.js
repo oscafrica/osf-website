@@ -8,7 +8,7 @@ function Sched() {
         <a id="sched-embed" href="https://oscafest.sched.com/">
           View the Open Source Festival 2020 schedule &amp; directory.
         </a>
-        { useScript("https://oscafest.sched.com/js/embed.js") }
+        {useScript("https://oscafest.sched.com/js/embed.js")}
       </div>
     </section>
   );
