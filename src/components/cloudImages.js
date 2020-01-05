@@ -42,4 +42,12 @@ const gallery = Object.freeze({
   three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg"
 });
 
-export { logo, patterns, speakers, sponsors, gallery };
+const hotels = Object.freeze({
+  dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244435/osf/Hotels/dummy.jpg"
+});
+
+const restaurants = Object.freeze({
+  dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244998/osf/Restaurants/dummy.jpg"
+});
+
+export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants };
