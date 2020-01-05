@@ -31,7 +31,7 @@ const sponsorsData = [
     tier: "bronze",
     companyName: "Salesforce",
     image: sponsors.salesforce,
-    link: "https://salesforce.com/"
+    link: "https://engineering.salesforce.com"
   },
   {
     tier: "bronze",
