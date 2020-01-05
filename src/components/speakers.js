@@ -22,41 +22,34 @@ function Speaker() {
           {
             name: "Eriol Fox",
             title: "Design Lead | Ushahidi",
-            image: speakers.eriol,
-            sched: "#"
+            image: speakers.eriol
           },
           {
             name: "Aniedi Udo-Obong",
             title: "Developer Relations, Sub-Saharan Africa | Google",
-            image: speakers.aniedi,
-            sched: "#"
+            image: speakers.aniedi
           },
           {
             name: "Prosper Otemuyiwa",
             title: "Co-founder | Eden & forloop Africa",
-            image: speakers.prosper,
-            sched: "#"
+            image: speakers.prosper
           },
           {
             name: "Marlene Mhangami",
             title: "Director | PSF & Co-founder | ZimboPy",
-            image: speakers.marlene,
-            sched: "#"
+            image: speakers.marlene
           }
         ].map(speaker => (
-          <a
-            href={speakers.sched}
+          <figure
             key={speaker.name}
             className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2"
           >
-            <figure className="cursor-pointer w-full">
-              <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-              <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
-                <h3 className="font-bold text-xl">{speaker.name}</h3>
-                <p className="text-sm">{speaker.title}</p>
-              </div>
-            </figure>
-          </a>
+            <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
+            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
+              <h3 className="font-bold text-xl">{speaker.name}</h3>
+              <p className="text-sm">{speaker.title}</p>
+            </div>
+          </figure>
         ))}
       </div>
 

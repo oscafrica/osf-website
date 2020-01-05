@@ -17,13 +17,13 @@ const sponsorsData = [
   },
   {
     tier: "gold",
-    companyName: "",
+    companyName: "Your Company",
     image: sponsors.dummyImage,
     link: "https://opencollective.com/osca/"
   },
   {
     tier: "silver",
-    companyName: "",
+    companyName: "Your Company",
     image: sponsors.dummyImage,
     link: "https://opencollective.com/osca/"
   },
@@ -73,6 +73,8 @@ function Sponsors() {
             .map(sponsors => (
               <a
                 href={sponsors.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={sponsors.companyName}
                 className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-1 lg:my-8"
               >
@@ -93,6 +95,8 @@ function Sponsors() {
             .map(sponsors => (
               <a
                 href={sponsors.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={sponsors.companyName}
                 className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
               >
@@ -113,6 +117,8 @@ function Sponsors() {
             .map(sponsors => (
               <a
                 href={sponsors.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={sponsors.companyName}
                 className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-4 lg:my-8"
               >
@@ -133,6 +139,8 @@ function Sponsors() {
             .map(sponsors => (
               <a
                 href={sponsors.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={sponsors.companyName}
                 className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-8 lg:my-8"
               >
@@ -153,6 +161,8 @@ function Sponsors() {
             .map(sponsors => (
               <a
                 href={sponsors.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={sponsors.companyName}
                 className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-12 lg:my-8"
               >
