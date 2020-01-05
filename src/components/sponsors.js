@@ -23,9 +23,9 @@ const sponsorsData = [
   },
   {
     tier: "silver",
-    companyName: "Your Company",
-    image: sponsors.dummyImage,
-    link: "https://opencollective.com/osca/"
+    companyName: "Open Core Summit",
+    image: sponsors.ocs,
+    link: "https://opencoresummit.com/"
   },
   {
     tier: "bronze",

@@ -33,7 +33,8 @@ const sponsors = Object.freeze({
   facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577321033/osf/Sponsors/facebook-oss.svg",
   salesforce: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577648666/osf/Sponsors/salesforce.png",
   webflow: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
-  osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png"
+  osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
+  ocs: "https://res.cloudinary.com/osca/image/upload/v1578266089/osf/Sponsors/open-core-summit.png"
 });
 
 const gallery = Object.freeze({
