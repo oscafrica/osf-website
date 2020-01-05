@@ -65,7 +65,7 @@ function Hotels() {
         ].map(hotel => (
           <a href={hotel.link} key={hotel.name} className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4">
             <figure className="cursor-pointer w-full">
-              <img className="w-auto mx-auto" src={hotel.image} alt={`An amazing photograph of ${hotel.name}`} />
+              <img className="w-auto mx-auto" src={hotel.image} alt={`An amazing photograph of ${hotel.name}.`} />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
                 <h3 className="font-bold text-base">{hotel.name}</h3>
               </div>

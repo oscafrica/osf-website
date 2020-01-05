@@ -6,7 +6,7 @@ function Speaker() {
   return (
     <section id="speakers" className="bg-dark-blue-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
       <div className="absolute left-0 fixed">
-        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
+        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
@@ -50,7 +50,7 @@ function Speaker() {
             className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2"
           >
             <figure className="cursor-pointer w-full">
-              <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}`} />
+              <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
               <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
                 <h3 className="font-bold text-xl">{speaker.name}</h3>
                 <p className="text-sm">{speaker.title}</p>

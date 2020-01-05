@@ -6,7 +6,7 @@ function Gallery() {
   return (
     <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
       <div className="absolute left-0 fixed">
-        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
+        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
@@ -44,7 +44,7 @@ function Gallery() {
             className="relative lg:w-1/3 max-w-sm rounded px-2 mt-4"
           >
             <figure className="cursor-pointer">
-              <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}`} />
+              <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
                 <p className="text-sm lg:text-xs">{gallery.day}</p>
                 <h3 className="font-bold text-base">{gallery.tag}</h3>

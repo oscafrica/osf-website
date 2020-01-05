@@ -10,7 +10,7 @@ function SchedHead() {
           <img
             className="-mt-24 -mb-12 -pl-4"
             src={patterns.headerRec}
-            alt="An Africa Pattern Design"
+            alt=""
           />
         </div>
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">

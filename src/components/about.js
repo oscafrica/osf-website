@@ -15,7 +15,7 @@ function About() {
   return (
     <section id="about" className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
       <figure className="w-full lg:w-1/3">
-        <img className="pb-4 lg:pl-4" alt={site.siteMetadata.title} src={patterns.nextBillion} />
+        <img className="pb-4 lg:pl-4" alt={`${site.siteMetadata.title}.`} src={patterns.nextBillion} />
       </figure>
 
       <div className="lg:w-1/2 lg:mx-12">
@@ -33,7 +33,7 @@ function About() {
         </blockquote>
       </div>
       <div className="hidden lg:block absolute right-0 fixed">
-        <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="An Africa Pattern Design" />
+        <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
       </div>
     </section>
   );
