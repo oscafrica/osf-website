@@ -5,6 +5,8 @@ import SEO from "../components/seo";
 
 import Nav from "../components/nav";
 import TravelHead from "../components/travelHead";
+import Hotels from "../components/hotels";
+import Restaurants from "../components/restaurants";
 import Footer from "../components/footer";
 
 function Schedule() {
@@ -13,6 +15,8 @@ function Schedule() {
       <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel" />
       <Nav />
       <TravelHead />
+      <Hotels />
+      <Restaurants />
       <Footer />
     </Layout>
   );

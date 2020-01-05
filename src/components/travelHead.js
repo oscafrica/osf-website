@@ -14,6 +14,13 @@ function TravelHead() {
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
           Plot 9 Gbagada Industrial Scheme, Beside UPS, Gbagada Expressway
           </p>
+
+          <a
+            href="https://www.google.com/maps/dir/7.7841286,6.7386955/zone+tech+park+maps/@7.1903097,2.8104773,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x103b8d73a658782b:0x7a1de11d89cccc84!2m2!1d3.37684!2d6.5514308"
+            className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"
+          >
+            View on Map
+          </a>
         </div>
       </div>
     </section>
