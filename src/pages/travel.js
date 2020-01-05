@@ -12,7 +12,7 @@ import Footer from "../components/footer";
 function Schedule() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel" />
+      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel Guide" />
       <Nav />
       <TravelHead />
       <Hotels />

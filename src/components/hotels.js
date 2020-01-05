@@ -46,6 +46,21 @@ function Hotels() {
             name: "Balmoral Palace",
             image: hotels.dummy,
             link: "#"
+          },
+          {
+            name: "Eko Hotel and Suites",
+            image: hotels.dummy,
+            link: "#"
+          },
+          {
+            name: "Oriental Hotel",
+            image: hotels.dummy,
+            link: "#"
+          },
+          {
+            name: "Balmoral Palace",
+            image: hotels.dummy,
+            link: "#"
           }
         ].map(hotel => (
           <a href={hotel.link} key={hotel.name} className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4">

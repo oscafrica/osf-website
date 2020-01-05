@@ -42,10 +42,6 @@ const gallery = Object.freeze({
   three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg"
 });
 
-const travel = Object.freeze({
-  header: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578230382/osf/Travel/bg.png"
-});
-
 const hotels = Object.freeze({
   dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244435/osf/Hotels/dummy.jpg"
 });
@@ -54,4 +50,4 @@ const restaurants = Object.freeze({
   dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244998/osf/Restaurants/dummy.jpg"
 });
 
-export { logo, patterns, speakers, sponsors, gallery, travel, hotels, restaurants };
+export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants };

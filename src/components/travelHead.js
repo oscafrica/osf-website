@@ -1,12 +1,10 @@
 import React from "react";
 
-import { travel } from "../components/cloudImages";
-
 function TravelHead() {
   return (
     <section>
-      <div style={{ backgroundImage: `url("${travel.header}")` }} className="   w-full h-full z-20 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-32 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 lg:pt-40 xl:pb-24 2xl:pt-56 2xl:pb-48">
-        <div className="text-white items-center py-40">
+      <div className="bg-dark-blue-primary w-full h-full z-20 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-12 pb-10 sm:pb-6 lg:pt-32 lg:pt-32 xl:pb-24 2xl:pt-56 2xl:pb-48">
+        <div className="text-white items-center py-32">
           <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">
             Zone Tech Park
           </h1>
