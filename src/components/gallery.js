@@ -4,7 +4,7 @@ import { gallery, patterns } from "../components/cloudImages";
 
 function Gallery() {
   return (
-    <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12">
+    <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
       <div className="absolute left-0 fixed">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="An Africa Pattern Design" />
       </div>
@@ -17,7 +17,7 @@ function Gallery() {
         </div>
       </div>
 
-      <div className="flex flex-wrap text-white my-8">
+      <div className="flex flex-wrap text-white my-24">
         {[
           {
             day: "Day 1",
@@ -41,9 +41,9 @@ function Gallery() {
           <a
             href={gallery.href}
             key={gallery.day}
-            className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4"
+            className="relative lg:w-1/3 max-w-sm rounded px-2 mt-4"
           >
-            <figure className="cursor-pointer w-full">
+            <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}`} />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
                 <p className="text-sm lg:text-xs">{gallery.day}</p>
