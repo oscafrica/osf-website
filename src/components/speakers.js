@@ -20,18 +20,6 @@ function Speaker() {
       <div className="flex flex-wrap text-white my-8">
         {[
           {
-            name: "Amanda Casari",
-            title: "Engineering Manager | Google",
-            image: speakers.amanda,
-            sched: "#"
-          },
-          {
-            name: "Stephen Walli",
-            title: "Principal Program Manager | Microsoft",
-            image: speakers.stephen,
-            sched: "#"
-          },
-          {
             name: "Eriol Fox",
             title: "Design Lead | Ushahidi",
             image: speakers.eriol,
@@ -54,18 +42,6 @@ function Speaker() {
             title: "Director | PSF & Co-founder | ZimboPy",
             image: speakers.marlene,
             sched: "#"
-          },
-          {
-            name: "John Bellion",
-            title: "Program Manager | Google",
-            image: speakers.dummyImage,
-            sched: "#"
-          },
-          {
-            name: "Jane Bellion",
-            title: "Program Manager | Google",
-            image: speakers.dummyImage,
-            sched: "#"
           }
         ].map(speaker => (
           <a
@@ -85,7 +61,7 @@ function Speaker() {
       </div>
 
       <div className="relative mt-12 text-center lg:text-right">
-        <a href="/" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
+        <a href="/schedule" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
           See all Speakers
         </a>
       </div>

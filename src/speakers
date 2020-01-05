@@ -1,0 +1,36 @@
+{
+    name: "Amanda Casari",
+    title: "Engineering Manager | Google",
+    image: speakers.amanda,
+    sched: "#"
+  },
+  {
+    name: "Stephen Walli",
+    title: "Principal Program Manager | Microsoft",
+    image: speakers.stephen,
+    sched: "#"
+  },
+  {
+    name: "Eriol Fox",
+    title: "Design Lead | Ushahidi",
+    image: speakers.eriol,
+    sched: "#"
+  },
+  {
+    name: "Aniedi Udo-Obong",
+    title: "Developer Relations, Sub-Saharan Africa | Google",
+    image: speakers.aniedi,
+    sched: "#"
+  },
+  {
+    name: "Prosper Otemuyiwa",
+    title: "Co-founder | Eden & forloop Africa",
+    image: speakers.prosper,
+    sched: "#"
+  },
+  {
+    name: "Marlene Mhangami",
+    title: "Director | PSF & Co-founder | ZimboPy",
+    image: speakers.marlene,
+    sched: "#"
+  }
