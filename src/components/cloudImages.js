@@ -43,7 +43,7 @@ const gallery = Object.freeze({
 });
 
 const travel = Object.freeze({
-  header: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578147776/osf/Travel/bg.png"
+  header: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578230382/osf/Travel/bg.png"
 });
 
 export { logo, patterns, speakers, sponsors, gallery, travel };
