@@ -34,13 +34,13 @@ const sponsors = Object.freeze({
   salesforce: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577648666/osf/Sponsors/salesforce.png",
   webflow: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
   osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
-  ocs: "https://res.cloudinary.com/osca/image/upload/v1578266089/osf/Sponsors/open-core-summit.png"
+  ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png"
 });
 
 const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649720/osf/Gallery/two.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577649745/osf/Gallery/three.jpg"
+  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293203/osf/Gallery/one.jpg",
+  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293177/osf/Gallery/two.jpg",
+  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293718/osf/Gallery/three.png"
 });
 
 const hotels = Object.freeze({

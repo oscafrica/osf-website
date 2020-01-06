@@ -38,7 +38,7 @@ function Gallery() {
             href: "#"
           }
         ].map(gallery => (
-          <a href={gallery.href} key={gallery.day} className="relative lg:w-1/3 max-w-sm rounded px-2 mt-4">
+          <a href={gallery.href} key={gallery.day} className="relative lg:w-1/3 max-w-sm rounded px-1">
             <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
