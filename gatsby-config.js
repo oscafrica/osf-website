@@ -34,6 +34,12 @@ module.exports = {
         exclude: ["/tailwind-config-demo"]
       }
     },
-    "gatsby-plugin-offline"
+    "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        precachePages: ["/schedule/", "/travel/"]
+      }
+    }
   ]
 };
