@@ -2,9 +2,19 @@ module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
     description: "An annual open source gathering under Open Source Community Africa",
+    siteUrl: "https://festival.oscafrica.org",
     author: "@oscafrica"
   },
   plugins: [
+    "gatsby-plugin-gtag",
+    {
+      resolve: "gatsby-plugin-gtag",
+      options: {
+        trackingId: "UA-77563678-3",
+        head: false,
+        anonymize: true
+      }
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
@@ -26,6 +36,19 @@ module.exports = {
         purgeOnly: ["src/css/style.css"]
       }
     },
-    "gatsby-plugin-offline"
+    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        exclude: ["/tailwind-config-demo"]
+      }
+    },
+    "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        precachePages: ["/schedule/", "/travel/"]
+      }
+    }
   ]
 };
