@@ -70,104 +70,104 @@ function Sponsors() {
         <div className="mt-4 mb-8 lg:my-6 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("headline"))
-            .map(sponsors => (
+            .map(sponsor => (
               <a
-                href={sponsors.link}
+                href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsors.companyName}
+                key={sponsor.companyName}
                 className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
         </div>
 
-        {/* Diamond Sponsors */}
+        {/* Diamond sponsors */}
         <h1 className="line text-spo font-bold">
           Diamond <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("diamond"))
-            .map(sponsors => (
+            .map(sponsor => (
               <a
-                href={sponsors.link}
+                href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsors.companyName}
+                key={sponsor.companyName}
                 className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
         </div>
 
-        {/* Gold Sponsors */}
+        {/* Gold sponsors */}
         <h1 className="line text-spo font-bold">
           Gold <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("gold"))
-            .map(sponsors => (
+            .map(sponsor => (
               <a
-                href={sponsors.link}
+                href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsors.companyName}
+                key={sponsor.companyName}
                 className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
         </div>
 
-        {/* Silver Sponsors */}
+        {/* Silver sponsors */}
         <h1 className="line text-spo font-bold">
           Silver <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("silver"))
-            .map(sponsors => (
+            .map(sponsor => (
               <a
-                href={sponsors.link}
+                href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsors.companyName}
+                key={sponsor.companyName}
                 className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
         </div>
 
-        {/* Bronze Sponsors */}
+        {/* Bronze sponsors */}
         <h1 className="line text-spo font-bold">
           Bronze <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("bronze"))
-            .map(sponsors => (
+            .map(sponsor => (
               <a
-                href={sponsors.link}
+                href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsors.companyName}
+                key={sponsor.companyName}
                 className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -181,7 +181,7 @@ function Sponsors() {
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&amp;width=300"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=300"
           ></object>
         </div>
       </div>
