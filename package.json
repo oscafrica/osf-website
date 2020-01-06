@@ -11,6 +11,7 @@
     "@storybook/addon-storysource": "^5.2.8",
     "classnames": "2.2.6",
     "gatsby": "2.18.6",
+    "gatsby-plugin-gtag": "^1.0.12",
     "gatsby-plugin-manifest": "2.2.27",
     "gatsby-plugin-offline": "3.0.21",
     "gatsby-plugin-postcss": "2.1.15",

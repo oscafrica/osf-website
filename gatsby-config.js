@@ -6,6 +6,15 @@ module.exports = {
     author: "@oscafrica"
   },
   plugins: [
+    "gatsby-plugin-gtag",
+    {
+      resolve: "gatsby-plugin-gtag",
+      options: {
+        trackingId: "UA-77563678-3",
+        head: false,
+        anonymize: true
+      }
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
