@@ -34,11 +34,11 @@ function Nav() {
         >
           {[
             {
-              route: "#about",
+              route: "https://festival.oscafrica.org/#about",
               title: "About"
             },
             {
-              route: "#speakers",
+              route: "https://festival.oscafrica.org/#speakers",
               title: "Speakers"
             },
             {
@@ -54,7 +54,7 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "#sponsors",
+              route: "https://festival.oscafrica.org/#sponsors",
               title: "Sponsorship"
             }
           ].map(link => (
