@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
     description: "An annual open source gathering under Open Source Community Africa",
+    siteUrl: "https://festival.oscafrica.org",
     author: "@oscafrica"
   },
   plugins: [
@@ -24,6 +25,13 @@ module.exports = {
       options: {
         tailwind: true,
         purgeOnly: ["src/css/style.css"]
+      }
+    },
+    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        exclude: ["/tailwind-config-demo"]
       }
     },
     "gatsby-plugin-offline"
