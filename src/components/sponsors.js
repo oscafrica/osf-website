@@ -49,7 +49,7 @@ const sponsorsData = [
 
 function Sponsors() {
   return (
-    <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
+    <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
       <div className="absolute left-0 fixed">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
@@ -76,7 +76,7 @@ function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-1 lg:my-8"
+                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
@@ -98,7 +98,7 @@ function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-2 lg:my-8"
+                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
@@ -120,7 +120,7 @@ function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-4 lg:my-8"
+                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
@@ -142,7 +142,7 @@ function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-8 lg:my-8"
+                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
@@ -164,7 +164,7 @@ function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={sponsors.companyName}
-                className="relative w-full h-full lg:w-1/4 max-w-sm rounded my-6 px-12 lg:my-8"
+                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsors.image} alt={`${sponsors.name}'s Logo.`} />
