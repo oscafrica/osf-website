@@ -1,7 +1,7 @@
 import React from "react";
 import useScript from "../hooks/useScript";
 
-function Sched() {
+function SchedSchedule() {
   return (
     <section className="lg:flex-row px-4 lg:px-40 pt-32 pb-24">
       <div>
@@ -14,4 +14,4 @@ function Sched() {
   );
 }
 
-export default Sched;
+export default SchedSchedule;

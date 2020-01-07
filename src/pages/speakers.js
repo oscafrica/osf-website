@@ -5,19 +5,19 @@ import SEO from "../components/seo";
 
 import Nav from "../components/nav";
 import Breadcrumb from "../components/breadcrumb";
-import Sched from "../components/schedSchedule";
+import Sched from "../components/schedSpeakers";
 import Footer from "../components/footer";
 
-function Schedule() {
+function Speakers() {
   return (
     <Layout>
       <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Schedule" />
       <Nav />
-      <Breadcrumb name="Event Schedule" />
+      <Breadcrumb name="Speakers" />
       <Sched />
       <Footer />
     </Layout>
   );
 }
 
-export default Schedule;
+export default Speakers;

@@ -54,7 +54,7 @@ function Speaker() {
       </div>
 
       <div className="relative mt-12 text-center lg:text-right">
-        <a href="/schedule" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
+        <a href="/speakers" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
           See all Speakers
         </a>
       </div>
