@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  CI: true
+  CI: "true"
   COVERALLS_REPO_TOKEN: "${{ secrets.COVERALLS_REPO_TOKEN }}"
   COVERALLS_GIT_BRANCH: "${{ github.ref }}"
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --prefer-offline --no-audit
+        run: npm install
 
       - run: npm run analyze:lint
 
@@ -73,7 +73,7 @@ jobs:
             - ${{ runner.os }}-api-npm-cache-
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --prefer-offline --no-audit
+        run: npm install
 
       - run: npm run analyze:prettier
 
@@ -88,13 +88,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-
-      - name: Cache Coverage Reports
-        id: cache-coverage-reports
-        uses: actions/cache@v1
-        with:
-          path: ~/coverage/
-          key: ${{ runner.os }}-coverage-reports
 
       - name: Restore node_modules
         uses: actions/cache@v1
@@ -115,14 +108,12 @@ jobs:
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --prefer-offline --no-audit
+        run: |
+          npm install
+          npm run test
 
-      - name: Run Test and Generate Coverage
-        if: steps.cache-coverage-reports.outputs.cache-hit != 'true'
-        run: npm test
-
-      - name: Upload Coverage Report
+      - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ~/coverage/lcov.info
+          path-to-lcov: ./coverage/lcov.info
