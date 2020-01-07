@@ -10,6 +10,8 @@ function SEO({ description, lang, meta, keywords, title }) {
         siteMetadata {
           title
           description
+          siteUrl
+          image
           author
         }
       }
@@ -29,12 +31,20 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription
         },
         {
+          name: "image",
+          content: site.siteMetadata.image
+        },
+        {
           property: "og:title",
           content: title
         },
         {
           property: "og:description",
           content: metaDescription
+        },
+        {
+          property: "og:image",
+          content: site.siteMetadata.image
         },
         {
           property: "og:type",
@@ -55,14 +65,18 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: "twitter:description",
           content: metaDescription
+        },
+        {
+          property: "twitter:image",
+          content: site.siteMetadata.image
         }
       ]
         .concat(
           keywords.length > 0
             ? {
-                name: "keywords",
-                content: keywords.join(", ")
-              }
+              name: "keywords",
+              content: keywords.join(", ")
+            }
             : []
         )
         .concat(meta)}
@@ -76,15 +90,19 @@ SEO.defaultProps = {
   lang: "en",
   keywords: [],
   description: "",
+  image: "",
+  siteUrl: "",
   meta: []
 };
 
 SEO.propTypes = {
-  description: PropTypes.string,
-  keywords: PropTypes.arrayOf(PropTypes.string),
+  title: PropTypes.string.isRequired,
   lang: PropTypes.string,
-  meta: PropTypes.array,
-  title: PropTypes.string.isRequired
+  keywords: PropTypes.arrayOf(PropTypes.string),
+  description: PropTypes.string,
+  image: PropTypes.string,
+  siteUrl: PropTypes.string,
+  meta: PropTypes.array
 };
 
 export default SEO;
