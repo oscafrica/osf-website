@@ -11,7 +11,10 @@ import Footer from "../components/footer";
 function Scholarship() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Scholarship Program" />
+      <SEO
+        keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]}
+        title="Scholarship Program"
+      />
       <Nav />
       <Breadcrumb name="Scholarship Program" />
       <ScholarForm />

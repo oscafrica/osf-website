@@ -40,10 +40,7 @@ function Speaker() {
             image: speakers.marlene
           }
         ].map(speaker => (
-          <figure
-            key={speaker.name}
-            className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2"
-          >
+          <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
             <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
               <h3 className="font-bold text-xl">{speaker.name}</h3>
