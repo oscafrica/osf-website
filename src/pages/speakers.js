@@ -11,7 +11,7 @@ import Footer from "../components/footer";
 function Speakers() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Schedule" />
+      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Speakers" />
       <Nav />
       <Breadcrumb name="Speakers" />
       <Sched />
