@@ -108,9 +108,10 @@ jobs:
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        run: |
-          npm install
-          npm run test
+        run: npm install
+
+      - name: Generate Coverage
+        run: npm run test
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
