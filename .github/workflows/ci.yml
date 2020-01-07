@@ -108,8 +108,11 @@ jobs:
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Generate Coverage
         run: |
-          npm install
+          npx cypress install
           npm run test
 
       - name: Coveralls
