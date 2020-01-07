@@ -58,6 +58,10 @@ img {
   -ms-user-select: none;
 }
 
+iframe, object, embed {
+  max-width: 100% !important;
+}
+
 .line {
   display: flex;
   align-items: center;

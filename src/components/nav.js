@@ -34,8 +34,8 @@ function Nav() {
         >
           {[
             {
-              route: "/#about",
-              title: "About"
+              route: "https://opencollective.com/osca/events/open-source-festival-2020-4abe0517",
+              title: "Register"
             },
             {
               route: "/#speakers",
@@ -50,12 +50,12 @@ function Nav() {
               title: "Travel"
             },
             {
-              route: "https://opencollective.com/osca/events/open-source-festival-2020-4abe0517",
-              title: "Register"
-            },
-            {
               route: "/#sponsors",
               title: "Sponsorship"
+            },
+            {
+              route: "/scholarship",
+              title: "Scholarship"
             }
           ].map(link => (
             <a
