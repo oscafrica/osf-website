@@ -28,6 +28,12 @@ const sponsorsData = [
     link: "https://opencoresummit.com/"
   },
   {
+    tier: "silver",
+    companyName: "AWS Amplify",
+    image: sponsors.aws,
+    link: "https://aws.amazon.com/amplify/"
+  },
+  {
     tier: "bronze",
     companyName: "Salesforce",
     image: sponsors.salesforce,
