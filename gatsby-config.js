@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
-    description: "Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.",
-    siteUrl: "https://festival.oscafrica.org",
-    image: "src/images/osf-sustain.jpg",
+    description:
+      "Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.",
+    siteUrl: "https://festival.oscafrica.org/",
+    image: "https://res.cloudinary.com/osca/image/upload/v1578447370/osf/ogImage.png",
     author: "@oscafrica"
   },
   plugins: [
