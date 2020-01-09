@@ -21,6 +21,7 @@
     "graphql": "14.5.8",
     "opencollective": "1.0.3",
     "prop-types": "15.7.2",
+    "react-datepicker": "^2.10.1",
     "react-dom": "16.11.0",
     "react-helmet": "5.2.1"
   },
