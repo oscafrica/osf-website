@@ -38,6 +38,11 @@ function Speaker() {
             name: "Marlene Mhangami",
             title: "Director | PSF & Co-founder | ZimboPy",
             image: speakers.marlene
+          },
+          {
+            name: "Stephen Walli",
+            title: "Principal Program Manager | Microsoft",
+            image: speakers.stephen
           }
         ].map(speaker => (
           <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
