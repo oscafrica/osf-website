@@ -5,49 +5,49 @@ import { sponsors, patterns } from "../components/cloudImages";
 const sponsorsData = [
   {
     tier: "headline",
-    companyName: "Facebook Open Source",
+    name: "Facebook Open Source",
     image: sponsors.facebookOSS,
     link: "https://opensource.facebook.com/"
   },
   {
     tier: "diamond",
-    companyName: "Google Open Source",
+    name: "Google Open Source",
     image: sponsors.googleOSS,
     link: "https://opensource.google/"
   },
   {
     tier: "gold",
-    companyName: "Your Company",
+    name: "Your Company",
     image: sponsors.dummyImage,
     link: "https://opencollective.com/osca/"
   },
   {
     tier: "silver",
-    companyName: "Open Core Summit",
+    name: "Open Core Summit",
     image: sponsors.ocs,
     link: "https://opencoresummit.com/"
   },
   {
     tier: "silver",
-    companyName: "AWS Amplify",
+    name: "AWS Amplify",
     image: sponsors.aws,
     link: "https://aws.amazon.com/amplify/"
   },
   {
     tier: "bronze",
-    companyName: "Salesforce",
+    name: "Salesforce",
     image: sponsors.salesforce,
     link: "https://engineering.salesforce.com"
   },
   {
     tier: "bronze",
-    companyName: "Webflow",
+    name: "Webflow",
     image: sponsors.webflow,
     link: "https://webflow.com/"
   },
   {
     tier: "bronze",
-    companyName: "Open Source Collective",
+    name: "Open Source Collective",
     image: sponsors.osc,
     link: "https://www.oscollective.org/"
   }
@@ -68,12 +68,12 @@ function Sponsors() {
         </div>
       </div>
 
-      <div className="my-8">
+      <div className="my-12">
         {/* Headline Sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h1 font-bold">
           Headline <span></span>
         </h1>
-        <div className="mt-4 mb-8 lg:my-6 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("headline"))
             .map(sponsor => (
@@ -81,8 +81,8 @@ function Sponsors() {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsor.companyName}
-                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
@@ -92,10 +92,10 @@ function Sponsors() {
         </div>
 
         {/* Diamond sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h2 font-bold">
           Diamond <span></span>
         </h1>
-        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("diamond"))
             .map(sponsor => (
@@ -103,8 +103,8 @@ function Sponsors() {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsor.companyName}
-                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
@@ -114,10 +114,10 @@ function Sponsors() {
         </div>
 
         {/* Gold sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h3 font-bold">
           Gold <span></span>
         </h1>
-        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("gold"))
             .map(sponsor => (
@@ -125,8 +125,8 @@ function Sponsors() {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsor.companyName}
-                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
@@ -136,10 +136,10 @@ function Sponsors() {
         </div>
 
         {/* Silver sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h4 font-bold">
           Silver <span></span>
         </h1>
-        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("silver"))
             .map(sponsor => (
@@ -147,8 +147,8 @@ function Sponsors() {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsor.companyName}
-                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
@@ -158,10 +158,10 @@ function Sponsors() {
         </div>
 
         {/* Bronze sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h5 font-bold">
           Bronze <span></span>
         </h1>
-        <div className="mt-4 mb-8 lg:mt-2 lg:mb-8 flex flex-wrap">
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("bronze"))
             .map(sponsor => (
@@ -169,8 +169,8 @@ function Sponsors() {
                 href={sponsor.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={sponsor.companyName}
-                className="relative lg:w-1/4 max-w-sm rounded my-6 px-3 lg:my-8"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
                   <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
@@ -180,19 +180,20 @@ function Sponsors() {
         </div>
 
         {/* Individual Sponsors */}
-        <h1 className="line text-spo font-bold">
+        <h1 className="line text-h6 font-bold">
           Open Collective Backers <span></span>
         </h1>
         <div className="overflow-hidden mt-4">
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=300"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=350"
+            className="my-12"
           ></object>
         </div>
       </div>
 
-      <div className="relative mt-20 text-center">
+      <div className="relative mt-18 text-center">
         <a
           href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
           className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
