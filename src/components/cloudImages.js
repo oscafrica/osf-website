@@ -48,7 +48,14 @@ const gallery = Object.freeze({
 });
 
 const hotels = Object.freeze({
-  dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244435/osf/Hotels/dummy.jpg"
+  dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244435/osf/Hotels/dummy.jpg",
+  million: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579069536/osf/Hotels/million.png",
+  green: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579069694/osf/Hotels/green.png",
+  newcastle: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070334/osf/Hotels/newcastle.png",
+  h53: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070596/osf/Hotels/h53.png",
+  banex: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579071579/osf/Hotels/banex.png",
+  lendour: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579071689/osf/Hotels/lendour.png",
+  airbnb: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070876/osf/Hotels/airbnb.png"
 });
 
 const restaurants = Object.freeze({
