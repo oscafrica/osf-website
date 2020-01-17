@@ -1,9 +1,9 @@
-import { useStaticQuery, graphql } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
+function SEO({ description, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
@@ -12,8 +12,6 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
           description
           siteUrl
           image
-        }
-        social {
           twitter
           fbAppID
         }
@@ -38,14 +36,14 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "image",
-          content: image
+          content: site.siteMetadata.image
         },
         {
           /* OpenGraph tags */
         },
         {
           name: "og:url",
-          content: siteUrl
+          content: site.siteMetadata.siteUrl
         },
         {
           name: "og:title",
@@ -57,11 +55,11 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "image",
-          content: image
+          content: site.siteMetadata.image
         },
         {
           property: "fb:app_id",
-          content: site.siteMetadata.social.fbAppID
+          content: site.siteMetadata.fbAppID
         },
         {
           /* Twitter Card tags */
@@ -72,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "twitter:creator",
-          content: site.siteMetadata.social.twitter
+          content: site.siteMetadata.twitter
         },
         {
           name: "twitter:title",
@@ -84,7 +82,7 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "twitter:image",
-          content: image
+          content: site.siteMetadata.image
         }
       ]
         .concat(
@@ -106,7 +104,8 @@ SEO.defaultProps = {
   lang: "en",
   keywords: [],
   description: "",
-  meta: []
+  meta: [],
+  image: "https://res.cloudinary.com/osca/image/upload/v1578444985/osf-sustain.jpg"
 };
 
 SEO.propTypes = {
@@ -114,9 +113,7 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
   meta: PropTypes.array,
-  title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  siteUrl: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired
 };
 
 export default SEO;
