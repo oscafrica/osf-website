@@ -3,14 +3,19 @@ import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
         siteMetadata {
           title
           description
-          author
+          siteUrl
+          image
+        }
+        social {
+          twitter
+          fbAppID
         }
       }
     }
@@ -25,28 +30,49 @@ function SEO({ description, lang, meta, keywords, title }) {
       }}
       meta={[
         {
+          /* General tags */
+        },
+        {
           name: "description",
           content: metaDescription
         },
         {
-          property: "og:title",
+          name: "image",
+          content: image
+        },
+        {
+          /* OpenGraph tags */
+        },
+        {
+          name: "og:url",
+          content: siteUrl
+        },
+        {
+          name: "og:title",
           content: title
         },
         {
-          property: "og:description",
+          name: "description",
           content: metaDescription
         },
         {
-          property: "og:type",
-          content: "website"
+          name: "image",
+          content: image
+        },
+        {
+          property: "fb:app_id",
+          content: site.siteMetadata.social.fbAppID
+        },
+        {
+          /* Twitter Card tags */
         },
         {
           name: "twitter:card",
-          content: "summary"
+          content: "summary_large_image"
         },
         {
           name: "twitter:creator",
-          content: site.siteMetadata.author
+          content: site.siteMetadata.social.twitter
         },
         {
           name: "twitter:title",
@@ -55,6 +81,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: "twitter:description",
           content: metaDescription
+        },
+        {
+          name: "twitter:image",
+          content: image
         }
       ]
         .concat(
@@ -84,7 +114,9 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
   meta: PropTypes.array,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  siteUrl: PropTypes.string.isRequired
 };
 
 export default SEO;
