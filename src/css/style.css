@@ -2,6 +2,7 @@
 
 @font-face {
   font-family: "Avenir";
+  font-display: auto;
   src: url("../fonts/Avenir/AvenirLTStd-Roman.otf");
   font-weight: normal;
   font-style: normal;
@@ -9,6 +10,7 @@
 
 @font-face {
   font-family: "Ubuntu";
+  font-display: auto;
   src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
   font-weight: normal;
   font-style: normal;
