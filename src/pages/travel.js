@@ -35,7 +35,7 @@ function Schedule() {
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
               Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
               from any Nigerian Embassy or Consulate close to them. <br />
-              Visit{" "}
+              Visit
               <a
                 className="underline"
                 href="https://portal.immigration.gov.ng/visa/freshVisa"
@@ -43,7 +43,7 @@ function Schedule() {
                 rel="noopener noreferrer"
               >
                 here
-              </a>{" "}
+              </a>
               to apply for Visa. Do you have an African passport? See{" "}
               <a
                 className="underline"
@@ -52,7 +52,7 @@ function Schedule() {
                 rel="noopener noreferrer"
               >
                 here
-              </a>{" "}
+              </a>
               to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio and yellow fever
               vaccinations to enter <b>Nigeria</b>.
             </p>
@@ -70,7 +70,7 @@ function Schedule() {
               request for attendees arriving from the 18th of February, 2020. Please{" "}
               <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                 email the event organizers
-              </a>{" "}
+              </a>
               with your arrival details ahead of time to allow us to plan for pick-ups. Taxis are also available in
               addition to Uber and Bolt services.
             </p>
@@ -80,44 +80,38 @@ function Schedule() {
         <div className="flex flex-wrap">
           <div className="mb-8 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">ADVICE FOR INTERNATIONAL VISITORS</h1>
+            We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. <br />
+            Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it
+            will help you have a better travel process.
             <ol className="text-base my-4 list-none lg:list-decimal">
-              We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. <br />
-              Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial. It will
-              help you have a better
-              <br />
-              <br />
-              <li>
+              <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
                 denied entry, or probably not even be allowed to board your plane. Got any questions?{" "}
                 <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                   Please contact us immediately.
                 </a>
               </li>
-              <br />
-              <li>
+              <li className="my-4">
                 <b>Vaccination certificate</b>: You must have yellow fever and polio vaccination certificate to enter
                 Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in advance, do not
                 leave it until the last minute. Other certificates include Hepatitis A, Tetanus, and Typhoid.
               </li>
-              <br />
-              <li>
+              <li className="my-4">
                 <b>Malaria precautions</b>: All of Nigeria, including Lagos, is indicated as a high-risk zone for
                 malaria. Travelers are advised to take antimalarial medication such as Malarone (atovaquone/proguanil
                 hydrochloride) and other precautions. After sunset, avoid mosquito bites by covering up with clothing
                 (long sleeves, long trousers), using insect repellents on exposed skin, and when necessary: sleeping
                 under a mosquito net. Ensure to bring the appropriate clothing and creams.
               </li>
-              <br />
-              <li>
+              <li className="my-4">
                 <b>Arrival times</b>: We hope to co-ordinate transport on arrival at the airport for some groups. We
                 might not be able to do this for everyone, but please tell us:
-                <ul className="list-none lg:list-disc">
+                <ul className="list-no lg:list-disc my-2">
                   <li>The date and time of your arrival in Nigeria</li>
                   <li>The date and time of your departure from Nigeria </li>
                   <li>Your airline and flight numbers</li>
-                  <li>Your accomodation location</li>
+                  <li>Your accommodation location</li>
                 </ul>
-                <br />
                 We will help if we can, please provide this information in good time.
               </li>
             </ol>
