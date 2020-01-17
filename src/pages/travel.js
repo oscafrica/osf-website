@@ -35,7 +35,7 @@ function Schedule() {
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
               Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
               from any Nigerian Embassy or Consulate close to them. <br />
-              Visit
+              Visit&nbsp;
               <a
                 className="underline"
                 href="https://portal.immigration.gov.ng/visa/freshVisa"
@@ -44,7 +44,7 @@ function Schedule() {
               >
                 here
               </a>
-              to apply for Visa. Do you have an African passport? See{" "}
+              &nbsp;to apply for Visa. Do you have an African passport? See{" "}
               <a
                 className="underline"
                 href="https://immigration.gov.ng/voa-new/"
@@ -53,8 +53,8 @@ function Schedule() {
               >
                 here
               </a>
-              to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio and yellow fever
-              vaccinations to enter <b>Nigeria</b>.
+              &nbsp;to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio and yellow
+              fever vaccinations to enter <b>Nigeria</b>.
             </p>
           </div>
         </div>
@@ -67,12 +67,12 @@ function Schedule() {
               airport. Major airlines provide daily services to many international destinations. The airport is about
               17-24 minutes’ drive from Zone Tech Park, the conference venue. Some hotels also offer pick-up services
               and we encourage participants with such options to use the services. Airport pick-up will be available on
-              request for attendees arriving from the 18th of February, 2020. Please{" "}
+              request for attendees arriving from the 18th of February, 2020. Please&nbsp;
               <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                 email the event organizers
               </a>
-              with your arrival details ahead of time to allow us to plan for pick-ups. Taxis are also available in
-              addition to Uber and Bolt services.
+              &nbsp;with your arrival details ahead of time to allow us to plan for pick-ups. Taxis are also available
+              in addition to Uber and Bolt services.
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@ function Schedule() {
             <ol className="text-base my-4 list-none lg:list-decimal">
               <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
-                denied entry, or probably not even be allowed to board your plane. Got any questions?{" "}
+                denied entry, or probably not even be allowed to board your plane. Got any questions?&nbsp;
                 <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                   Please contact us immediately.
                 </a>
