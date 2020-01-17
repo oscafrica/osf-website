@@ -1,9 +1,9 @@
-import { useStaticQuery, graphql } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
+function SEO({ description, lang, meta, keywords, title, image }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
@@ -12,8 +12,6 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
           description
           siteUrl
           image
-        }
-        social {
           twitter
           fbAppID
         }
@@ -45,7 +43,7 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "og:url",
-          content: siteUrl
+          content: site.siteMetadata.siteUrl
         },
         {
           name: "og:title",
@@ -61,7 +59,7 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           property: "fb:app_id",
-          content: site.siteMetadata.social.fbAppID
+          content: site.siteMetadata.fbAppID
         },
         {
           /* Twitter Card tags */
@@ -72,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title, image, siteUrl }) {
         },
         {
           name: "twitter:creator",
-          content: site.siteMetadata.social.twitter
+          content: site.siteMetadata.twitter
         },
         {
           name: "twitter:title",
@@ -115,8 +113,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  siteUrl: PropTypes.string.isRequired
+  image: PropTypes.string.isRequired
 };
 
 export default SEO;
