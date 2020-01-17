@@ -104,8 +104,7 @@ SEO.defaultProps = {
   lang: "en",
   keywords: [],
   description: "",
-  meta: [],
-  image: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578444985/osf-sustain.jpg"
+  meta: []
 };
 
 SEO.propTypes = {
