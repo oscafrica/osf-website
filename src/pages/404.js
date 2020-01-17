@@ -3,7 +3,7 @@ import React from "react";
 import { patterns } from "../components/cloudImages";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import SEO from "../components/SEO/seo";
 
 import Nav from "../components/nav";
 import Footer from "../components/footer";

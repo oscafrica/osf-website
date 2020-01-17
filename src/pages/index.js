@@ -3,7 +3,7 @@ import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import SEO from "../components/SEO/seo";
 
 import Nav from "../components/nav";
 import Header from "../components/header";
