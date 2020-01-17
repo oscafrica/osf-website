@@ -47,7 +47,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: "og:title",
-          content: title
+          content: `${title} | ${site.siteMetadata.title}`
         },
         {
           name: "description",
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: "twitter:title",
-          content: title
+          content: `${title} | ${site.siteMetadata.title}`
         },
         {
           name: "twitter:description",
@@ -105,7 +105,7 @@ SEO.defaultProps = {
   keywords: [],
   description: "",
   meta: [],
-  image: "https://res.cloudinary.com/osca/image/upload/v1578444985/osf-sustain.jpg"
+  image: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578444985/osf-sustain.jpg"
 };
 
 SEO.propTypes = {
