@@ -58,6 +58,11 @@ function Speaker() {
             name: "Ben Lesh",
             title: "Development lead | RxJS",
             image: speakers.ben
+          },
+          {
+            name: "Amanda Casari",
+            title: "Engineering Manager | Google OSS",
+            image: speakers.amanda
           }
         ].map(speaker => (
           <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
