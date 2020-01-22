@@ -50,6 +50,12 @@ const sponsorsData = [
     name: "Open Source Collective",
     image: sponsors.osc,
     link: "https://www.oscollective.org/"
+  },
+  {
+    tier: "bronze",
+    name: "Eclipse Foundation",
+    image: sponsors.eclipse,
+    link: "https://www.eclipse.org/"
   }
 ];
 
