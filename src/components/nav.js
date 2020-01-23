@@ -7,7 +7,7 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-50 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <header className="z-20 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="absolute left-0 fixed">
         <img className="-pl-4" src={patterns.navRec} alt="" />
       </div>
@@ -30,7 +30,7 @@ function Nav() {
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } flex flex-col justify-center min-h-screen min-w-full bg-dark-blue-primary -mt-24 text-center lg:mt-2 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
+          } flex flex-col justify-center min-h-screen min-w-full bg-dark-blue-primary text-center lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
         >
           {[
             {
@@ -59,7 +59,7 @@ function Nav() {
             }
           ].map(link => (
             <a
-              className="block mt-10 no-underline text-white text-xl lg:inline-block lg:mt-4 lg:-my-2 lg:ml-8 lg:text-sm uppercase"
+              className="block mt-10 no-underline text-white text-xl lg:inline-block lg:mt-0 lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}
               href={link.route}
             >
