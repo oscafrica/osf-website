@@ -91,7 +91,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="=w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -189,17 +189,17 @@ function Sponsors() {
         <h1 className="line text-h6 font-bold">
           Open Collective Backers <span></span>
         </h1>
-        <div className="overflow-hidden mt-4">
+        <div className="text-center mt-4">
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=350"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=320"
             className="my-12"
           ></object>
         </div>
       </div>
 
-      <div className="relative mt-18 text-center">
+      <div className="relative mt-20 text-center">
         <a
           href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
           className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
