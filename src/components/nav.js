@@ -7,7 +7,7 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-50 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <header className="z-20 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="absolute left-0 fixed">
         <img className="-pl-4" src={patterns.navRec} alt="" />
       </div>
@@ -20,17 +20,30 @@ function Nav() {
           className="block lg:hidden flex items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
-          <svg className="fill-current h-4 w-8" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <line y1="1" x2="25" y2="1" stroke="white" strokeWidth="2" />
-            <path d="M6 10H25" stroke="white" strokeWidth="2" />
-          </svg>
+          {isExpanded ? (
+            <svg className="fill-current h-4 w-8" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <title>Close Menu</title>
+              <path
+                d="M11.0494 1.17733L1.65261 10.5744M1.65234 1.17733L11.0494 10.5744"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          ) : (
+            <svg className="fill-current h-4 w-8" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <line y1="1" x2="25" y2="1" stroke="white" strokeWidth="2" />
+              <path d="M6 10H25" stroke="white" strokeWidth="2" />
+            </svg>
+          )}
         </button>
 
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } w-full text-center lg:block lg:flex lg:items-center lg:w-auto mt-2`}
+          } flex flex-col justify-center min-h-screen min-w-full bg-dark-blue-primary text-center lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
         >
           {[
             {
@@ -59,7 +72,7 @@ function Nav() {
             }
           ].map(link => (
             <a
-              className="block lg:inline-block mt-4 lg:-my-2 lg:ml-8 no-underline text-white text-sm uppercase"
+              className="block mt-10 no-underline text-white text-xl lg:inline-block lg:mt-0 lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}
               href={link.route}
             >
