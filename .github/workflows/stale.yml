@@ -21,3 +21,5 @@ jobs:
                            Feel free to open it again if you have more questions :+1:'
         stale-issue-label: 'no-issue-activity'
         stale-pr-label: 'no-pr-activity'
+        days-before-stale: 30
+        days-before-close: 5
