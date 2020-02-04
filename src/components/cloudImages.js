@@ -42,7 +42,8 @@ const sponsors = Object.freeze({
   osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
   ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png",
   aws: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578486228/osf/Sponsors/aws-amplify.png",
-  eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png"
+  eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png",
+  psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png"
 });
 
 const gallery = Object.freeze({

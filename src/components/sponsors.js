@@ -56,6 +56,12 @@ const sponsorsData = [
     name: "Eclipse Foundation",
     image: sponsors.eclipse,
     link: "https://www.eclipse.org/"
+  },
+  {
+    tier: "bronze",
+    name: "Python Software Foundation",
+    image: sponsors.psf,
+    link: "https://www.python.org/psf/"
   }
 ];
 
