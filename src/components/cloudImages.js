@@ -37,11 +37,9 @@ const sponsors = Object.freeze({
   facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814129/osf/Sponsors/fb-oss.png",
   googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814379/osf/Sponsors/google.svg",
   github: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814181/osf/Sponsors/github.svg",
-  salesforce:
-    "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1578303109/osf/Sponsors/salesforce.png",
-  webflow:
-    "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
-  osc: "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
+  salesforce: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580824546/osf/Sponsors/salesforce.svg",
+  webflow: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
+  osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
   ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png",
   aws: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578486228/osf/Sponsors/aws-amplify.png",
   eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png"
