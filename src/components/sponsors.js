@@ -17,9 +17,9 @@ const sponsorsData = [
   },
   {
     tier: "gold",
-    name: "Your Company",
-    image: sponsors.dummyImage,
-    link: "https://opencollective.com/osca/"
+    name: "GitHub",
+    image: sponsors.github,
+    link: "https://github.com"
   },
   {
     tier: "silver",

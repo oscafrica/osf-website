@@ -32,8 +32,9 @@ const speakers = Object.freeze({
 
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/Sponsors/dummy.png",
-  facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577321033/osf/Sponsors/facebook-oss.svg",
-  googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578987787/osf/Sponsors/google.png",
+  facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814129/osf/Sponsors/fb-oss.png",
+  googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814379/osf/Sponsors/google.svg",
+  github: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814181/osf/Sponsors/github.svg",
   salesforce:
     "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1578303109/osf/Sponsors/salesforce.png",
   webflow:
