@@ -27,7 +27,9 @@ const speakers = Object.freeze({
   marlene: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/marlene.png",
   ashley: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578737937/osf/Speakers/ashley.png",
   henry: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579165791/osf/Speakers/henry.png",
-  ben: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579432021/osf/Speakers/ben.png"
+  ben: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579432021/osf/Speakers/ben.png",
+  samson: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819471/osf/Speakers/samson.png",
+  ada: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819973/osf/Speakers/ada.png"
 });
 
 const sponsors = Object.freeze({
