@@ -43,7 +43,9 @@ const sponsors = Object.freeze({
   ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png",
   aws: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578486228/osf/Sponsors/aws-amplify.png",
   eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png",
-  psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png"
+  psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png",
+  ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
+  mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg"
 });
 
 const gallery = Object.freeze({

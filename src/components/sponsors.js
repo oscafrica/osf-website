@@ -34,6 +34,12 @@ const sponsorsData = [
     link: "https://aws.amazon.com/amplify/"
   },
   {
+    tier: "silver",
+    name: "Ubuntu",
+    image: sponsors.ubuntu,
+    link: "https://ubuntu.com/"
+  },
+  {
     tier: "bronze",
     name: "Salesforce",
     image: sponsors.salesforce,
@@ -62,6 +68,12 @@ const sponsorsData = [
     name: "Python Software Foundation",
     image: sponsors.psf,
     link: "https://www.python.org/psf/"
+  },
+  {
+    tier: "bronze",
+    name: "Mozilla Foundation",
+    image: sponsors.mozilla,
+    link: "https://www.mozilla.org/en-US/moss/"
   }
 ];
 
