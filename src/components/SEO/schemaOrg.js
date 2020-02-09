@@ -11,7 +11,7 @@ function SchemaOrg() {
           "@type": "Organization",
           name: "Open Source Festival",
           url: "https://festival.oscafrica.org/",
-          logo: "https://github.com/oscommunityafrica/osf-website/blob/master/src/images/osca-logo.png",
+          logo: "../images/osf-sustain.jpg",
           description: `
           Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
           `
