@@ -6,9 +6,9 @@ function Hotels() {
   return (
     <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-2">
       <div className="flex flex-wrap">
-        <div className="mb-4 w-full text-dark-blue-primary-600">
-          <h1 className="text-spo font-bold font-ubuntu">ACCOMODATION</h1>
-          <p className="text-base my-4">
+        <div className="w-full text-dark-blue-primary-600">
+          <h1 className="text-spo font-bold font-ubuntu">ACCOMMODATION</h1>
+          <p className="text-base mt-4">
             The organizers of OSCA FESTIVAL aim to promote a comfortable and flexible lodging experience for attendees.
             Nigeria provides a large number and wide range of hotels, which you can book on the usual online sites. Here
             are a few recommendations according to your budget. <br />
@@ -17,55 +17,63 @@ function Hotels() {
         </div>
       </div>
 
-      <div className="flex flex-wrap text-white my-8">
+      <div className="flex flex-wrap text-white mt-8 mb-12">
         {[
+          {
+            name: "Bolad Hotel",
+            image: hotels.bolad,
+            price: "Starts at 5000/night.",
+            duration: "~ 15 minutes drive to the venue.",
+            link: "https://goo.gl/maps/epXnwBw2pmtQEjNJ6"
+          },
           {
             name: "Million Dollars Imperial Hotel",
             image: hotels.million,
             price: "Starts at 6500/night.",
             duration: "~ 32 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/entity/CgoI_u3LitbF3PUKEAE/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4274032%2C4285990%2C4291318%2C4301054%2C4305595%2C4308216%2C4311408%2C4313006%2C4314846%2C4315873%2C4317915%2C4324293%2C4326405%2C4326763%2C4328159%2C4329288%2C4330112%2C4336932%2C4270859%2C4284970%2C4291517%2C4292955%2C4307997&hl=en&gl=ng&un=1&rp=EP7ty4rWxdz1CjgCQABIAQ&ictx=1&ved=2ahUKEwi6xZ6FlvTmAhXiRhUIHVbjAEQQjLsCKAAwD3oECBwQAQ&hrf=IgNOR04qFgoHCOQPEAEYERIHCOQPEAEYEhgBIAKCASQweDEwM2I4ZDdhMzkyNGZmZjU6MHhhZWI3MjJkNjE1MmY2ZmWaASYaJDB4MTAzYjhkN2EzOTI0ZmZmNToweGFlYjcyMmQ2MTUyZjZmZQ"
+            link: "https://goo.gl/maps/fmiYCbUrQJKa9oUU7"
           },
           {
             name: "Green Royal Suites Annex",
             image: hotels.green,
-            price: "Starts at 10,500/night.",
+            price: "Starts at 11,500/night.",
             duration: "~ 11 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/entity/CgsIosm_m5y-6drdARAB/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271060%2C4274032%2C4291318%2C4305595%2C4308216%2C4308984%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4338119%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=en&gl=ng&un=1&rp=EKLJv5ucvuna3QE4AkAASAE&ictx=1&ved=2ahUKEwjLs4y--4TnAhWhkFwKHb7LDXMQjLsCKAAwD3oECCAQAQ&hrf=IgNOR04qFgoHCOQPEAIYARIHCOQPEAIYAhgBKACCASUweDEwM2I4ZDk3NmNkYTM5MDc6MHhkZGI1YTVmMWMzNmZlNGEymgEnGiUweDEwM2I4ZDk3NmNkYTM5MDc6MHhkZGI1YTVmMWMzNmZlNGEy"
+            link: "https://goo.gl/maps/TtQG39tPZPJ4SQFN7"
           },
           {
             name: "Hotel Newcastle",
             image: hotels.newcastle,
             price: "Starts at ₦12,050/night.",
             duration: "~ 2 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/Hotel%20Newcastle/entity/CgsI5t_Pk_PqjaOlARAB/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271060%2C4274032%2C4291318%2C4305595%2C4308216%2C4308984%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4338119%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=en&gl=ng&un=1&q=Hotel%20Newcastle&rp=EObfz5Pz6o2jpQEQlYKkl-q8x7WcATgCQABIAg&ictx=1&ved=2ahUKEwjg5ZjC_YTnAhXKPsAKHTxhARAQvS4wAHoECAsQIg&hrf=CgYI8KsBEAAiA05HTioWCgcI5A8QAhgBEgcI5A8QAhgCGAEoAFgBkgECIAE"
+            link: "https://goo.gl/maps/UjEi3yNPz4YUP4vcA"
           },
           {
             name: "H53 SUITES",
             image: hotels.h53,
             price: "Starts at ₦19000/night.",
             duration: "~ 17 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/entity/CgoI6N6Gy_rDjfJIEAE/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271060%2C4274032%2C4291318%2C4305595%2C4308216%2C4308984%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4338119%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=en&gl=ng&un=1&rp=EOjehsv6w43ySDgCQABIAQ&ictx=1&ved=2ahUKEwjh5eTx_4TnAhXKgVwKHad8DU0QjLsCKAAwD3oECCUQAQ&hrf=IgNOR04qFgoHCOQPEAEYDxIHCOQPEAEYEBgBKACCASUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4mgEnGiUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4"
+            link: "https://goo.gl/maps/hTjbv2LxVCYquQkt6"
           },
           {
             name: "Banex Hotel & Suites",
             image: hotels.banex,
             price: "Starts at ₦20,000/night.",
             duration: "~ 6 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/entity/CgoI6N6Gy_rDjfJIEAE/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271060%2C4274032%2C4291318%2C4305595%2C4308216%2C4308984%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4338119%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=en&gl=ng&un=1&rp=EOjehsv6w43ySDgCQABIAQ&ictx=1&ved=2ahUKEwjh5eTx_4TnAhXKgVwKHad8DU0QjLsCKAAwD3oECCUQAQ&hrf=IgNOR04qFgoHCOQPEAEYDxIHCOQPEAEYEBgBKACCASUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4mgEnGiUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4"
+            link: "https://goo.gl/maps/2TDaL8vvvBM3scdy8"
           },
           {
-            name: "Lendour Luxury Hotel & Suites",
-            image: hotels.lendour,
+            name: "Splendour Luxury Hotel & Suites",
+            image: hotels.splendour,
             price: "Starts at ₦25,550/night.",
             duration: "~ 8 minutes drive to the venue.",
-            link:
-              "https://www.google.com/travel/hotels/entity/CgoI6N6Gy_rDjfJIEAE/prices?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271060%2C4274032%2C4291318%2C4305595%2C4308216%2C4308984%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4338119%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=en&gl=ng&un=1&rp=EOjehsv6w43ySDgCQABIAQ&ictx=1&ved=2ahUKEwjh5eTx_4TnAhXKgVwKHad8DU0QjLsCKAAwD3oECCUQAQ&hrf=IgNOR04qFgoHCOQPEAEYDxIHCOQPEAEYEBgBKACCASUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4mgEnGiUweDEwM2I5M2JkYmU5NjI4NTk6MHg0OGU0MzYxZmE5NjFhZjY4"
+            link: "https://goo.gl/maps/hDWonsZi5X6WjHFr8"
+          },
+          {
+            name: "Westown Hotel Ikeja",
+            image: hotels.westown,
+            price: "Starts at ₦35,000/night.",
+            duration: "~ 13 minutes drive to the venue.",
+            link: "https://goo.gl/maps/2JeF9wzhw8mPKU6Y8"
           },
           {
             name: "Airbnb",
@@ -96,6 +104,15 @@ function Hotels() {
             </div>
           </a>
         ))}
+      </div>
+
+      <div className="relative my-12 text-center lg:text-right">
+        <a
+          href="https://www.google.com/maps/search/Hotels/@6.5598938,3.3584354,14z/data=!3m1!4b1!4m22!1m13!4m12!1m4!2m2!1d6.7386955!2d7.7841286!4e1!1m6!1m2!1s0x103b8d73a658782b:0x7a1de11d89cccc84!2szone+tech+park+maps!2m2!1d3.37684!2d6.5514308!2m7!3m6!1sRestaurants!2sZone+Tech+Park!3s0x103b8d73a658782b:0x7a1de11d89cccc84!4m2!1d3.3766075!2d6.5511999"
+          className="px-6 py-3 border-2 border-dark text-dark rounded-lg uppercase"
+        >
+          See all Nearby Hotels
+        </a>
       </div>
     </section>
   );

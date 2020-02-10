@@ -6,6 +6,7 @@ import SEO from "../components/SEO/seo";
 import Nav from "../components/nav";
 import TravelHead from "../components/travelHead";
 import Hotel from "../components/hotels";
+import Restaurant from "../components/restaurants";
 import Footer from "../components/footer";
 
 function Schedule() {
@@ -16,7 +17,7 @@ function Schedule() {
       <TravelHead />
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
         <div className="flex flex-wrap">
-          <div className="mb-8 w-full text-dark-blue-primary-600">
+          <div className="mb-12 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">NIGERIA BASICS</h1>
             <p className="text-base my-4">
               Nigeria is one of the liveliest places in Africa that continues to attract visitors from different parts
@@ -29,7 +30,7 @@ function Schedule() {
         </div>
 
         <div className="flex flex-wrap">
-          <div className="mb-8 w-full text-dark-blue-primary-600">
+          <div className="mb-12 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">VISA INFORMATION</h1>
             <p className="text-base my-4">
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
@@ -60,7 +61,7 @@ function Schedule() {
         </div>
 
         <div className="flex flex-wrap">
-          <div className="mb-8 w-full text-dark-blue-primary-600">
+          <div className="mb-12 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">AIRPORT AND TRAVEL</h1>
             <p className="text-base my-4">
               All international travel will be through Murtala Muhammed International Airport, Lagos main international
@@ -72,17 +73,32 @@ function Schedule() {
                 email the event organizers
               </a>
               &nbsp;with your arrival details ahead of time to allow us to plan for pick-ups. Taxis are also available
-              in addition to Uber and Bolt services.
+              in addition to&nbsp;
+              <a className="underline" href="https://www.uber.com/ng/en/" target="_blank" rel="noopener noreferrer">
+                Uber
+              </a>
+              &nbsp;and&nbsp;
+              <a
+                className="underline"
+                href="https://bolt.eu/en/cities/lagos/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bolt
+              </a>
+              &nbsp;services.
             </p>
           </div>
         </div>
 
         <div className="flex flex-wrap">
-          <div className="mb-8 w-full text-dark-blue-primary-600">
+          <div className="mb-12 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">ADVICE FOR INTERNATIONAL VISITORS</h1>
-            We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. <br />
-            Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it
-            will help you have a better travel process.
+            <p className="text-base my-4">
+              We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. <br />
+              Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it
+              will help you have a better travel process.
+            </p>
             <ol className="text-base my-4 list-none lg:list-decimal">
               <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
@@ -118,7 +134,9 @@ function Schedule() {
           </div>
         </div>
       </section>
+
       <Hotel />
+      <Restaurant />
       <Footer />
     </Layout>
   );
