@@ -69,7 +69,7 @@
     "coveralls": "^3.0.9",
     "cross-env": "^6.0.3",
     "cssnano": "^4.1.10",
-    "cypress": "^3.7.0",
+    "cypress": "^4.0.0",
     "cz-conventional-changelog": "^3.0.2",
     "dotenv": "8.2.0",
     "enzyme": "^3.10.0",
