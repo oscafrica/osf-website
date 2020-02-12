@@ -2,7 +2,7 @@ import React from "react";
 
 function ScholarForm() {
   return (
-    <section className="lg:flex-row px-4 lg:px-40 pt-32 pb-24">
+    <section className="lg:flex-row px-4 py-32 lg:px-40 lg:pt-32 lg:pb-0">
       <div className="text-center">
         <iframe
           title="Schorlarship Form"
