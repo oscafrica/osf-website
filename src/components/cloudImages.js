@@ -30,7 +30,7 @@ const speakers = Object.freeze({
   ben: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579432021/osf/Speakers/ben.png",
   samson: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819471/osf/Speakers/samson.png",
   ada: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819973/osf/Speakers/ada.png",
-  moyin: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581478517/osf/Speakers/moyin.png"
+  moyin: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581518358/osf/Speakers/moyin.png"
 });
 
 const sponsors = Object.freeze({
