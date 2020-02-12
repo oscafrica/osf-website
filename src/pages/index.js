@@ -15,10 +15,10 @@ import Gallery from "../components/gallery";
 import Footer from "../components/footer";
 
 import { library, config } from "@fortawesome/fontawesome-svg-core";
-import { faTwitter, faFacebookSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faCalendar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare, faGithub);
+library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord);
 config.autoAddCss = false;
 
 function IndexPage() {

@@ -54,9 +54,21 @@ function Footer() {
           },
           {
             key: 3,
+            label: "Instagram",
+            faIcon: ["fab", "instagram"],
+            href: "https://www.instagram.com/oscafrica"
+          },
+          {
+            key: 4,
             label: "GitHub",
             faIcon: ["fab", "github"],
-            href: "https://github.com/oscommunityafrica"
+            href: "https://github.com/oscafrica"
+          },
+          {
+            key: 5,
+            label: "Discord",
+            faIcon: ["fab", "discord"],
+            href: "https://discord.gg/YmzrTvt"
           }
         ].map(icon => (
           <a
