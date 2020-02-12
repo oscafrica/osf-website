@@ -73,6 +73,11 @@ function Speaker() {
             name: "Ada Nduka Oyom",
             title: "Co-founder | OSCA & Founder | SCA",
             image: speakers.ada
+          },
+          {
+            name: "Moyinoluwa Adeyemi",
+            title: "Google Developer Expert (Android)",
+            image: speakers.moyin
           }
         ].map(speaker => (
           <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
