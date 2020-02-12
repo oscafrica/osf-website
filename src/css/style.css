@@ -60,7 +60,9 @@ img {
   -ms-user-select: none;
 }
 
-iframe, object, embed {
+iframe,
+object,
+embed {
   max-width: 100% !important;
 }
 
