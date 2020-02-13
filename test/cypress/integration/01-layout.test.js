@@ -12,7 +12,7 @@ describe("home page", () => {
     cy.get("header a").should("have.length", 7);
   });
 
-  it("footer should have 8 achor tags", () => {
-    cy.get("footer a").should("have.length", 8);
+  it("footer should have 10 achor tags", () => {
+    cy.get("footer a").should("have.length", 10);
   });
 });
