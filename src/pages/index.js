@@ -1,7 +1,5 @@
 import React from "react";
 
-import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
 
@@ -13,13 +11,6 @@ import Speakers from "../components/speakers";
 import Sponsors from "../components/sponsors";
 import Gallery from "../components/gallery";
 import Footer from "../components/footer";
-
-import { library, config } from "@fortawesome/fontawesome-svg-core";
-import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faCalendar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-
-library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord);
-config.autoAddCss = false;
 
 function IndexPage() {
   return (
