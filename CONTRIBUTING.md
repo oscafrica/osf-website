@@ -6,7 +6,7 @@ To get started:
 
 - Ensure you read the [Getting Started](https://github.com/oscommunityafrica/osf-website#getting-started) && [Installation](https://github.com/oscommunityafrica/osf-website#installation-guide) guide.
 
-- Join our [ZulipChat](https://oscafrica.zulipchat.com) and subscribe to the OSF-Dev-Team stream [here](https://oscafrica.zulipchat.com/#narrow/stream/215491-OSF-Dev-Team)
+- Join our [Discord Server](https://discord.gg/YmzrTvt) and subscribe to the #engineering channel.
 
 - Check the [issues](https://github.com/oscommunityafrica/osf-website/issues) for open tickets and request to be assigned to whichever you want to work on.
 
