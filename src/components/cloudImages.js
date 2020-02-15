@@ -71,7 +71,7 @@ const hotels = Object.freeze({
 
 const restaurants = Object.freeze({
   dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244998/osf/Restaurants/dummy.jpg",
-  cr: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337169/osf/Restaurants/cr.png",
+  cr: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581735645/osf/Restaurants/cr.png",
   kfc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337151/osf/Restaurants/kfc.png",
   bukka: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337348/osf/Restaurants/bukka.png"
 });
