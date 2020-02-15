@@ -26,6 +26,15 @@ function Schedule() {
               attraction sites, universities, museums, national parks, zoos, hotels, resorts and many other amenities
               visitors see.
             </p>
+            <iframe
+              title="Promotional Video of Lagos"
+              width="1000"
+              height="400"
+              src="https://www.youtube.com/embed/HbsdLI8kaWc"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullscreen
+            ></iframe>
           </div>
         </div>
 
@@ -129,6 +138,48 @@ function Schedule() {
                   <li>Your accommodation location</li>
                 </ul>
                 We will help if we can, please provide this information in good time.
+              </li>
+              <li className="my-4">
+                <b>Movies Recommendation</b>: Watch any of the following Nigerian movies on Netflix if you can to get a
+                feel of the vibe of urban Nigeria.
+                <ul className="list-no lg:list-disc my-2">
+                  <a
+                    className="underline"
+                    href="https://www.netflix.com/ng/title/80168301"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <li>The Wedding Party</li>
+                  </a>
+                  <a
+                    className="underline"
+                    href="https://www.netflix.com/ng/title/81172902"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <li>Up North </li>
+                  </a>
+                  <a
+                    className="underline"
+                    href="https://www.netflix.com/ng/title/80082739"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <li>Fifty</li>
+                  </a>
+                </ul>
+              </li>
+              <li className="my-4">
+                <b>Venue Highlights</b>: Here are{" "}
+                <a
+                  className="underline"
+                  href="https://bit.ly/devfestlagos18-500photos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  pictures of DevFest Lagos 2018
+                </a>{" "}
+                - same venue as the Open Source Festival, but the festival audience might not be as large.
               </li>
             </ol>
           </div>
