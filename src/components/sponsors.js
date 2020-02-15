@@ -40,6 +40,12 @@ const sponsorsData = [
     link: "https://ubuntu.com/"
   },
   {
+    tier: "silver",
+    name: "Cloud Native Computing Foundation",
+    image: sponsors.cncf,
+    link: "https://www.cncf.io/"
+  },
+  {
     tier: "bronze",
     name: "Salesforce",
     image: sponsors.salesforce,

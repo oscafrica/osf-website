@@ -46,7 +46,8 @@ const sponsors = Object.freeze({
   eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png",
   psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png",
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
-  mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg"
+  mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
+  cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png"
 });
 
 const gallery = Object.freeze({
