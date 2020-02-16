@@ -14,7 +14,7 @@ function SustainHead() {
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
             Google Developers Space, 7a Milverton Rd, Ikoyi, Lagos.
           </p>
-          <p className="text-lg lg:text-xl text-gray-700 mt-4"> 20th Februrary, 2020 | 5:00 PM Prompt </p>
+          <p className="text-lg lg:text-xl text-gray-700 mt-4"> Thursday, 20th February, 2020 | 04:00 PM Prompt </p>
           <a
             href="https://www.google.com/maps/dir/7.7860243,6.7386955/google+developer+space+in+lagos/@7.1884798,2.8066988,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x103bf54c9624f8c7:0xb0a6fcfa510af77d!2m2!1d3.4447841!2d6.4502841"
             className="w-1/2 block sm:inline-block sm:w-auto mt-12 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"

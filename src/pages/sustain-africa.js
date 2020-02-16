@@ -97,7 +97,7 @@ function SustainAfrica() {
               >
                 Google Developer Space
               </a>
-              . The event starts at 5:00 PM, so please arrive at 4:30 PM to check-in.
+              . The event starts at 5:00 PM, so please arrive from 4:00 PM to check-in.
             </p>
             <p className="text-base my-4">
               The event will last for 2 hours 30 minutes and will be structured as collaborative working sessions, along
@@ -116,7 +116,7 @@ function SustainAfrica() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border p-4">04:30 PM - 05:00 PM</td>
+                  <td className="border p-4">04:00 PM - 04:50 PM</td>
                   <td className="border p-4">
                     <b>Arrivals, registration, and coffee</b>
                   </td>
@@ -150,7 +150,7 @@ function SustainAfrica() {
                       <li className="mx-4">Design and Sustainability (Open Source Design)</li>
                       <li className="mx-4">OSS Programs (GSOC and GCI as a means of gaining new contributors)</li>
                       <li className="mx-4">
-                        Marketing (Practices for reaching people as a means of achieving sustainability.)
+                        Marketing (Practices for reaching people as a means of achieving sustainability)
                       </li>
                     </ul>
                   </td>
