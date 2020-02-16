@@ -107,34 +107,106 @@ function SustainAfrica() {
               efforts.
             </p>
 
-            <table className="table-auto">
+            <table className="table-fixed mt-12">
               <thead>
                 <tr>
-                  <th className="px-4 py-2">Title</th>
-                  <th className="px-4 py-2">Author</th>
-                  <th className="px-4 py-2">Views</th>
+                  <th className="w-1/3 border p-4 text-xl">Time</th>
+                  <th className="w-1/1 border p-4 text-xl">Agenda</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border px-4 py-2">Intro to CSS</td>
-                  <td className="border px-4 py-2">Adam</td>
-                  <td className="border px-4 py-2">858</td>
+                  <td className="border p-4">04:30 PM - 05:00 PM</td>
+                  <td className="border p-4">
+                    <b>Arrivals, registration, and coffee</b>
+                  </td>
                 </tr>
                 <tr className="bg-gray-100">
-                  <td className="border px-4 py-2">
-                    A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design
+                  <td className="border p-4">05:00 PM - 05:30 PM</td>
+                  <td className="border p-4">
+                    <b>Opening Plenary</b>
+                    <p className="my-4">
+                      The event will be called to order with a friendly and fast-paced kickoff that includes words of
+                      welcome from meeting organizers, brief participant introductions, along with overviews of the
+                      agenda, participation guidelines and meeting logistics.
+                    </p>
                   </td>
-                  <td className="border px-4 py-2">Adam</td>
-                  <td className="border px-4 py-2">112</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2">Intro to JavaScript</td>
-                  <td className="border px-4 py-2">Chris</td>
-                  <td className="border px-4 py-2">1,280</td>
+                  <td className="border p-4">05:30 PM - 07:35 PM</td>
+                  <td className="border p-4">
+                    <b>Lenses on Sustainability - Interactive Case Studies</b>
+                    <p className="my-4">
+                      The program will start with a set of discussions designed to explore the latest practices and
+                      learnings around sustainability in OSS contexts.
+                    </p>
+                    <p className="my-2">Topics anticipated to be covered include:</p>
+                    <ul className="list-no lg:list-disc my-2">
+                      <li className="mx-4">Approaches to raising funds for your project</li>
+                      <li className="mx-4">
+                        The role of documentation in sustainable FOSS projects (How to create and scale timely
+                        documentation)
+                      </li>
+                      <li className="mx-4">Design and Sustainability (Open Source Design)</li>
+                      <li className="mx-4">OSS Programs (GSOC and GCI as a means of gaining new contributors)</li>
+                      <li className="mx-4">
+                        Marketing (Practices for reaching people as a means of achieving sustainability.)
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border p-4">07:35 PM - 07:40 PM</td>
+                  <td className="border p-4">
+                    <b>Break</b>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border p-4">07:40 PM - 07:50 PM</td>
+                  <td className="border p-4">
+                    <b>Strategy Sessions Share-Out</b>
+                    <p className="my-4">
+                      Outputs and results from the interactive case studies will be set up around the main meeting room,
+                      and participants will be invited to “browse the gallery”, reviewing work from sessions they did
+                      not join, providing feedback, and indicating interest in any ongoing efforts.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border p-4">07:50 PM - 08:00 PM</td>
+                  <td className="border p-4">
+                    <b>Mapping ongoing collaborations: Where from here</b>
+                    <p className="my-4">
+                      The group will pause before the closing plenary to take stock of the progress made to this point
+                      in the meeting and to inventory action items, next steps and other bridges to post-event
+                      collaboration.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">08:00 PM - 08:10 PM</td>
+                  <td className="border px-4 py-2">
+                    <b>Closing Session</b>
+                    <p className="my-4">
+                      Participants will summarize key outcomes from the event, share appreciations and bring the meeting
+                      to a close.
+                    </p>
+                  </td>
                 </tr>
               </tbody>
             </table>
+
+            <div className="relative mt-20 text-center">
+              <p className="text-base my-8">
+                Still want to attend but got no Sustain ticket? We have limited seats available, kindly apply below
+              </p>
+              <a
+                href="https://bit.ly/sustain-africa"
+                className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
+              >
+                REGISTER TO ATTEND
+              </a>
+            </div>
           </div>
         </div>
       </section>
