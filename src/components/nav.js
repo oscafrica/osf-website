@@ -69,6 +69,10 @@ function Nav() {
             {
               route: "/scholarship",
               title: "Scholarship"
+            },
+            {
+              route: "/sustain-africa",
+              title: "Sustain Africa"
             }
           ].map(link => (
             <a
