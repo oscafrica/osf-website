@@ -142,7 +142,7 @@ function SustainAfrica() {
                     </p>
                     <p className="my-2">Topics anticipated to be covered include:</p>
                     <ul className="list-no lg:list-disc my-2">
-                      <li className="mx-4">Approaches to raising funds for your project</li>
+                      <li className="mx-4">Approaches to raising funds for your open source project</li>
                       <li className="mx-4">
                         The role of documentation in sustainable FOSS projects (How to create and scale timely
                         documentation)
@@ -203,6 +203,8 @@ function SustainAfrica() {
               <a
                 href="https://bit.ly/sustain-africa"
                 className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 REGISTER TO ATTEND
               </a>
