@@ -8,11 +8,11 @@ describe("home page", () => {
     cy.contains("Open Source Community Africa");
   });
 
-  it("header should have 7 achor tags", () => {
-    cy.get("header a").should("have.length", 7);
+  it("header should have 8 anchor tags", () => {
+    cy.get("header a").should("have.length", 8);
   });
 
-  it("footer should have 10 achor tags", () => {
+  it("footer should have 10 anchor tags", () => {
     cy.get("footer a").should("have.length", 10);
   });
 });
