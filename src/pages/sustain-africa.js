@@ -44,7 +44,7 @@ function SustainAfrica() {
               src="https://www.youtube.com/embed/LxanTEHo6BQ"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
@@ -198,7 +198,8 @@ function SustainAfrica() {
 
             <div className="relative mt-20 text-center">
               <p className="text-base my-8">
-                Still want to attend but got no Sustain ticket? We have limited seats available, kindly apply below
+                Want to attend SustainAfrica but got no Sustain ticket? We have limited seats available, kindly apply
+                below
               </p>
               <a
                 href="https://bit.ly/sustain-africa"
