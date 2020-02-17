@@ -100,10 +100,10 @@ function SustainAfrica() {
               . The event starts at 5:00 PM, so please arrive from 4:00 PM to check-in.
             </p>
             <p className="text-base my-4">
-              The event will last for 2 hours 30 minutes and will be structured as collaborative working sessions, along
-              with optional activities. Sessions will be dialog and outcome-oriented rather than presentations or
-              lecture format. The program is envisioned to enable deeper collaborations and learnings across the network
-              of participants in order to collectively improve our skills, strategies, and impact in our respective OSS
+              The event will last for 3 hours and will be structured as collaborative working sessions, along with
+              optional activities. Sessions will be dialog and outcome-oriented rather than presentations or lecture
+              format. The program is envisioned to enable deeper collaborations and learnings across the network of
+              participants in order to collectively improve our skills, strategies, and impact in our respective OSS
               efforts.
             </p>
 
