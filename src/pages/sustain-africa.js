@@ -148,7 +148,9 @@ function SustainAfrica() {
                         documentation)
                       </li>
                       <li className="mx-4">Design and Sustainability (Open Source Design)</li>
-                      <li className="mx-4">OSS Programs (GSOC and GCI as a means of gaining new contributors)</li>
+                      <li className="mx-4">
+                        OSS Programs (GCI, GSOC, and GSOD as a means of gaining new contributors)
+                      </li>
                       <li className="mx-4">
                         Marketing (Practices for reaching people as a means of achieving sustainability)
                       </li>
