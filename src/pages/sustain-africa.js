@@ -200,8 +200,16 @@ function SustainAfrica() {
 
             <div className="relative mt-20 text-center">
               <p className="text-base my-8">
-                Want to attend SustainAfrica but got no Sustain ticket? We have limited seats available, kindly apply
-                below
+                Want to attend SustainAfrica but got no{" "}
+                <a
+                  href="https://opencollective.com/open-source-festival-2020-4abe0517/contribute/osf-sustainafrica-12876"
+                  className="underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sustain ticket
+                </a>
+                ? We have limited seats available, kindly apply below
               </p>
               <a
                 href="https://bit.ly/sustain-africa"
