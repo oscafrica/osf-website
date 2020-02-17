@@ -21,7 +21,7 @@ function SustainAfrica() {
           <div className="mb-12 w-full text-dark-blue-primary-600">
             <h1 className="text-spo font-bold font-ubuntu">INTRODUCTION</h1>
             <p className="text-base my-4">
-              Sustain Summit is a one-day conversation for Open Source Software Sustainers. We would be talking about
+              Sustain Africa is a one-day conversation for Open Source Software Sustainers. We would be talking about
               Sustainability - the sustainability of resources and the sustainability of its people.
               <br />
               <br />
