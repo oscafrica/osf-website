@@ -76,7 +76,7 @@ function Footer() {
             key: 5,
             label: "Discord",
             faIcon: ["fab", "discord"],
-            href: "https://discord.gg/YmzrTvt"
+            href: "https://discord.gg/8STPZzN"
           }
         ].map(icon => (
           <a
