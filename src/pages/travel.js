@@ -108,7 +108,7 @@ function Schedule() {
               Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it
               will help you have a better travel process.
             </p>
-            <ol className="text-base my-4 list-none lg:list-decimal">
+            <ol className="text-base m-4 list-decimal">
               <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
                 denied entry, or probably not even be allowed to board your plane. Got any questions?&nbsp;
@@ -131,7 +131,7 @@ function Schedule() {
               <li className="my-4">
                 <b>Arrival times</b>: We hope to co-ordinate transport on arrival at the airport for some groups. We
                 might not be able to do this for everyone, but please tell us:
-                <ul className="list-no lg:list-disc my-2">
+                <ul className="list-disc m-2">
                   <li>The date and time of your arrival in Nigeria</li>
                   <li>The date and time of your departure from Nigeria </li>
                   <li>Your airline and flight numbers</li>
@@ -142,7 +142,7 @@ function Schedule() {
               <li className="my-4">
                 <b>Movies Recommendation</b>: Watch any of the following Nigerian movies on Netflix if you can to get a
                 feel of the vibe of urban Nigeria.
-                <ul className="list-no lg:list-disc my-2">
+                <ul className="list-disc m-2">
                   <a
                     className="underline"
                     href="https://www.netflix.com/ng/title/80168301"

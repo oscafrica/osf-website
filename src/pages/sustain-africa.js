@@ -141,7 +141,7 @@ function SustainAfrica() {
                       learnings around sustainability in OSS contexts.
                     </p>
                     <p className="my-2">Topics anticipated to be covered include:</p>
-                    <ul className="list-no lg:list-disc my-2">
+                    <ul className="list-disc m-2">
                       <li className="mx-4">Approaches to raising funds for your open source project</li>
                       <li className="mx-4">
                         The role of documentation in sustainable FOSS projects (How to create and scale timely
