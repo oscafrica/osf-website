@@ -48,7 +48,8 @@ const sponsors = Object.freeze({
   psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png",
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
   mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
-  cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png"
+  cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
+  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582117018/osf/Sponsors/gds.png"
 });
 
 const gallery = Object.freeze({
