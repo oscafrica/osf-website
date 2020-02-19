@@ -37,6 +37,7 @@ const speakers = Object.freeze({
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/Sponsors/dummy.png",
   facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814129/osf/Sponsors/fb-oss.png",
+  microsoft: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582118578/osf/Sponsors/microsoft.png",
   googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814379/osf/Sponsors/google.svg",
   github: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814181/osf/Sponsors/github.svg",
   salesforce: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580824546/osf/Sponsors/salesforce.svg",
@@ -49,7 +50,7 @@ const sponsors = Object.freeze({
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
   mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
   cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
-  gds: "https://res.cloudinary.com/osca/image/upload/v1582117018/osf/Sponsors/gds.png"
+  gds: ""
 });
 
 const gallery = Object.freeze({
