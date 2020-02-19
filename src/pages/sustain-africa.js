@@ -116,7 +116,7 @@ function SustainAfrica() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border p-4">04:00 PM - 04:50 PM</td>
+                  <td className="border p-4">04:00 PM - 05:00 PM</td>
                   <td className="border p-4">
                     <b>Arrivals, registration, and coffee</b>
                   </td>
@@ -133,7 +133,7 @@ function SustainAfrica() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border p-4">05:30 PM - 07:35 PM</td>
+                  <td className="border p-4">05:30 PM - 06:30 PM</td>
                   <td className="border p-4">
                     <b>Lenses on Sustainability - Interactive Case Studies</b>
                     <p className="my-4">
@@ -158,13 +158,13 @@ function SustainAfrica() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border p-4">07:35 PM - 07:40 PM</td>
+                  <td className="border p-4">06:30 PM - 06:40 PM</td>
                   <td className="border p-4">
                     <b>Break</b>
                   </td>
                 </tr>
                 <tr>
-                  <td className="border p-4">07:40 PM - 07:50 PM</td>
+                  <td className="border p-4">06:40 PM - 07:10 PM</td>
                   <td className="border p-4">
                     <b>Strategy Sessions Share-Out</b>
                     <p className="my-4">
@@ -175,7 +175,7 @@ function SustainAfrica() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border p-4">07:50 PM - 08:00 PM</td>
+                  <td className="border p-4">07:10 PM - 07:30 PM</td>
                   <td className="border p-4">
                     <b>Mapping ongoing collaborations: Where from here</b>
                     <p className="my-4">
@@ -186,7 +186,7 @@ function SustainAfrica() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2">08:00 PM - 08:10 PM</td>
+                  <td className="border px-4 py-2">07:30 PM - 08:00 PM</td>
                   <td className="border px-4 py-2">
                     <b>Closing Session</b>
                     <p className="my-4">
