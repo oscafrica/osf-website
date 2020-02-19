@@ -33,7 +33,7 @@ function Schedule() {
               src="https://www.youtube.com/embed/HbsdLI8kaWc"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>

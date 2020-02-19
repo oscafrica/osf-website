@@ -43,7 +43,7 @@ function Nav() {
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } flex flex-col justify-center min-h-screen min-w-full bg-dark-blue-primary text-center lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
+          } flex flex-col py-12 min-h-screen min-w-full bg-dark-blue-primary text-center lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
         >
           {[
             {
@@ -76,7 +76,7 @@ function Nav() {
             }
           ].map(link => (
             <a
-              className="block mt-10 no-underline text-white text-xl lg:inline-block lg:mt-0 lg:-my-2 lg:ml-8 lg:text-sm uppercase"
+              className="block no-underline mt-0 mb-auto text-white text-xl lg:inline-block lg:mt-0 lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}
               href={link.route}
             >
