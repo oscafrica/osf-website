@@ -50,7 +50,7 @@ const sponsors = Object.freeze({
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
   mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
   cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
-  gds: ""
+  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png"
 });
 
 const gallery = Object.freeze({

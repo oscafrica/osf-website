@@ -86,6 +86,12 @@ const sponsorsData = [
     name: "Mozilla Foundation",
     image: sponsors.mozilla,
     link: "https://www.mozilla.org/en-US/moss/"
+  },
+  {
+    tier: "partner",
+    name: "Google Developer Space",
+    image: sponsors.gds,
+    link: "https://developers.google.com"
   }
 ];
 
@@ -200,6 +206,28 @@ function Sponsors() {
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter(data => data.tier.includes("bronze"))
+            .map(sponsor => (
+              <a
+                href={sponsor.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={sponsor.name}
+                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
+              >
+                <figure className="w-full">
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                </figure>
+              </a>
+            ))}
+        </div>
+
+        {/* Event partners */}
+        <h1 className="line text-h5 font-bold">
+          Event Partners <span></span>
+        </h1>
+        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
+          {sponsorsData
+            .filter(data => data.tier.includes("partner"))
             .map(sponsor => (
               <a
                 href={sponsor.link}
