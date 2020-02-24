@@ -54,9 +54,10 @@ const sponsors = Object.freeze({
 });
 
 const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293203/osf/Gallery/one.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293177/osf/Gallery/two.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293718/osf/Gallery/three.png"
+  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535730/osf/Gallery/1.png",
+  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535774/osf/Gallery/2.png",
+  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535773/osf/Gallery/3.png",
+  four: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535785/osf/Gallery/4.png"
 });
 
 const hotels = Object.freeze({

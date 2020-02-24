@@ -17,28 +17,38 @@ function Gallery() {
         </div>
       </div>
 
-      <div className="flex flex-wrap text-white my-20">
+      <div className="flex flex-wrap justify-center text-white my-20">
         {[
           {
             day: "Day 1",
-            tag: "Sustain Africa + Workshop",
+            tag: "Workshop",
             image: gallery.one,
-            href: "#"
+            href: "https://photos.app.goo.gl/MAtfS2eR8j5gJSbV8"
+          },
+          {
+            day: "Day 1",
+            tag: "Sustain Africa",
+            image: gallery.two,
+            href: "https://photos.app.goo.gl/kdpFgEogTjKfVnv37"
           },
           {
             day: "Day 2",
             tag: "Conference Day 1",
-            image: gallery.two,
-            href: "#"
+            image: gallery.three,
+            href: "https://photos.app.goo.gl/bbBCh9HejqZ3MEHx9"
           },
           {
             day: "Day 3",
             tag: "Conference Day 2",
-            image: gallery.three,
-            href: "#"
+            image: gallery.four,
+            href: "https://photos.app.goo.gl/PuMTXJC44watF3No6"
           }
         ].map(gallery => (
-          <a href={gallery.href} key={gallery.day} className="relative lg:w-1/3 max-w-sm rounded px-1 py-2">
+          <a
+            href={gallery.href}
+            key={gallery.day}
+            className="relative w-full h-full lg:w-1/2 max-w-sm rounded px-1 py-4"
+          >
             <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
               <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
