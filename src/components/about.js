@@ -1,21 +1,11 @@
-import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { patterns } from "../components/cloudImages";
 
 function About() {
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
   return (
     <section className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
       <figure className="w-full lg:w-1/3">
-        <img className="pb-4 lg:pl-4" alt={`${site.siteMetadata.title}.`} src={patterns.nextBillion} />
+        <img className="pb-4 lg:pl-4" alt="OSCAFRICA Next Billion Creators Badge" src={patterns.nextBillion} />
       </figure>
 
       <div className="lg:w-1/2 lg:mx-12">
