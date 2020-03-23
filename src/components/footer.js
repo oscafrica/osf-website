@@ -4,9 +4,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faCalendar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faCalendar, faMapMarkerAlt, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faEnvelope, faCalendar, faMapMarkerAlt, faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord);
+library.add(
+  faEnvelope,
+  faCalendar,
+  faMapMarkerAlt,
+  faExternalLinkAlt,
+  faTwitter,
+  faFacebookSquare,
+  faInstagram,
+  faGithub,
+  faDiscord
+);
 config.autoAddCss = false;
 
 function Footer() {

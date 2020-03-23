@@ -32,10 +32,15 @@ function Header() {
             An annual open source gathering under <br /> Open Source Community Africa
           </p>
           <a
-            href="https://opencollective.com/osca/events/open-source-festival-2020-4abe0517"
+            href="https://blog.oscafrica.org/the-chronicles-of-open-source-festival-2020-ck84qc32s04zmzns18q5x8fjp"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"
           >
-            Register
+            Event Recap
+            <i className="ml-4 pr-2">
+              <FontAwesomeIcon icon="external-link-alt" />
+            </i>
           </a>
         </div>
 
