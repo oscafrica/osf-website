@@ -23,31 +23,33 @@ function Gallery() {
             day: "Day 1",
             tag: "Workshop",
             image: gallery.one,
-            href: "https://photos.app.goo.gl/MAtfS2eR8j5gJSbV8"
+            href: "https://www.flickr.com/photos/187223404@N02/albums/72157713316605613"
           },
           {
             day: "Day 1",
             tag: "Sustain Africa",
             image: gallery.two,
-            href: "https://photos.app.goo.gl/kdpFgEogTjKfVnv37"
+            href: "https://www.flickr.com/photos/187223404@N02/albums/72157713315626001"
           },
           {
             day: "Day 2",
             tag: "Conference Day 1",
             image: gallery.three,
-            href: "https://photos.app.goo.gl/bbBCh9HejqZ3MEHx9"
+            href: "https://www.flickr.com/photos/187223404@N02/albums/72157713321504593"
           },
           {
             day: "Day 3",
             tag: "Conference Day 2",
             image: gallery.four,
-            href: "https://photos.app.goo.gl/PuMTXJC44watF3No6"
+            href: "https://www.flickr.com/photos/187223404@N02/albums/72157713320683546"
           }
         ].map(gallery => (
           <a
             href={gallery.href}
-            key={gallery.day}
+            key={gallery.tag}
             className="relative w-full h-full lg:w-1/2 max-w-sm rounded px-1 py-4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
