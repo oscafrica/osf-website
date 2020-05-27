@@ -120,19 +120,22 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Individuals
 
-<a href="https://opencollective.com/osca"><img src="https://opencollective.com/osca/individuals.svg?width=890"></a>
+[![OSCA Financial Contributors](https://opencollective.com/osca/individuals.svg?width=890)](https://opencollective.com/osca)
 
 #### Organizations
 
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/osca/contribute)]
 
-<a href="https://opencollective.com/osca/organization/0/website"><img src="https://opencollective.com/osca/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/1/website"><img src="https://opencollective.com/osca/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/2/website"><img src="https://opencollective.com/osca/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/3/website"><img src="https://opencollective.com/osca/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/4/website"><img src="https://opencollective.com/osca/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/5/website"><img src="https://opencollective.com/osca/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/6/website"><img src="https://opencollective.com/osca/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/7/website"><img src="https://opencollective.com/osca/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/8/website"><img src="https://opencollective.com/osca/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/9/website"><img src="https://opencollective.com/osca/organization/9/avatar.svg"></a>
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/0/avatar.svg)](https://opencollective.com/osca/organization/0/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/1/avatar.svg)](https://opencollective.com/osca/organization/1/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/2/avatar.svg)](https://opencollective.com/osca/organization/2/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/3/avatar.svg)](https://opencollective.com/osca/organization/3/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/4/avatar.svg)](https://opencollective.com/osca/organization/4/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/5/avatar.svg)](https://opencollective.com/osca/organization/5/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/6/avatar.svg)](https://opencollective.com/osca/organization/6/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/7/avatar.svg)](https://opencollective.com/osca/organization/7/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/8/avatar.svg)](https://opencollective.com/osca/organization/8/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/9/avatar.svg)](https://opencollective.com/osca/organization/9/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/10/avatar.svg)](https://opencollective.com/osca/organization/10/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/11/avatar.svg)](https://opencollective.com/osca/organization/11/website)
+[![OSCA Financial Contributor](https://opencollective.com/osca/organization/12/avatar.svg)](https://opencollective.com/osca/organization/12/website)
