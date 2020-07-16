@@ -25,7 +25,7 @@ function Footer() {
       <div className="flex flex-col lg:flex-row">
         {[
           {
-            route: "https://git.io/Jemzv",
+            route: "https://docs.oscafrica.org/about/community-code-of-conduct#osca-events",
             title: "Code of Conduct"
           },
           {
