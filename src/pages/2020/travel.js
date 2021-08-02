@@ -1,13 +1,13 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import SEO from "../components/SEO/seo";
+import Layout from "../../components/layout";
+import SEO from "../../components/SEO/seo";
 
-import Nav from "../components/nav";
-import TravelHead from "../components/travelHead";
-import Hotel from "../components/hotels";
-import Restaurant from "../components/restaurants";
-import Footer from "../components/footer";
+import Nav from "../../components/nav";
+import TravelHead from "../../components/travelHead";
+import Hotel from "../../components/hotels";
+import Restaurant from "../../components/restaurants";
+import Footer from "../../components/footer";
 
 function Schedule() {
   return (
