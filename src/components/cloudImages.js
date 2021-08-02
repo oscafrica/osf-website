@@ -18,6 +18,13 @@ const patterns = Object.freeze({
   section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
 });
 
+const sponsorship = Object.freeze({
+  background:
+    "https://res.cloudinary.com/osca/image/upload/w_auto,dpr_auto,f_auto/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj.png",
+  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
+  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
+});
+
 const speakers = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577683448/osf/Speakers/dummy.png",
   amanda: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/amanda.png",
@@ -80,4 +87,4 @@ const restaurants = Object.freeze({
   bukka: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337348/osf/Restaurants/bukka.png"
 });
 
-export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants };
+export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants, sponsorship };

@@ -55,7 +55,9 @@ module.exports = {
         h5: "1.25rem",
         h6: "1rem",
         spo: "1.75rem",
-        sec: "3.75rem"
+        sec: "3.75rem",
+        sship1: "4.95rem",
+        sship2: "8.12rem"
       },
       lineHeight: {
         text: "22px"
