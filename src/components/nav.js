@@ -51,27 +51,27 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "/#speakers",
+              route: "/2020/#speakers",
               title: "Speakers"
             },
             {
-              route: "/schedule",
+              route: "/2020/schedule",
               title: "Schedule"
             },
             {
-              route: "/travel",
+              route: "/2020/travel",
               title: "Travel"
             },
             {
-              route: "/#sponsors",
+              route: "/2020/#sponsors",
               title: "Sponsorship"
             },
             {
-              route: "/scholarship",
+              route: "/2020/scholarship",
               title: "Scholarship"
             },
             {
-              route: "/sustain-africa",
+              route: "/2020/sustain-africa",
               title: "Sustain Africa"
             }
           ].map(link => (

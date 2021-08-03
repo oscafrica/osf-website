@@ -44,8 +44,10 @@ function IndexPage() {
 
           <div className="flex flex-col lg:flex-row items-center my-10">
             <SponsorLink
-              href="/"
+              href="https://opencollective.com/osca"
               className="px-10 py-4 bg-orange-primary rounded-full uppercase text-black text-sm border-2 tracking-wide font-semibold"
+              target="_blank"
+              rel="noreferrer noopenner"
             >
               join our sponsors
             </SponsorLink>
