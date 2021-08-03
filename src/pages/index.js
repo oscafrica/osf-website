@@ -2,8 +2,11 @@ import React from "react";
 import SEO from "../components/SEO/seo";
 import styled from "styled-components";
 import { logo, sponsorship } from "../components/cloudImages";
+import Modal from "react-modal";
 
 function IndexPage() {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
   return (
     <>
       <SEO
@@ -14,27 +17,32 @@ function IndexPage() {
         <img src={`${sponsorship.background}`} alt="background" className="z-10 object-cover w-screen h-screen" />
         <section className="flex flex-col z-30 absolute top-0 left-0 w-screen min-h-screen justify-center items-center">
           <img alt="Open Source Community Africa Logo." className="w-16" src={logo.pngOrange} />
-          <h1 className="text-sship1 leading-none font-thin my-8 text-white">
+          <h1 className=" text-h1 lg:text-sship1 leading-none font-thin my-8 text-white">
             <span>The</span>
             &nbsp;
             <span className="font-medium">Future</span>
             &nbsp;
+            <br className=" block lg:hidden" />
             <span>is</span>
             &nbsp;
-            <div className="flex items-center">
-              <span className="text-sship2 font-bold leading-none">Open</span>
+            <div className="inline-flex lg:flex items-center">
+              <span className="text-h1 lg:text-sship2 font-bold leading-none">Open</span>
               &nbsp;
-              <img alt="Open Source Community Africa Logo." className="w-24 -mb-8" src={sponsorship.arrow} />
+              <img
+                alt="Open Source Community Africa Logo."
+                className=" w-10 lg:w-24 -mb-2 lg:-mb-8"
+                src={sponsorship.arrow}
+              />
             </div>
           </h1>
 
-          <time dateTime="2018-11-11" className="text-h1 font-medium">
+          <time dateTime="2018-11-11" className="text-h5 lg:text-h1 font-medium">
             November 11 - 13, 2021
           </time>
-          <p className="text-h4 font-light my-2">Lagos, Nigeria | Virtual</p>
-          <p className="text-h4 font-light">#OSCAFest21</p>
+          <p className="text-h5 lg:text-h4 font-light my-2">Lagos, Nigeria | Virtual</p>
+          <p className="text-h5 lg:text-h4 font-light">#OSCAFest21</p>
 
-          <div className="flex items-center my-10">
+          <div className="flex flex-col lg:flex-row items-center my-10">
             <SponsorLink
               href="/"
               className="px-10 py-4 bg-orange-primary rounded-full uppercase text-black text-sm border-2 tracking-wide font-semibold"
@@ -43,7 +51,7 @@ function IndexPage() {
             </SponsorLink>
             <div className=" mx-3" />
 
-            <button className="inline-flex items-center px-10">
+            <button className="inline-flex items-center px-10 mt-10 lg:mt-0" onClick={() => setIsOpen(true)}>
               <img src={sponsorship.play} alt="play icon" className=" w-6 mr-1" />
               Watch video
             </button>
@@ -52,18 +60,47 @@ function IndexPage() {
           <a className=" p-4" href="/2020">
             View past events
           </a>
+        </section>
+      </div>
 
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={() => setIsOpen(false)}
+        style={{
+          overlay: {
+            zIndex: 1000,
+            background: "rgba(0,0,0,0.6)"
+          },
+          content: {
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%, -50%)",
+            zIndex: 1000,
+            background: "transparent"
+          }
+        }}
+        contentLabel="OSCAfest 2020 video"
+      >
+        <div className="relative z-40 w-screen h-screen lg:p-16">
+          <div className="flex justify-end">
+            <button className="text-white p-3" onClick={() => setIsOpen(false)}>
+              Close
+            </button>
+          </div>
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            height="100%"
             src="https://www.youtube.com/embed/hZc44FApgl0"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          ></iframe>
-        </section>
-      </div>
+          />
+        </div>
+      </Modal>
     </>
   );
 }
