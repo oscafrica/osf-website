@@ -1,7 +1,7 @@
 describe("home page", () => {
   beforeEach(() => {
     // visit root baseURL
-    cy.visit("/");
+    cy.visit("/2020");
   });
 
   it('should have text "Open Source Community Africa"', () => {
