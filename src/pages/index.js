@@ -1,7 +1,7 @@
 import React from "react";
 import SEO from "../components/SEO/seo";
 import styled from "styled-components";
-import { logo, sponsorship } from "../components/cloudImages";
+import { logo, sponsorship, videos } from "../components/cloudImages";
 import Modal from "react-modal";
 
 function IndexPage() {
@@ -14,13 +14,10 @@ function IndexPage() {
         title="Open Source Festival 2021"
       />
       <div>
-        <img alt="background" className="z-10 bg-black opacity-50 fixed object-cover w-screen h-screen" />
-        <video autoPlay muted loop id="osca" className="z-10 bg-black object-cover w-screen h-screen">
-          <source
-            src="https://res.cloudinary.com/osca/video/upload/v1630281827/osf/hli7kjmf37756wtkpetm.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <div className="z-10 bg-black opacity-50 fixed object-cover w-screen h-screen" />
+        <BackgroundVideo autoPlay muted loop id="osca" className="z-1 object-cover w-screen h-screen">
+          <source src={videos.mainBg} type="video/mp4" />
+        </BackgroundVideo>
       </div>
 
       <div className=" text-white bg-black">
@@ -114,6 +111,10 @@ function IndexPage() {
     </>
   );
 }
+
+const BackgroundVideo = styled.video`
+  background: ${`${sponsorship.background}`};
+`;
 
 const SponsorLink = styled.a`
   position: relative;
