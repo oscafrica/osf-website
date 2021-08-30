@@ -33,6 +33,9 @@
     "tailwindcss",
     "purgecss"
   ],
+  "engines": {
+    "node": "14.17.5"
+  },
   "license": "MIT",
   "scripts": {
     "analyze:lint": "eslint --ext .jsx --ext .js src",
