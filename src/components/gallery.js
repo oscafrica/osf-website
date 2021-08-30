@@ -43,7 +43,7 @@ function Gallery() {
             image: gallery.four,
             href: "https://www.flickr.com/photos/187223404@N02/albums/72157713320683546"
           }
-        ].map(gallery => (
+        ].map((gallery) => (
           <a
             href={gallery.href}
             key={gallery.tag}

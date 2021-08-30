@@ -19,9 +19,7 @@ describe("header component", () => {
   });
 
   it("nav should have 7 nav links", () => {
-    expect(wrapper.find("nav"))
-      .to.have.exactly(7)
-      .descendants("a");
+    expect(wrapper.find("nav")).to.have.exactly(7).descendants("a");
   });
 
   it("nav should be able to toggle", () => {

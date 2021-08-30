@@ -13,12 +13,12 @@ const Dropdown = ({ placeholder, value, options, onChange, ...props }) => {
     return option ? option.label : placeholder;
   }, [options, placeholder, value]);
 
-  const handleSelect = value => () => {
+  const handleSelect = (value) => () => {
     setIsOpen(false);
     onChange(value);
   };
 
-  const close = e => {
+  const close = (e) => {
     if (e.target.closest(`.${style.dropdown}`) || !isOpen) return;
     setIsOpen(false);
   };
@@ -30,7 +30,7 @@ const Dropdown = ({ placeholder, value, options, onChange, ...props }) => {
 
   return (
     <div className={classNames(style.dropdown, props.className)} {...props}>
-      <div onPointerDown={() => setIsOpen(open => !open)} className={style.dropdownInput}>
+      <div onPointerDown={() => setIsOpen((open) => !open)} className={style.dropdownInput}>
         <div className={style.dropdownText}>{selectedLabel}</div>
         <object aria-label="caret" className={style.caret} data={caretImg}>
           caret

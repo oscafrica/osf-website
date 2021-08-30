@@ -29,7 +29,7 @@ export const TabsWithDisabled = () => (
 export const ControlledTab = () => {
   const [tab, setTab] = useState(3);
 
-  const changeTab = i => () => {
+  const changeTab = (i) => () => {
     setTab((i + 1) % 5);
   };
 

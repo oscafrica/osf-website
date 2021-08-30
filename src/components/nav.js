@@ -74,7 +74,7 @@ function Nav() {
               route: "/2020/sustain-africa",
               title: "Sustain Africa"
             }
-          ].map(link => (
+          ].map((link) => (
             <a
               className="block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}

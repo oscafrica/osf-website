@@ -18,11 +18,13 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
   /**
    * Fired when an option is selected from the dropdown
    */
-  const handleChange = ({ value, label }) => () => {
-    setIsOpen(false);
-    setTextVal(label);
-    onChange(value);
-  };
+  const handleChange =
+    ({ value, label }) =>
+    () => {
+      setIsOpen(false);
+      setTextVal(label);
+      onChange(value);
+    };
 
   /**
    * Fired on text input
@@ -47,7 +49,7 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
    * Closes the dropdown if anyother part of the page is clicked
    * except the searchbar
    */
-  const close = e => {
+  const close = (e) => {
     if (e.target.closest(`.${style.searchbar}`) || !isOpen) return;
     setIsOpen(false);
   };

@@ -14,7 +14,7 @@ const props = {
   }
 };
 
-const generateList = count =>
+const generateList = (count) =>
   Array(count)
     .fill("OSCA AFRICA")
     .map((t, i) => `${t} ${i + 1}`);
@@ -32,7 +32,7 @@ export const LessThan10Pages = () => {
   return (
     <div {...props}>
       <ul>
-        {list.slice(start, end).map(text => (
+        {list.slice(start, end).map((text) => (
           <li key={text}>{text}</li>
         ))}
       </ul>
@@ -54,7 +54,7 @@ export const MoreThan10Pages = () => {
   return (
     <div {...props}>
       <ul>
-        {list.slice(start, end).map(text => (
+        {list.slice(start, end).map((text) => (
           <li key={text}>{text}</li>
         ))}
       </ul>

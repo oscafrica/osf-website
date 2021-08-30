@@ -21,7 +21,7 @@ function Cta() {
             value: "10+",
             title: "Workshops"
           }
-        ].map(data => (
+        ].map((data) => (
           <div key={data.title} className="w-1/2 lg:w-1/4 p-6">
             <span className="text-4xl font-bold text-white uppercase">{data.value}</span>
             <p className="text-lg font-bold text-gray-200 uppercase">{data.title}</p>

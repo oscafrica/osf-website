@@ -40,7 +40,7 @@ function Footer() {
             route: "https://blog.oscafrica.org",
             title: "Blog"
           }
-        ].map(link => (
+        ].map((link) => (
           <ul className="m-0 p-0" key={link.title}>
             <li className="pb-8 lg:pr-8 lg:pb-0 p2">
               <a className="no-underline text-white text-base" href={link.route}>
@@ -88,7 +88,7 @@ function Footer() {
             faIcon: ["fab", "discord"],
             href: "https://discord.gg/8STPZzN"
           }
-        ].map(icon => (
+        ].map((icon) => (
           <a
             key={icon.key}
             aria-label={icon.label}

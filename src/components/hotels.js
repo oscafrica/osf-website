@@ -82,7 +82,7 @@ function Hotels() {
             duration: "See available spaces around the venue",
             link: "https://www.airbnb.com/s/Gbagada--Lagos"
           }
-        ].map(hotel => (
+        ].map((hotel) => (
           <a href={hotel.link} key={hotel.name} className="relative w-full h-full lg:w-1/3 max-w-sm rounded px-2 mt-4">
             <figure className="cursor-pointer w-full">
               <img className="w-auto mx-auto" src={hotel.image} alt={`An amazing photograph of ${hotel.name}.`} />

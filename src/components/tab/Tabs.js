@@ -6,7 +6,7 @@ import classes from "./style.module.css";
 
 const noob = () => {};
 
-const Tabs = props => {
+const Tabs = (props) => {
   const [selectedTab, setSelectedTab] = useState(props.selectedTab || props.defaultSelectedTab);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Tabs = props => {
     setSelectedTab(props.selectedTab);
   }, [props.selectedTab]);
 
-  const handleClick = selectedTab => e => {
+  const handleClick = (selectedTab) => (e) => {
     if (props.selectedTab !== undefined) return;
     props.onChangeTab(selectedTab);
     setSelectedTab(selectedTab);

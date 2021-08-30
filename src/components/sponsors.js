@@ -117,8 +117,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("headline"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("headline"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
@@ -139,8 +139,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("diamond"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("diamond"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
@@ -161,8 +161,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("gold"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("gold"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
@@ -183,8 +183,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("silver"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("silver"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
@@ -205,8 +205,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("bronze"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("bronze"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
@@ -227,8 +227,8 @@ function Sponsors() {
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("partner"))
-            .map(sponsor => (
+            .filter((data) => data.tier.includes("partner"))
+            .map((sponsor) => (
               <a
                 href={sponsor.link}
                 target="_blank"
