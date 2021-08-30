@@ -11,10 +11,19 @@ function IndexPage() {
     <>
       <SEO
         keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]}
-        title="OSCAfest 2021 Sponsorship"
+        title="Open Source Festival 2021"
       />
-      <div className=" text-white">
-        <img src={`${sponsorship.background}`} alt="background" className="z-10 object-cover w-screen h-screen" />
+      <div>
+        <img alt="background" className="z-10 bg-black opacity-50 fixed object-cover w-screen h-screen" />
+        <video autoPlay muted loop id="osca" className="z-10 bg-black object-cover w-screen h-screen">
+          <source
+            src="https://res.cloudinary.com/osca/video/upload/v1630281827/osf/hli7kjmf37756wtkpetm.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div className=" text-white bg-black">
         <section className="flex flex-col z-30 absolute top-0 left-0 w-screen min-h-screen justify-center items-center">
           <img alt="Open Source Community Africa Logo." className="w-16" src={logo.pngOrange} />
           <h1 className=" text-h1 lg:text-sship1 leading-none font-thin my-8 text-white">
@@ -29,7 +38,7 @@ function IndexPage() {
               <span className="text-h1 lg:text-sship2 font-bold leading-none">Open</span>
               &nbsp;
               <img
-                alt="Open Source Community Africa Logo."
+                alt="Open Source Community Africa's Logo"
                 className=" w-10 lg:w-24 -mb-2 lg:-mb-8"
                 src={sponsorship.arrow}
               />
@@ -45,7 +54,7 @@ function IndexPage() {
           <div className="flex flex-col lg:flex-row items-center my-10">
             <SponsorLink
               href="https://opencollective.com/osca"
-              className="px-10 py-4 bg-orange-primary rounded-full uppercase text-black text-sm border-2 tracking-wide font-semibold"
+              className="px-10 py-4 bg-orange-primary rounded-full uppercase text-black text-sm border-black border-2 tracking-wide font-semibold"
               target="_blank"
               rel="noreferrer noopenner"
             >
@@ -64,7 +73,6 @@ function IndexPage() {
           </a>
         </section>
       </div>
-
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setIsOpen(false)}
