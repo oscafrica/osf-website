@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
-        exclude: ["/tailwind-config-demo"]
+        excludes: ["/tailwind-config-demo"]
       }
     },
     "gatsby-plugin-offline",
