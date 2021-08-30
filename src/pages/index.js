@@ -66,7 +66,7 @@ function IndexPage() {
           </div>
 
           <a className=" p-4" href="/2020">
-            View past events
+            View past event
           </a>
         </section>
       </div>
