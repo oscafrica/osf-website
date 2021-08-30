@@ -24,7 +24,7 @@ const patterns = Object.freeze({
 
 const sponsorship = Object.freeze({
   background:
-    "https://res.cloudinary.com/osca/image/upload/w_auto,dpr_auto,q_30,f_auto/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj.png",
+    "https://res.cloudinary.com/osca/image/upload/w_auto,dpr_auto,q_20,f_auto/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj.png",
   arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
   play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
 });
