@@ -14,7 +14,7 @@ function IndexPage() {
         title="Open Source Festival 2021"
       />
       <div>
-        <div className="z-10 bg-black opacity-20 lg:opacity-50 fixed object-cover w-screen h-screen" />
+        <div className="z-10 bg-black opacity-50 fixed object-cover w-screen h-screen" />
         <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-screen">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
