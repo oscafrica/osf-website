@@ -51,7 +51,7 @@ function IndexPage() {
 
           <div className="flex flex-col lg:flex-row items-center my-10">
             <SponsorLink
-              href="/docs/OSCA - Sponsorship Guide.pdf"
+              href="/docs/OSCA-sponsorship-guide.pdf"
               className="px-10 py-4 bg-orange-primary rounded-full uppercase text-black text-sm border-black border-2 tracking-wide font-semibold"
               target="_blank"
               rel="noreferrer noopenner"
