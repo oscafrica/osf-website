@@ -29,7 +29,7 @@ function Restaurants() {
             image: restaurants.bukka,
             link: "https://goo.gl/maps/1p16bL7JaTeCavS4A"
           }
-        ].map(restaurant => (
+        ].map((restaurant) => (
           <a
             href={restaurant.link}
             key={restaurant.name}

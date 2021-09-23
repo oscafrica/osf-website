@@ -8,19 +8,19 @@ const Pagination = ({ currentPage, totalCount, onChange, resultsPerPage }) => {
   const noOfPages = Math.ceil(totalCount / resultsPerPage);
   if (noOfPages <= 1) return null;
 
-  const handleClick = page => () =>
+  const handleClick = (page) => () =>
     onChange({
       page,
       start: resultsPerPage * page,
       end: Math.min(totalCount, resultsPerPage * (page + 1))
     });
 
-  const isDisabled = dir => {
+  const isDisabled = (dir) => {
     if (dir === "left") return currentPage === 0;
     if (dir === "right") return currentPage + 1 === noOfPages;
   };
 
-  const renderButton = i => (
+  const renderButton = (i) => (
     <button
       key={i}
       className={classNames(classes.paginationButton, { [classes.active]: currentPage === i })}

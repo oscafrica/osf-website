@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const useScript = url => {
+const useScript = (url) => {
   useEffect(() => {
     const script = document.createElement("script");
 

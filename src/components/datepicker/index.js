@@ -6,9 +6,9 @@ import classes from "./style.module.css";
 import calendarIcon from "./calendar-icon.svg";
 import { TextBox } from "../textBox";
 
-const isSunday = date => date.getDay() === 0;
+const isSunday = (date) => date.getDay() === 0;
 
-const isToday = date => date.toDateString() === new Date().toDateString();
+const isToday = (date) => date.toDateString() === new Date().toDateString();
 
 const CustomInput = ({ ...props }) => (
   <div>
@@ -26,7 +26,7 @@ const DatePicker = ({ ...props }) => (
     customInput={<CustomInput />}
     popperClassName={classes.popper}
     dateFormat="dd/MM/yyyy"
-    dayClassName={day => (isSunday(day) ? classes.sunday : isToday(day) ? classes.today : classes.day)}
+    dayClassName={(day) => (isSunday(day) ? classes.sunday : isToday(day) ? classes.today : classes.day)}
     wrapperClassName={classes.dateWrapper}
   />
 );

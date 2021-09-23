@@ -8,7 +8,7 @@ function Nav() {
 
   return (
     <header className="z-20 w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
-      <div className="absolute left-0 fixed">
+      <div className="absolute left-0">
         <img className="-pl-4" src={patterns.navRec} alt="" />
       </div>
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
@@ -51,30 +51,30 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "/#speakers",
+              route: "/2020/#speakers",
               title: "Speakers"
             },
             {
-              route: "/schedule",
+              route: "/2020/schedule",
               title: "Schedule"
             },
             {
-              route: "/travel",
+              route: "/2020/travel",
               title: "Travel"
             },
             {
-              route: "/#sponsors",
+              route: "/2020/#sponsors",
               title: "Sponsorship"
             },
             {
-              route: "/scholarship",
+              route: "/2020/scholarship",
               title: "Scholarship"
             },
             {
-              route: "/sustain-africa",
+              route: "/2020/sustain-africa",
               title: "Sustain Africa"
             }
-          ].map(link => (
+          ].map((link) => (
             <a
               className="block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}

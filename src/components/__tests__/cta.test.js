@@ -11,9 +11,7 @@ describe("cta component", () => {
   });
 
   it("should have 4 items", () => {
-    expect(wrapper.find("section div"))
-      .to.have.exactly(4)
-      .descendants("div span");
+    expect(wrapper.find("section div")).to.have.exactly(4).descendants("div span");
   });
 
   it("should contain texts '800' and 'Attendees'", () => {

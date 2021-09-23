@@ -10,12 +10,23 @@ const logo = Object.freeze({
   sustain: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581921868/osf-sustain-asset.png"
 });
 
+const videos = {
+  mainBg: "https://res.cloudinary.com/osca/video/upload/v1630281827/osf/hli7kjmf37756wtkpetm.mp4"
+};
+
 const patterns = Object.freeze({
   africanMap: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576543138/osf/Patterns/map.png",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
   section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+});
+
+const sponsorship = Object.freeze({
+  background:
+    "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
+  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
+  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
 });
 
 const speakers = Object.freeze({
@@ -80,4 +91,4 @@ const restaurants = Object.freeze({
   bukka: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337348/osf/Restaurants/bukka.png"
 });
 
-export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants };
+export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants, sponsorship, videos };
