@@ -34,7 +34,7 @@
     "purgecss"
   ],
   "engines": {
-    "node": "14.17.5"
+    "node": "15.0.1"
   },
   "license": "MIT",
   "scripts": {
