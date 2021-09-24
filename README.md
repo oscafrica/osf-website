@@ -40,6 +40,12 @@ cd osf-website
 git checkout -b speakers-component
 ```
 
+- Install required packages
+
+```sh
+yarn install
+```
+
 - Start development server
 
 ```sh
@@ -99,12 +105,11 @@ npm run fix
     <td align="center"><a href="https://github.com/legendaryofor"><img src="https://avatars2.githubusercontent.com/u/56217883?v=4" width="100px;" alt=""/><br /><sub><b>OFOR</b></sub></a><br /><a href="#design-legendaryofor" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/alabobriggs"><img src="https://avatars3.githubusercontent.com/u/38571291?v=4" width="100px;" alt=""/><br /><sub><b>Alabo David Briggs</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=alabobriggs" title="Code">💻</a></td>
     <td align="center"><a href="https://www.patreon.com/cooproton"><img src="https://avatars0.githubusercontent.com/u/25608335?v=4" width="100px;" alt=""/><br /><sub><b>Bolaji Olajide</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://johs.dev"><img src="https://avatars0.githubusercontent.com/u/29008971?v=4" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=NotJohs" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://twitter.com/vimoppa"><img src="https://avatars.githubusercontent.com/u/69737492?v=4" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=vimoppa" title="Code">💻</a><a href="https://github.com/oscommunityafrica/osf-website/commits?author=vimoppa" title="Documentation">📖</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4" width="100px;" alt=""/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=fakela" title="Code">💻</a></td>
     <td align="center"><a href="https://twitter.com/ashinzekene"><img src="https://avatars2.githubusercontent.com/u/20991583?v=4" width="100px;" alt=""/><br /><sub><b>Ashinze Ekene</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=ashinzekene" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/joshikeno"><img src="https://avatars0.githubusercontent.com/u/29008971?v=4" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=joshikeno" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/NdibeRaymond"><img src="https://avatars2.githubusercontent.com/u/40905613?v=4" width="100px;" alt=""/><br /><sub><b>Ndibe Raymond Olisaemeka</b></sub></a><br /><a href="#content-NdibeRaymond" title="Content">🖋</a></td>
   </tr>
 </table>
