@@ -5,7 +5,7 @@ module.exports = {
     Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
     `,
     siteUrl: "https://festival.oscafrica.org",
-    image: "https://raw.githubusercontent.com/oscafrica/osf-website/master/src/images/og-2020.jpg",
+    image: "https://raw.githubusercontent.com/oscafrica/osf-website/master/src/images/og-2021.jpg",
     twitter: "@oscafrica",
     fbAppID: "201250060624015"
   },
