@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           },
           {
             name: "og:title",
-            content: `${title} | ${site.siteMetadata.title}`
+            content: `${site.siteMetadata.title} ${title}`
           },
           {
             name: "description",
@@ -76,7 +76,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           },
           {
             name: "twitter:title",
-            content: `${title} | ${site.siteMetadata.title}`
+            content: `${site.siteMetadata.title} ${title}`
           },
           {
             name: "twitter:description",
