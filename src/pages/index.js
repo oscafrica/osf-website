@@ -46,8 +46,8 @@ function IndexPage() {
           <time dateTime="2018-11-11" className="text-h5 lg:text-h1 font-medium">
             March 24 - 26, 2022
           </time>
-          <p className="text-h5 lg:text-h4 font-light my-2">Lagos, Nigeria | Virtual</p>
-          <p className="text-h5 lg:text-h4 font-light">#OSCAFest21</p>
+          <p className="text-h5 lg:text-h4 font-light my-2">Lagos, Nigeria | Hybrid</p>
+          <p className="text-h5 lg:text-h4 font-light">#OSCAFest22</p>
 
           <div className="flex flex-col lg:flex-row items-center my-10">
             <SponsorLink
