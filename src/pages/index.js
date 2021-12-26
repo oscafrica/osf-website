@@ -10,8 +10,8 @@ function IndexPage() {
   return (
     <>
       <SEO
-        keywords={["Open Source Community Africa", "OSCA", "OSCAFRICA", "Open Source Festival", "OSF", "Open Source Festival 2021"]}
-        title="2021"
+        keywords={["Open Source Community Africa", "OSCA", "OSCAFRICA", "Open Source Festival", "OSF", "Open Source Festival 2022"]}
+        title="2022"
       />
       <div>
         <div className="z-10 bg-black opacity-50 fixed object-cover w-screen h-screen" />
