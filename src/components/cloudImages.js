@@ -19,7 +19,8 @@ const patterns = Object.freeze({
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png",
+  futureIsOpen: ""
 });
 
 const sponsorship = Object.freeze({

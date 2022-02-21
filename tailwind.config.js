@@ -24,6 +24,9 @@ module.exports = {
           500: "#283756",
           600: "#283757"
         },
+        "army-green": {
+          primary: "#1B352D"
+        },
         orange: {
           primary: "#F79313",
           100: "#FFE0BC",

@@ -16,6 +16,15 @@
   font-style: normal;
 }
 
+/* download the font */
+@font-face {
+  font-family: "Anisette Std";
+  font-display: auto;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -76,4 +85,30 @@ embed {
   flex: 1 1 auto;
   border-top: 1px dashed #c4c4c4;
   margin-left: 20px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.moving-text {
+  animation: marquee 15s linear infinite;
+  font-size: 20px;
+}
+
+.gallery-images {
+  flex: 50%;
+}
+
+.sm:gallery-images {
+  flex: 100%;
+}
+
+.table {
+  display: table;
 }

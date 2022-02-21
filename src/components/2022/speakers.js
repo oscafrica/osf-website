@@ -1,0 +1,90 @@
+import React from "react";
+
+import { speakers } from "../cloudImages";
+
+function Speaker() {
+  return (
+    <section id="speakers" className="bg-army-green-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
+      <div className="flex flex-wrap justify-center">
+        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white text-center">
+          <h1 className="text-sec font-bold font-ubuntu uppercase">Meet our <br/> Speakers</h1>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap text-white my-8">
+        {[
+          {
+            name: "Eriol Fox",
+            title: "Design Lead | Ushahidi",
+            image: speakers.eriol
+          },
+          {
+            name: "Aniedi Udo-Obong",
+            title: "Developer Relations, Sub-Saharan Africa | Google",
+            image: speakers.aniedi
+          },
+          {
+            name: "Prosper Otemuyiwa",
+            title: "Co-founder | Eden & forloop Africa",
+            image: speakers.prosper
+          },
+          {
+            name: "Marlene Mhangami",
+            title: "Director | PSF & Co-founder | ZimboPy",
+            image: speakers.marlene
+          },
+          {
+            name: "Stephen Walli",
+            title: "Principal Program Manager | Microsoft",
+            image: speakers.stephen
+          },
+          {
+            name: "Gen Ashley",
+            title: "Founder | TECH(K)NOW & Lead | NASA SpaceApps",
+            image: speakers.ashley
+          },
+          {
+            name: "Henry Zhu",
+            title: "Maintainer | Babel & Open Source Advocate",
+            image: speakers.henry
+          },
+          {
+            name: "Ben Lesh",
+            title: "Development lead | RxJS",
+            image: speakers.ben
+          },
+          {
+            name: "Amanda Casari",
+            title: "Engineering Manager | Google OSS",
+            image: speakers.amanda
+          },
+          {
+            name: "Samson Goddy",
+            title: "Co-founder | OSCA",
+            image: speakers.samson
+          },
+          {
+            name: "Ada Nduka Oyom",
+            title: "Co-founder | OSCA & Founder | SCA",
+            image: speakers.ada
+          },
+          {
+            name: "Moyinoluwa Adeyemi",
+            title: "Google Developer Expert (Android)",
+            image: speakers.moyin
+          }
+        ].map((speaker) => (
+          <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
+            <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
+            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-white opacity-90 text-center text-black">
+              <h3 className="font-bold text-xl">{speaker.name}</h3>
+              <p className="text-sm">{speaker.title}</p>
+            </div>
+          </figure>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default Speaker;
