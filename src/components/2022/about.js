@@ -4,13 +4,17 @@ import { patterns } from "../cloudImages";
 function About() {
   return (
     <>
-      <div className="moving-text">
-        {/* <span><img src="src/images/arrows.svg" alt="arrows" /></span> */}
-        <span> #OSCAFEST22</span>
+      <div id="about" className="moving-text flex">
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
       <section className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
+        <div className="hidden lg:block absolute left-0">
+        <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
+      </div>
         <figure className="w-full lg:w-1/3">
-          <img className="pb-4 lg:pl-4" alt="OSCAFRICA Future is Open Badge" src={patterns.nextBillion} />
+          <img className="pb-4 lg:pl-4" alt="OSCAFRICA Future is Open Badge" src={patterns.futureIsOpen} />
         </figure>
 
         <div className="lg:w-1/2 lg:mx-12">
@@ -28,9 +32,10 @@ function About() {
           </blockquote>
         </div>
       </section>
-      <div className="moving-text">
-        {/* <span><img src="src/images/arrows.svg" alt="arrows" /></span> */}
-        <span> #OSCAFEST22</span>
+      <div className="moving-text flex">
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
     </>
   );

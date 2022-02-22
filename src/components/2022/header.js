@@ -1,14 +1,13 @@
 import React from "react";
 import { sponsorship, videos } from "../cloudImages";
-
 function Header() {
   return (
     < >
       <div>
-          <div className="z-10 bg-black opacity-50 absolute object-cover h-screen" />
+        <div className="z-10 bg-bg-black opacity-50 absolute object-cover h-screen" />
           <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
             <source src={videos.mainBg} type="video/mp4" />
-          </video>
+        </video>
           <img alt="Background" className="lg:hidden h-screen w-screen object-cover" src={sponsorship.background} />
       </div>
       <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">

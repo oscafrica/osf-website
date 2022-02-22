@@ -1,7 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { patterns } from "../cloudImages";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faCalendar, faMapMarkerAlt, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,7 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="relative z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
@@ -50,7 +50,7 @@ function Footer() {
           </ul>
         ))}
       </div>
-      <div className="mt-4">
+      <div className="z-10 mt-4">
         {[
           {
             key: 0,
@@ -100,6 +100,9 @@ function Footer() {
             </i>
           </a>
         ))}
+      </div>
+      <div className="z-15 hidden lg:block absolute right-0 bottom-2">
+        <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.halfCircle} alt="" />
       </div>
     </footer>
   );

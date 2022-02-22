@@ -105,10 +105,6 @@ embed {
   flex: 50%;
 }
 
-.sm:gallery-images {
-  flex: 100%;
-}
-
 .table {
   display: table;
 }

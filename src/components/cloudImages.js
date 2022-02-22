@@ -20,7 +20,11 @@ const patterns = Object.freeze({
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
   section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png",
-  futureIsOpen: ""
+  futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645548903/n48lwqyxpzpvthhxdnur.svg",
+  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/Patterns/wcjlgvxb0gssqsxtsro0.svg",
+  circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/Patterns/lyaio7upizhsud5jhvya.svg",
+  fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/Patterns/kxazrjyjhfnxe1n8uhio.svg",
+  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/Patterns/abw4pdeo6inr5jj9ghp7.svg"
 });
 
 const sponsorship = Object.freeze({

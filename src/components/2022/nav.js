@@ -44,15 +44,15 @@ function Nav() {
         >
           {[
             {
-              route: "/2020/#speakers",
+              route: "/#about",
               title: "About"
             },
             {
-              route: "/2020/#speakers",
+              route: "/#speakers",
               title: "Speakers"
             },
             {
-              route: "/2020/travel",
+              route: "/travel",
               title: "Travel"
             },
             {
@@ -60,7 +60,7 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "/2020/#sponsors",
+              route: "/#sponsors",
               title: "Sponsorship"
             }
           ].map((link) => (
