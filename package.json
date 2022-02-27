@@ -2,7 +2,7 @@
   "name": "osf-website",
   "description": "Website for OSCA Open Source Festival",
   "version": "3.0.141",
-  "author": "OSCAFRICA",
+  "author": "Open Source Community Africa <info@oscafrica.org>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -34,7 +34,7 @@
     "purgecss"
   ],
   "engines": {
-    "node": "14.17.5"
+    "node": ">=16.0.0"
   },
   "license": "MIT",
   "scripts": {
