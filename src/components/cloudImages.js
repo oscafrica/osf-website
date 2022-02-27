@@ -66,7 +66,12 @@ const sponsors = Object.freeze({
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
   mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
   cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
-  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png"
+  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png",
+  opensuse: "https://res.cloudinary.com/osca/image/upload/v1645782141/osf/Sponsors/kpadlf0a7d2u6mzdsjgd.png",
+  cloudNative: "https://res.cloudinary.com/osca/image/upload/v1645782289/osf/Sponsors/dpijwn6p3zcimtpwivrh.jpg",
+  sourceGraph: "https://res.cloudinary.com/osca/image/upload/v1645782327/osf/Sponsors/etk2zrmn7umymwkbqbdg.png",
+  coil: "https://res.cloudinary.com/osca/image/upload/v1645782498/osf/Sponsors/flflzhzkzd56cb0bfivh.png",
+  google2022: "https://res.cloudinary.com/osca/image/upload/v1645782572/osf/Sponsors/aacdazkrhqihtxux5wu7.svg"
 });
 
 const gallery = Object.freeze({

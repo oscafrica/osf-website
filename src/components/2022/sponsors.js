@@ -5,14 +5,26 @@ import { sponsors } from "../cloudImages";
 const sponsorsData = [
   {
     tier: "headline",
-    name: "Facebook Open Source",
+    name: "Meta",
     image: sponsors.facebookOSS,
     link: "https://opensource.facebook.com/"
   },
   {
-    tier: "diamond",
+    tier: "headline",
     name: "Google Open Source",
-    image: sponsors.googleOSS,
+    image: sponsors.google2022,
+    link: "https://opensource.google/"
+  },
+  {
+    tier: "diamond",
+    name: "Coil",
+    image: sponsors.coil,
+    link: "https://opensource.google/"
+  },
+  {
+    tier: "diamond",
+    name: "Sourcegragh",
+    image: sponsors.sourceGraph,
     link: "https://opensource.google/"
   },
   {
@@ -23,7 +35,7 @@ const sponsorsData = [
   },
   {
     tier: "silver",
-    name: "Open Core Summit",
+    name: "Edge and node",
     image: sponsors.ocs,
     link: "https://opencoresummit.com/"
   },
@@ -53,13 +65,13 @@ const sponsorsData = [
   },
   {
     tier: "bronze",
-    name: "Salesforce",
-    image: sponsors.salesforce,
+    name: "OpenSuse",
+    image: sponsors.opensuse,
     link: "https://engineering.salesforce.com"
   },
   {
     tier: "bronze",
-    name: "Webflow",
+    name: "@Company",
     image: sponsors.webflow,
     link: "https://webflow.com/"
   },

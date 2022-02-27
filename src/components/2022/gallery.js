@@ -1,13 +1,14 @@
 import React from "react";
 
-import { gallery } from "../cloudImages";
+import { gallery, patterns } from "../cloudImages";
 
 function Gallery() {
   return (
     <section id="gallery" className="bg-white lg:flex-row pt-3 lg:pt-5">
-      <div className="moving-text">
-        {/* <span><img src="src/images/arrows.svg" alt="arrows" /></span> */}
-        <span> #OSCAFEST22</span>
+      <div id="about" className="moving-text flex">
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
 
       <div className="flex flex-wrap text-white">
