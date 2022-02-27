@@ -1,5 +1,5 @@
 import React from "react";
-import { sponsorship, videos } from "../cloudImages";
+import { patterns, videos } from "./cloudImages";
 function Header() {
   return (
     < >
@@ -8,11 +8,11 @@ function Header() {
           <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
             <source src={videos.mainBg} type="video/mp4" />
         </video>
-          <img alt="Background" className="lg:hidden h-screen w-screen object-cover" src={sponsorship.background} />
+          <img alt="Background" className="lg:hidden h-screen w-screen object-cover" src={patterns.background} />
       </div>
       <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 lg:pt-40 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
-        <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">
+        <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
+        <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
           <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">
                 <div className="bg-orange-primary mb-2 table px-1">Open Source</div>
                <div className="bg-orange-primary mb-2 table px-1">Festival 2022</div>
@@ -35,7 +35,7 @@ function Header() {
               href="https://opencollective.com/osca/events/open-source-festival-2020-4abe0517"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 mr-5 px-12 py-3 bg-orange-primary text-black text-center uppercase flex justify-center items-center"
+              className="text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 mr-5 px-12 py-3 bg-orange-primary text-black text-center uppercase justify-center items-center"
             >
                 Register
             </a>

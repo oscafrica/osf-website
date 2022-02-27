@@ -20,53 +20,22 @@ const patterns = Object.freeze({
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
   section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png",
-  futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645548903/n48lwqyxpzpvthhxdnur.svg",
-  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/Patterns/wcjlgvxb0gssqsxtsro0.svg",
+  futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645850627/osf/2022/n2fgn1ihdrewlskux1pi.svg",
+  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/2022/Patterns/wcjlgvxb0gssqsxtsro0.svg",
   circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/Patterns/lyaio7upizhsud5jhvya.svg",
   fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/Patterns/kxazrjyjhfnxe1n8uhio.svg",
-  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/Patterns/abw4pdeo6inr5jj9ghp7.svg"
-});
-
-const sponsorship = Object.freeze({
-  background:
-    "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
+  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/Patterns/abw4pdeo6inr5jj9ghp7.svg",
+  background: "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
   arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
   play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
 });
 
 const speakers = Object.freeze({
-  dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577683448/osf/Speakers/dummy.png",
-  amanda: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/amanda.png",
-  aniedi: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722396/osf/Speakers/aniedi.png",
-  stephen: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/stephen.png",
-  eriol: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722394/osf/Speakers/eriol.png",
-  prosper: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722393/osf/Speakers/prosper.png",
-  marlene: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/marlene.png",
-  ashley: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578737937/osf/Speakers/ashley.png",
-  henry: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579165791/osf/Speakers/henry.png",
-  ben: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579432021/osf/Speakers/ben.png",
-  samson: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819471/osf/Speakers/samson.png",
-  ada: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580819973/osf/Speakers/ada.png",
-  moyin: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581518358/osf/Speakers/moyin.png"
+  dummyImage: "https://res.cloudinary.com/osca/image/upload/v1645997775/osf/2022/Speakers/v0dcxtxhuhxs0iahjfgx.png"
 });
 
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/Sponsors/dummy.png",
-  facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814129/osf/Sponsors/fb-oss.png",
-  microsoft: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582118578/osf/Sponsors/microsoft.png",
-  googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814379/osf/Sponsors/google.svg",
-  github: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580814181/osf/Sponsors/github.svg",
-  salesforce: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580824546/osf/Sponsors/salesforce.svg",
-  webflow: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
-  osc: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
-  ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png",
-  aws: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578486228/osf/Sponsors/aws-amplify.png",
-  eclipse: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579712089/osf/Sponsors/eclipse.png",
-  psf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1580832360/osf/Sponsors/psf.png",
-  ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
-  mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
-  cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
-  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png",
   opensuse: "https://res.cloudinary.com/osca/image/upload/v1645782141/osf/Sponsors/kpadlf0a7d2u6mzdsjgd.png",
   cloudNative: "https://res.cloudinary.com/osca/image/upload/v1645782289/osf/Sponsors/dpijwn6p3zcimtpwivrh.jpg",
   sourceGraph: "https://res.cloudinary.com/osca/image/upload/v1645782327/osf/Sponsors/etk2zrmn7umymwkbqbdg.png",
@@ -75,10 +44,10 @@ const sponsors = Object.freeze({
 });
 
 const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535730/osf/Gallery/1.png",
-  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535774/osf/Gallery/2.png",
-  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535773/osf/Gallery/3.png",
-  four: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582535785/osf/Gallery/4.png"
+  one: "https://res.cloudinary.com/osca/image/upload/v1645998575/osf/2022/Gallery/p8vfhf6hllywvkj3fe44.png",
+  two: "https://res.cloudinary.com/osca/image/upload/v1645998573/osf/2022/Gallery/sz5kz6rlyewfdkqjys7u.png",
+  three: "https://res.cloudinary.com/osca/image/upload/v1645998573/osf/2022/Gallery/hnfydo2jggtrlpts4hxv.png",
+  four: "https://res.cloudinary.com/osca/image/upload/v1645998576/osf/2022/Gallery/b4rcssraherpe68s71dk.png"
 });
 
 const hotels = Object.freeze({
@@ -101,4 +70,4 @@ const restaurants = Object.freeze({
   bukka: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581337348/osf/Restaurants/bukka.png"
 });
 
-export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants, sponsorship, videos };
+export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants, videos };

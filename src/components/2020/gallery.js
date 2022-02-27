@@ -1,6 +1,6 @@
 import React from "react";
 
-import { gallery, patterns } from "../components/cloudImages";
+import { gallery, patterns } from "./cloudImages";
 
 function Gallery() {
   return (

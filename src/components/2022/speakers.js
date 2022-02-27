@@ -1,6 +1,6 @@
 import React from "react";
 
-import { speakers, patterns } from "../cloudImages";
+import { speakers, patterns } from "./cloudImages";
 
 function Speaker() {
   return (
@@ -13,64 +13,54 @@ function Speaker() {
       <div className="flex flex-wrap text-white my-8">
         {[
           {
-            name: "Eriol Fox",
-            title: "Design Lead | Ushahidi",
-            image: speakers.eriol
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Aniedi Udo-Obong",
-            title: "Developer Relations, Sub-Saharan Africa | Google",
-            image: speakers.aniedi
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Prosper Otemuyiwa",
-            title: "Co-founder | Eden & forloop Africa",
-            image: speakers.prosper
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Marlene Mhangami",
-            title: "Director | PSF & Co-founder | ZimboPy",
-            image: speakers.marlene
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Stephen Walli",
-            title: "Principal Program Manager | Microsoft",
-            image: speakers.stephen
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Gen Ashley",
-            title: "Founder | TECH(K)NOW & Lead | NASA SpaceApps",
-            image: speakers.ashley
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Henry Zhu",
-            title: "Maintainer | Babel & Open Source Advocate",
-            image: speakers.henry
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Ben Lesh",
-            title: "Development lead | RxJS",
-            image: speakers.ben
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Amanda Casari",
-            title: "Engineering Manager | Google OSS",
-            image: speakers.amanda
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           },
           {
-            name: "Samson Goddy",
-            title: "Co-founder | OSCA",
-            image: speakers.samson
-          },
-          {
-            name: "Ada Nduka Oyom",
-            title: "Co-founder | OSCA & Founder | SCA",
-            image: speakers.ada
-          },
-          {
-            name: "Moyinoluwa Adeyemi",
-            title: "Google Developer Expert (Android)",
-            image: speakers.moyin
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">

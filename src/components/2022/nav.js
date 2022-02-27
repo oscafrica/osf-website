@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import { logo } from "../../components/cloudImages";
+import { logo } from "./cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -10,11 +10,11 @@ function Nav() {
     <header className="z-40 bg-orange-primary w-full top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
-          <img alt="Open Source Community Africa Logo." className="block mx-auto w-12" src={logo.pngOrange} />
+          <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12" src={logo.svgOrange} />
         </Link>
 
         <button
-          className="block lg:hidden flex items-center px-3 py-2 rounded text-white"
+          className="block lg:hidden items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           {isExpanded ? (
@@ -56,7 +56,7 @@ function Nav() {
               title: "Travel"
             },
             {
-              route: "https://opencollective.com/osca/events/open-source-festival-2020-4abe0517",
+              route: "https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2",
               title: "Register"
             },
             {

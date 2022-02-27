@@ -1,5 +1,5 @@
 import React from "react";
-import { patterns } from "../cloudImages";
+import { patterns } from "./cloudImages";
 
 function About() {
   return (

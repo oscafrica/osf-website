@@ -1,10 +1,10 @@
 import React from "react";
 
-import { sponsors } from "../cloudImages";
+import { sponsors } from "./cloudImages";
 
 const sponsorsData = [
   {
-    tier: "headline",
+    tier: "diamond",
     name: "Meta",
     image: sponsors.facebookOSS,
     link: "https://opensource.facebook.com/"
@@ -47,63 +47,15 @@ const sponsorsData = [
   },
   {
     tier: "silver",
-    name: "Ubuntu",
-    image: sponsors.ubuntu,
-    link: "https://ubuntu.com/"
-  },
-  {
-    tier: "silver",
     name: "Cloud Native Computing Foundation",
     image: sponsors.cncf,
     link: "https://www.cncf.io/"
-  },
-  {
-    tier: "silver",
-    name: "Micorsoft",
-    image: sponsors.microsoft,
-    link: "https://microsoft.com"
   },
   {
     tier: "bronze",
     name: "OpenSuse",
     image: sponsors.opensuse,
     link: "https://engineering.salesforce.com"
-  },
-  {
-    tier: "bronze",
-    name: "@Company",
-    image: sponsors.webflow,
-    link: "https://webflow.com/"
-  },
-  {
-    tier: "bronze",
-    name: "Open Source Collective",
-    image: sponsors.osc,
-    link: "https://www.oscollective.org/"
-  },
-  {
-    tier: "bronze",
-    name: "Eclipse Foundation",
-    image: sponsors.eclipse,
-    link: "https://www.eclipse.org/"
-  },
-  {
-    tier: "bronze",
-    name: "Python Software Foundation",
-    image: sponsors.psf,
-    link: "https://www.python.org/psf/"
-  },
-  {
-    tier: "bronze",
-    name: "Mozilla Foundation",
-    image: sponsors.mozilla,
-    link: "https://www.mozilla.org/en-US/moss/"
-  },
-  {
-    tier: "partner",
-    name: "Google Developer Space",
-    image: sponsors.gds,
-    link: "https://developers.google.com"
   }
 ];
 
@@ -212,28 +164,6 @@ function Sponsors() {
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
             .filter((data) => data.tier.includes("bronze"))
-            .map((sponsor) => (
-              <a
-                href={sponsor.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                key={sponsor.name}
-                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
-              >
-                <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
-                </figure>
-              </a>
-            ))}
-        </div>
-
-        {/* Event partners */}
-        <h1 className="text-h5 font-bold uppercase">
-          Event Partners
-        </h1>
-        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
-          {sponsorsData
-            .filter((data) => data.tier.includes("partner"))
             .map((sponsor) => (
               <a
                 href={sponsor.link}

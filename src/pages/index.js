@@ -13,12 +13,12 @@ import Gallery from "../components/2022/gallery";
 import Footer from "../components/2022/footer";
 
 function IndexPage() {
-return (
+  return (
     <Layout>
-    <SEO keywords={["Open Source Community Africa", "OSCA", "OSCAFRICA", "Open Source Festival", "OSF", "Open Source Festival 2022"]} title="2022" />
+      <SEO keywords={["Open Source Community Africa", "OSCA", "OSCAFRICA", "Open Source Festival", "OSF", "Open Source Festival 2022"]} title="2022" />
       <Nav />
       <Header />
-       <Cta />
+      <Cta />
       <About />
       <Speakers />
       <Sponsors />
