@@ -19,7 +19,12 @@ const patterns = Object.freeze({
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png",
+  futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645548903/n48lwqyxpzpvthhxdnur.svg",
+  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/Patterns/wcjlgvxb0gssqsxtsro0.svg",
+  circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/Patterns/lyaio7upizhsud5jhvya.svg",
+  fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/Patterns/kxazrjyjhfnxe1n8uhio.svg",
+  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/Patterns/abw4pdeo6inr5jj9ghp7.svg"
 });
 
 const sponsorship = Object.freeze({
@@ -61,7 +66,12 @@ const sponsors = Object.freeze({
   ubuntu: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097210/osf/Sponsors/ubuntu.png",
   mozilla: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581097092/osf/Sponsors/mozilla.svg",
   cncf: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581733226/osf/Sponsors/cncf.png",
-  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png"
+  gds: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1582194710/osf/Sponsors/gds.png",
+  opensuse: "https://res.cloudinary.com/osca/image/upload/v1645782141/osf/Sponsors/kpadlf0a7d2u6mzdsjgd.png",
+  cloudNative: "https://res.cloudinary.com/osca/image/upload/v1645782289/osf/Sponsors/dpijwn6p3zcimtpwivrh.jpg",
+  sourceGraph: "https://res.cloudinary.com/osca/image/upload/v1645782327/osf/Sponsors/etk2zrmn7umymwkbqbdg.png",
+  coil: "https://res.cloudinary.com/osca/image/upload/v1645782498/osf/Sponsors/flflzhzkzd56cb0bfivh.png",
+  google2022: "https://res.cloudinary.com/osca/image/upload/v1645782572/osf/Sponsors/aacdazkrhqihtxux5wu7.svg"
 });
 
 const gallery = Object.freeze({
