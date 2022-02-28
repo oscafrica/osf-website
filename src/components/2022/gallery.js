@@ -1,23 +1,17 @@
 import React from "react";
 
-import { gallery, patterns } from "../components/cloudImages";
+import { gallery, patterns } from "./cloudImages";
 
 function Gallery() {
   return (
-    <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
-      <div className="absolute left-0 fixed">
-        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
-      </div>
-      <div className="flex flex-wrap">
-        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">Gallery</h1>
-        </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
-          <img src={patterns.section} alt="" className="w-auto" />
-        </div>
+    <section id="gallery" className="bg-white lg:flex-row pt-3 lg:pt-5">
+      <div id="about" className="moving-text flex">
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
 
-      <div className="flex flex-wrap justify-center text-white my-20">
+      <div className="flex flex-wrap text-white">
         {[
           {
             day: "Day 1",
@@ -47,15 +41,15 @@ function Gallery() {
           <a
             href={gallery.href}
             key={gallery.tag}
-            className="relative w-full h-full lg:w-1/2 max-w-sm rounded px-1 py-4"
+            className="gallery-images"
             target="_blank"
             rel="noopener noreferrer"
           >
             <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
-              <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
-                <p className="text-sm lg:text-xs">{gallery.day}</p>
-                <h3 className="font-bold text-base">{gallery.tag}</h3>
+              <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 text-white relative">
+                <p className="text-sm lg:text-xs bg-orange-primary mb-1 table">{gallery.day}</p>
+                <h3 className="font-bold text-base bg-orange-primary table">{gallery.tag}</h3>
               </div>
             </figure>
           </a>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { speakers, patterns } from "../components/cloudImages";
+import { speakers, patterns } from "./cloudImages";
 
 function Speaker() {
   return (

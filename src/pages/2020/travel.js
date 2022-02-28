@@ -3,11 +3,11 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/SEO/seo";
 
-import Nav from "../../components/nav";
-import TravelHead from "../../components/travelHead";
-import Hotel from "../../components/hotels";
-import Restaurant from "../../components/restaurants";
-import Footer from "../../components/footer";
+import Nav from "../../components/2020/nav";
+import TravelHead from "../../components/2020/travelHead";
+import Hotel from "../../components/2020/hotels";
+import Restaurant from "../../components/2020/restaurants";
+import Footer from "../../components/2020/footer";
 
 function Schedule() {
   return (

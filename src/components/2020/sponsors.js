@@ -1,6 +1,6 @@
 import React from "react";
 
-import { sponsors, patterns } from "../components/cloudImages";
+import { sponsors, patterns } from "./cloudImages";
 
 const sponsorsData = [
   {
@@ -251,7 +251,7 @@ function Sponsors() {
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=320"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=350"
             className="my-12"
           ></object>
         </div>

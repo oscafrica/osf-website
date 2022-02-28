@@ -1,12 +1,12 @@
 import React from "react";
 
-import { patterns } from "../components/cloudImages";
+import { patterns } from "../components/2022/cloudImages";
 
 import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
 
-import Nav from "../components/nav";
-import Footer from "../components/footer";
+import Nav from "../components/2022/nav";
+import Footer from "../components/2022/footer";
 
 function NotFoundPage() {
   return (

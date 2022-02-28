@@ -1,6 +1,6 @@
 import React from "react";
 
-import { hotels } from "../components/cloudImages";
+import { hotels } from "./cloudImages";
 
 function Hotels() {
   return (

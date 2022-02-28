@@ -1,17 +1,22 @@
 import React from "react";
-import useScript from "../hooks/useScript";
+import PropTypes from "prop-types";
+import useEmbedScript from "../hooks/useEmbedScript";
 
-function SchedSchedule() {
+function SchedSchedule(props) {
   return (
     <section className="lg:flex-row px-4 lg:px-40 pt-32 pb-24">
       <div>
         <a id="sched-embed" href="https://oscafest.sched.com/">
           View the Open Source Festival 2020 schedule &amp; directory.
         </a>
-        {useScript("https://oscafest.sched.com/js/embed.js")}
+        {useEmbedScript(`${props.link}`)}
       </div>
     </section>
   );
 }
+
+SchedSchedule.propTypes = {
+  link: PropTypes.string.isRequired
+};
 
 export default SchedSchedule;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { restaurants } from "../components/cloudImages";
+import { restaurants } from "./cloudImages";
 
 function Restaurants() {
   return (
