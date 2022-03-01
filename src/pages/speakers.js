@@ -8,16 +8,16 @@ import Breadcrumb from "../components/2022/breadcrumb";
 import Sched from "../components/schedEmbed";
 import Footer from "../components/2022/footer";
 
-function Schedule() {
+function Speakers() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Schedule" />
+      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Speakers" />
       <Nav />
-      <Breadcrumb name="Schedule" />
-      <Sched slug="oscafest22" />
+      <Breadcrumb name="Speakers" />
+      <Sched type="speakers" slug="oscafest22" />
       <Footer />
     </Layout>
   );
 }
 
-export default Schedule;
+export default Speakers;
