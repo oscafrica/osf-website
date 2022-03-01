@@ -5,7 +5,7 @@ import SEO from "../../components/SEO/seo";
 
 import Nav from "../../components/2020/nav";
 import Breadcrumb from "../../components/2020/breadcrumb";
-import Sched from "../../components/schedSpeakers";
+import Sched from "../../components/schedEmbed";
 import Footer from "../../components/2020/footer";
 
 function Speakers() {
@@ -14,7 +14,7 @@ function Speakers() {
       <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Speakers" />
       <Nav />
       <Breadcrumb name="Speakers" />
-      <Sched link="https://oscafest.sched.com/js/embed.js" />
+      <Sched type="speakers" slug="oscafest" />
       <Footer />
     </Layout>
   );
