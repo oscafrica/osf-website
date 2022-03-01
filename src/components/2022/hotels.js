@@ -109,7 +109,7 @@ function Hotels() {
       <div className="relative my-12 text-center lg:text-right">
         <a
           href="https://www.google.com/maps/search/Hotels/@6.5598938,3.3584354,14z/data=!3m1!4b1!4m22!1m13!4m12!1m4!2m2!1d6.7386955!2d7.7841286!4e1!1m6!1m2!1s0x103b8d73a658782b:0x7a1de11d89cccc84!2szone+tech+park+maps!2m2!1d3.37684!2d6.5514308!2m7!3m6!1sRestaurants!2sZone+Tech+Park!3s0x103b8d73a658782b:0x7a1de11d89cccc84!4m2!1d3.3766075!2d6.5511999"
-          className="px-6 py-3 border-2 border-dark text-dark rounded-lg uppercase"
+          className="p-6 bg-orange-primary text-dark uppercase"
           target="_blank"
           rel="noopener noreferrer"
         >
