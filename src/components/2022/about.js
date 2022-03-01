@@ -9,12 +9,12 @@ function About() {
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
-      <section className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
+      <section className="flex flex-col lg:flex-row items-center my-40 mx-4 lg:mx-32">
         <div className="hidden lg:block absolute left-0">
         <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
       </div>
         <figure className="w-full lg:w-1/3">
-          <img className="pb-4 lg:pl-4" alt="OSCAFRICA Future is Open Badge" src={patterns.futureIsOpen} />
+          <img className="pb-4 lg:pl-4" alt="A badge with text inscription: The Future is Open" src={patterns.futureIsOpen} />
         </figure>
 
         <div className="lg:w-1/2 lg:mx-12">
@@ -31,6 +31,9 @@ function About() {
             Through this festival, we intend to open the eyes of Africans so they can be aware that FUTURE IS OPEN.
           </blockquote>
         </div>
+        <div className="hidden lg:block absolute right-0">
+        <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
+      </div>
       </section>
       <div className="moving-text flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />

@@ -15,19 +15,19 @@ const videos = {
 };
 
 const patterns = Object.freeze({
-  africanMap: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576543138/osf/Patterns/map.png",
-  nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
-  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
-  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png",
+  africanMap: "https://res.cloudinary.com/osca/image/upload/v1646169668/osf/2022/Patterns/k9khdrriuxkmnj3ci5t3.png",
+  nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/2022/NXTBC.png",
+  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/2022/Patterns/navRec.png",
+  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/2022/Patterns/headerRec.png",
+  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/2022/Patterns/speakers.png",
   futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645850627/osf/2022/n2fgn1ihdrewlskux1pi.svg",
   twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/2022/Patterns/wcjlgvxb0gssqsxtsro0.svg",
-  circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/Patterns/lyaio7upizhsud5jhvya.svg",
-  fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/Patterns/kxazrjyjhfnxe1n8uhio.svg",
-  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/Patterns/abw4pdeo6inr5jj9ghp7.svg",
-  background: "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
-  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
-  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
+  circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/2022/Patterns/lyaio7upizhsud5jhvya.svg",
+  fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/2022/Patterns/kxazrjyjhfnxe1n8uhio.svg",
+  halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/2022/Patterns/abw4pdeo6inr5jj9ghp7.svg",
+  background: "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/2022/sponsorship/i9aedtwylx5c5garjddj",
+  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/2022/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
+  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/2022/sponsorship/fz3wykab1z6tz8yukyh5.png"
 });
 
 const speakers = Object.freeze({

@@ -72,6 +72,14 @@ function Speaker() {
           </figure>
         ))}
       </div>
+      <div className="relative mt-12 text-center">
+        <a href="/speakers" className="p-4 mr-8 bg-orange-primary uppercase">
+          See all Speakers
+        </a>
+        <a href="/schedule" className="p-4 bg-orange-primary uppercase">
+          See full Schedule
+        </a>
+      </div>
       <div className="z-15 hidden lg:block absolute right-0 bottom-10">
         <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.fullCircle} alt="" />
       </div>
