@@ -9,7 +9,7 @@ import Hotel from "../components/2022/hotels";
 import Restaurant from "../components/2022/restaurants";
 import Footer from "../components/2022/footer";
 
-function Schedule() {
+function Travel() {
   return (
     <Layout>
       <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel Guide" />
@@ -44,8 +44,7 @@ function Schedule() {
             <p className="text-base my-4">
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
               Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
-              from any Nigerian Embassy or Consulate close to them. <br />
-              Visit&nbsp;
+              from any Nigerian Embassy or Consulate close to them. Kindly visit&nbsp;
               <a
                 className="underline"
                 href="https://portal.immigration.gov.ng/visa/freshVisa"
@@ -54,7 +53,7 @@ function Schedule() {
               >
                 here
               </a>
-              &nbsp;to apply for Visa. Do you have an African passport? See{" "}
+              &nbsp;to apply for Visa. If you have an African passport, you can visit here{" "}
               <a
                 className="underline"
                 href="https://immigration.gov.ng/voa-new/"
@@ -63,8 +62,8 @@ function Schedule() {
               >
                 here
               </a>
-              &nbsp;to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio and yellow
-              fever vaccinations to enter <b>Nigeria</b>.
+              &nbsp;to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio, yellow
+              fever, and Covid19 vaccinations to enter <b>Nigeria</b>.
             </p>
           </div>
         </div>
@@ -77,7 +76,7 @@ function Schedule() {
               airport. Major airlines provide daily services to many international destinations. The airport is about
               17-24 minutes’ drive from Zone Tech Park, the conference venue. Some hotels also offer pick-up services
               and we encourage participants with such options to use the services. Airport pick-up will be available on
-              request for attendees arriving from the 18th of February, 2020. Please&nbsp;
+              request for attendees arriving from the 23rd of March, 2022. Please&nbsp;
               <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                 email the event organizers
               </a>
@@ -111,13 +110,13 @@ function Schedule() {
             <ol className="text-base m-4 list-decimal">
               <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
-                denied entry, or probably not even be allowed to board your plane. Got any questions?&nbsp;
+                denied entry, or probably not even be allowed to board your plane. If you have any questions,&nbsp;
                 <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
-                  Please contact us immediately.
+                  please contact us immediately.
                 </a>
               </li>
               <li className="my-4">
-                <b>Vaccination certificate</b>: You must have yellow fever and polio vaccination certificate to enter
+                <b>Vaccination certificate</b>: You must have yellow fever, polio vaccination, and Covid19 certificate to enter
                 Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in advance, do not
                 leave it until the last minute. Other certificates include Hepatitis A, Tetanus, and Typhoid.
               </li>
@@ -169,18 +168,6 @@ function Schedule() {
                   </a>
                 </ul>
               </li>
-              <li className="my-4">
-                <b>Venue Highlights</b>: Here are{" "}
-                <a
-                  className="underline"
-                  href="https://bit.ly/devfestlagos18-500photos"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  pictures of DevFest Lagos 2018
-                </a>{" "}
-                - same venue as the Open Source Festival, but the festival audience might not be as large.
-              </li>
             </ol>
           </div>
         </div>
@@ -193,4 +180,4 @@ function Schedule() {
   );
 }
 
-export default Schedule;
+export default Travel;

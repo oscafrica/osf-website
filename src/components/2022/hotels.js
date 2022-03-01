@@ -12,7 +12,7 @@ function Hotels() {
             The organizers of OSCA FESTIVAL aim to promote a comfortable and flexible lodging experience for attendees.
             Nigeria provides a large number and wide range of hotels, which you can book on the usual online sites. Here
             are a few recommendations according to your budget. <br />
-            <b>We encourage all attendees to make reservations early as prices may change</b>
+            <b>We encourage all attendees to make reservations early as prices may change.</b>
           </p>
         </div>
       </div>
