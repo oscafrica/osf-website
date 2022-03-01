@@ -23,8 +23,7 @@ const patterns = Object.freeze({
 });
 
 const sponsorship = Object.freeze({
-  background:
-    "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
+  background: "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/sponsorship/i9aedtwylx5c5garjddj",
   arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
   play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/fz3wykab1z6tz8yukyh5.png"
 });
