@@ -21,11 +21,11 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="relative z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="h-60 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
-            route: "https://docs.oscafrica.org/about/community-code-of-conduct#osca-events",
+            route: "https://docs.oscafrica.org/about/community-code-of-conduct",
             title: "Code of Conduct"
           },
           {

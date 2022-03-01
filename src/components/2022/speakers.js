@@ -61,27 +61,37 @@ function Speaker() {
             name: "Developer Designer",
             title: "Senior DevLead | Netflix",
             image: speakers.dummyImage
+          },
+          {
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Developer Designer",
+            title: "Senior DevLead | Netflix",
+            image: speakers.dummyImage
           }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-white opacity-90 text-center text-black">
-              <h3 className="font-bold text-xl">{speaker.name}</h3>
+            <div className="p-8 px-2 w-auto bg-white text-center text-black">
+              <h3 className="font-bold text-xl uppercase">{speaker.name}</h3>
               <p className="text-sm">{speaker.title}</p>
             </div>
           </figure>
         ))}
       </div>
-      <div className="relative mt-12 text-center">
-        <a href="/speakers" className="p-4 mr-8 bg-orange-primary uppercase">
+      <div className="relative mt-20 text-center">
+        <a href="/speakers" className="p-5 mr-8 bg-orange-primary uppercase">
           See all Speakers
         </a>
-        <a href="/schedule" className="p-4 bg-orange-primary uppercase">
+        <a href="/schedule" className="p-5 bg-orange-primary uppercase">
           See full Schedule
         </a>
       </div>
       <div className="z-15 hidden lg:block absolute right-0 bottom-10">
-        <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.fullCircle} alt="" />
+        <img className="z-0 -mt-24 -mb-12 -pl-4 w-3/4" src={patterns.fullCircle} alt="" />
       </div>
     </section>
   );
