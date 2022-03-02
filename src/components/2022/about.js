@@ -3,8 +3,8 @@ import { patterns } from "./cloudImages";
 
 function About() {
   return (
-    <section className="flex flex-col lg:flex-row items-center my-40 mx-4 lg:mx-32">
-      {/* <div id="about" className="moving-text flex">
+    <section id="about" className="flex flex-col lg:flex-row items-center my-40 mx-4 lg:mx-32">
+      {/* <div className="moving-text flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
