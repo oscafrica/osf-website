@@ -18,7 +18,7 @@
 
 /* download the font */
 @font-face {
-  font-family: "Anisette Std";
+  font-family: "Anisette-std, sans-serif";
   font-display: auto;
   src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
   font-weight: normal;
