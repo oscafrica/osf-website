@@ -21,7 +21,7 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="h-60 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="h-80 lg:h-60 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
@@ -43,7 +43,7 @@ function Footer() {
         ].map((link) => (
           <ul className="m-0 p-0" key={link.title}>
             <li className="pb-8 lg:pr-8 lg:pb-0 p2">
-              <a className="no-underline text-white text-base" href={link.route}>
+              <a className="no-underline text-white text-lg" href={link.route}>
                 {link.title}
               </a>
             </li>
@@ -101,8 +101,8 @@ function Footer() {
           </a>
         ))}
       </div>
-      <div className="z-15 hidden lg:block absolute right-0 bottom-2">
-        <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.halfCircle} alt="" />
+      <div className="z-15 hidden lg:block absolute right-10 bottom-35">
+        <img className="z-0 mt-24 w-3/4" src={patterns.halfCircle} alt="" />
       </div>
     </footer>
   );

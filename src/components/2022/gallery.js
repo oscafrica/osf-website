@@ -6,7 +6,7 @@ function Gallery() {
   return (
     <section id="gallery" className="bg-white lg:flex-row pt-3 lg:pt-5">
 
-      <div className="flex flex-wrap text-white">
+      <div className="lg:flex lg:flex-wrap text-white">
         {[
           {
             day: "Day 1",

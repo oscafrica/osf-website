@@ -43,16 +43,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #081e32;
+  background: #1B352D;
 }
 
 ::selection {
-  background: #283756;
+  background: #1B352D;
   color: #fff;
 }
 ::-moz-selection {
-  background: #283756;
+  background: #1B352D;
   color: #fff;
 }
 

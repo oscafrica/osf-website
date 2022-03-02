@@ -3,7 +3,7 @@ import React from "react";
 function Cta() {
   return (
     <section className="z-10 font-ubuntu bg-army-green-primary">
-      <div className="flex flex-wrap max-w-4xl mx-auto p-5 text-center">
+      <div className="flex flex-wrap max-w-4xl mx-auto p-14 text-center">
         {[
           {
             value: "800+",
