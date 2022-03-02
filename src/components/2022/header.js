@@ -1,14 +1,13 @@
 import React from "react";
-import { patterns, videos } from "./cloudImages";
+import { videos } from "./cloudImages";
 function Header() {
   return (
     <>
-      <div>
-        <div className="z-10 bg-black opacity-50 absolute object-cover h-screen" />
+      <div className="bg-white py-80 lg:py-0">
+        <div className="z-10 opacity-50 absolute" />
         <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
-        <img alt="Background" className="lg:hidden" src={patterns.background} />
       </div>
       <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
         <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
@@ -33,7 +32,7 @@ function Header() {
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 mr-5 px-12 py-6 bg-orange-primary text-black text-center uppercase justify-center items-center"
+                className="text-sm w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 mr-5 px-12 py-6 bg-orange-primary text-black text-center uppercase"
               >
                 Register
               </a>
@@ -41,7 +40,7 @@ function Header() {
                 href="/2020"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 px-12 py-6 bg-army-green-primary text-white text-center uppercase"
+                className="text-sm w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-8 px-12 py-6 bg-army-green-primary text-white text-center uppercase"
               >
                 View past event
               </a>
