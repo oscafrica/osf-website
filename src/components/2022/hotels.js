@@ -11,7 +11,7 @@ function Hotels() {
           <p className="text-base mt-4">
             The organizers of OSCA FESTIVAL aim to promote a comfortable and flexible lodging experience for attendees.
             Nigeria provides a large number and wide range of hotels, which you can book on the usual online sites. Here
-            are a few recommendations according to your budget. <br />
+            are a few recommendations according to your budget.{" "}
             <b>We encourage all attendees to make reservations early as prices may change.</b>
           </p>
         </div>
@@ -23,56 +23,56 @@ function Hotels() {
             name: "Bolad Hotel",
             image: hotels.bolad,
             price: "Starts at 5000/night.",
-            duration: "~ 15 minutes drive to the venue.",
+            duration: "~15 minutes drive to the venue.",
             link: "https://goo.gl/maps/epXnwBw2pmtQEjNJ6"
           },
           {
             name: "Million Dollars Imperial Hotel",
             image: hotels.million,
             price: "Starts at 6500/night.",
-            duration: "~ 32 minutes drive to the venue.",
+            duration: "~32 minutes drive to the venue.",
             link: "https://goo.gl/maps/fmiYCbUrQJKa9oUU7"
           },
           {
             name: "Green Royal Suites Annex",
             image: hotels.green,
             price: "Starts at 11,500/night.",
-            duration: "~ 11 minutes drive to the venue.",
+            duration: "~11 minutes drive to the venue.",
             link: "https://goo.gl/maps/TtQG39tPZPJ4SQFN7"
           },
           {
             name: "Hotel Newcastle",
             image: hotels.newcastle,
             price: "Starts at ₦12,050/night.",
-            duration: "~ 2 minutes drive to the venue.",
+            duration: "~2 minutes drive to the venue.",
             link: "https://goo.gl/maps/UjEi3yNPz4YUP4vcA"
           },
           {
             name: "H53 SUITES",
             image: hotels.h53,
             price: "Starts at ₦19000/night.",
-            duration: "~ 17 minutes drive to the venue.",
+            duration: "~17 minutes drive to the venue.",
             link: "https://goo.gl/maps/hTjbv2LxVCYquQkt6"
           },
           {
             name: "Banex Hotel & Suites",
             image: hotels.banex,
             price: "Starts at ₦20,000/night.",
-            duration: "~ 6 minutes drive to the venue.",
+            duration: "~6 minutes drive to the venue.",
             link: "https://goo.gl/maps/2TDaL8vvvBM3scdy8"
           },
           {
             name: "Splendour Luxury Hotel & Suites",
             image: hotels.splendour,
             price: "Starts at ₦25,550/night.",
-            duration: "~ 8 minutes drive to the venue.",
+            duration: "~8 minutes drive to the venue.",
             link: "https://goo.gl/maps/hDWonsZi5X6WjHFr8"
           },
           {
             name: "Westown Hotel Ikeja",
             image: hotels.westown,
             price: "Starts at ₦35,000/night.",
-            duration: "~ 13 minutes drive to the venue.",
+            duration: "~13 minutes drive to the venue.",
             link: "https://goo.gl/maps/2JeF9wzhw8mPKU6Y8"
           },
           {

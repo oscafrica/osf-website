@@ -28,6 +28,7 @@ function Travel() {
             </p>
             <iframe
               title="Promotional Video of Lagos"
+              className="w-full"
               width="1000"
               height="400"
               src="https://www.youtube.com/embed/HbsdLI8kaWc"
@@ -118,7 +119,7 @@ function Travel() {
               <li className="my-4">
                 <b>Vaccination certificate</b>: You must have yellow fever, polio vaccination, and Covid19 certificate to enter
                 Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in advance, do not
-                leave it until the last minute. Other certificates include Hepatitis A, Tetanus, and Typhoid.
+                leave it until the last minute. Other optional certificates include Hepatitis A, Tetanus, and Typhoid.
               </li>
               <li className="my-4">
                 <b>Malaria precautions</b>: All of Nigeria, including Lagos, is indicated as a high-risk zone for
@@ -129,7 +130,7 @@ function Travel() {
               </li>
               <li className="my-4">
                 <b>Arrival times</b>: We hope to co-ordinate transport on arrival at the airport for some groups. We
-                might not be able to do this for everyone, but please tell us:
+                might not be able to do this for everyone, but please let us know:
                 <ul className="list-disc m-2">
                   <li>The date and time of your arrival in Nigeria</li>
                   <li>The date and time of your departure from Nigeria </li>
@@ -139,7 +140,7 @@ function Travel() {
                 We will help if we can, please provide this information in good time.
               </li>
               <li className="my-4">
-                <b>Movies Recommendation</b>: Watch any of the following Nigerian movies on Netflix if you can to get a
+                <b>Movies Recommendation</b>: You can watch any of the following Nigerian movies on Netflix if you can to get a
                 feel of the vibe of urban Nigeria.
                 <ul className="list-disc m-2">
                   <a
