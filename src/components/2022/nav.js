@@ -7,7 +7,7 @@ function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-40 bg-orange-primary w-full top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <header className="z-40 bg-orange-primary w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
           <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12" src={logo.svgOrange} />
@@ -60,8 +60,12 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "/#sponsors",
+              route: "/docs/sponsorship-guide-2022.pdf",
               title: "Sponsorship"
+            },
+            {
+              route: "/sustain-africa",
+              title: "Sustain Africa"
             }
           ].map((link) => (
             <a
