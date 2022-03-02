@@ -4,11 +4,11 @@ const logo = Object.freeze({
 });
 
 const patterns = Object.freeze({
-  africanMap: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576543138/osf/Patterns/map.png",
-  nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
-  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
-  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+  africanMap: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576543138/osf/2020/Patterns/map.png",
+  nextBillion: "https://res.cloudinary.com/osca/image/upload/v1575379564/NXTBC.png",
+  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/2020/Patterns/navRec.png",
+  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/2020/Patterns/headerRec.png",
+  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/2020/Patterns/speakers.png"
 });
 
 const speakers = Object.freeze({
