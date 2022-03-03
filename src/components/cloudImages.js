@@ -23,9 +23,9 @@ const patterns = Object.freeze({
 });
 
 const sponsorship = Object.freeze({
-  background: "https://res.cloudinary.com/osca/image/upload/q_20/v1627924039/osf/2022/sponsorship/i9aedtwylx5c5garjddj",
-  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/sponsorship/2022/wjwkkyqdeem1c3ug7vtq.png",
-  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/sponsorship/2022/fz3wykab1z6tz8yukyh5.png"
+  background: "https://res.cloudinary.com/osca/image/upload/v1627924039/osf/2022/Patterns/i9aedtwylx5c5garjddj.png",
+  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/2022/Patterns/wjwkkyqdeem1c3ug7vtq.png",
+  play: "https://res.cloudinary.com/osca/image/upload/v1627928346/osf/2022/Patterns/fz3wykab1z6tz8yukyh5.png"
 });
 
 const speakers = Object.freeze({
