@@ -5,82 +5,88 @@ import { sponsors } from "./cloudImages";
 const sponsorsData = [
   {
     tier: "headline",
-    name: "Google Open Source",
+    name: "Google",
     image: sponsors.google,
-    link: "https://opensource.google/"
+    link: "https://opensource.google"
   },
   {
     tier: "headline",
-    name: "Google Open Source",
-    image: sponsors.google,
-    link: "https://opensource.google/"
-  },
-  {
-    tier: "headline",
-    name: "Google Open Source",
-    image: sponsors.google,
-    link: "https://opensource.google/"
-  },
-  {
-    tier: "diamond",
     name: "Meta",
-    image: sponsors.google,
-    link: "https://opensource.facebook.com/"
+    image: sponsors.meta,
+    link: "https://opensource.fb.com"
   },
   {
     tier: "diamond",
     name: "Coil",
-    image: sponsors.google,
-    link: "https://opensource.google/"
+    image: sponsors.coil,
+    link: "https://coil.com"
   },
   {
     tier: "diamond",
     name: "Sourcegragh",
-    image: sponsors.google,
-    link: "https://opensource.google/"
+    image: sponsors.sourcegraph,
+    link: "https://sourcegraph.com"
   },
-  {
-    tier: "diamond",
-    name: "Sourcegragh",
-    image: sponsors.google,
-    link: "https://opensource.google/"
-  },
-  {
-    tier: "gold",
-    name: "GitHub",
-    image: sponsors.google,
-    link: "https://github.com"
-  },
-  {
-    tier: "gold",
-    name: "GitHub",
-    image: sponsors.google,
-    link: "https://github.com"
-  },
-  {
-    tier: "silver",
-    name: "Edge and node",
-    image: sponsors.google,
-    link: "https://opencoresummit.com/"
-  },
-  {
-    tier: "silver",
-    name: "AWS Amplify",
-    image: sponsors.google,
-    link: "https://aws.amazon.com/amplify/"
-  },
-  {
-    tier: "silver",
-    name: "Cloud Native Computing Foundation",
-    image: sponsors.google,
-    link: "https://www.cncf.io/"
-  },
-  {
-    tier: "bronze",
-    name: "OpenSuse",
-    image: sponsors.google,
-    link: "https://engineering.salesforce.com"
-  }
+  // {
+  //   tier: "diamond",
+  //   name: "Polygon",
+  //   image: sponsors.polygon,
+  //   link: "https://polygon.technology"
+  // },
+  // {
+  //   tier: "gold",
+  //   name: "AWS",
+  //   image: sponsors.aws,
+  //   link: ""
+  // },
+  // {
+  //   tier: "gold",
+  //   name: "GitHub",
+  //   image: sponsors.github,
+  //   link: "https://github.com"
+  // },
+  // {
+  //   tier: "gold",
+  //   name: "Microsoft",
+  //   image: sponsors.microsoft,
+  //   link: "https://opensource.microsoft.com"
+  // },
+  // {
+  //   tier: "silver",
+  //   name: "Postman",
+  //   image: sponsors.postman,
+  //   link: "https://postman.com"
+  // },
+  // {
+  //   tier: "silver",
+  //   name: "Cloud Native Computing Foundation",
+  //   image: sponsors.cncf,
+  //   link: "https://cncf.io"
+  // },
+  // {
+  //   tier: "silver",
+  //   name: "Edge and node",
+  //   image: sponsors.edgeandnode,
+  //   link: "https://edgeandnode.com"
+  // },
+  // {
+  //   tier: "bronze",
+  //   name: "OpenSuse",
+  //   image: sponsors.opensuse,
+  //   link: "https://opensuse.org"
+  // },
+  // {
+  //   tier: "bronze",
+  //   name: "The @ Company",
+  //   image: sponsors.atcompany,
+  //   link: "https://atsign.dev"
+  // },
+  // {
+  //   tier: "bronze",
+  //   name: "A Startup Lagos",
+  //   image: sponsors.xxx,
+  //   link: ""
+  // }
 ];
 
 function Sponsors() {
@@ -109,7 +115,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="=w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}

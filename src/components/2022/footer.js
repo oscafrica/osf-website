@@ -92,7 +92,7 @@ function Footer() {
           <a
             key={icon.key}
             aria-label={icon.label}
-            className="font-bold p-2 no-underline text-white text-lg"
+            className="p-2 no-underline text-white text-xl"
             href={icon.href}
           >
             <i className="pr-2">

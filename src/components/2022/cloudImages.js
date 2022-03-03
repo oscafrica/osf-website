@@ -36,7 +36,20 @@ const speakers = Object.freeze({
 
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/2022/Sponsors/dummy.png",
-  google: "https://res.cloudinary.com/osca/image/upload/v1645782572/osf/2022/Sponsors/aacdazkrhqihtxux5wu7.svg"
+  google: "https://res.cloudinary.com/osca/image/upload/v1646313465/osf/2022/Sponsors/rmgdqo0jtuhvghf8quao.png",
+  meta: "https://res.cloudinary.com/osca/image/upload/v1646313457/osf/2022/Sponsors/hmoe4wzetvvg0pf8mnov.png",
+  coil: "https://res.cloudinary.com/osca/image/upload/v1646313478/osf/2022/Sponsors/ft6psgaf631jpkwvgwfy.png",
+  sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1646313412/osf/2022/Sponsors/pifxoq6iqjt21bmhuzjz.png",
+  polygon: "",
+  aws: "",
+  github: "",
+  microsoft: "",
+  postman: "",
+  cncf: "https://res.cloudinary.com/osca/image/upload/v1646313487/osf/2022/Sponsors/ekz9lnfvoe0kfgbeoahy.png",
+  edgeandnode: "",
+  opensuse: "https://res.cloudinary.com/osca/image/upload/v1646313449/osf/2022/Sponsors/pljvoi3h36on0avdrrud.png",
+  atcompany: "",
+  xxx: ""
 });
 
 const gallery = Object.freeze({
