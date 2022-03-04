@@ -7,82 +7,72 @@ function Speaker() {
     <section id="speakers" className="relative bg-army-green-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
       <div className="flex flex-wrap justify-center">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white text-center">
-          <h1 className="text-sec font-bold font-ubuntu uppercase">Meet our <br/> Speakers</h1>
+          <h1 className="text-sec font-bold font-anisette uppercase">Meet our <br/> Speakers</h1>
         </div>
       </div>
       <div className="flex flex-wrap text-white my-8">
         {[
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Chris Aniszczyk",
+            title: "Senior DevLead | CNCF",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Segun Adebayo",
+            title: "Senior DevLead | Chakra UI",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Anjana Vakil",
+            title: "Senior DevLead | Observable",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Tejas Kumar",
+            title: "Senior DevLead | Xatabase",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Odunayo Eweniyi",
+            title: "Senior DevLead | Piggyvest",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Sakhip",
+            title: "Senior DevLead | Google",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Nader Dabit",
+            title: "Senior DevLead | EdgeandNode",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Ruth Ikegah",
+            title: "Senior DevLead | Animalz",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Prosper Otemuyiwa",
+            title: "Senior DevLead | Eden Life",
             image: speakers.dummyImage
           },
           {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Developer Designer",
-            title: "Senior DevLead | Netflix",
+            name: "Stefan Thomas",
+            title: "Senior DevLead | Coil",
             image: speakers.dummyImage
           }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
             <div className="p-8 px-2 w-auto bg-white text-center text-black">
-              <h3 className="font-bold text-xl uppercase">{speaker.name}</h3>
-              <p className="text-sm">{speaker.title}</p>
+              <h3 className="font-anisette font-bold text-sm uppercase">{speaker.name}</h3>
+              <p className="text-h6 font-workSans">{speaker.title}</p>
             </div>
           </figure>
         ))}
       </div>
-      <div className="relative z-10 mt-20 justify-center text-center flex lg:flex-row space-x-8">
+      <div className="font-anisette text-xs relative z-10 mt-20 justify-center text-center flex lg:flex-row space-x-8">
         <a href="/speakers" className="p-5 w-64 bg-orange-primary uppercase">
           See all Speakers
         </a>
