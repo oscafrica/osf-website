@@ -16,11 +16,18 @@
   font-style: normal;
 }
 
-/* download the font */
 @font-face {
-  font-family: "Anisette Std";
+  font-family: "Anisette-std";
   font-display: auto;
-  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  src: url("../fonts/Anisette/Anisette Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-display: auto;
+  src: url("../fonts/WorkSans/WorkSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -87,17 +94,28 @@ embed {
 }
 
 @keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
-.moving-text {
-  animation: marquee 15s linear infinite;
+.marquee {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
   font-size: 20px;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #F79313;
 }
 
 .gallery-images {

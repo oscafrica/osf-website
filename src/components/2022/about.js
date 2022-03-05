@@ -3,12 +3,43 @@ import { patterns } from "./cloudImages";
 
 function About() {
   return (
-    <section id="about" className="flex flex-col lg:flex-row items-center my-40 mx-4 lg:mx-32">
-      {/* <div className="moving-text flex">
+    <section id="about" >
+      <div className="marquee my-2">
+        <div className="track flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-      </div> */}
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        </div>
+      </div>
+      <hr className="mt-10"/>
+      <div className="flex flex-col lg:flex-row items-center my-20 mx-4 lg:mx-32">
       <div className="hidden lg:block absolute left-0">
         <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
       </div>
@@ -37,11 +68,42 @@ function About() {
       <div className="hidden lg:block absolute right-0">
         <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
       </div>
-      {/* <div id="about" className="moving-text flex">
+    </div>
+    <hr/>
+    <div className="marquee mt-3 mb-8">
+        <div className="track flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-      </div> */}
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        </div>
+      </div>
     </section>
   );
 }

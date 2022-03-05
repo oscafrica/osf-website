@@ -43,8 +43,8 @@ function Gallery() {
             <figure className="cursor-pointer">
               <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
               <div className="z-0 -mt-20 px-6 w-auto h-20 text-white relative">
-                <p className="p-1 text-sm lg:text-xs bg-orange-primary mb-2 table uppercase">{gallery.day}</p>
-                <h3 className="p-1 font-bold text-base bg-orange-primary table uppercase">{gallery.tag}</h3>
+                <p className="font-anisette p-1 text-sm lg:text-xs bg-orange-primary mb-2 table uppercase">{gallery.day}</p>
+                <h3 className="font-anisette p-1 text-2xl font-bold text-base bg-orange-primary table uppercase">{gallery.tag}</h3>
               </div>
             </figure>
           </a>

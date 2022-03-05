@@ -94,13 +94,13 @@ function Sponsors() {
     <section id="sponsors" className="bg-white text-center lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
       <div className="flex flex-wrap justify-center">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">Sponsors</h1>
+          <h1 className="text-sec font-bold font-anisette lg:text-5xl">Sponsors</h1>
         </div>
       </div>
 
       <div className="my-12">
         {/* Headline Sponsors */}
-        <p className="text-h4 font-bold uppercase">
+        <p className="font-anisette text-h6 font-bold uppercase">
           Headline
         </p>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
@@ -122,7 +122,7 @@ function Sponsors() {
         </div>
 
         {/* Diamond sponsors */}
-        <p className="text-h4 font-bold uppercase">
+        <p className="font-anisette text-h6 font-bold uppercase">
           Diamond
         </p>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
@@ -144,7 +144,7 @@ function Sponsors() {
         </div>
 
         {/* Gold sponsors */}
-        <p className="text-h4 font-bold uppercase">
+        <p className="font-anisette text-h6 font-bold uppercase">
           Gold
         </p>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
@@ -166,7 +166,7 @@ function Sponsors() {
         </div>
 
         {/* Silver sponsors */}
-        <p className="text-h4 font-bold uppercase">
+        <p className="font-anisette text-h6 font-bold uppercase">
           Silver
         </p>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
@@ -188,7 +188,7 @@ function Sponsors() {
         </div>
 
         {/* Bronze sponsors */}
-        <p className="text-h4 font-bold uppercase">
+        <p className="font-anisette text-h6 font-bold uppercase">
           Bronze
         </p>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
@@ -214,7 +214,7 @@ function Sponsors() {
       <div className="relative mt-20 text-center">
         <a
           href="/docs/sponsorship-guide.pdf"
-          className="bg-orange-primary text-brown p-5 uppercase"
+          className="font-anisette bg-orange-primary text-xs text-brown p-5 uppercase"
         >
           Become a Sponsor
         </a>
