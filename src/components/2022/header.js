@@ -1,14 +1,6 @@
 import React from "react";
-import { videos } from "./cloudImages";
 function Header() {
   return (
-    <>
-      <div className="bg-white py-80 lg:py-0">
-        <div className="z-10 opacity-50 absolute" />
-        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
-          <source src={videos.mainBg} type="video/mp4" />
-        </video>
-      </div>
       <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
         <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
           <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
@@ -48,7 +40,6 @@ function Header() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 

@@ -1,13 +1,20 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import { logo } from "./cloudImages";
+import { logo, videos } from "./cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-40 bg-orange-primary w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
+    <>
+      <div className="bg-black opacity-100 py-80 lg:py-0">
+        <div className="z-10 absolute" />
+        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
+          <source src={videos.mainBg} type="video/mp4" />
+        </video>
+      </div>
+      <header className="z-40 w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
           <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12" src={logo.svgOrange} />
@@ -79,6 +86,7 @@ function Nav() {
         </nav>
       </div>
     </header>
+    </>
   );
 }
 
