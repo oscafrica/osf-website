@@ -16,6 +16,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Anisette-std";
+  font-display: auto;
+  src: url("../fonts/Anisette/Anisette Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-display: auto;
+  src: url("../fonts/WorkSans/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -34,16 +50,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #081e32;
+  background: #1B352D;
 }
 
 ::selection {
-  background: #283756;
+  background: #1B352D;
   color: #fff;
 }
 ::-moz-selection {
-  background: #283756;
+  background: #1B352D;
   color: #fff;
 }
 
@@ -76,4 +91,37 @@ embed {
   flex: 1 1 auto;
   border-top: 1px dashed #c4c4c4;
   margin-left: 20px;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #F79313;
+}
+
+.gallery-images {
+  flex: 50%;
+}
+
+.table {
+  display: table;
 }

@@ -1,20 +1,20 @@
 import React from "react";
 
-import Layout from "../../components/layout";
-import SEO from "../../components/SEO/seo";
+import Layout from "../components/layout";
+import SEO from "../components/SEO/seo";
 
-import Nav from "../../components/2020/nav";
-import TravelHead from "../../components/2020/travelHead";
-import Hotel from "../../components/2020/hotels";
-import Restaurant from "../../components/2020/restaurants";
-import Footer from "../../components/2020/footer";
+import Nav from "../components/2022/nav";
+import Breadcrumb from "../components/2022/breadcrumb";
+import Hotel from "../components/2022/hotels";
+import Restaurant from "../components/2022/restaurants";
+import Footer from "../components/2022/footer";
 
-function Schedule() {
+function Travel() {
   return (
     <Layout>
       <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel Guide" />
       <Nav />
-      <TravelHead />
+      <Breadcrumb name="Travel Guide" />
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
@@ -28,6 +28,7 @@ function Schedule() {
             </p>
             <iframe
               title="Promotional Video of Lagos"
+              className="w-full"
               width="1000"
               height="400"
               src="https://www.youtube.com/embed/HbsdLI8kaWc"
@@ -44,8 +45,7 @@ function Schedule() {
             <p className="text-base my-4">
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
               Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
-              from any Nigerian Embassy or Consulate close to them. <br />
-              Visit&nbsp;
+              from any Nigerian Embassy or Consulate close to them. Kindly visit&nbsp;
               <a
                 className="underline"
                 href="https://portal.immigration.gov.ng/visa/freshVisa"
@@ -54,7 +54,7 @@ function Schedule() {
               >
                 here
               </a>
-              &nbsp;to apply for Visa. Do you have an African passport? See{" "}
+              &nbsp;to apply for Visa. If you have an African passport, you can visit here{" "}
               <a
                 className="underline"
                 href="https://immigration.gov.ng/voa-new/"
@@ -63,8 +63,8 @@ function Schedule() {
               >
                 here
               </a>
-              &nbsp;to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio and yellow
-              fever vaccinations to enter <b>Nigeria</b>.
+              &nbsp;to apply for Visa-on-Arrival (VoA). You will also be required to have proof of polio, yellow
+              fever, and Covid19 vaccinations to enter <b>Nigeria</b>.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ function Schedule() {
               airport. Major airlines provide daily services to many international destinations. The airport is about
               17-24 minutes’ drive from Zone Tech Park, the conference venue. Some hotels also offer pick-up services
               and we encourage participants with such options to use the services. Airport pick-up will be available on
-              request for attendees arriving from the 18th of February, 2020. Please&nbsp;
+              request for attendees arriving from the 23rd of March, 2022. Please&nbsp;
               <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
                 email the event organizers
               </a>
@@ -111,15 +111,15 @@ function Schedule() {
             <ol className="text-base m-4 list-decimal">
               <li className="my-4">
                 <b>Visa</b>: You may need a visa to enter Nigeria. You must check this, otherwise, you will likely be
-                denied entry, or probably not even be allowed to board your plane. Got any questions?&nbsp;
+                denied entry, or probably not even be allowed to board your plane. If you have any questions,&nbsp;
                 <a className="underline" href="mailto:event@oscafrica.org" target="_blank" rel="noopener noreferrer">
-                  Please contact us immediately.
+                  please contact us immediately.
                 </a>
               </li>
               <li className="my-4">
-                <b>Vaccination certificate</b>: You must have yellow fever and polio vaccination certificate to enter
+                <b>Vaccination certificate</b>: You must have yellow fever, polio vaccination, and Covid19 certificate to enter
                 Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in advance, do not
-                leave it until the last minute. Other certificates include Hepatitis A, Tetanus, and Typhoid.
+                leave it until the last minute. Other optional certificates include Hepatitis A, Tetanus, and Typhoid.
               </li>
               <li className="my-4">
                 <b>Malaria precautions</b>: All of Nigeria, including Lagos, is indicated as a high-risk zone for
@@ -130,7 +130,7 @@ function Schedule() {
               </li>
               <li className="my-4">
                 <b>Arrival times</b>: We hope to co-ordinate transport on arrival at the airport for some groups. We
-                might not be able to do this for everyone, but please tell us:
+                might not be able to do this for everyone, but please let us know:
                 <ul className="list-disc m-2">
                   <li>The date and time of your arrival in Nigeria</li>
                   <li>The date and time of your departure from Nigeria </li>
@@ -140,7 +140,7 @@ function Schedule() {
                 We will help if we can, please provide this information in good time.
               </li>
               <li className="my-4">
-                <b>Movies Recommendation</b>: Watch any of the following Nigerian movies on Netflix if you can to get a
+                <b>Movies Recommendation</b>: You can watch any of the following Nigerian movies on Netflix if you can to get a
                 feel of the vibe of urban Nigeria.
                 <ul className="list-disc m-2">
                   <a
@@ -169,18 +169,6 @@ function Schedule() {
                   </a>
                 </ul>
               </li>
-              <li className="my-4">
-                <b>Venue Highlights</b>: Here are{" "}
-                <a
-                  className="underline"
-                  href="https://bit.ly/devfestlagos18-500photos"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  pictures of DevFest Lagos 2018
-                </a>{" "}
-                - same venue as the Open Source Festival, but the festival audience might not be as large.
-              </li>
             </ol>
           </div>
         </div>
@@ -193,4 +181,4 @@ function Schedule() {
   );
 }
 
-export default Schedule;
+export default Travel;

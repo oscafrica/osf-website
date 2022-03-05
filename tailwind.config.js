@@ -3,10 +3,12 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ["source sans", "avenir", "gotham", "ubuntu"],
-      body: ["source sans", "avenir", "gotham", "ubuntu"],
+      display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
+      body: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
       avenir: ["avenir"],
-      ubuntu: ["ubuntu"]
+      ubuntu: ["ubuntu"],
+      anisette: ["anisette-std"],
+      workSans: ["work-sans"]
     },
     prefix: "oc-",
     extend: {
@@ -23,6 +25,9 @@ module.exports = {
           400: "#283756",
           500: "#283756",
           600: "#283757"
+        },
+        "army-green": {
+          primary: "#1B352D"
         },
         orange: {
           primary: "#F79313",

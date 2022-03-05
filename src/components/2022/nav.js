@@ -1,23 +1,20 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import { logo, patterns } from "../components/cloudImages";
+import { logo } from "./cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-20 w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
-      <div className="absolute left-0">
-        <img className="-pl-4" src={patterns.navRec} alt="" />
-      </div>
+    <header className="z-40 bg-orange-primary w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
-          <img alt="Open Source Community Africa Logo." className="block mx-auto w-12" src={logo.pngOrange} />
+          <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12" src={logo.svgOrange} />
         </Link>
 
         <button
-          className="block lg:hidden flex items-center px-3 py-2 rounded text-white"
+          className="block lg:hidden items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           {isExpanded ? (
@@ -43,40 +40,36 @@ function Nav() {
         <nav
           className={`${
             isExpanded ? "block" : "hidden"
-          } flex flex-col py-24 min-h-screen min-w-full bg-dark-blue-primary text-center lg:py-0 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
+          } flex flex-col py-24 min-h-screen min-w-full text-center lg:py-0 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
         >
           {[
             {
-              route: "https://opencollective.com/osca/events/open-source-festival-2020-4abe0517",
-              title: "Register"
+              route: "/#about",
+              title: "About"
             },
             {
-              route: "/2020/#speakers",
+              route: "/#speakers",
               title: "Speakers"
             },
             {
-              route: "/2020/schedule",
-              title: "Schedule"
-            },
-            {
-              route: "/2020/travel",
+              route: "/travel",
               title: "Travel"
             },
             {
-              route: "/2020/#sponsors",
+              route: "https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2",
+              title: "Register"
+            },
+            {
+              route: "/docs/sponsorship-guide-2022.pdf",
               title: "Sponsorship"
             },
             {
-              route: "/2020/scholarship",
-              title: "Scholarship"
-            },
-            {
-              route: "/2020/sustain-africa",
+              route: "/sustain-africa",
               title: "Sustain Africa"
             }
           ].map((link) => (
             <a
-              className="block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
+              className="font-workSans block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
               key={link.title}
               href={link.route}
             >

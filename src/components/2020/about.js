@@ -1,5 +1,5 @@
 import React from "react";
-import { patterns } from "../components/cloudImages";
+import { patterns } from "./cloudImages";
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
           Through this festival, we intend to move Africans from just the billion users to the NEXT BILLION CREATORS.
         </blockquote>
       </div>
-      <div className="hidden lg:block absolute right-0 fixed">
+      <div className="hidden lg:block absolute right-0">
         <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
       </div>
     </section>

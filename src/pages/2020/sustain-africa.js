@@ -3,9 +3,9 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/SEO/seo";
 
-import Nav from "../../components/nav";
-import SustainHead from "../../components/sustainHead";
-import Footer from "../../components/footer";
+import Nav from "../../components/2020/nav";
+import SustainHead from "../../components/2020/sustainHead";
+import Footer from "../../components/2020/footer";
 
 function SustainAfrica() {
   return (
