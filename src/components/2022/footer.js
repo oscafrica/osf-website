@@ -43,7 +43,7 @@ function Footer() {
         ].map((link) => (
           <ul className="m-0 p-0" key={link.title}>
             <li className="pb-8 lg:pr-8 lg:pb-0 p2">
-              <a className="no-underline text-white text-lg" href={link.route}>
+              <a className="font-workSans no-underline text-white text-lg" href={link.route}>
                 {link.title}
               </a>
             </li>

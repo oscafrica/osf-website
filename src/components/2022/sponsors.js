@@ -26,7 +26,7 @@ const sponsorsData = [
     name: "Sourcegragh",
     image: sponsors.sourcegraph,
     link: "https://sourcegraph.com"
-  },
+  }
   // {
   //   tier: "diamond",
   //   name: "Polygon",

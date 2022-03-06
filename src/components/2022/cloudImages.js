@@ -6,8 +6,7 @@ const logo = Object.freeze({
   pngOrange: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/orange.png",
   pngWhite: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/white.png",
   pngBlue: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/blue.png",
-  pngGray: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/gray.png",
-  sustain: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1581921868/osf-sustain-asset.png"
+  pngGray: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/gray.png"
 });
 
 const videos = {
