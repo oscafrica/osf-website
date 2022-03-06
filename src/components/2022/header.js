@@ -1,12 +1,18 @@
 import React from "react";
-import { patterns } from "./cloudImages";
+import { patterns, videos } from "./cloudImages";
 import Modal from "react-modal";
 
 function Header() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   return (
       <>
-      <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
+      <div className="bg-black opacity-100 py-80 lg:py-0">
+        <div className="z-10 absolute" />
+        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
+          <source src={videos.mainBg} type="video/mp4" />
+        </video>
+      </div>
+      <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
         <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
           <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
             <h1 className="font-anisette text-4xl lg:text-5xl leading-tight font-bold uppercase">
@@ -43,11 +49,13 @@ function Header() {
               </a>
             </div>
           </div>
+          <div className="w-full flex play-video">
+          <button onClick={() => setIsOpen(true)}>
+              <img src={patterns.play} alt="play icon"/>
+          </button>
+          </div>
         </div>
       </div>
-      <button className="absolute bottom-5 right-20" onClick={() => setIsOpen(true)}>
-        <img src={patterns.play} alt="play icon"/>
-    </button>
     <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setIsOpen(false)}

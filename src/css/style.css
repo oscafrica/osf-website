@@ -125,3 +125,8 @@ hr {
 .table {
   display: table;
 }
+
+.play-video {
+    justify-content: flex-end;
+    align-items: flex-end;
+}

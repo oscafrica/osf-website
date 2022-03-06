@@ -21,7 +21,7 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="h-80 lg:h-60 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="py-10 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
@@ -102,7 +102,7 @@ function Footer() {
         ))}
       </div>
       <div className="z-15 hidden lg:block absolute right-10 bottom-35">
-        <img className="z-0 mt-24 w-3/4" src={patterns.halfCircle} alt="" />
+        <img className="z-0 w-3/4" src={patterns.halfCircle} alt="" />
       </div>
     </footer>
   );
