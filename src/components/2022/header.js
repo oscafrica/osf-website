@@ -6,7 +6,7 @@ function Header() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   return (
       <>
-      <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
+      <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
         <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
           <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
             <h1 className="font-anisette text-4xl lg:text-5xl leading-tight font-bold uppercase">
