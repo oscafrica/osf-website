@@ -1,14 +1,11 @@
 import React from "react";
-import { videos } from "./cloudImages";
+import { patterns } from "./cloudImages";
+import Modal from "react-modal";
+
 function Header() {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
   return (
-    <>
-      <div className="bg-white py-80 lg:py-0">
-        <div className="z-10 opacity-50 absolute" />
-        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
-          <source src={videos.mainBg} type="video/mp4" />
-        </video>
-      </div>
+      <>
       <div className="flex flex-col z-30 absolute top-20 left-0 w-full min-h-screen">
         <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
           <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
@@ -48,6 +45,47 @@ function Header() {
           </div>
         </div>
       </div>
+      <button className="absolute bottom-5 right-20" onClick={() => setIsOpen(true)}>
+        <img src={patterns.play} alt="play icon"/>
+    </button>
+    <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={() => setIsOpen(false)}
+        style={{
+          overlay: {
+            zIndex: 1000,
+            background: "rgba(0,0,0,0.6)"
+          },
+          content: {
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%, -50%)",
+            zIndex: 1000,
+            background: "transparent"
+          }
+        }}
+        contentLabel="OSCAfest 2020 video"
+      >
+        <div className="relative z-40 w-screen h-screen lg:p-16">
+          <div className="flex justify-end">
+            <button className="text-white p-3" onClick={() => setIsOpen(false)}>
+              Close
+            </button>
+          </div>
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/hZc44FApgl0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </Modal>
     </>
   );
 }
