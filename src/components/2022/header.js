@@ -49,11 +49,13 @@ function Header() {
               </a>
             </div>
           </div>
+          <div className="w-full flex play-video">
+          <button onClick={() => setIsOpen(true)}>
+              <img src={patterns.play} alt="play icon"/>
+          </button>
+          </div>
         </div>
       </div>
-      <button className="absolute bottom-5 right-20" onClick={() => setIsOpen(true)}>
-        <img src={patterns.play} alt="play icon"/>
-    </button>
     <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setIsOpen(false)}

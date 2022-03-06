@@ -98,8 +98,8 @@ function Sponsors() {
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
-        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="hidden lg:block font-bold mx-5"> #OSCAFEST22</h4>
+        <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
@@ -248,8 +248,8 @@ function Sponsors() {
         <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
-        <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
+        <h4 className="hidden lg:block font-bold mx-5"> #OSCAFEST22</h4>
+        <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
