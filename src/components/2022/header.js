@@ -5,16 +5,17 @@ import Modal from "react-modal";
 function Header() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   return (
-      <>
-      <div className="bg-black opacity-100 py-80 lg:py-0">
-        <div className="z-10 absolute" />
+    <>
+      <div className="">
+        <div className="z-10 absolute -mr-4" />
         <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
+        <img alt="Background" className="lg:hidden h-screen w-screen object-cover bg-fixed" src={videos.mainBgMobile} />
       </div>
       <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
-          <div className="w-full sm:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
+        <div className="z-20 flex flex-wrap mt-40 lg:mt-10 mb-36 lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
+          <div className="w-full xl:w-1/2 lg:w-1/2 sm:w-2/3 mb-4 relative z-10 text-white">
             <h1 className="font-anisette text-4xl lg:text-5xl leading-tight font-bold uppercase">
               <div className="bg-orange-primary mb-2 table px-1 py-2">Open Source</div>
               <div className="bg-orange-primary mb-2 table px-1 py-2">Festival 2022</div>
@@ -28,9 +29,10 @@ function Header() {
             </div>
             <p className="font-anisette text-lg lg:text-lg uppercase bg-dark-blue-600 mt-2 table p-1"> #OSCAFEST2022</p>
             <p className="text-md lg:text-md text-white-700 mt-4 table">
-              An annual open source gathering under Open <br />Source Community Africa
+              An annual open source gathering under Open <br />
+              Source Community Africa
             </p>
-            <div className="flex font-bold">
+            <div className="flex font-bold mt-10 lg:mt-0">
               <a
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
@@ -49,14 +51,14 @@ function Header() {
               </a>
             </div>
           </div>
-          <div className="w-full flex play-video">
-          <button onClick={() => setIsOpen(true)}>
-              <img src={patterns.play} alt="play icon"/>
-          </button>
+          <div className="hidden lg:flex w-full play-video">
+            <button onClick={() => setIsOpen(true)}>
+              <img src={patterns.play} alt="play icon" />
+            </button>
           </div>
         </div>
       </div>
-    <Modal
+      <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setIsOpen(false)}
         style={{
@@ -75,7 +77,7 @@ function Header() {
             background: "transparent"
           }
         }}
-        contentLabel="OSCAfest 2020 video"
+        contentLabel="OSCAFest 2020 video"
       >
         <div className="relative z-40 w-screen h-screen lg:p-16">
           <div className="flex justify-end">

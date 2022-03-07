@@ -9,7 +9,7 @@ function Nav() {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    window.scrollY >= 220 ? setNavbar(true) : setNavbar(false);
+    window.scrollY >= 120 ? setNavbar(true) : setNavbar(false);
   };
 
   useEffect(() => {
@@ -21,6 +21,7 @@ function Nav() {
     <>
       <div
         className={`${navbar ? "bg-army-green-primary" : "bg-transparent"}
+        ${isExpanded ? "bg-army-green-primary" : "bg-transparent"}
         z-40 w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1}`}
       >
         <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">

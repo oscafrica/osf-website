@@ -10,7 +10,8 @@ const logo = Object.freeze({
 });
 
 const videos = {
-  mainBg: "https://res.cloudinary.com/osca/video/upload/v1630281827/osf/hli7kjmf37756wtkpetm.mp4"
+  mainBg: "https://res.cloudinary.com/osca/video/upload/v1630281827/osf/hli7kjmf37756wtkpetm.mp4",
+  mainBgMobile: "https://res.cloudinary.com/osca/image/upload/v1646646013/osf/2022/Patterns/i9aedtwylx5c5garjddj.png"
 };
 
 const patterns = Object.freeze({
