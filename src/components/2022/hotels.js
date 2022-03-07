@@ -20,25 +20,11 @@ function Hotels() {
       <div className="flex flex-wrap text-white mt-8 mb-12">
         {[
           {
-            name: "Bolad Hotel",
-            image: hotels.bolad,
-            price: "Starts at 5000/night.",
-            duration: "~15 minutes drive to the venue.",
-            link: "https://goo.gl/maps/epXnwBw2pmtQEjNJ6"
-          },
-          {
             name: "Million Dollars Imperial Hotel",
             image: hotels.million,
             price: "Starts at 6500/night.",
             duration: "~32 minutes drive to the venue.",
             link: "https://goo.gl/maps/fmiYCbUrQJKa9oUU7"
-          },
-          {
-            name: "Green Royal Suites Annex",
-            image: hotels.green,
-            price: "Starts at 11,500/night.",
-            duration: "~11 minutes drive to the venue.",
-            link: "https://goo.gl/maps/TtQG39tPZPJ4SQFN7"
           },
           {
             name: "Hotel Newcastle",
@@ -67,13 +53,6 @@ function Hotels() {
             price: "Starts at ₦25,550/night.",
             duration: "~8 minutes drive to the venue.",
             link: "https://goo.gl/maps/hDWonsZi5X6WjHFr8"
-          },
-          {
-            name: "Westown Hotel Ikeja",
-            image: hotels.westown,
-            price: "Starts at ₦35,000/night.",
-            duration: "~13 minutes drive to the venue.",
-            link: "https://goo.gl/maps/2JeF9wzhw8mPKU6Y8"
           },
           {
             name: "Airbnb",
