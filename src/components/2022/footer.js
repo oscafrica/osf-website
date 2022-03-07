@@ -21,7 +21,7 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="py-10 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="h-36 py-10 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {

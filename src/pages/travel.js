@@ -59,6 +59,7 @@ function Travel() {
               . Once you have done this, you will be issued with a “permit to travel” via the portal. <br />
               <br />
               The following protocols are in place for travellers to Nigeria:
+              </p>
               <ol className="text-base m-4 list-decimal">
                 <li className="my-4">
                   All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more
@@ -76,7 +77,6 @@ function Travel() {
                   regardless of the entry requirements of the destination country
                 </li>
               </ol>
-            </p>
           </div>
         </div>
 

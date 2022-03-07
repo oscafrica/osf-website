@@ -16,9 +16,6 @@ const videos = {
 const patterns = Object.freeze({
   africanMap: "https://res.cloudinary.com/osca/image/upload/v1646169668/osf/2022/Patterns/k9khdrriuxkmnj3ci5t3.png",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/2022/NXTBC.png",
-  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/2022/Patterns/navRec.png",
-  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/2022/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/2022/Patterns/speakers.png",
   futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645850627/osf/2022/n2fgn1ihdrewlskux1pi.svg",
   twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/2022/Patterns/wcjlgvxb0gssqsxtsro0.svg",
   circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/2022/Patterns/lyaio7upizhsud5jhvya.svg",
@@ -65,7 +62,7 @@ const hotels = Object.freeze({
   h53: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070596/osf/Hotels/h53.png",
   banex: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579071579/osf/Hotels/banex.png",
   splendour: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579071689/osf/Hotels/splendour.png",
-  airbnb: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070876/osf/Hotels/airbnb.png",
+  airbnb: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579070876/osf/Hotels/airbnb.png"
 });
 
 const restaurants = Object.freeze({
