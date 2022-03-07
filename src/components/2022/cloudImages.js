@@ -43,12 +43,12 @@ const sponsors = Object.freeze({
   aws: "",
   github: "",
   microsoft: "",
-  postman: "",
+  postman: "https://res.cloudinary.com/osca/image/upload/v1646632858/osf/2022/Sponsors/gj0zymo4dqbt1t6c2jhe.png",
   cncf: "https://res.cloudinary.com/osca/image/upload/v1646313487/osf/2022/Sponsors/ekz9lnfvoe0kfgbeoahy.png",
   edgeandnode: "",
   opensuse: "https://res.cloudinary.com/osca/image/upload/v1646313449/osf/2022/Sponsors/pljvoi3h36on0avdrrud.png",
-  atcompany: "",
-  xxx: ""
+  atcompany: "https://res.cloudinary.com/osca/image/upload/v1646632859/osf/2022/Sponsors/pfv8chdn5keyun6gfbiq.png",
+  fincra: "https://res.cloudinary.com/osca/image/upload/v1646632859/osf/2022/Sponsors/g5bctiwtgzfupry8ball.png"
 });
 
 const gallery = Object.freeze({

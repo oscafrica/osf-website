@@ -26,7 +26,7 @@ const sponsorsData = [
     name: "Sourcegragh",
     image: sponsors.sourcegraph,
     link: "https://sourcegraph.com"
-  }
+  },
   // {
   //   tier: "diamond",
   //   name: "Polygon",
@@ -51,12 +51,12 @@ const sponsorsData = [
   //   image: sponsors.microsoft,
   //   link: "https://opensource.microsoft.com"
   // },
-  // {
-  //   tier: "silver",
-  //   name: "Postman",
-  //   image: sponsors.postman,
-  //   link: "https://postman.com"
-  // },
+  {
+    tier: "silver",
+    name: "Postman",
+    image: sponsors.postman,
+    link: "https://postman.com"
+  },
   // {
   //   tier: "silver",
   //   name: "Cloud Native Computing Foundation",
@@ -69,18 +69,24 @@ const sponsorsData = [
   //   image: sponsors.edgeandnode,
   //   link: "https://edgeandnode.com"
   // },
+  {
+    tier: "silver",
+    name: "Fincra",
+    image: sponsors.fincra,
+    link: "https://fincra.com"
+  },
   // {
   //   tier: "bronze",
   //   name: "OpenSuse",
   //   image: sponsors.opensuse,
   //   link: "https://opensuse.org"
   // },
-  // {
-  //   tier: "bronze",
-  //   name: "The @ Company",
-  //   image: sponsors.atcompany,
-  //   link: "https://atsign.dev"
-  // },
+  {
+    tier: "bronze",
+    name: "The @ Company",
+    image: sponsors.atcompany,
+    link: "https://atsign.dev"
+  }
   // {
   //   tier: "bronze",
   //   name: "A Startup Lagos",
