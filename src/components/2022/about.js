@@ -7,19 +7,19 @@ function About() {
       <div className="marquee my-2">
         <div className="track flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="hidden lg:block font-bold mx-5"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans hidden lg:block mx-5"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans hidden lg:block mx-5"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         </div>
       </div>
@@ -37,7 +37,7 @@ function About() {
       </figure>
 
       <div className="lg:w-1/2 lg:mx-12">
-        <blockquote className="px-4 text-base text-justify tracking-tight text-dark-blue-500">
+        <blockquote className="px-4 text-base text-justify tracking-tight text-army-green-primary">
           Open Source Community Africa is a community aimed at creating and supporting the open source movement within
           Africa. As a community, we intend to help integrate the act of open source contribution to African developers
           whilst strongly advocating the movement of free and open source software. <br />
@@ -58,19 +58,19 @@ function About() {
     <div className="marquee mt-3 mb-8">
         <div className="track flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5"> #OSCAFEST22</h4>
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="hidden lg:block font-bold mx-5"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans hidden lg:block mx-5"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        <h4 className="font-bold mx-5 hidden lg:block"> #OSCAFEST22</h4>
+        <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
         <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
         </div>
       </div>

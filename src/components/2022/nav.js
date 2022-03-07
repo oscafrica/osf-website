@@ -56,7 +56,7 @@ function Nav() {
           <nav
             className={`${
               isExpanded ? "block" : "hidden"
-            } flex flex-col py-24 min-h-screen min-w-full text-center lg:py-0 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0`}
+            } flex flex-col py-24 min-h-screen min-w-full text-center lg:py-0 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0 font-workSans`}
           >
             {[
               {

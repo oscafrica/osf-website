@@ -17,15 +17,15 @@
 }
 
 @font-face {
-  font-family: "Anisette-std";
+  font-family: "Anisette";
   font-display: auto;
-  src: url("../fonts/Anisette/Anisette Medium.otf");
+  src: url("../fonts/Anisette/Anisette-Medium.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Work Sans";
+  font-family: "Work-Sans";
   font-display: auto;
   src: url("../fonts/WorkSans/WorkSans-Regular.ttf");
   font-weight: normal;

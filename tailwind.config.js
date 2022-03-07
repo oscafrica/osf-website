@@ -7,7 +7,7 @@ module.exports = {
       body: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
       avenir: ["avenir"],
       ubuntu: ["ubuntu"],
-      anisette: ["anisette-std"],
+      anisette: ["anisette"],
       workSans: ["work-sans"]
     },
     prefix: "oc-",
