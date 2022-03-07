@@ -27,12 +27,12 @@ const sponsorsData = [
     image: sponsors.sourcegraph,
     link: "https://sourcegraph.com"
   },
-  // {
-  //   tier: "diamond",
-  //   name: "Polygon",
-  //   image: sponsors.polygon,
-  //   link: "https://polygon.technology"
-  // },
+  {
+    tier: "diamond",
+    name: "Polygon",
+    image: sponsors.polygon,
+    link: "https://polygon.technology"
+  },
   // {
   //   tier: "gold",
   //   name: "AWS",

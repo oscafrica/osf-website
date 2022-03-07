@@ -37,7 +37,7 @@ const sponsors = Object.freeze({
   meta: "https://res.cloudinary.com/osca/image/upload/v1646313457/osf/2022/Sponsors/hmoe4wzetvvg0pf8mnov.png",
   coil: "https://res.cloudinary.com/osca/image/upload/v1646313478/osf/2022/Sponsors/ft6psgaf631jpkwvgwfy.png",
   sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1646313412/osf/2022/Sponsors/pifxoq6iqjt21bmhuzjz.png",
-  polygon: "",
+  polygon: "https://res.cloudinary.com/osca/image/upload/v1646673608/osf/2022/Sponsors/lo6bc6c7wzllmk4spxou.png",
   aws: "",
   github: "",
   microsoft: "",
