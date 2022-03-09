@@ -4,10 +4,15 @@ import { speakers, patterns } from "./cloudImages";
 
 function Speaker() {
   return (
-    <section id="speakers" className="relative bg-army-green-primary flex-wrap lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
+    <section
+      id="speakers"
+      className="relative bg-army-green-primary flex-wrap lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24"
+    >
       <div className="flex flex-wrap justify-center">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white text-center">
-          <h1 className="text-5xl font-bold font-anisette uppercase">Meet our <br/> Speakers</h1>
+          <h1 className="text-5xl font-bold font-anisette uppercase">
+            Meet our <br /> Speakers
+          </h1>
         </div>
       </div>
       <div className="flex flex-wrap text-white my-8 justify-center">
@@ -31,6 +36,11 @@ function Speaker() {
             name: "Nader Dabit",
             title: "Developer Relations Engineer | Edge&Node",
             image: speakers.nader
+          },
+          {
+            name: "Prosper Otemuyiwa",
+            title: "Staff Developer Advocate | Sourcegraph",
+            image: speakers.prosper
           },
           {
             name: "Stefan Thomas",
@@ -67,11 +77,6 @@ function Speaker() {
           //   title: "DevLead | Google",
           //   image: speakers.dummyImage
           // },
-          // {
-          //   name: "Prosper Otemuyiwa",
-          //   title: "Staff Developer Advocate | Sourcegraph",
-          //   image: speakers.dummyImage
-          // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />

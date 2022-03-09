@@ -56,7 +56,7 @@ function Header() {
                 href="/2020"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 text-center bg-army-green-primary text-white uppercase"
+                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase"
               >
                 View past event
               </a>
