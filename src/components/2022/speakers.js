@@ -25,12 +25,12 @@ function Speaker() {
           {
             name: "Anjana Vakil",
             title: "Senior DevLead | Observable",
-            image: speakers.dummyImage
+            image: speakers.anjana
           },
           {
             name: "Tejas Kumar",
             title: "Senior DevLead | Xatabase",
-            image: speakers.dummyImage
+            image: speakers.tejas
           },
           {
             name: "Odunayo Eweniyi",
@@ -45,12 +45,12 @@ function Speaker() {
           {
             name: "Nader Dabit",
             title: "Senior DevLead | EdgeandNode",
-            image: speakers.dummyImage
+            image: speakers.nader
           },
           {
             name: "Ruth Ikegah",
             title: "Senior DevLead | Animalz",
-            image: speakers.dummyImage
+            image: speakers.ruth
           },
           {
             name: "Prosper Otemuyiwa",
