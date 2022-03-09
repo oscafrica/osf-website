@@ -24,9 +24,9 @@ function Nav() {
         ${isExpanded ? "bg-army-green-primary" : "bg-transparent"}
         z-40 w-full fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1}`}
       >
-        <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
+        <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-10">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
-            <img alt="Open Source Community Africa's Logo" className="block mx-auto w-20" src={logo.svgOrange} />
+            <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12 xl:w-20" src={logo.svgOrange} />
           </Link>
 
           <button
