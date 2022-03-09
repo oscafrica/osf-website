@@ -127,7 +127,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="=w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
