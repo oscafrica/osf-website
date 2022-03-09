@@ -13,53 +13,63 @@ function Speaker() {
       <div className="flex flex-wrap text-white my-8">
         {[
           {
-            name: "Chris Aniszczyk",
-            title: "Senior DevLead | CNCF",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Segun Adebayo",
-            title: "Senior DevLead | Chakra UI",
-            image: speakers.dummyImage
-          },
-          {
             name: "Anjana Vakil",
-            title: "Senior DevLead | Observable",
+            title: "Developer Advocate | Observable",
             image: speakers.anjana
           },
           {
             name: "Tejas Kumar",
-            title: "Senior DevLead | Xatabase",
+            title: "Director of Developer Relations | Xatabase",
             image: speakers.tejas
           },
           {
-            name: "Odunayo Eweniyi",
-            title: "Senior DevLead | Piggyvest",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Sakhip",
-            title: "Senior DevLead | Google",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Nader Dabit",
-            title: "Senior DevLead | EdgeandNode",
-            image: speakers.nader
-          },
-          {
             name: "Ruth Ikegah",
-            title: "Senior DevLead | Animalz",
+            title: "GitHub Star and Technical Writer",
             image: speakers.ruth
           },
           {
+            name: "Nader Dabit",
+            title: "Developer Relations Engineer | Edge&Node",
+            image: speakers.nader
+          },
+          {
+            name: "Chris Aniszczyk",
+            title: "CTO | Cloud Native Computing Foundation",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Segun Adebayo",
+            title: "Creator | Chakra UI",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Odunayo Eweniyi",
+            title: "Cofounder/COO | PiggybankNG",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Dmitry Vinnik",
+            title: "Developer Advocate | Meta",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Minko",
+            title: "DevLead | Google",
+            image: speakers.dummyImage
+          },
+          {
+            name: "Emma",
+            title: "DevLead | Google",
+            image: speakers.dummyImage
+          },
+          {
             name: "Prosper Otemuyiwa",
-            title: "Senior DevLead | Eden Life",
+            title: "Staff Developer Advocate | Sourcegraph",
             image: speakers.dummyImage
           },
           {
             name: "Stefan Thomas",
-            title: "Senior DevLead | Coil",
+            title: "Founder & CEO | Coil",
             image: speakers.dummyImage
           }
         ].map((speaker) => (

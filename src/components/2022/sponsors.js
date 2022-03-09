@@ -33,18 +33,18 @@ const sponsorsData = [
     image: sponsors.polygon,
     link: "https://polygon.technology"
   },
-  // {
-  //   tier: "gold",
-  //   name: "AWS",
-  //   image: sponsors.aws,
-  //   link: ""
-  // },
-  // {
-  //   tier: "gold",
-  //   name: "GitHub",
-  //   image: sponsors.github,
-  //   link: "https://github.com"
-  // },
+  {
+    tier: "gold",
+    name: "AWS",
+    image: sponsors.aws,
+    link: "https://aws.amazon.com"
+  },
+  {
+    tier: "gold",
+    name: "GitHub",
+    image: sponsors.github,
+    link: "https://github.com"
+  },
   // {
   //   tier: "gold",
   //   name: "Microsoft",
@@ -57,12 +57,12 @@ const sponsorsData = [
     image: sponsors.postman,
     link: "https://postman.com"
   },
-  // {
-  //   tier: "silver",
-  //   name: "Cloud Native Computing Foundation",
-  //   image: sponsors.cncf,
-  //   link: "https://cncf.io"
-  // },
+  {
+    tier: "silver",
+    name: "Cloud Native Computing Foundation",
+    image: sponsors.cncf,
+    link: "https://cncf.io"
+  },
   // {
   //   tier: "silver",
   //   name: "Edge and node",
@@ -89,9 +89,15 @@ const sponsorsData = [
   }
   // {
   //   tier: "bronze",
-  //   name: "A Startup Lagos",
-  //   image: sponsors.xxx,
-  //   link: ""
+  //   name: "Paystack",
+  //   image: sponsors.paystack,
+  //   link: "https://paystack.com"
+  // },
+  // {
+  //   tier: "bronze",
+  //   name: "BeOpenIt",
+  //   image: sponsors.beopenit,
+  //   link: "https://www.beopenit.com"
   // }
 ];
 
@@ -157,7 +163,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -179,7 +185,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -201,7 +207,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -223,7 +229,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -245,7 +251,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
