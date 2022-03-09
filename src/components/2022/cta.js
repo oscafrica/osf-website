@@ -2,7 +2,7 @@ import React from "react";
 
 function Cta() {
   return (
-    <section className="z-10 font-ubuntu bg-army-green-primary">
+    <section className="z-10 bg-army-green-primary">
       <div className="flex flex-wrap max-w-4xl mx-auto lg:p-14 text-center m-16">
         {[
           {
