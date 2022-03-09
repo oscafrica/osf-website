@@ -29,7 +29,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#1B352D",
         display: "minimal-ui",
-        icon: "src/images/osca-logo.png"
+        icon: "src/images/og.png"
       }
     },
     "gatsby-plugin-postcss",
