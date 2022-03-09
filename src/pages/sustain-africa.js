@@ -16,7 +16,7 @@ function SustainAfrica() {
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-ubuntu">INTRODUCTION</h1>
+            <h1 className="text-spo font-bold font-anisette">INTRODUCTION</h1>
             <p className="text-base my-4">
               Sustain Africa is a one-day conversation for Open Source Software Sustainers. We would be talking about
               Sustainability - the sustainability of resources and the sustainability of its people.
@@ -47,7 +47,7 @@ function SustainAfrica() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-ubuntu">GOALS</h1>
+            <h1 className="text-spo font-bold font-anisette">GOALS</h1>
             <p className="text-base my-4">Our overall goals at Sustain Africa are to:</p>
             <ol className="text-base my-4 list-none lg:list-decimal">
               <li className="m-4">
@@ -73,7 +73,7 @@ function SustainAfrica() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-ubuntu">GUIDELINES</h1>
+            <h1 className="text-spo font-bold font-anisette">GUIDELINES</h1>
             <p className="text-base my-4">
               The following are some general guidelines regarding how we will run the event:
             </p>
@@ -109,7 +109,7 @@ function SustainAfrica() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-ubuntu">AGENDA</h1>
+            <h1 className="text-spo font-bold font-anisette">AGENDA</h1>
             <p className="text-base my-4">
               The event starts at 03:30 PM on <b>24th March 2022</b>, so please arrive at 03:00 PM to check in. The
               event will last for 3 hours and will be structured as collaborative working sessions, along with optional

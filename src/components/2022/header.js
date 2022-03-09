@@ -38,17 +38,17 @@ function Header() {
               className="font-anisette text-lg lg:text-lg uppercase bg-dark-blue-600 mt-2 table p-1"
             >
               {" "}
-              #OSCAFEST2022
+              #OSCAFEST22
             </a>
             <p className="text-lg text-white-700 mt-4 mb-8 md:mb-12 lg:mb-0 table">
               An annual open source gathering under Open Source Community Africa
             </p>
-            <div className="flex font-bold">
+            <div className="font-bold">
               <a
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 pt-9 lg:pt-6 bg-orange-primary text-black uppercase"
+                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 mb-4 bg-orange-primary text-black uppercase"
               >
                 Register
               </a>
@@ -56,7 +56,7 @@ function Header() {
                 href="/2020"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white text-center uppercase"
+                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 text-center bg-army-green-primary text-white uppercase"
               >
                 View past event
               </a>

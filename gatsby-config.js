@@ -18,18 +18,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: "Open Source Festival",
-        short_name: "OSF",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#1B352D",
-        display: "minimal-ui",
-        icon: "src/images/osca-logo.png"
-      }
-    },
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-purgecss",

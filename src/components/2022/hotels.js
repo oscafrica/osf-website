@@ -7,7 +7,7 @@ function Hotels() {
     <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-2">
       <div className="flex flex-wrap">
         <div className="w-full text-dark-blue-primary-600">
-          <h1 className="text-spo font-bold font-ubuntu">ACCOMMODATION</h1>
+          <h1 className="text-spo font-bold font-anisette">ACCOMMODATION</h1>
           <p className="text-base mt-4">
             The organizers of OSCA FESTIVAL aim to promote a comfortable and flexible lodging experience for attendees.
             Nigeria provides a large number and wide range of hotels, which you can book on the usual online sites. Here

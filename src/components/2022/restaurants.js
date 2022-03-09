@@ -7,7 +7,7 @@ function Restaurants() {
     <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-2">
       <div className="flex flex-wrap">
         <div className="w-full text-dark-blue-primary-600">
-          <h1 className="text-spo font-bold font-ubuntu">RESTAURANTS</h1>
+          <h1 className="text-spo font-bold font-anisette">RESTAURANTS</h1>
           <p className="text-base mt-4">Hungry? Stop by whenever you can and get something tasty.</p>
         </div>
       </div>

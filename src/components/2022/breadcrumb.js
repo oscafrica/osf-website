@@ -11,7 +11,7 @@ function Breadcrumb(props) {
           <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="" />
         </div>
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative z-10 text-white">
-          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold">{props.name}</h1>
+          <h1 className="font-anisette text-4xl lg:text-6xl leading-tight font-bold">{props.name}</h1>
         </div>
       </section>
     </div>

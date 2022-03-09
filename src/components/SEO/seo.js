@@ -9,20 +9,21 @@ const SEO = ({ title, article, description, image }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
 
-  const { defaultTitle, titleTemplate, defaultDescription, siteUrl, defaultImage, twitterUsername } = site.siteMetadata;
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername } = site.siteMetadata;
 
   const seo = {
-    title: title || defaultTitle,
+    title: `${defaultTitle} | ${title}`,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`
   };
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+    <Helmet title={seo.title}>
       <meta name="description" content={seo.description} />
       <meta name="keywords" content="Open Source Community Africa, OSCA, OSCAFRICA, Open Source Festival, OSF, OSCAFEST, Open Source, Open Source in Africa, Open Source Event in Africa" />
       <meta name="image" content={seo.image} />
+      <link rel="icon" href="/osca-logo.png" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
