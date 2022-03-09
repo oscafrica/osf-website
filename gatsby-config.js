@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
-    description: `
-    Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
-    `,
+    titleTemplate: "Open Source Festival | %s",
+    description:
+      "Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.",
     siteUrl: "https://festival.oscafrica.org",
-    image: "https://raw.githubusercontent.com/oscafrica/osf-website/master/src/images/og.png",
+    image: "/og-image.png",
     twitter: "@oscafrica",
     fbAppID: "201250060624015"
   },
@@ -29,7 +29,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#1B352D",
         display: "minimal-ui",
-        icon: "src/images/og.png"
+        icon: "/osca-logo.png"
       }
     },
     "gatsby-plugin-postcss",

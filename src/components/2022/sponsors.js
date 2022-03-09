@@ -250,7 +250,7 @@ function Sponsors() {
 
         <div className="relative mt-20 text-center">
           <a
-            href="/docs/sponsorship-guide.pdf"
+            href="/sponsorship-guide.pdf"
             className="font-anisette bg-orange-primary text-xs text-brown p-5 uppercase"
           >
             Become a Sponsor

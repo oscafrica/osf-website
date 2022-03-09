@@ -79,7 +79,7 @@ function Nav() {
                 title: "Register"
               },
               {
-                route: "/docs/sponsorship-guide-2022.pdf",
+                route: "/sponsorship-guide-2022.pdf",
                 title: "Sponsorship"
               },
               {
