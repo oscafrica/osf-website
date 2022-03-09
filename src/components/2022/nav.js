@@ -85,7 +85,7 @@ function Nav() {
               }
             ].map((link) => (
               <a
-                className="font-workSans block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
+                className="font-workSans block mt-0 mb-auto no-underline text-white text-xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase font-bold"
                 key={link.title}
                 href={link.route}
               >
