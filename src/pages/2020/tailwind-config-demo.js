@@ -6,7 +6,7 @@ import SEO from "../../components/SEO/seo";
 function TailwindDemoPage() {
   return (
     <Layout>
-      <SEO keywords={["gatsby", "tailwind", "tailwind config", "tailwindcss"]} title="Tailwind config demo page" />
+      <SEO title="Tailwind config demo page" />
       <section className="">
         <h2 className="font-avenir text-h5 text-orange-primary">Font sizes</h2>
         <section className="mb-4">

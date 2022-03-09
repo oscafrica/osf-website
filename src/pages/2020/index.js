@@ -15,7 +15,7 @@ import Footer from "../../components/2020/footer";
 function IndexPage() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "OSCAFRICA", "Open Source Festival", "OSF", "Open Source Festival 2020"]} title="2020" />
+      <SEO title="2020" />
       <Nav />
       <Header />
       <Cta />

@@ -10,10 +10,7 @@ import Footer from "../../components/2020/footer";
 function Scholarship() {
   return (
     <Layout>
-      <SEO
-        keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]}
-        title="Scholarship Program"
-      />
+      <SEO title="Scholarship Program"/>
       <Nav />
       <Breadcrumb name="Scholarship Program" />
       <section className="lg:flex-row px-4 py-32 lg:px-40 lg:pt-32 lg:pb-0">
