@@ -3,7 +3,7 @@ module.exports = {
     title: "Open Source Festival",
     description:
       "Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.",
-    url: "https://festival.oscafrica.org",
+    siteUrl: "https://festival.oscafrica.org",
     image: "/og-image.png",
     twitterUsername: "@oscafrica"
   },

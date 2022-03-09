@@ -21,7 +21,7 @@ const SEO = ({ title, article, description, image }) => {
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
-      <meta name="keywords" content="Open Source Community Africa, OSCA, OSCAFRICA, Open Source Festival, OSF, OSCAFEST, Open Source Festival 2022" />
+      <meta name="keywords" content="Open Source Community Africa, OSCA, OSCAFRICA, Open Source Festival, OSF, OSCAFEST, Open Source, Open Source in Africa, Open Source Event in Africa" />
       <meta name="image" content={seo.image} />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
@@ -73,7 +73,7 @@ const query = graphql`
       siteMetadata {
         defaultTitle: title
         defaultDescription: description
-        siteUrl: url
+        siteUrl
         defaultImage: image
         twitterUsername
       }

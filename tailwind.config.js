@@ -1,6 +1,10 @@
 // See https://tailwindcss.com/docs/configuration for details
 
 module.exports = {
+  content: [
+    "./pages/**/*.{html,js}",
+    "./components/**/*.{html,js}"
+  ],
   theme: {
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
