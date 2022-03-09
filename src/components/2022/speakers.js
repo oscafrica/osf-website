@@ -4,13 +4,13 @@ import { speakers, patterns } from "./cloudImages";
 
 function Speaker() {
   return (
-    <section id="speakers" className="relative bg-army-green-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
+    <section id="speakers" className="relative bg-army-green-primary flex-wrap lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
       <div className="flex flex-wrap justify-center">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white text-center">
           <h1 className="text-5xl font-bold font-anisette uppercase">Meet our <br/> Speakers</h1>
         </div>
       </div>
-      <div className="flex flex-wrap text-white my-8">
+      <div className="flex flex-wrap text-white my-8 justify-center">
         {[
           {
             name: "Anjana Vakil",

@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ["/schedule/", "/travel/", "/speakers/", "/scholarship/", "/sustain-africa"]
+        precachePages: ["/schedule/", "/travel/", "/speakers/", "/sustain-africa", "/2020"]
       }
     },
     "gatsby-plugin-fontawesome-css"

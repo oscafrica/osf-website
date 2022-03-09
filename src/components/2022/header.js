@@ -14,18 +14,18 @@ function Header() {
         <img alt="Background" className="lg:hidden h-screen w-screen object-cover bg-fixed" src={videos.mainBgMobile} />
       </div>
       <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap mt-48 lg:mt-10 lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 sm:pb-6 lg:pt-40 lg:pb-2 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
+        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-40 2xl:px-72 pt-2 md:pt-60 lg:pt-24 xl:pt-36 2xl:pt-80 mt-28 md:mt-10 lg:mt-14 mb-24 md:mb-0 lg:mb-12 lg:flex-row sm:text-left">
           <div className="w-full md:w-full sm:w-2/3 relative z-10 text-white">
-            <h1 className="font-anisette text-3xl md:text-xl lg:text-7xl leading-tight font-bold uppercase">
+            <h1 className="font-anisette text-3xl lg:text-5xl xl:text-7xl leading-tight font-bold uppercase">
               <div className="bg-orange-primary mb-2 table px-1 py-2">Open Source</div>
               <div className="bg-orange-primary mb-2 table px-1 py-2">Festival 2022</div>
               <div className="bg-orange-primary mb-2 table px-1 py-2"> + Sustain</div>
             </h1>
-            <div className="font-anisette flex flex-wrap mt-2">
-              <div className="text-lg md:text-md lg:text-lg uppercase bg-dark-blue-600 table mr-5 p-1">
+            <div className="font-anisette flex flex-wrap mt-4">
+              <div className="text-lg md:text-md lg:text-lg uppercase bg-dark-blue-600 table mr-6 p-1">
                 MARCH 24 - 26, 2022
               </div>
-              <div className="lg:-ml-2 text-xl uppercase bg-dark-blue-600 table p-1">Lagos, Nigeria | Hybrid</div>
+              <div className="lg:-ml-2 text-lg lg:text-xl uppercase bg-dark-blue-600 table p-1">Lagos, Nigeria | Hybrid</div>
             </div>
             <p className="font-anisette text-lg lg:text-lg uppercase bg-dark-blue-600 mt-2 table p-1"> #OSCAFEST2022</p>
             <p className="text-lg text-white-700 mt-4 table">
