@@ -2,8 +2,8 @@
 
 module.exports = {
   content: [
-    "./pages/**/*.{html,js}",
-    "./components/**/*.{html,js}"
+    "./src/pages/**/*.{html,js}",
+    "./src/components/**/*.{html,js}"
   ],
   theme: {
     fontFamily: {
