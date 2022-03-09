@@ -11,7 +11,7 @@ import Footer from "../components/2022/footer";
 function Schedule() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Schedule" />
+      <SEO title="Schedule" />
       <Nav />
       <Breadcrumb name="Schedule" />
       <Sched slug="oscafest22" />

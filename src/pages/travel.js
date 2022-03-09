@@ -12,7 +12,7 @@ import Footer from "../components/2022/footer";
 function Travel() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Travel Guide" />
+      <SEO title="Travel Guide" />
       <Nav />
       <Breadcrumb name="Travel Guide" />
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">

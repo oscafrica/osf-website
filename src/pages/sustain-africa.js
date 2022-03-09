@@ -10,10 +10,7 @@ import Footer from "../components/2022/footer";
 function SustainAfrica() {
   return (
     <Layout>
-      <SEO
-        keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]}
-        title="Sustain Africa 2022"
-      />
+      <SEO title="Sustain Africa 2022"/>
       <Nav />
       <Breadcrumb name="Sustain Africa" />
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
