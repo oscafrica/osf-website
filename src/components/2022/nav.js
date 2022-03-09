@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import React, { useState, useEffect } from "react";
-
 import { logo } from "./cloudImages";
 
 function Nav() {

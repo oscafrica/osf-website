@@ -2,18 +2,21 @@ import React from "react";
 import { patterns, videos } from "./cloudImages";
 import Modal from "react-modal";
 
+Modal.setAppElement("#___gatsby");
+
 function Header() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   return (
     <>
       <div>
+      <div className="z-10 absolute -mr-4" />
         <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
         <img alt="Background" className="lg:hidden h-screen w-screen object-cover bg-fixed" src={videos.mainBgMobile} />
       </div>
       <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 pt-2 md:pt-60 lg:pt-24 xl:pt-36 2xl:pt-80 mt-16 md:mt-2 lg:mt-6 xl:mt-8 lg:flex-row sm:text-left">
+        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 pt-2 md:pt-60 lg:pt-24 xl:pt-36 2xl:pt-80 mt-16 md:mt-2 lg:mt-6 xl:mt-14 lg:flex-row sm:text-left">
           <div className="w-full md:w-full sm:w-2/3 relative z-10 text-white">
             <h1 className="font-anisette text-3xl md:text-6xl lg:text-5xl xl:text-7xl leading-tight font-bold uppercase">
               <div className="bg-orange-primary mb-2 table px-1 py-2">Open Source</div>
@@ -59,7 +62,7 @@ function Header() {
               </a>
             </div>
           </div>
-          <div className="hidden lg:flex w-full play-video lg:-mt-44">
+          <div className="hidden lg:flex w-full play-video">
             <button onClick={() => setIsOpen(true)}>
               <img src={patterns.play} alt="play icon" />
             </button>
@@ -67,7 +70,6 @@ function Header() {
         </div>
       </div>
       <Modal
-        appElement={document.getElementById("___gatsby")}
         isOpen={modalIsOpen}
         aria={{
           labelledby: "OSCAFest 2020 video",

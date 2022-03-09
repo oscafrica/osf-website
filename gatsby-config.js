@@ -27,7 +27,7 @@ module.exports = {
         short_name: "OSF",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#081e32",
+        theme_color: "#1B352D",
         display: "minimal-ui",
         icon: "src/images/osca-logo.png"
       }
