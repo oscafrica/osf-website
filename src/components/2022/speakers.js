@@ -33,45 +33,45 @@ function Speaker() {
             image: speakers.nader
           },
           {
-            name: "Chris Aniszczyk",
-            title: "CTO | Cloud Native Computing Foundation",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Segun Adebayo",
-            title: "Creator | Chakra UI",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Odunayo Eweniyi",
-            title: "Cofounder/COO | PiggybankNG",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Dmitry Vinnik",
-            title: "Developer Advocate | Meta",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Minko",
-            title: "DevLead | Google",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Emma",
-            title: "DevLead | Google",
-            image: speakers.dummyImage
-          },
-          {
-            name: "Prosper Otemuyiwa",
-            title: "Staff Developer Advocate | Sourcegraph",
-            image: speakers.dummyImage
-          },
-          {
             name: "Stefan Thomas",
             title: "Founder & CEO | Coil",
-            image: speakers.dummyImage
+            image: speakers.stefan
           }
+          // {
+          //   name: "Chris Aniszczyk",
+          //   title: "CTO | Cloud Native Computing Foundation",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Segun Adebayo",
+          //   title: "Creator | Chakra UI",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Odunayo Eweniyi",
+          //   title: "Cofounder/COO | PiggybankNG",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Dmitry Vinnik",
+          //   title: "Developer Advocate | Meta",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Minko",
+          //   title: "DevLead | Google",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Emma",
+          //   title: "DevLead | Google",
+          //   image: speakers.dummyImage
+          // },
+          // {
+          //   name: "Prosper Otemuyiwa",
+          //   title: "Staff Developer Advocate | Sourcegraph",
+          //   image: speakers.dummyImage
+          // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
