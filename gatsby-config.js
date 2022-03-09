@@ -1,13 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
-    titleTemplate: "Open Source Festival | %s",
     description:
       "Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.",
     url: "https://festival.oscafrica.org",
     image: "/og-image.png",
-    twitter: "@oscafrica",
-    fbAppID: "201250060624015"
+    twitterUsername: "@oscafrica"
   },
   plugins: [
     "gatsby-plugin-gtag",
@@ -29,7 +27,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#1B352D",
         display: "minimal-ui",
-        icon: "/osca-logo.png"
+        icon: "src/images/osca-logo.png"
       }
     },
     "gatsby-plugin-postcss",
