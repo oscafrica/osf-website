@@ -16,7 +16,7 @@ function Header() {
         <img alt="Background" className="lg:hidden h-screen w-screen object-cover bg-fixed" src={videos.mainBgMobile} />
       </div>
       <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 pt-2 md:pt-60 lg:pt-24 xl:pt-36 2xl:pt-80 mt-16 md:mt-2 lg:mt-6 xl:mt-14 lg:flex-row sm:text-left">
+        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 pt-2 md:pt-60 lg:pt-24 xl:pt-36 2xl:pt-80 mt-32 md:mt-2 lg:mt-6 xl:mt-10 lg:flex-row sm:text-left">
           <div className="w-full md:w-full sm:w-2/3 relative z-10 text-white">
             <h1 className="font-anisette text-3xl md:text-6xl lg:text-5xl xl:text-7xl leading-tight font-bold uppercase">
               <div className="bg-orange-primary mb-2 table px-1 py-2">Open Source</div>
@@ -43,12 +43,12 @@ function Header() {
             <p className="text-lg text-white-700 mt-4 mb-8 md:mb-12 lg:mb-0 table">
               An annual open source gathering under Open Source Community Africa
             </p>
-            <div className="flex flex-wrap font-bold">
+            <div className="flex font-bold">
               <a
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto mb-4 md:mb-0 lg:mb-0 xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 bg-orange-primary text-black text-center uppercase"
+                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 pt-9 lg:pt-6 bg-orange-primary text-black uppercase"
               >
                 Register
               </a>
