@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <div>
-      <div className="z-10 absolute -mr-4" />
+        <div className="z-10 absolute -mr-4" />
         <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
@@ -24,7 +24,7 @@ function Header() {
               <div className="bg-orange-primary mb-2 table px-1 py-2"> + Sustain</div>
             </h1>
             <div className="font-anisette flex flex-wrap mt-4">
-              <div className="text-md md:text-md lg:text-lg uppercase bg-dark-blue-600 table mr-6 p-1">
+              <div className="text-md md:text-md lg:text-lg uppercase bg-dark-blue-600 table mr-6 p-1 mb-2 lg:mb-0">
                 MARCH 24 - 26, 2022
               </div>
               <div className="lg:-ml-2 text-md lg:text-xl uppercase bg-dark-blue-600 table p-1">
@@ -48,7 +48,7 @@ function Header() {
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 mb-4 bg-orange-primary text-black uppercase"
+                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 mb-4 bg-orange-primary text-black uppercase"
               >
                 Register
               </a>
@@ -56,7 +56,7 @@ function Header() {
                 href="/2020"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-xs w-1/2 block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase"
+                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase"
               >
                 View past event
               </a>
