@@ -5,7 +5,6 @@ import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
 
 const SEO = ({ title, article, description, image }) => {
-
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
 
@@ -21,7 +20,10 @@ const SEO = ({ title, article, description, image }) => {
   return (
     <Helmet title={seo.title}>
       <meta name="description" content={seo.description} />
-      <meta name="keywords" content="Open Source Community Africa, OSCA, OSCAFRICA, Open Source Festival, OSF, OSCAFEST, Open Source, Open Source in Africa, Open Source Event in Africa" />
+      <meta
+        name="keywords"
+        content="Open Source Community Africa, OSCA, OSCAFRICA, Open Source Festival, OSF, OSCAFEST, Open Source, Open Source in Africa, Open Source Event in Africa"
+      />
       <meta name="image" content={seo.image} />
       <link rel="icon" href="/osca-logo.png" />
 

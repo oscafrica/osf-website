@@ -9,14 +9,14 @@ function Header() {
   return (
     <>
       <div>
-        <div className="z-10 absolute -mr-4" />
-        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full">
+        <div className="z-10 absolute bg-blend-overlay" />
+        <video autoPlay muted loop id="osca" className="z-1 hidden lg:block object-cover w-screen h-full saturate-50">
           <source src={videos.mainBg} type="video/mp4" />
         </video>
         <img alt="Background" className="lg:hidden h-screen w-screen object-cover bg-fixed" src={videos.mainBgMobile} />
       </div>
       <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
-        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 lg:pt-24 xl:pt-36 2xl:pt-80 mt-32 md:mt-2 lg:mt-6 xl:mt-10 lg:flex-row sm:text-left">
+        <div className="z-20 flex flex-wrap px-4 md:px-10 lg:px-20 xl:px-44 2xl:px-72 lg:pt-24 xl:pt-36 2xl:pt-80 mt-44 xs:mt-1 sm:mt-1 md:mt-4 lg:mt-6 xl:mt-10 lg:flex-row sm:text-left">
           <div className="w-full md:w-full sm:w-2/3 relative z-10 text-white">
             <h1 className="font-anisette text-3xl md:text-6xl lg:text-5xl xl:text-7xl leading-tight font-bold uppercase">
               <div className="bg-orange-primary mb-2 table px-1 py-2">Open Source</div>

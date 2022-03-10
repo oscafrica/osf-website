@@ -68,15 +68,10 @@ function Speaker() {
           //   image: speakers.dummyImage
           // },
           // {
-          //   name: "Minko",
-          //   title: "DevLead | Google",
+          //   name: "Minko Gechev",
+          //   title: "Developer Relations Lead | Google",
           //   image: speakers.dummyImage
-          // },
-          // {
-          //   name: "Emma",
-          //   title: "DevLead | Google",
-          //   image: speakers.dummyImage
-          // },
+          // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
