@@ -3,8 +3,7 @@ import { patterns } from "./cloudImages";
 
 function Slider() {
   return (
-    <section className="marquee mt-3 mb-8">
-      <hr />
+    <section className="marquee mt-3 mb-10">
       <div className="track flex">
         <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
         <h4 className="font-bold font-workSans mx-5"> #OSCAFEST22</h4>
@@ -37,7 +36,6 @@ function Slider() {
         <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
         <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
       </div>
-      <hr />
     </section>
   );
 }

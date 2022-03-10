@@ -1,9 +1,12 @@
 import React from "react";
 import { patterns } from "./cloudImages";
+import Slider from "./slider";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="border-top-bottom">
+      <Slider />
+      <div className="border-bottom"></div>
       <div className="flex flex-col lg:flex-row items-center my-20 mx-4 lg:mx-32">
         <div className="z-10 hidden lg:block absolute left-0">
           <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
@@ -11,7 +14,6 @@ function About() {
         <figure className="z-20 w-full lg:w-1/2 mb-20 lg:mb-0 lg:ml-10">
           <img alt="A badge with text inscription: The Future is Open" src={patterns.futureIsOpen} />
         </figure>
-
         <div className="lg:w-1/2 lg:ml-4">
           <blockquote className="px-4 text-base text-justify tracking-tight text-army-green-primary">
             Open Source Community Africa is a community aimed at creating and supporting the open source movement within
@@ -30,6 +32,8 @@ function About() {
           <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
         </div>
       </div>
+      <div className="border-top"></div>
+      <Slider />
     </section>
   );
 }
