@@ -1,6 +1,6 @@
 import React from "react";
 
-import { sponsors, patterns } from "./cloudImages";
+import { sponsors } from "./cloudImages";
 
 const sponsorsData = [
   {
@@ -104,41 +104,6 @@ const sponsorsData = [
 function Sponsors() {
   return (
     <>
-      <div className="marquee my-2">
-        <div className="track flex">
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5"> #OSCAFEST22</h4>
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans hidden md:block mx-5"> #OSCAFEST22</h4>
-          <img className="hidden md:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden md:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden md:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        </div>
-      </div>
-      <hr className="mt-10" />
       <section id="sponsors" className="bg-white text-center lg:flex-row px-4 lg:px-40 pb-20 lg:pt-24 pt-12">
         <div className="flex flex-wrap justify-center">
           <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
@@ -249,49 +214,11 @@ function Sponsors() {
         </div>
 
         <div className="relative mt-20 text-center">
-          <a
-            href="/sponsorship-guide.pdf"
-            className="font-anisette bg-orange-primary text-xs text-brown p-5 uppercase"
-          >
+          <a href="/sponsorship-guide.pdf" className="font-anisette bg-orange-primary text-xs text-brown p-5 uppercase">
             Become a Sponsor
           </a>
         </div>
       </section>
-      <hr />
-      <div className="marquee mt-3 mb-8">
-        <div className="track flex">
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5"> #OSCAFEST22</h4>
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans hidden md:block mx-5"> #OSCAFEST22</h4>
-          <img className="hidden md:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden md:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden md:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-          <h4 className="font-bold font-workSans mx-5 hidden lg:hidden 2xl:block"> #OSCAFEST22</h4>
-          <img className="hidden lg:hidden 2xl:block" alt="Two sided arrow" src={patterns.twoSidedArrow} />
-        </div>
-      </div>
     </>
   );
 }
