@@ -24,7 +24,8 @@ const patterns = Object.freeze({
   halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/2022/Patterns/abw4pdeo6inr5jj9ghp7.svg",
   background: "https://res.cloudinary.com/osca/image/upload/v1627924039/osf/2022/Patterns/i9aedtwylx5c5garjddj.png",
   arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/2022/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
-  play: "https://res.cloudinary.com/osca/image/upload/v1646521573/osf/2022/Patterns/khzc59hcd5ocwuqadqdj.svg"
+  play: "https://res.cloudinary.com/osca/image/upload/v1646521573/osf/2022/Patterns/khzc59hcd5ocwuqadqdj.svg",
+  scrollingPattern: "https://res.cloudinary.com/osca/image/upload/v1646943231/osf/2022/Patterns/fbrkovaw7cjq8myh6gf6.svg"
 });
 
 const speakers = Object.freeze({

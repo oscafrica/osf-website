@@ -93,23 +93,8 @@ embed {
   margin-left: 20px;
 }
 
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-.marquee {
-  width: 100vw;
-  max-width: 100%;
-  overflow-x: hidden;
-  font-size: 20px;
-}
-
-.track {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 32s linear infinite;
+div .overlay {
+  --gradient-color: "none" !important;
 }
 
 .border-top-bottom {
