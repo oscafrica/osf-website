@@ -14,7 +14,7 @@ function Slider() {
   return (
     <>
       <div className="border-top-bottom"></div>
-      <Marquee className="m-4 marquee" speed={50} pauseOnHover>
+      <Marquee className="m-4" speed={50} pauseOnHover>
         <Slide />
         <Slide />
         <Slide />
