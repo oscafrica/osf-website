@@ -93,29 +93,21 @@ embed {
   margin-left: 20px;
 }
 
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+div .overlay {
+  --gradient-color: "none" !important;
 }
 
-.marquee {
-  width: 100vw;
-  max-width: 100%;
-  overflow-x: hidden;
-  font-size: 20px;
+.border-top-bottom {
+  border-top: 2px solid #F79313;
+  border-bottom: 2px solid #F79313;
 }
 
-.track {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 32s linear infinite;
+.border-top{
+  border-top: 2px solid #F79313;
 }
 
-hr {
-    height: 1px;
-    border: none;
-    background-color: #F79313;
+.border-bottom{
+  border-bottom: 2px solid #F79313;
 }
 
 .gallery-images {

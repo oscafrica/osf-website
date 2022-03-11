@@ -4,7 +4,7 @@ import { gallery } from "./cloudImages";
 
 function Gallery() {
   return (
-    <section id="gallery" className="bg-white lg:flex-row pt-3 lg:pt-5">
+    <section id="gallery" className="bg-white lg:flex-row">
 
       <div className="lg:flex lg:flex-wrap text-white">
         {[
