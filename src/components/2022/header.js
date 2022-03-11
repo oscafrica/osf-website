@@ -40,7 +40,7 @@ function Header() {
               {" "}
               #OSCAFEST22
             </a>
-            <p className="text-lg text-white-700 mt-4 mb-8 md:mb-12 lg:mb-0 table">
+            <p className="text-lg text-white-700 mt-4 mb-8 md:mb-12 lg:mb-0 table font-workSans">
               An annual open source gathering under Open Source Community Africa
             </p>
             <div className="font-bold">

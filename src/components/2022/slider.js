@@ -5,7 +5,7 @@ import { patterns } from "./cloudImages";
 const Slide = () => (
   <>
     <img src={patterns.twoSidedArrow} alt="" />
-    <p className="text-base font-bold px-4">#OSCAFEST22</p>
+    <p className="text-base font-workSans font-bold px-4">#OSCAFEST22</p>
     <img src={patterns.twoSidedArrow} alt="" />
   </>
 );
