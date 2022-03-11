@@ -1,8 +1,14 @@
-import PropTypes from "prop-types";
 import React from "react";
+import PropTypes from "prop-types";
+import { Helmet } from ";react-helmet";
 
 function Layout({ children }) {
-  return <section className="font-avenir flex flex-col">{children}</section>;
+  return (
+    <>
+      <Helmet htmlAttributes={{ lang: "en-US" }} />
+      <section className="flex flex-col">{children}</section>;
+    </>
+  );
 }
 
 Layout.propTypes = {
