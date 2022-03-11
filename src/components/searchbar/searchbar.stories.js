@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import SearchBar from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "SearchBar",
   component: "SearchBar"
-};
+});
 
 const style = {
   container: {

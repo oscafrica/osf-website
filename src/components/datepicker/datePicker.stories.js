@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import DatePicker from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "DatePicker",
   component: "DatePicker"
-};
+});
 
 export const DefaultDatePicker = () => {
   const [date, setDate] = useState(new Date());

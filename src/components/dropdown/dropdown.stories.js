@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import DropDown from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "Dropdown",
   component: "Dropdown"
-};
+});
 
 const options = [
   { label: "Ekene Ashinze", value: "ashinzekene" },
