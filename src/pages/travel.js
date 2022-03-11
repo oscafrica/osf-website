@@ -18,7 +18,7 @@ function Travel() {
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-anisette">NIGERIA BASICS</h1>
+            <h1 className="text-2xl font-bold font-anisette">NIGERIA BASICS</h1>
             <p className="text-base my-4">
               Nigeria is one of the liveliest places in Africa that continues to attract visitors from different parts
               of the world with a population of over 170 million people. Nigeria comprises of 36 states with beautiful
@@ -41,7 +41,7 @@ function Travel() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-anisette">COVID GUIDELINES</h1>
+            <h1 className="text-2xl font-bold font-anisette">COVID GUIDELINES</h1>
             <p className="text-base my-4">
               We intend to strictly observe all COVID-19 guidelines throughout the duration of the festival. Please
               endeavour to observe the following guidelines:
@@ -59,30 +59,30 @@ function Travel() {
               . Once you have done this, you will be issued with a “permit to travel” via the portal. <br />
               <br />
               The following protocols are in place for travellers to Nigeria:
-              </p>
-              <ol className="text-base m-4 list-decimal">
-                <li className="my-4">
-                  All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more
-                  than 48 hours before departure. For passengers with multiple connections before arrival in Nigeria,
-                  the PCR test must be valid within 48 hours of boarding from the first point of departure.
-                </li>
-                <li className="my-4">
-                  All travellers are required to do a COVID-19 PCR test on day 2 after arrival. Unvaccinated and
-                  partially vaccinated (1 dose only) travellers are required to self-isolate for 7 days and to do a
-                  COVID-19 test on day 2 and day 7 after arrival in order to exit isolation.
-                </li>
-                <li className="my-4">
-                  All outbound travellers departing Nigeria must present evidence of full COVID-19 vaccination OR a
-                  negative COVID-19 PCR test conducted no more than 48 hours before departure. This must be done
-                  regardless of the entry requirements of the destination country
-                </li>
-              </ol>
+            </p>
+            <ol className="text-base m-4 list-decimal">
+              <li className="my-4">
+                All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more
+                than 48 hours before departure. For passengers with multiple connections before arrival in Nigeria, the
+                PCR test must be valid within 48 hours of boarding from the first point of departure.
+              </li>
+              <li className="my-4">
+                All travellers are required to do a COVID-19 PCR test on day 2 after arrival. Unvaccinated and partially
+                vaccinated (1 dose only) travellers are required to self-isolate for 7 days and to do a COVID-19 test on
+                day 2 and day 7 after arrival in order to exit isolation.
+              </li>
+              <li className="my-4">
+                All outbound travellers departing Nigeria must present evidence of full COVID-19 vaccination OR a
+                negative COVID-19 PCR test conducted no more than 48 hours before departure. This must be done
+                regardless of the entry requirements of the destination country
+              </li>
+            </ol>
           </div>
         </div>
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-anisette">VISA INFORMATION</h1>
+            <h1 className="text-2xl font-bold font-anisette">VISA INFORMATION</h1>
             <p className="text-base my-4">
               Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
               Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
@@ -112,7 +112,7 @@ function Travel() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-anisette">AIRPORT AND TRAVEL</h1>
+            <h1 className="text-2xl font-bold font-anisette">AIRPORT AND TRAVEL</h1>
             <p className="text-base my-4">
               All international travel will be through Murtala Muhammed International Airport, Lagos main international
               airport. Major airlines provide daily services to many international destinations. The airport is about
@@ -143,11 +143,11 @@ function Travel() {
 
         <div className="flex flex-wrap">
           <div className="mb-12 w-full text-dark-blue-primary-600">
-            <h1 className="text-spo font-bold font-anisette">ADVICE FOR INTERNATIONAL VISITORS</h1>
+            <h1 className="text-2xl font-bold font-anisette">ADVICE FOR INTERNATIONAL VISITORS</h1>
             <p className="text-base my-4">
-              We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. <br />
-              Please read this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it
-              will help you have a better travel process.
+              We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. Please read
+              this information <b>carefully</b>, and <b>check every item</b>. Some of it is crucial and it will help you
+              have a better travel process.
             </p>
             <ol className="text-base m-4 list-decimal">
               <li className="my-4">

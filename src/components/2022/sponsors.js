@@ -109,7 +109,7 @@ function Sponsors() {
       <div id="sponsors" className="bg-white text-center lg:flex-row px-4 lg:px-40 pb-20 lg:pt-24 pt-12">
         <div className="flex flex-wrap justify-center">
           <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-            <h1 className="text-sec font-bold font-anisette lg:text-5xl">Sponsors</h1>
+            <h1 className="text-3xl xl:text-5xl font-bold font-anisette">Sponsors</h1>
           </div>
         </div>
 

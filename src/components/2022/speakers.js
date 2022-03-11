@@ -10,7 +10,7 @@ function Speaker() {
     >
       <div className="flex flex-wrap justify-center">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white text-center">
-          <h1 className="text-5xl font-bold font-anisette uppercase">
+          <h1 className="text-4xl xl:text-5xl font-bold font-anisette uppercase">
             Meet our <br /> Speakers
           </h1>
         </div>
@@ -73,11 +73,11 @@ function Speaker() {
           //   image: speakers.dummyImage
           // }
         ].map((speaker) => (
-          <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
+          <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm p-1 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-            <div className="p-8 px-2 w-auto bg-white text-center text-black">
-              <h3 className="font-anisette font-bold text-sm uppercase">{speaker.name}</h3>
-              <p className="text-h6 font-workSans">{speaker.title}</p>
+            <div className="text-sm py-8 px-4 w-auto h-32 bg-white text-center text-black">
+              <h3 className="font-anisette font-bold uppercase">{speaker.name}</h3>
+              <p className="font-workSans">{speaker.title}</p>
             </div>
           </figure>
         ))}
