@@ -4,9 +4,8 @@ import Slider from "./slider";
 
 function About() {
   return (
-    <section id="about" className="border-top-bottom">
+    <section id="about">
       <Slider />
-      <div className="border-bottom"></div>
       <div className="flex flex-col lg:flex-row items-center my-20 mx-4 lg:mx-32">
         <div className="z-10 hidden lg:block absolute left-0">
           <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
@@ -32,7 +31,6 @@ function About() {
           <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
         </div>
       </div>
-      <div className="border-top"></div>
       <Slider />
     </section>
   );

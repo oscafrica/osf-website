@@ -102,14 +102,6 @@ div .overlay {
   border-bottom: 2px solid #F79313;
 }
 
-.border-top{
-  border-top: 2px solid #F79313;
-}
-
-.border-bottom{
-  border-bottom: 2px solid #F79313;
-}
-
 .gallery-images {
   flex: 50%;
 }

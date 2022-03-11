@@ -76,17 +76,23 @@ const sponsorsData = [
     image: sponsors.fincra,
     link: "https://fincra.com"
   },
-  // {
-  //   tier: "bronze",
-  //   name: "OpenSuse",
-  //   image: sponsors.opensuse,
-  //   link: "https://opensuse.org"
-  // },
+  {
+    tier: "bronze",
+    name: "OpenSuse",
+    image: sponsors.opensuse,
+    link: "https://opensuse.org"
+  },
   {
     tier: "bronze",
     name: "The @ Company",
     image: sponsors.atcompany,
     link: "https://atsign.dev"
+  },
+  {
+    tier: "bronze",
+    name: "BeOpenIt",
+    image: sponsors.beopenit,
+    link: "https://www.beopenit.com"
   }
   // {
   //   tier: "bronze",
@@ -94,19 +100,12 @@ const sponsorsData = [
   //   image: sponsors.paystack,
   //   link: "https://paystack.com"
   // },
-  // {
-  //   tier: "bronze",
-  //   name: "BeOpenIt",
-  //   image: sponsors.beopenit,
-  //   link: "https://www.beopenit.com"
-  // }
 ];
 
 function Sponsors() {
   return (
-    <section className="border-top-bottom">
+    <section>
       <Slider />
-      <div className="border-bottom"></div>
       <div id="sponsors" className="bg-white text-center lg:flex-row px-4 lg:px-40 pb-20 lg:pt-24 pt-12">
         <div className="flex flex-wrap justify-center">
           <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
@@ -222,7 +221,6 @@ function Sponsors() {
           </a>
         </div>
       </div>
-      <div className="border-top"></div>
       <Slider />
     </section>
   );
