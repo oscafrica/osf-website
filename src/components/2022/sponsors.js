@@ -215,8 +215,8 @@ function Sponsors() {
           </div>
         </div>
 
-        <div className="relative mt-20 text-center">
-          <a href="/sponsorship-guide.pdf" className="font-anisette bg-orange-primary text-xs text-brown p-5 uppercase">
+        <div className="font-anisette text-xs relative mt-20 text-center">
+          <a href="/sponsorship-guide.pdf" className="p-5 w-64 bg-orange-primary uppercase">
             Become a Sponsor
           </a>
         </div>

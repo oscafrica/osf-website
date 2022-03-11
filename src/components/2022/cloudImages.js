@@ -18,12 +18,12 @@ const patterns = Object.freeze({
   africanMap: "https://res.cloudinary.com/osca/image/upload/v1646169668/osf/2022/Patterns/k9khdrriuxkmnj3ci5t3.png",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/2022/NXTBC.png",
   futureIsOpen: "https://res.cloudinary.com/osca/image/upload/v1645850627/osf/2022/n2fgn1ihdrewlskux1pi.svg",
-  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/2022/Patterns/wcjlgvxb0gssqsxtsro0.svg",
   circle: "https://res.cloudinary.com/osca/image/upload/v1645558289/osf/2022/Patterns/lyaio7upizhsud5jhvya.svg",
   fullCircle: "https://res.cloudinary.com/osca/image/upload/v1645558434/osf/2022/Patterns/kxazrjyjhfnxe1n8uhio.svg",
   halfCircle: "https://res.cloudinary.com/osca/image/upload/v1645558479/osf/2022/Patterns/abw4pdeo6inr5jj9ghp7.svg",
   background: "https://res.cloudinary.com/osca/image/upload/v1627924039/osf/2022/Patterns/i9aedtwylx5c5garjddj.png",
-  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/2022/sponsorship/wjwkkyqdeem1c3ug7vtq.png",
+  arrow: "https://res.cloudinary.com/osca/image/upload/v1627925295/osf/2022/Patterns/wjwkkyqdeem1c3ug7vtq.png",
+  twoSidedArrow: "https://res.cloudinary.com/osca/image/upload/v1645549381/osf/2022/Patterns/wcjlgvxb0gssqsxtsro0.svg",
   play: "https://res.cloudinary.com/osca/image/upload/v1646521573/osf/2022/Patterns/khzc59hcd5ocwuqadqdj.svg",
   scrollingPattern: "https://res.cloudinary.com/osca/image/upload/v1646943231/osf/2022/Patterns/fbrkovaw7cjq8myh6gf6.svg"
 });
