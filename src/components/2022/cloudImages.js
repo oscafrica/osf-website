@@ -42,22 +42,22 @@ const speakers = Object.freeze({
 
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/2022/Sponsors/dummy.png",
-  google: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/iff3zaxl7g8d2ekujcxd.png",
-  meta: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/yu1wyl1yb7bpbjckxojg.png",
-  coil: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/tkrgrnnl7wxgxk0eem6d.png",
-  sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1646817460/osf/2022/Sponsors/rcmrdflxwnra4ujyrwpu.png",
-  polygon: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/kggjp1xrjfidbvwd4iyc.png",
-  aws: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/ljfzo81wsdczmzphzg3q.png",
-  github: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/g4twhottgoqxvgcoc0ee.png",
+  google: "https://res.cloudinary.com/osca/image/upload/v1647005046/osf/2022/Sponsors/z7jysyx4jrctrsrpcz1a.svg",
+  meta: "https://res.cloudinary.com/osca/image/upload/v1647005049/osf/2022/Sponsors/dnealmmulnbxky1pztnw.svg",
+  coil: "https://res.cloudinary.com/osca/image/upload/v1647005039/osf/2022/Sponsors/fmpolsamphgse6sezcag.svg",
+  sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1647005063/osf/2022/Sponsors/d0lh4paynfihs5ba8xsv.svg",
+  polygon: "https://res.cloudinary.com/osca/image/upload/v1647005056/osf/2022/Sponsors/wpd1mcl78nblm9uwdthc.svg",
+  aws: "https://res.cloudinary.com/osca/image/upload/v1647005029/osf/2022/Sponsors/bi0lnv8pyhfquc5byzyp.svg",
+  github: "https://res.cloudinary.com/osca/image/upload/v1647005015/osf/2022/Sponsors/uhwf8gzxejcjucjc6fy6.svg",
   microsoft: "",
-  postman: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/miid8xwovvbuvuafrdhf.png",
-  cncf: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/whf4yc9txx0broyq3cfn.png",
+  postman: "https://res.cloudinary.com/osca/image/upload/v1647005060/osf/2022/Sponsors/dng7qdoy7gd01cenpjws.svg",
+  cncf: "https://res.cloudinary.com/osca/image/upload/v1647005036/osf/2022/Sponsors/uxz8assfbhsflx54vd2g.svg",
   edgeandnode: "",
-  opensuse: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/mmag0l78f0omgssohmfq.png",
-  atcompany: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/c5pc33o1pz9u3htfgirm.png",
-  fincra: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/scxcrtbr2hya3lf0p7ke.png",
+  opensuse: "https://res.cloudinary.com/osca/image/upload/v1647005052/osf/2022/Sponsors/gvqmrr0k8axurt2elit1.svg",
+  atcompany: "https://res.cloudinary.com/osca/image/upload/v1647005025/osf/2022/Sponsors/aaotytqw26cncua0yoa7.svg",
+  fincra: "https://res.cloudinary.com/osca/image/upload/v1647005043/osf/2022/Sponsors/krdczxfbrszwa9ucyyb8.svg",
   paystack: "",
-  beopenit: "https://res.cloudinary.com/osca/image/upload/v1646817459/osf/2022/Sponsors/ajh6h5mdpcyuif15mzxf.png"
+  beopenit: "https://res.cloudinary.com/osca/image/upload/v1647005020/osf/2022/Sponsors/wniosjd7omwixqnnl5ms.svg"
 });
 
 const gallery = Object.freeze({
