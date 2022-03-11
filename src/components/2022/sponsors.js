@@ -128,7 +128,7 @@ function Sponsors() {
                   className="relative lg:w-1/4 max-w-sm px-3 my-12"
                 >
                   <figure className="w-full">
-                    <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                    <img className="w-80 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                   </figure>
                 </a>
               ))}
@@ -148,7 +148,7 @@ function Sponsors() {
                   className="relative lg:w-1/4 max-w-sm px-3 my-12"
                 >
                   <figure className="w-full">
-                    <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                    <img className="w-80 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                   </figure>
                 </a>
               ))}
@@ -168,7 +168,7 @@ function Sponsors() {
                   className="relative lg:w-1/4 max-w-sm px-3 my-12"
                 >
                   <figure className="w-full">
-                    <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                    <img className="w-80 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                   </figure>
                 </a>
               ))}
@@ -188,7 +188,7 @@ function Sponsors() {
                   className="relative lg:w-1/4 max-w-sm px-3 my-12"
                 >
                   <figure className="w-full">
-                    <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                    <img className="w-80 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                   </figure>
                 </a>
               ))}
@@ -208,7 +208,7 @@ function Sponsors() {
                   className="relative lg:w-1/4 max-w-sm px-3 my-12"
                 >
                   <figure className="w-full">
-                    <img className="w-64 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                    <img className="w-80 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                   </figure>
                 </a>
               ))}
