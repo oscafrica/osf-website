@@ -105,11 +105,20 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Scentjuls",
+      "name": "Chidimma Nwanya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29598114?v=4",
+      "profile": "https://my-portfolio-bbfdb.firebaseapp.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "osf-website",
-  "projectOwner": "oscommunityafrica",
+  "projectOwner": "oscafrica",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
