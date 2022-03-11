@@ -25,6 +25,16 @@ function Slider() {
         <Slide />
         <Slide />
         <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
+        <Slide />
       </Marquee>
       <div className="border-top-bottom"></div>
     </>
