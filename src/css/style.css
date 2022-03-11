@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Avenir";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/Avenir/AvenirLTStd-Roman.otf");
   font-weight: normal;
   font-style: normal;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Ubuntu";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
   font-weight: normal;
   font-style: normal;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Anisette";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/Anisette/Anisette-Medium.otf");
   font-weight: normal;
   font-style: normal;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: "Work-Sans";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/WorkSans/WorkSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
