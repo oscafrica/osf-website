@@ -1,5 +1,5 @@
 <div align="center"  style="margin-bottom:30px">
-  <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
+  <img src="/static/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 </div>
 
 <div align="center">
@@ -8,53 +8,63 @@
 
 </div>
 
+---
+
+## Table of contents
+
+1. [Getting started](#getting-started)
+2. [Installation Guide](#installation-guide)
+3. [Format and lint](#format-and-lint)
+4. [Contributors](#contributors)
+5. [License](#licence)
+
 ## Getting Started
 
-- [Fork this repository](https://help.github.com/articles/fork-a-repo/)
+1. Fork this repository ([Learn how to do this](https://help.github.com/articles/fork-a-repo/))
 
-- Clone the forked repository like so:
+2. Clone the forked repository like so:
 
 ```sh
 git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
 
-- Read the [Contributors Guide](https://github.com/oscommunityafrica/osf-website/blob/master/CONTRIBUTING.md)
+3. Read the [Contributors Guide](https://github.com/oscommunityafrica/osf-website/blob/master/CONTRIBUTING.md).
 
 ## Installation Guide
 
-- Install the Gatsby CLI
+- Install the Gatsby CLI using the command below:
 
 ```sh
 npm install -g gatsby-cli
 ```
 
-- Change directories into site folder
+- Make sure you're in the right site folder. You can do this with the command below:
 
 ```sh
 cd osf-website
 ```
 
-- Create and checkout to a new branch for your feature
+- Create and checkout to a new branch for your feature using the command below:
 
 ```sh
 git checkout -b speakers-component
 ```
 
-- Install required packages
+- Install required packages using the command below:
 
 ```sh
-yarn install
+npm install
 ```
 
-- Start development server
+- Start the development server using the comand below:
 
 ```sh
 npm run develop
 ```
 
-_Gatsby will start a hot-reloading development environment accessible by default at localhost:8000_
+_Gatsby will then start a hot-reloading development environment accessible by default at `localhost:8000`._
 
-- Create a production build
+- Create a production build using the comand below:
 
 ```sh
 npm run build
@@ -62,7 +72,7 @@ npm run build
 
 _Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles._
 
-- Serve the production build locally
+- Serve the production build locally using the comand below:
 
 ```sh
 npm run serve
@@ -70,7 +80,7 @@ npm run serve
 
 _Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command._
 
-- Make Git commits
+- Make Git commits using the comand below:
 
 ```sh
 npm run commit
@@ -80,13 +90,13 @@ _We use the [commitizen command line utility](https://github.com/commitizen/cz-c
 
 ## Format and lint
 
-- See what ESLint and Prettier can fix
+- See what ESLint and Prettier can fix using the comand below:
 
 ```sh
 npm run analyze
 ```
 
-- Run Prettier and ESLint with the --fix option
+- Run Prettier and ESLint with the --fix option using the comand below:
 
 ```sh
 npm run fix
@@ -144,3 +154,7 @@ Support this project with your organization. Your logo will show up here with a 
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/10/avatar.svg)](https://opencollective.com/osca/organization/10/website)
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/11/avatar.svg)](https://opencollective.com/osca/organization/11/website)
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/12/avatar.svg)](https://opencollective.com/osca/organization/12/website)
+
+## Licence
+
+This repository is published under the [MIT](LICENSE) license.
