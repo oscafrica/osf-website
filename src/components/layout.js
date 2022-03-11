@@ -6,7 +6,7 @@ function Layout({ children }) {
   return (
     <>
       <Helmet htmlAttributes={{ lang: "en-US" }} />
-      <section className="flex flex-col">{children}</section>;
+      <section className="flex flex-col">{children}</section>
     </>
   );
 }
