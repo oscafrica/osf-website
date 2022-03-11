@@ -10,7 +10,7 @@ import Footer from "../../components/2020/footer";
 function SustainAfrica() {
   return (
     <Layout>
-      <SEO title="Sustain Africa 2020"/>
+      <SEO title="Sustain Africa 2020" />
       <Nav />
       <SustainHead />
       <section className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">

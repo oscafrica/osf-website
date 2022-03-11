@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
-    description:
-      "A high profile event with series of talks, workshops, and awareness of open-sourced developer tools.",
+    description: "A high profile event with series of talks, workshops, and awareness of open-sourced developer tools.",
     siteUrl: "https://festival.oscafrica.org",
     image: "/og-image.png",
     twitterUsername: "@oscafrica"

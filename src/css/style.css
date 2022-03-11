@@ -50,15 +50,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1B352D;
+  background: #1b352d;
 }
 
 ::selection {
-  background: #1B352D;
+  background: #1b352d;
   color: #fff;
 }
 ::-moz-selection {
-  background: #1B352D;
+  background: #1b352d;
   color: #fff;
 }
 
@@ -99,8 +99,8 @@ div .overlay {
 }
 
 .border-top-bottom {
-  border-top: 2px solid #F79313;
-  border-bottom: 2px solid #F79313;
+  border-top: 2px solid #f79313;
+  border-bottom: 2px solid #f79313;
 }
 
 .gallery-images {
@@ -112,6 +112,6 @@ div .overlay {
 }
 
 .play-video {
-    justify-content: flex-end;
-    align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

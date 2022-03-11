@@ -89,12 +89,7 @@ function Footer() {
             href: "https://discord.gg/8STPZzN"
           }
         ].map((icon) => (
-          <a
-            key={icon.key}
-            aria-label={icon.label}
-            className="p-2 no-underline text-white text-xl"
-            href={icon.href}
-          >
+          <a key={icon.key} aria-label={icon.label} className="p-2 no-underline text-white text-xl" href={icon.href}>
             <i className="pr-2">
               <FontAwesomeIcon icon={icon.faIcon} />
             </i>

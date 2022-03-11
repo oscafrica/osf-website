@@ -4,13 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
-library.add(
-  faTwitter,
-  faFacebookSquare,
-  faInstagram,
-  faGithub,
-  faDiscord
-);
+library.add(faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord);
 config.autoAddCss = false;
 
 function Footer() {
