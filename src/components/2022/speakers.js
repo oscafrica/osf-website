@@ -46,6 +46,16 @@ function Speaker() {
             name: "Stefan Thomas",
             title: "Founder & CEO | Coil",
             image: speakers.stefan
+          },
+          {
+            name: "Dmitry Vinnik",
+            title: "Open Source Developer Advocate | Meta",
+            image: speakers.dmitry
+          },
+          {
+            name: "Minko Gechev",
+            title: "Developer Relations Lead | Google",
+            image: speakers.minko
           }
           // {
           //   name: "Chris Aniszczyk",
@@ -62,15 +72,6 @@ function Speaker() {
           //   title: "Cofounder/COO | PiggybankNG",
           //   image: speakers.dummyImage
           // },
-          // {
-          //   name: "Dmitry Vinnik",
-          //   title: "Developer Advocate | Meta",
-          //   image: speakers.dummyImage
-          // },
-          // {
-          //   name: "Minko Gechev",
-          //   title: "Developer Relations Lead | Google",
-          //   image: speakers.dummyImage
           // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm p-1 my-2">
