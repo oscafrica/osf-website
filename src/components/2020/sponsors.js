@@ -1,6 +1,6 @@
 import React from "react";
 
-import { sponsors, patterns } from "../components/cloudImages";
+import { sponsors, patterns } from "./cloudImages";
 
 const sponsorsData = [
   {
@@ -98,7 +98,7 @@ const sponsorsData = [
 function Sponsors() {
   return (
     <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
-      <div className="absolute left-0 fixed">
+      <div className="absolute left-0">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
       <div className="flex flex-wrap">
@@ -127,7 +127,7 @@ function Sponsors() {
                 className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
               >
                 <figure className="w-full">
-                  <img className="=w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
                 </figure>
               </a>
             ))}
@@ -251,7 +251,7 @@ function Sponsors() {
           <object
             aria-label="Open Collective Backers"
             type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=320"
+            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=350"
             className="my-12"
           ></object>
         </div>

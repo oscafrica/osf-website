@@ -1,10 +1,10 @@
 import React from "react";
 import CheckBox from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "CheckBox",
   component: "CheckBox"
-};
+});
 
 export const defaultCheckBox = () => <CheckBox />;
 

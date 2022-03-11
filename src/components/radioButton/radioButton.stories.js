@@ -1,10 +1,10 @@
 import React from "react";
 import RadioButton from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "RadioButton",
   component: "RadioButton"
-};
+});
 
 const onChange = () => console.log("Value has changed");
 

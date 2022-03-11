@@ -1,11 +1,11 @@
 import React from "react";
 
-import { gallery, patterns } from "../components/cloudImages";
+import { gallery, patterns } from "./cloudImages";
 
 function Gallery() {
   return (
     <section id="gallery" className="bg-white lg:flex-row px-4 lg:px-40 pt-12 lg:pt-24">
-      <div className="absolute left-0 fixed">
+      <div className="absolute left-0">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
       <div className="flex flex-wrap">

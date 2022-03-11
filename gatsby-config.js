@@ -1,13 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
-    description: `
-    Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
-    `,
+    description: "A high profile event with series of talks, workshops, and awareness of open-sourced developer tools.",
     siteUrl: "https://festival.oscafrica.org",
-    image: "https://raw.githubusercontent.com/oscafrica/osf-website/master/src/images/og-2021.jpg",
-    twitter: "@oscafrica",
-    fbAppID: "201250060624015"
+    image: "/og-image.png",
+    twitterUsername: "@oscafrica"
   },
   plugins: [
     "gatsby-plugin-gtag",
@@ -27,7 +24,7 @@ module.exports = {
         short_name: "OSF",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#081e32",
+        theme_color: "#1B352D",
         display: "minimal-ui",
         icon: "src/images/osca-logo.png"
       }
@@ -47,12 +44,14 @@ module.exports = {
         excludes: ["/tailwind-config-demo"]
       }
     },
+    "gatsby-plugin-robots-txt",
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ["/schedule/", "/travel/", "/speakers/", "/scholarship/", "/sustain-africa"]
+        precachePages: ["/schedule/", "/travel/", "/speakers/", "/sustain-africa", "/2020"]
       }
-    }
+    },
+    "gatsby-plugin-fontawesome-css"
   ]
 };

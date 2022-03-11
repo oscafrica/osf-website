@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import { logo, patterns } from "../components/cloudImages";
+import { logo, patterns } from "./cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -12,12 +12,12 @@ function Nav() {
         <img className="-pl-4" src={patterns.navRec} alt="" />
       </div>
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
-        <Link className="z-20 flex items-center no-underline text-white" to="/">
-          <img alt="Open Source Community Africa Logo." className="block mx-auto w-12" src={logo.pngOrange} />
+        <Link className="z-20 flex items-center no-underline text-white" to="/2020">
+          <img alt="Open Source Community Africa's Logo" className="block mx-auto w-12" src={logo.svgOrange} />
         </Link>
 
         <button
-          className="block lg:hidden flex items-center px-3 py-2 rounded text-white"
+          className="flex lg:hidden items-center px-3 py-2 rounded text-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           {isExpanded ? (
@@ -51,7 +51,7 @@ function Nav() {
               title: "Register"
             },
             {
-              route: "/2020/#speakers",
+              route: "/2020/speakers",
               title: "Speakers"
             },
             {
@@ -63,7 +63,7 @@ function Nav() {
               title: "Travel"
             },
             {
-              route: "/2020/#sponsors",
+              route: "#sponsors",
               title: "Sponsorship"
             },
             {

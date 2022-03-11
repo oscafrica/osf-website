@@ -1,11 +1,11 @@
 import React from "react";
 
-import { speakers, patterns } from "../components/cloudImages";
+import { speakers, patterns } from "./cloudImages";
 
 function Speaker() {
   return (
     <section id="speakers" className="bg-dark-blue-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
-      <div className="absolute left-0 fixed">
+      <div className="absolute left-0">
         <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
       </div>
       <div className="flex flex-wrap">

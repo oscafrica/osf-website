@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Pagination from ".";
 
-export default {
+export const defaultDescription = () => ({
   title: "Pagination",
   component: "Pagination"
-};
+});
 
 const props = {
   style: {

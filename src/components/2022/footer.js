@@ -1,7 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { patterns } from "./cloudImages";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { faTwitter, faFacebookSquare, faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faCalendar, faMapMarkerAlt, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -21,11 +21,11 @@ config.autoAddCss = false;
 
 function Footer() {
   return (
-    <footer className="z-15 lg:flex bg-dark-blue-500 p-8 items-center text-center justify-between lg:px-40 text-sm">
+    <footer className="py-10 z-15 lg:flex bg-army-green-primary p-8 items-center text-center justify-between lg:px-40 text-sm">
       <div className="flex flex-col lg:flex-row">
         {[
           {
-            route: "https://docs.oscafrica.org/about/community-code-of-conduct#osca-events",
+            route: "https://docs.oscafrica.org/about/community-code-of-conduct",
             title: "Code of Conduct"
           },
           {
@@ -43,14 +43,14 @@ function Footer() {
         ].map((link) => (
           <ul className="m-0 p-0" key={link.title}>
             <li className="pb-8 lg:pr-8 lg:pb-0 p2">
-              <a className="no-underline text-white text-base" href={link.route}>
+              <a className="font-workSans no-underline text-white text-lg" href={link.route}>
                 {link.title}
               </a>
             </li>
           </ul>
         ))}
       </div>
-      <div className="mt-4">
+      <div className="z-10 mt-4">
         {[
           {
             key: 0,
@@ -89,17 +89,15 @@ function Footer() {
             href: "https://discord.gg/8STPZzN"
           }
         ].map((icon) => (
-          <a
-            key={icon.key}
-            aria-label={icon.label}
-            className="font-bold p-2 no-underline text-white text-lg"
-            href={icon.href}
-          >
+          <a key={icon.key} aria-label={icon.label} className="p-2 no-underline text-white text-xl" href={icon.href}>
             <i className="pr-2">
               <FontAwesomeIcon icon={icon.faIcon} />
             </i>
           </a>
         ))}
+      </div>
+      <div className="z-15 hidden lg:block absolute right-10 bottom-35">
+        <img className="z-0 w-3/4" src={patterns.halfCircle} alt="" />
       </div>
     </footer>
   );
