@@ -48,7 +48,7 @@ function Header() {
                 href="https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 mb-4 bg-orange-primary text-black uppercase"
+                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto xl:mb-0 md:mt-0 lg:mt-8 mr-5 px-12 py-6 mb-4 bg-orange-primary text-black uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:text-orange-primary transition-colors duration-500"
               >
                 Register
               </a>
@@ -56,7 +56,7 @@ function Header() {
                 href="/2020"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase"
+                className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase hover:bg-inherit hover:outline hover:outline-white hover:text-white transition-colors duration-500"
               >
                 View past event
               </a>

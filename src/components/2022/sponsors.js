@@ -216,7 +216,10 @@ function Sponsors() {
         </div>
 
         <div className="font-anisette text-xs relative mt-20 text-center">
-          <a href="/sponsorship-guide.pdf" className="p-5 w-64 bg-orange-primary uppercase">
+          <a
+            href="/sponsorship-guide.pdf"
+            className="p-5 w-64 bg-orange-primary uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:text-orange-primary transition-colors duration-500"
+          >
             Become a Sponsor
           </a>
         </div>
