@@ -7,13 +7,13 @@ function About() {
     <section id="about">
       <Slider />
       <div className="flex flex-col lg:flex-row items-center my-20 mx-4 lg:mx-32">
-        <div className="z-10 hidden lg:block absolute left-0">
+        <div className="-z-20 hidden lg:block absolute left-0">
           <img className="-mt-24 -mb-12 -pl-4 w-3/4" src={patterns.circle} alt="" />
         </div>
         <figure className="z-20 w-full lg:w-1/2 mb-20 lg:mb-0 lg:ml-10">
-          <img alt="A badge with text inscription: The Future is Open" src={patterns.futureIsOpen} />
+          <img src={patterns.futureIsOpen} alt="A badge with text inscription: The Future is Open" />
         </figure>
-        <div className="lg:w-1/2 lg:ml-4">
+        <div className="xl:w-1/2 xl:ml-4 2xl:w-1/4">
           <blockquote className="px-4 text-base text-justify tracking-tight text-army-green-primary">
             Open Source Community Africa is a community aimed at creating and supporting the open source movement within
             Africa. As a community, we intend to help integrate the act of open source contribution to African

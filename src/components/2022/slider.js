@@ -12,7 +12,7 @@ const Slide = () => (
 
 function Slider() {
   return (
-    <>
+    <div className="z-20">
       <div className="border-top-bottom"></div>
       <Marquee className="m-4" speed={50} pauseOnHover>
         <Slide />
@@ -37,7 +37,7 @@ function Slider() {
         <Slide />
       </Marquee>
       <div className="border-top-bottom"></div>
-    </>
+    </div>
   );
 }
 
