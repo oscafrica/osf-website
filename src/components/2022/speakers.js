@@ -84,10 +84,16 @@ function Speaker() {
         ))}
       </div>
       <div className="font-anisette text-xs relative z-10 mt-20 justify-center text-center flex lg:flex-row space-x-8">
-        <a href="/speakers" className="p-5 w-64 bg-orange-primary uppercase">
+        <a
+          href="/speakers"
+          className="p-5 w-64 bg-orange-primary uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:outline-4 hover:text-orange-primary transition-colors duration-500"
+        >
           See all Speakers
         </a>
-        <a href="/schedule" className="p-5 w-64 bg-orange-primary uppercase">
+        <a
+          href="/schedule"
+          className="p-5 w-64 bg-orange-primary uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:outline-4 hover:text-orange-primary transition-colors duration-500"
+        >
           See full Schedule
         </a>
       </div>
