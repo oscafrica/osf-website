@@ -56,6 +56,11 @@ function Speaker() {
             name: "Minko Gechev",
             title: "Developer Relations Lead | Google",
             image: speakers.minko
+          },
+          {
+            name: "Segun Adebayo",
+            title: "Creator & Maintainer | Chakra UI",
+            image: speakers.segun
           }
           // {
           //   name: "Chris Aniszczyk",
@@ -63,10 +68,6 @@ function Speaker() {
           //   image: speakers.dummyImage
           // },
           // {
-          //   name: "Segun Adebayo",
-          //   title: "Creator | Chakra UI",
-          //   image: speakers.dummyImage
-          // },
           // {
           //   name: "Odunayo Eweniyi",
           //   title: "Cofounder/COO | PiggybankNG",
