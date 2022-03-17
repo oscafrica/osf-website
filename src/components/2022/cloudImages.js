@@ -49,14 +49,13 @@ const sponsors = Object.freeze({
   polygon: "https://res.cloudinary.com/osca/image/upload/v1647022567/osf/2022/Sponsors/xs9y1xhqpmvzjyrojtrp.svg",
   aws: "https://res.cloudinary.com/osca/image/upload/v1647022547/osf/2022/Sponsors/yonxquufmmireg72rhaj.svg",
   github: "https://res.cloudinary.com/osca/image/upload/v1647022559/osf/2022/Sponsors/lzmwdzpliawkrvnuomup.svg",
-  microsoft: "",
   postman: "https://res.cloudinary.com/osca/image/upload/v1647022570/osf/2022/Sponsors/duqakmfsf49p6ic0u2g9.svg",
   cncf: "https://res.cloudinary.com/osca/image/upload/v1647022551/osf/2022/Sponsors/vhobzyo9uynanuv70olg.svg",
-  edgeandnode: "",
+  edgeandnode: "https://res.cloudinary.com/osca/image/upload/v1647533083/osf/2022/Sponsors/wpfkr8ug7s6uup56qndt.svg",
   opensuse: "https://res.cloudinary.com/osca/image/upload/v1647022564/osf/2022/Sponsors/blbtvgkto7dtnjveu6mr.svg",
   atcompany: "https://res.cloudinary.com/osca/image/upload/v1647022545/osf/2022/Sponsors/mbofum8xv1p4wkdaurcq.svg",
   fincra: "https://res.cloudinary.com/osca/image/upload/v1647022557/osf/2022/Sponsors/fkv77ctwfzb4l5fwaeio.svg",
-  paystack: "",
+  paystack: "https://res.cloudinary.com/osca/image/upload/v1647533086/osf/2022/Sponsors/shjkdkywqpvcndo3pmtj.svg",
   beopenit: "https://res.cloudinary.com/osca/image/upload/v1647022549/osf/2022/Sponsors/qgjnnbh3iwtervsgh0v6.svg"
 });
 
