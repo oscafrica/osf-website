@@ -38,7 +38,7 @@ function Gallery() {
           //   target="_blank"
           //   rel="noopener noreferrer"
           // >
-          <figure className="cursor-pointer gallery-images" key={gallery.tag}>
+          <figure className="cursor-pointer gallery-images relative inline-block" key={gallery.tag}>
             <img className="w-auto mx-auto hover:scale-105 duration-500" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
             <div className="z-0 -mt-20 px-6 w-auto h-20 text-white relative">
               <p className="font-anisette p-1 text-sm lg:text-xs bg-orange-primary mb-2 table uppercase">
