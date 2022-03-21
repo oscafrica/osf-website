@@ -46,7 +46,7 @@ const sponsors = Object.freeze({
   google: "https://res.cloudinary.com/osca/image/upload/v1647022562/osf/2022/Sponsors/gi9s5ioui6irxpurudvs.svg",
   meta: "https://res.cloudinary.com/osca/image/upload/v1647005049/osf/2022/Sponsors/dnealmmulnbxky1pztnw.svg",
   coil: "https://res.cloudinary.com/osca/image/upload/v1647022554/osf/2022/Sponsors/xe8p90zau7glhd98sskj.svg",
-  sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1647022572/osf/2022/Sponsors/lmhl7ieylsl39cqj3y9p.svg",
+  sourcegraph: "https://res.cloudinary.com/osca/image/upload/v1647596951/osf/2022/Sponsors/uq66gbusqepf9f3ieeo2.svg",
   polygon: "https://res.cloudinary.com/osca/image/upload/v1647022567/osf/2022/Sponsors/xs9y1xhqpmvzjyrojtrp.svg",
   aws: "https://res.cloudinary.com/osca/image/upload/v1647022547/osf/2022/Sponsors/yonxquufmmireg72rhaj.svg",
   github: "https://res.cloudinary.com/osca/image/upload/v1647022559/osf/2022/Sponsors/lzmwdzpliawkrvnuomup.svg",
