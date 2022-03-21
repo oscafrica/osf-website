@@ -37,7 +37,8 @@ const speakers = Object.freeze({
   prosper: "https://res.cloudinary.com/osca/image/upload/v1646862205/osf/2022/Speakers/cxypzomiq9rtmhn6sjqw.png",
   dmitry: "https://res.cloudinary.com/osca/image/upload/v1646986057/osf/2022/Speakers/txs8jijpwphvnhm3xgm3.png",
   minko: "https://res.cloudinary.com/osca/image/upload/v1646986059/osf/2022/Speakers/zx9wbqjiqds3lxyz2qz5.png",
-  segun: "https://res.cloudinary.com/osca/image/upload/v1647287286/osf/2022/Speakers/eb0qbxawl4awqzchfrxq.png"
+  segun: "https://res.cloudinary.com/osca/image/upload/v1647287286/osf/2022/Speakers/eb0qbxawl4awqzchfrxq.png",
+  odun: "https://res.cloudinary.com/osca/image/upload/v1647866094/osf/2022/Speakers/z2mmwiozeobxydwilmxg.png"
 });
 
 const sponsors = Object.freeze({

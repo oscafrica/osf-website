@@ -53,6 +53,11 @@ function Speaker() {
             image: speakers.dmitry
           },
           {
+            name: "Odunayo Eweniyi",
+            title: "Cofounder/COO | PiggybankNG",
+            image: speakers.odun
+          },
+          {
             name: "Minko Gechev",
             title: "Developer Relations Lead | Google",
             image: speakers.minko
@@ -66,13 +71,6 @@ function Speaker() {
           //   name: "Chris Aniszczyk",
           //   title: "CTO | Cloud Native Computing Foundation",
           //   image: speakers.dummyImage
-          // },
-          // {
-          // {
-          //   name: "Odunayo Eweniyi",
-          //   title: "Cofounder/COO | PiggybankNG",
-          //   image: speakers.dummyImage
-          // },
           // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm p-1 my-2">
