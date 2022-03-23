@@ -74,16 +74,16 @@ function Nav() {
                 title: "Speakers"
               },
               {
+                route: "/schedule",
+                title: "Schedule"
+              },
+              {
                 route: "/travel",
                 title: "Travel"
               },
               {
                 route: "https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2",
                 title: "Register"
-              },
-              {
-                route: "/sponsorship-guide-2022.pdf",
-                title: "Sponsorship"
               },
               {
                 route: "/sustain-africa",
