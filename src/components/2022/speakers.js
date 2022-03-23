@@ -66,12 +66,12 @@ function Speaker() {
             name: "Segun Adebayo",
             title: "Creator & Maintainer | Chakra UI",
             image: speakers.segun
+          },
+          {
+            name: "Chris Aniszczyk",
+            title: "CTO | Cloud Native Computing Foundation",
+            image: speakers.chris
           }
-          // {
-          //   name: "Chris Aniszczyk",
-          //   title: "CTO | Cloud Native Computing Foundation",
-          //   image: speakers.dummyImage
-          // }
         ].map((speaker) => (
           <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm p-1 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
