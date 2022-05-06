@@ -46,12 +46,6 @@ const sponsorsData = [
     image: sponsors.github,
     link: "https://github.com"
   },
-  // {
-  //   tier: "gold",
-  //   name: "Microsoft",
-  //   image: sponsors.microsoft,
-  //   link: "https://opensource.microsoft.com"
-  // },
   {
     tier: "silver",
     name: "Postman",
@@ -64,17 +58,23 @@ const sponsorsData = [
     image: sponsors.cncf,
     link: "https://cncf.io"
   },
-  // {
-  //   tier: "silver",
-  //   name: "Edge and node",
-  //   image: sponsors.edgeandnode,
-  //   link: "https://edgeandnode.com"
-  // },
+  {
+    tier: "silver",
+    name: "Edge and node",
+    image: sponsors.edgeandnode,
+    link: "https://edgeandnode.com"
+  },
   {
     tier: "silver",
     name: "Fincra",
     image: sponsors.fincra,
     link: "https://fincra.com"
+  },
+  {
+    tier: "silver",
+    name: "Paystack",
+    image: sponsors.paystack,
+    link: "https://paystack.com"
   },
   {
     tier: "bronze",
@@ -94,12 +94,6 @@ const sponsorsData = [
     image: sponsors.beopenit,
     link: "https://www.beopenit.com"
   }
-  // {
-  //   tier: "bronze",
-  //   name: "Paystack",
-  //   image: sponsors.paystack,
-  //   link: "https://paystack.com"
-  // },
 ];
 
 function Sponsors() {

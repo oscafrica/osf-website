@@ -18,7 +18,7 @@ function NotFoundPage() {
 
           <a
             href="/"
-            className="w-1/2 inline-block xl:inline-block sm:w-auto mt-20 px-24 py-6 bg-orange-primary text-black text-center uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:outline-4 hover:text-orange-primary transition-colors duration-500"
+            className="inline-block xl:inline-block sm:w-auto mt-20 px-24 py-6 bg-orange-primary text-black text-center uppercase hover:bg-inherit hover:outline hover:outline-orange-primary hover:outline-4 hover:text-orange-primary transition-colors duration-500"
           >
             Return Home
           </a>

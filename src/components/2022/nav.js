@@ -74,6 +74,10 @@ function Nav() {
                 title: "Speakers"
               },
               {
+                route: "/schedule",
+                title: "Schedule"
+              },
+              {
                 route: "/travel",
                 title: "Travel"
               },

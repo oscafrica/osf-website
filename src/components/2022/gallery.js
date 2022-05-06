@@ -32,6 +32,7 @@ function Gallery() {
             href: ""
           }
         ].map((gallery) => (
+<<<<<<< HEAD
           <a
             href={gallery.href}
             key={gallery.tag}
@@ -40,6 +41,15 @@ function Gallery() {
             className="gallery-images"
           >
           <figure className="cursor-pointer" key={gallery.tag}>
+=======
+          // <a
+          //   href={gallery.href}
+          //   key={gallery.tag}
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          // >
+          <figure className="cursor-pointer gallery-images relative" key={gallery.tag}>
+>>>>>>> master
             <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
             <div className="z-0 -mt-20 px-6 w-auto h-20 text-white relative">
               <p className="font-anisette p-1 text-sm lg:text-xs bg-orange-primary mb-2 table uppercase">
