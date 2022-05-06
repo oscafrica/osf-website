@@ -82,12 +82,12 @@ function Nav() {
                 title: "Register"
               },
               {
-                route: "/sponsorship-guide-2022.pdf",
-                title: "Sponsorship"
-              },
-              {
                 route: "/sustain-africa",
                 title: "Sustain Africa"
+              },
+              {
+                route: "#gallery",
+                title: "Gallery"
               }
             ].map((link) => (
               <a
