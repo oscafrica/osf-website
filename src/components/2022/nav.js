@@ -78,19 +78,15 @@ function Nav() {
                 title: "Schedule"
               },
               {
-                route: "/travel",
-                title: "Travel"
-              },
-              {
-                route: "https://opencollective.com/osca/events/open-source-festival-2022-e08a15a2",
-                title: "Register"
-              },
-              {
                 route: "/sustain-africa",
                 title: "Sustain Africa"
               },
               {
-                route: "#gallery",
+                route: "/travel",
+                title: "Travel"
+              },
+              {
+                route: "/gallery",
                 title: "Gallery"
               }
             ].map((link) => (

@@ -13,7 +13,7 @@ function GalleryPage() {
     <Layout>
       <SEO title="Gallery" />
       <Nav />
-      <Breadcrumb name="Gallery" />
+      <Breadcrumb name="Photo Gallery" />
       <Gallery />
       <Footer />
     </Layout>
