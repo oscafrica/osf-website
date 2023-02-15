@@ -1,61 +1,35 @@
-import "jest-enzyme";
+import "raf/polyfill";
 
-import chai from "chai";
-import chaiEnzyme from "chai-enzyme";
-
+import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 import Enzyme from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
+import jsdom from "jsdom";
 
-chai.use(chaiEnzyme()); // Note the invocation at the end
-
-/**
- * Set up DOM in node.js environment for Enzyme to mount to
- */
-const { JSDOM } = require("jsdom");
-
-const jsdom = new JSDOM("<!doctype html><html><body></body></html>");
-const { window } = jsdom;
-
-function copyProps(src, target) {
-  Object.defineProperties(target, {
-    ...Object.getOwnPropertyDescriptors(src),
-    ...Object.getOwnPropertyDescriptors(target)
-  });
-}
-
-global.window = window;
-global.document = window.document;
+const { JSDOM } = jsdom;
+const url = "http://localhost";
+const { document } = new JSDOM("<!doctype html><html><body></body></html>", { url }).window;
+global.document = document;
+global.window = document.defaultView;
 global.navigator = {
   userAgent: "node.js"
 };
-copyProps(window, global);
 
-/**
- * Set up Enzyme to mount to DOM, simulate events,
- * and inspect the DOM in tests.
- */
+// global.expect = jest.expect
+// global.TextEncoder = TextEncoder;
+// global.TextDecoder = TextDecoder;
+
+function copyProps(src, target) {
+  const props = Object.getOwnPropertyNames(src)
+    .filter((prop) => typeof target[prop] === "undefined")
+    .reduce(
+      (result, prop) => ({
+        ...result,
+        [prop]: Object.getOwnPropertyDescriptor(src, prop)
+      }),
+      {}
+    );
+  Object.defineProperties(target, props);
+}
+
+copyProps(document.defaultView, global);
+
 Enzyme.configure({ adapter: new Adapter() });
-
-// Make sure chai and jasmine ".not" play nice together
-const originalNot = Object.getOwnPropertyDescriptor(chai.Assertion.prototype, "not").get;
-Object.defineProperty(chai.Assertion.prototype, "not", {
-  get() {
-    Object.assign(this, this.assignedNot);
-    return originalNot.apply(this);
-  },
-  set(newNot) {
-    this.assignedNot = newNot;
-  }
-});
-
-// Combine both jest and chai matchers on expect
-const jestExpect = global.expect;
-
-global.expect = (actual) => {
-  const originalMatchers = jestExpect(actual);
-  const chaiMatchers = chai.expect(actual);
-  const combinedMatchers = Object.assign(chaiMatchers, originalMatchers);
-  return combinedMatchers;
-};
-
-Object.keys(jestExpect).forEach((key) => (global.expect[key] = jestExpect[key]));

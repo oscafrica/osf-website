@@ -1,10 +1,6 @@
 module.exports = {
   collectCoverage: true,
   coverageDirectory: "coverage",
-  testEnvironment: "enzyme",
-  testEnvironmentOptions: {
-    enzymeAdapter: "react16"
-  },
   transform: {
     "^.+\\.jsx?$": "<rootDir>/test/fileTransformer.js"
   },
@@ -19,7 +15,6 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: ""
   },
-  testURL: "http://localhost",
   setupFiles: ["<rootDir>/test/beforeSetup.js"],
   setupFilesAfterEnv: ["<rootDir>/test/setup.js"]
 };
