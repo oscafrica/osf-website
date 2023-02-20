@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { mount } from "enzyme";
+import renderer from "react-test-renderer";
 
 import CheckBox from "../checkBox";
 
@@ -14,14 +14,14 @@ class CheckBoxWrapper extends Component {
 }
 
 describe("checkBox component", () => {
-  const wrapper = mount(<CheckBoxWrapper />);
+  const wrapper = renderer.create(<CheckBoxWrapper />);
 
   it("should have 'state' 'isChecked' equals false", () => {
-    expect(wrapper).to.have.state("isChecked", false);
+    expect(wrapper.getInstance().state.isChecked).toBe(false);
   });
 
   it("should change state 'isChecked' with 'change' action", () => {
-    wrapper.find("input").simulate("change");
-    expect(wrapper).to.have.state("isChecked", true);
+    wrapper.root.findByType("input").props.onChange();
+    expect(wrapper.getInstance().state.isChecked).toBe(true);
   });
 });

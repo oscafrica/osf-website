@@ -1,21 +1,20 @@
 import React from "react";
-import { mount } from "enzyme";
+import renderer from "react-test-renderer";
 
-import Breadcrumb from "../breadcrumb";
+import Breadcrumb from "../2022/breadcrumb";
 
 let wrapper;
 
 describe("breadcrumb component", () => {
   beforeAll(() => {
-    wrapper = mount(<Breadcrumb name="test-name" />);
+    wrapper = renderer.create(<Breadcrumb name="test-name" />);
   });
 
   it("should have image tag with src attribute", () => {
-    expect(wrapper.html()).to.contain("img");
-    expect(wrapper.find("img")).to.have.attr("src").not.equal("");
+    expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
   it("should have text 'test-name'", () => {
-    expect(wrapper.find("section div h1")).to.contain.text("test-name");
+    expect(wrapper.root.findByType("h1").children).toContain("test-name");
   });
 });
