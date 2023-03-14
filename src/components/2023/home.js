@@ -30,7 +30,10 @@ function Home() {
                   </a>
                 </div>
                 <div className="flex flex-col items-center">
-                  <a href="/2022" className="font-clashDisplay uppercase p-2 text-white tracking-wider text-xl sm:my-10 my-10">
+                  <a
+                    href="/2022"
+                    className="font-clashDisplay uppercase p-2 text-white tracking-wider text-xl sm:my-10 my-10"
+                  >
                     View Past Events | ↗
                   </a>
                 </div>
