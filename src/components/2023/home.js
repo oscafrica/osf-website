@@ -20,11 +20,16 @@ function Home() {
                     href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
                     className="font-clashDisplay bg-orange-400 uppercase p-3 text-xl text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
-                    Become a Sponsor | &nbsp; 
+                    Become a Sponsor | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625" stroke="#3B2102" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path
+                        d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                        stroke="#3B2102"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
-
                   </a>
                   <a
                     href="/"
@@ -32,9 +37,14 @@ function Home() {
                   >
                     Become a Speaker | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path
+                        d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                        stroke="white"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
-
                   </a>
                 </div>
                 <div className="flex flex-col items-center">
@@ -44,9 +54,14 @@ function Home() {
                   >
                     View Past Events | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path
+                        d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                        stroke="white"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
-
                   </a>
                 </div>
               </div>
