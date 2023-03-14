@@ -11,27 +11,27 @@ function Home() {
               <img alt="osca-logo" src={homeBackground.logo} className="mb-5 w-16" />
               <img Alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.title} className="mb-5" />
               <div className="flex flex-col mb-14 items-center">
-                <h2 className="text-xl tracking-widest">JUNE 22ND - 24TH.</h2>
-                <h1 className="ml-5 text-2xl uppercase tracking-widest">Lagos, Nigeria.</h1>
+                <h2 className="font-clashDisplay text-xl tracking-widest m-0">JUNE 22ND - 24TH.</h2>
+                <h1 className="font-clashDisplay text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>
               </div>
               <div>
-                <div className="flex xs:flex-col flex-row mt-5 xs:mb-16 md:mb-10 ">
+                <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 ">
                   <a
                     href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
-                    className="bg-orange-400 uppercase p-4 text-xl text-brown tracking-wider xs:mb-4 mx-4"
+                    className="font-clashDisplay bg-orange-400 uppercase p-4 text-xl text-brown tracking-wider mb-4 mx-4"
                   >
                     Become a Sponsor | ↗
                   </a>
                   <a
                     href="/"
-                    className="bg-transparent uppercase p-4 text-white border-2 border-solid border-gray-500 tracking-wider text-xl mx-4"
+                    className="font-clashDisplay bg-transparent uppercase mb-4 p-4 text-white border-2 border-solid border-gray-500 tracking-wider text-xl mx-4"
                   >
                     Become a Speaker | ↗
                   </a>
                 </div>
                 <div className="flex flex-col items-center">
-                  <a href="/2022" className="uppercase p-2 text-white tracking-wider text-xl xs:my-10 my-10">
-                    View Previous Events | ↗
+                  <a href="/2022" className="font-clashDisplay uppercase p-2 text-white tracking-wider text-xl sm:my-10 my-10">
+                    View Past Events | ↗
                   </a>
                 </div>
               </div>

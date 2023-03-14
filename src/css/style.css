@@ -32,6 +32,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "ClashDisplay";
+  font-display: swap;
+  src: url("../fonts/ClashDisplay/ClashDisplay-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -50,15 +58,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1b352d;
+  background: #ffffff;
 }
 
 ::selection {
-  background: #1b352d;
+  background: #656666;
   color: #fff;
 }
 ::-moz-selection {
-  background: #1b352d;
+  background: #656666;
   color: #fff;
 }
 
