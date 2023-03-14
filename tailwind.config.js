@@ -1,7 +1,13 @@
 // See https://tailwindcss.com/docs/configuration for details
 
 module.exports = {
-  content: ["./src/pages/**/*.{html,js}", "./src/components/**/*.{html,js}", './src/**/*.html', './src/**/*.js', './src/**/*.tsx'],
+  content: [
+    "./src/pages/**/*.{html,js}",
+    "./src/components/**/*.{html,js}",
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.tsx"
+  ],
   theme: {
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
@@ -12,7 +18,7 @@ module.exports = {
       workSans: ["work-sans"]
     },
     screens: {
-      'xs': {'min':'300px', 'max':'640px'},
+      xs: { min: "300px", max: "640px" }
     },
     prefix: "oc-",
     extend: {
