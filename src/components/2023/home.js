@@ -24,7 +24,7 @@ function Home() {
                 <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0">
                   <a
                     href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
-                    className="font-clashDisplay bg-orange-400 uppercase p-3 text-l text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
+                    className="font-clashDisplay font-semibold bg-orange-400 uppercase p-3 text-l text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
                     Become a Sponsor |
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +39,7 @@ function Home() {
                   </a>
                   <a
                     href="/"
-                    className="font-clashDisplay bg-transparent uppercase mb-4 p-3 w-fit flex items-center text-white border-2 border-solid border-gray-500 tracking-wider text-l mx-4"
+                    className="font-clashDisplay font-semibold bg-transparent uppercase mb-4 p-3 w-fit flex items-center text-white border-2 border-solid border-gray-500 tracking-wider text-l mx-4"
                   >
                     Become a Speaker |
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ function Home() {
                 <div className="flex flex-col items-center">
                   <a
                     href="/2022"
-                    className="font-clashDisplay uppercase p-2 text-white tracking-wider text-l sm:my-10 my-10 flex items-center"
+                    className="font-clashDisplay font-semibold uppercase p-2 text-white tracking-wider text-l sm:my-10 my-10 flex items-center"
                   >
                     View Past Events |
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
