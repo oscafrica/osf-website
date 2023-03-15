@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Open Source Festival",
     description: "A high profile event with series of talks, workshops, and awareness of open-sourced developer tools.",
-    siteUrl: "https://festival.oscafrica.org",
+    // siteUrl: "https://festival.oscafrica.org",
+    siteUrl: "https://deploy-preview-166--osca-festival.netlify.app/",
     image: "/og-image.png",
     twitterUsername: "@oscafrica"
   },
