@@ -78,6 +78,5 @@ function Home() {
     </section>
   );
 }
-// lg:pt-60 xl:pt-60 md:mt-60 xl:mt-0 2xl:mt-0 xs:mt-24
 
 export default Home;
