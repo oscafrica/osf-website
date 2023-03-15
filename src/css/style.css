@@ -33,7 +33,7 @@
 }
 
 @font-face {
-  font-family: "ClashDisplay";
+  font-family: "Clash-Display";
   font-display: swap;
   src: url("../fonts/ClashDisplay/ClashDisplay-Regular.otf");
   font-weight: normal;
@@ -122,4 +122,8 @@ div .overlay {
 .play-video {
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+body {
+  background-color: #020212;
 }
