@@ -3,19 +3,25 @@ import { homeBackground } from "./cloudImages";
 function Home() {
   return (
     <section id="home">
-      <div className="center flex flex-col w-screen h-screen object-cover">
-        <img alt="Background" src={homeBackground.background} className="w-screen h-full object-cover lg:block z-1" />
-        <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen">
+      <div className="center flex flex-col w-screen object-cover">
+        <img
+          alt="Background"
+          src={homeBackground.background}
+          className="w-screen h-screen lg:h-full object-cover z-1 bg-fixed"
+        />
+        <div className="flex flex-col z-30 absolute left-0 w-full min-h-screen lg:mt-16 overflow-hidden">
           <div className="z-20 flex flex-wrap  m-auto items-center">
-            <div className="w-full md:w-full sm:mt-36 sm:m-auto sm:my-24 m-auto  text-white flex flex-col items-center">
+            <div className="w-full h-full sm:mt-36 sm:m-auto sm:my-24 lg:mt-16 m-auto lg:w-8/12 text-white flex flex-col items-center">
               <img alt="osca-logo" src={homeBackground.logo} className="mb-5 w-16" />
               <img Alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.title} className="mb-5" />
-              <div className="flex flex-col mb-14 items-center">
-                <h2 className="font-clashDisplay text-xl tracking-widest m-0">JUNE 22ND - 24TH.</h2>
-                <h1 className="font-clashDisplay text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>
+              <div className="flex flex-col mb-14 items-center lg:mb-8">
+                <h2 className="font-clashDisplay text-xl lg:text-l tracking-widest m-0">JUNE 22ND - 24TH.</h2>
+                <h1 className="font-clashDisplay text-2xl lg:text-2xl m-0 uppercase tracking-widest">
+                  Lagos, Nigeria.
+                </h1>
               </div>
               <div>
-                <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 ">
+                <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0">
                   <a
                     href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
                     className="font-clashDisplay bg-orange-400 uppercase p-3 text-xl text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
