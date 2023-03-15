@@ -3,7 +3,6 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
 import Home from "../components/2023/home";
-import {homeBackground} from "../components/2023/cloudImages"
 
 function IndexPage() {
   return (
