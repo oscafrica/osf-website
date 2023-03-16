@@ -1,15 +1,22 @@
 // See https://tailwindcss.com/docs/configuration for details
 
 module.exports = {
-  content: ["./src/pages/**/*.{html,js}", "./src/components/**/*.{html,js}"],
+  content: [
+    "./src/pages/**/*.{html,js}",
+    "./src/components/**/*.{html,js}",
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.tsx"
+  ],
   theme: {
     fontFamily: {
-      display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
-      body: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans"],
+      display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans", "clash-display"],
+      body: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans", "clash-display"],
       avenir: ["avenir"],
       ubuntu: ["ubuntu"],
       anisette: ["anisette"],
-      workSans: ["work-sans"]
+      workSans: ["work-sans"],
+      clashDisplay: ["clash-display"]
     },
     prefix: "oc-",
     extend: {
