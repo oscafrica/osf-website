@@ -60,7 +60,7 @@ function Home() {
                     href="/2022"
                     className="font-clashDisplay font-semibold uppercase p-2 text-white tracking-wider text-l sm:my-10 my-10 flex items-center"
                   >
-                    View Past Events &nbsp; | &nbsp;
+                    View Past Events &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
