@@ -26,7 +26,7 @@ function Home() {
                     href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
                     className="font-clashDisplay font-semibold bg-orange-400 uppercase p-3 text-l text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
-                    Become a Sponsor |
+                    Become a Sponsor &nbsp; | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
@@ -41,16 +41,18 @@ function Home() {
                     href="/"
                     className="font-clashDisplay font-semibold bg-transparent uppercase mb-4 p-3 w-fit flex items-center text-white border-2 border-solid border-gray-500 tracking-wider text-l mx-4"
                   >
-                    Become a Speaker |
-                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    Become a Speaker &nbsp; | &nbsp;
+                    <span className="">
+                      <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                          stroke="white"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
                   </a>
                 </div>
                 <div className="flex flex-col items-center">
@@ -58,7 +60,7 @@ function Home() {
                     href="/2022"
                     className="font-clashDisplay font-semibold uppercase p-2 text-white tracking-wider text-l sm:my-10 my-10 flex items-center"
                   >
-                    View Past Events |
+                    View Past Events &nbsp; | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
