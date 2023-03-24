@@ -5,8 +5,7 @@
 <div align="center">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=master)](https://coveralls.io/github/oscafrica/osf-website?branch=master) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
@@ -113,24 +112,27 @@ npm run fix
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=BolajiAyodeji" title="Code">💻</a> <a href="https://github.com/oscafrica/osf-website/commits?author=BolajiAyodeji" title="Documentation">📖</a> <a href="#blog-BolajiAyodeji" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://github.com/perriefidelis"><img src="https://avatars1.githubusercontent.com/u/30669761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peace Ojemeh</b></sub></a><br /><a href="#design-perriefidelis" title="Design">🎨</a></td>
-    <td align="center"><a href="http:// http://steve-anthony.com/"><img src="https://avatars1.githubusercontent.com/u/45064217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steve Anthony</b></sub></a><br /><a href="#design-mrstevea" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/legendaryofor"><img src="https://avatars2.githubusercontent.com/u/56217883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>OFOR</b></sub></a><br /><a href="#design-legendaryofor" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/alabobriggs"><img src="https://avatars3.githubusercontent.com/u/38571291?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alabo David Briggs</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=alabobriggs" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://www.patreon.com/cooproton"><img src="https://avatars0.githubusercontent.com/u/25608335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bolaji Olajide</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=BolajiOlajide" title="Code">💻</a> <a href="https://github.com/oscafrica/osf-website/commits?author=BolajiOlajide" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://twitter.com/vimoppa"><img src="https://avatars.githubusercontent.com/u/69737492?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=vimoppa" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=fakela" title="Code">💻</a></td>
-    <td align="center"><a href="https://twitter.com/ashinzekene"><img src="https://avatars2.githubusercontent.com/u/20991583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashinze Ekene</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=ashinzekene" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/NdibeRaymond"><img src="https://avatars2.githubusercontent.com/u/40905613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ndibe Raymond Olisaemeka</b></sub></a><br /><a href="#content-NdibeRaymond" title="Content">🖋</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://my-portfolio-bbfdb.firebaseapp.com/"><img src="https://avatars.githubusercontent.com/u/29598114?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chidimma Nwanya</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=Scentjuls" title="Code">💻</a></td>
-    <td align="center"><a href="https://anselem-portfolio.netlify.app/"><img src="https://avatars.githubusercontent.com/u/43995830?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anselem Odimegwu</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=AnselemOdims" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4?s=100" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=BolajiAyodeji" title="Code">💻</a> <a href="https://github.com/oscafrica/osf-website/commits?author=BolajiAyodeji" title="Documentation">📖</a> <a href="#blog-BolajiAyodeji" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/perriefidelis"><img src="https://avatars1.githubusercontent.com/u/30669761?v=4?s=100" width="100px;" alt="Peace Ojemeh"/><br /><sub><b>Peace Ojemeh</b></sub></a><br /><a href="#design-perriefidelis" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="20%"><a href="http:// http://steve-anthony.com/"><img src="https://avatars1.githubusercontent.com/u/45064217?v=4?s=100" width="100px;" alt="Steve Anthony"/><br /><sub><b>Steve Anthony</b></sub></a><br /><a href="#design-mrstevea" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/legendaryofor"><img src="https://avatars2.githubusercontent.com/u/56217883?v=4?s=100" width="100px;" alt="OFOR"/><br /><sub><b>OFOR</b></sub></a><br /><a href="#design-legendaryofor" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/alabobriggs"><img src="https://avatars3.githubusercontent.com/u/38571291?v=4?s=100" width="100px;" alt="Alabo David Briggs"/><br /><sub><b>Alabo David Briggs</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=alabobriggs" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://www.patreon.com/cooproton"><img src="https://avatars0.githubusercontent.com/u/25608335?v=4?s=100" width="100px;" alt="Bolaji Olajide"/><br /><sub><b>Bolaji Olajide</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=BolajiOlajide" title="Code">💻</a> <a href="https://github.com/oscafrica/osf-website/commits?author=BolajiOlajide" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://twitter.com/vimoppa"><img src="https://avatars.githubusercontent.com/u/69737492?v=4?s=100" width="100px;" alt="Ike Josh"/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=vimoppa" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4?s=100" width="100px;" alt="Favour Kelvin"/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=fakela" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://twitter.com/ashinzekene"><img src="https://avatars2.githubusercontent.com/u/20991583?v=4?s=100" width="100px;" alt="Ashinze Ekene"/><br /><sub><b>Ashinze Ekene</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=ashinzekene" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/NdibeRaymond"><img src="https://avatars2.githubusercontent.com/u/40905613?v=4?s=100" width="100px;" alt="Ndibe Raymond Olisaemeka"/><br /><sub><b>Ndibe Raymond Olisaemeka</b></sub></a><br /><a href="#content-NdibeRaymond" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://my-portfolio-bbfdb.firebaseapp.com/"><img src="https://avatars.githubusercontent.com/u/29598114?v=4?s=100" width="100px;" alt="Chidimma Nwanya"/><br /><sub><b>Chidimma Nwanya</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=Scentjuls" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://anselem-portfolio.netlify.app/"><img src="https://avatars.githubusercontent.com/u/43995830?v=4?s=100" width="100px;" alt="Anselem Odimegwu"/><br /><sub><b>Anselem Odimegwu</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=AnselemOdims" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/Princesso"><img src="https://avatars.githubusercontent.com/u/13929923?v=4?s=100" width="100px;" alt=" Princess Oluebube Egbuna"/><br /><sub><b> Princess Oluebube Egbuna</b></sub></a><br /><a href="https://github.com/oscafrica/osf-website/commits?author=Princesso" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
