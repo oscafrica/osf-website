@@ -18,7 +18,7 @@ function Home() {
               <img alt="osca-logo" src={homeBackground.logo} className="mb-5 w-16" />
               <img Alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.title} className="mb-5" />
               <div className="flex flex-col mb-14 items-center lg:mb-8">
-                <h2 className="font-clashDisplay text-l lg:text-l tracking-widest m-0">JUNE 22ND - 24TH.</h2>
+                <h2 className="font-clashDisplay text-l lg:text-l tracking-widest m-0">JUNE 15TH - 17TH.</h2>
                 <h1 className="font-clashDisplay text-xl lg:text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>
               </div>
               <div>
