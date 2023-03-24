@@ -70,7 +70,6 @@
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
     "@cypress/code-coverage": "^3.10.0",
     "@storybook/addon-docs": "^6.5.16",
     "@storybook/addon-viewport": "^6.5.16",
@@ -79,6 +78,7 @@
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
+    "autoprefixer": "^10.4.14",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^29.5.0",
     "babel-loader": "^9.1.2",
