@@ -6,4 +6,3 @@
 
 [build.environment]
   NODE_VERSION = "v18.15.0"
-  NPM_VERSION = "9.5.0"
