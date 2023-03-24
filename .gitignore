@@ -66,8 +66,12 @@ public
 yarn-error.log
 .pnp/
 .pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
 
 # Open Collective Token
 .opencollective.json
+
+# Local Netlify folder
+.netlify

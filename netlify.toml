@@ -3,6 +3,3 @@
 
 [context.branch-deploy]
   command = "npm run noIndex"
-
-[build.environment]
-  NODE_VERSION = "v18.15.0"
