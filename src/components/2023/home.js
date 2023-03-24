@@ -1,5 +1,6 @@
 import React from "react";
 import { homeBackground } from "./cloudImages";
+
 function Home() {
   const bgWrapperStyles = {
     backgroundImage: `url(${homeBackground.background})`,
@@ -23,7 +24,7 @@ function Home() {
               <div>
                 <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0">
                   <a
-                    href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
+                    href="/sponsorship-deck-2023.pdf"
                     className="font-clashDisplay font-semibold bg-orange-400 uppercase p-3 text-l text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
                     Become a Sponsor &nbsp; | &nbsp;

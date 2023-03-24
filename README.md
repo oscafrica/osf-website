@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=master)](https://coveralls.io/github/oscafrica/osf-website?branch=master) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=main)](https://coveralls.io/github/oscafrica/osf-website?branch=main) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -32,7 +32,7 @@
 git clone https://github.com/<your username>/osf-website.git && cd osf-website
 ```
 
-3. Read the [Contributors Guide](https://github.com/oscommunityafrica/osf-website/blob/master/CONTRIBUTING.md).
+3. Read the [Contributors Guide](https://github.com/oscafrica/osf-website/blob/main/CONTRIBUTING.md).
 
 ## Installation Guide
 
