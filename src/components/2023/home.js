@@ -16,7 +16,7 @@ function Home() {
           <div className="z-20 flex flex-wrap  m-auto items-center">
             <div className="w-full h-full sm:mt-36 sm:m-auto sm:my-24 lg:mt-16 m-auto lg:w-8/12 text-white flex flex-col items-center">
               <img alt="osca-logo" src={homeBackground.logo} className="mb-5 w-16" />
-              <img Alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.title} className="mb-5" />
+              <img alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.title} className="mb-5" />
               <div className="flex flex-col mb-14 items-center lg:mb-8">
                 <h2 className="font-clashDisplay text-l lg:text-l tracking-widest m-0">JUNE 15TH - 17TH.</h2>
                 <h1 className="font-clashDisplay text-xl lg:text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>
@@ -39,7 +39,7 @@ function Home() {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://papercall.io/oscafest23"
                     className="font-clashDisplay font-semibold bg-transparent uppercase mb-4 p-3 w-fit flex items-center text-white border-2 border-solid border-gray-500 tracking-wider text-l mx-4"
                   >
                     Become a Speaker &nbsp; | &nbsp;
