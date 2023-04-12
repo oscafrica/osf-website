@@ -22,10 +22,28 @@ function Home() {
                 <h1 className="font-clashDisplay text-xl lg:text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>
               </div>
               <div>
+                <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0 items-center justify-center">
+                  <a
+                    href="https://bit.ly/oscafest23"
+                    className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-orange-400 uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Register (USD) &nbsp;
+                  </a>
+                  <a
+                    href="https://bit.ly/oscafest23-tix"
+                    className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-orange-400 uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Register (NGN) &nbsp;
+                  </a>
+                </div>
                 <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0">
                   <a
                     href="/sponsorship-deck-2023.pdf"
-                    className="font-clashDisplay font-semibold bg-orange-400 uppercase p-3 text-l text-brown tracking-wider mb-4 mx-4 w-fit flex items-center"
+                    className="font-clashDisplay font-semibold bg-orange-400 text-brown uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
                     Become a Sponsor &nbsp; | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +58,7 @@ function Home() {
                   </a>
                   <a
                     href="https://papercall.io/oscafest23"
-                    className="font-clashDisplay font-semibold bg-transparent uppercase mb-4 p-3 w-fit flex items-center text-white border-2 border-solid border-gray-500 tracking-wider text-l mx-4"
+                    className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-gray-500 uppercase mb-4 p-3 w-fit flex items-center tracking-wider text-l mx-4"
                   >
                     Become a Speaker &nbsp; | &nbsp;
                     <span className="">
