@@ -54,13 +54,13 @@ cd osf-website
 git checkout -b speakers-component
 ```
 
-- Install required packages using the command below:
+- Install the required packages using the command below:
 
 ```sh
 npm install
 ```
 
-- Start the development server using the comand below:
+- Start the development server using the command below:
 
 ```sh
 npm run develop
@@ -68,7 +68,7 @@ npm run develop
 
 _Gatsby will then start a hot-reloading development environment accessible by default at `localhost:8000`._
 
-- Create a production build using the comand below:
+- Create a production build using the command below:
 
 ```sh
 npm run build
@@ -76,15 +76,15 @@ npm run build
 
 _Gatsby will perform an optimized production build, generating static HTML and per-route JavaScript code bundles._
 
-- Serve the production build locally using the comand below:
+- Serve the production build locally using the command below:
 
 ```sh
 npm run serve
 ```
 
-_Gatsby starts a local HTML server for testing the built site. Remember to build the site using gatsby build before using this command._
+_Gatsby starts a local HTML server for testing the built site. Remember to build the site using `gatsby build` before using this command._
 
-- Make Git commits using the comand below:
+- Make Git commits using the command below:
 
 ```sh
 npm run commit
@@ -94,13 +94,13 @@ _We use the [commitizen command line utility](https://github.com/commitizen/cz-c
 
 ## Format and lint
 
-- See what ESLint and Prettier can fix using the comand below:
+- See what ESLint and Prettier can fix using the command below:
 
 ```sh
 npm run analyze
 ```
 
-- Run Prettier and ESLint with the --fix option using the comand below:
+- Run Prettier and ESLint with the --fix option using the command below:
 
 ```sh
 npm run fix
@@ -166,6 +166,6 @@ Support this project with your organization. Your logo will show up here with a 
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/11/avatar.svg)](https://opencollective.com/osca/organization/11/website)
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/12/avatar.svg)](https://opencollective.com/osca/organization/12/website)
 
-## Licence
+## License
 
 This repository is published under the [MIT](LICENSE) license.
