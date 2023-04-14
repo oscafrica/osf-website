@@ -3,3 +3,9 @@
 
 [context.branch-deploy]
   command = "npm run noIndex"
+  
+[[redirects]]
+  from = "/faqs"
+  to = "https://docs.google.com/document/d/12xuZtT_rzHEIxmZ5iHU4IYWcntjjCZ6aALRnf85sKAQ/edit?usp=sharing"
+  status = 301
+  force = true
