@@ -81,7 +81,9 @@ const SearchBar = ({ placeholder, value, options, onChange, onInput, label, rend
       <div className={isOpen ? style.searchOptions : style.searchOptionsClosed}>
         {filteredOptions.slice(0, 5).map((option, i) =>
           typeof renderItem === "function" ? (
-            <div onPointerDown={handleChange(option)}>{renderItem(option, i)}</div>
+            <div key={option.value} onPointerDown={handleChange(option)}>
+              {renderItem(option, i)}
+            </div>
           ) : (
             <div key={option.value} className={style.searchOption} onPointerDown={handleChange(option)}>
               {option.label}
