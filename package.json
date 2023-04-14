@@ -24,7 +24,7 @@
     "noIndex": "npm run build && echo 'User-agent: *\nDisallow: /' > public/robots.txt",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "analyze:lint": "eslint --ext .jsx --ext .js src",
-    "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
+    "analyze:prettier": "prettier --check '**/*.{js,css,md,json}'",
     "fix": "npm run fix:lint && npm run fix:prettier",
     "fix:lint": "eslint --ext .jsx --ext .js src --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",

@@ -1,11 +1,12 @@
-<div align="center"  style="margin-bottom:30px">
-  <img src="/static/NXTBC.png" alt="Logo" width='500px' height='auto'/>
-</div>
+<!-- markdownlint-disable MD041 MD033 MD051 -->
 
-<div align="center">
+<div align="center"  style="margin-bottom:30px">
+
+<img src="/static/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=main)](https://coveralls.io/github/oscafrica/osf-website?branch=main) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
@@ -20,7 +21,7 @@
 2. [Installation Guide](#installation-guide)
 3. [Format and lint](#format-and-lint)
 4. [Contributors](#contributors)
-5. [License](#licence)
+5. [License](#license)
 
 ## Getting Started
 
@@ -28,9 +29,9 @@
 
 2. Clone the forked repository like so:
 
-```sh
-git clone https://github.com/<your username>/osf-website.git && cd osf-website
-```
+   ```sh
+    git clone https://github.com/<your username>/osf-website.git && cd osf-website
+   ```
 
 3. Read the [Contributors Guide](https://github.com/oscafrica/osf-website/blob/main/CONTRIBUTING.md).
 
@@ -142,7 +143,7 @@ npm run fix
 
 ### Financial Contributors
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/osca/contribute)]
+Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/osca/contribute).
 
 #### Individuals
 
@@ -150,7 +151,7 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Organizations
 
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/osca/contribute)]
+Support this project with your organization. Your logo will show up here with a link to your website. [Contribute](https://opencollective.com/osca/contribute).
 
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/0/avatar.svg)](https://opencollective.com/osca/organization/0/website)
 [![OSCA Financial Contributor](https://opencollective.com/osca/organization/1/avatar.svg)](https://opencollective.com/osca/organization/1/website)
