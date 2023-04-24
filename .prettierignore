@@ -1,3 +1,4 @@
 .cache/*
+.netlify/*
 public/*
 node_modules
