@@ -45,7 +45,7 @@ function Home() {
                     href="/sponsorship-deck-2023.pdf"
                     className="font-clashDisplay font-semibold bg-orange-400 text-brown uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
                   >
-                    Become a Sponsor &nbsp; | &nbsp;
+                    Become A Sponsor &nbsp; | &nbsp;
                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
