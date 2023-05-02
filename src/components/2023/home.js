@@ -24,7 +24,7 @@ function Home() {
               <div>
                 <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0 items-center justify-center">
                   <a
-                    href="https://bit.ly/oscafest23"
+                    href="https://eventbrite.com/e/open-source-festival-2023-tickets-574820402297"
                     className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-orange-400 uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
                     target="_blank"
                     rel="noreferrer"
@@ -32,7 +32,7 @@ function Home() {
                     Register (USD) &nbsp;
                   </a>
                   <a
-                    href="https://bit.ly/oscafest23-tix"
+                    href="https://tix.africa/discover/oscafest23"
                     className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-orange-400 uppercase p-3 text-l tracking-wider mb-4 mx-4 w-fit flex items-center"
                     target="_blank"
                     rel="noreferrer"
