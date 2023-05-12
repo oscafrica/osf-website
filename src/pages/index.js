@@ -1,15 +1,10 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import SEO from "../components/SEO/seo";
-import Home from "../components/2023/home";
+import P2023 from "./2023";
 
 function IndexPage() {
   return (
-    <Layout>
-      <SEO title="2023" />
-      <Home />
-    </Layout>
+    <P2023 />
   );
 }
 
