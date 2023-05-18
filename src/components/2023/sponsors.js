@@ -107,7 +107,7 @@ function SponsorLogo({sponsors}) {
             target="_blank"
             rel="noopener noreferrer"
             key={sponsor.name}
-            className="relative lg:w-1/4 max-w-sm p-3 my-12 lg:mx-5 border border-white/20"
+            className="relative lg:w-1/4 max-w-sm p-3 my-12 lg:mx-5 border border-white/10"
           >
             <figure className="w-full">
               <img className="w-40 h-40 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
