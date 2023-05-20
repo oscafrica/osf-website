@@ -3,9 +3,13 @@ import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 
-import { speakers } from "./cloudImages";
+// TODO: move to cloudinary
+import angie from '../../../static/speakers/angie-jones.jpg';
+import bdougie from '../../../static/speakers/bdougie.jpg';
+import jan from '../../../static/speakers/jan.jpg';
+import regina from '../../../static/speakers/regina.jpg'
 
 function Speaker() {
   return (
@@ -35,70 +39,35 @@ function Speaker() {
           {
             [
               {
-                name: "Anjana Vakil",
-                title: "Developer Advocate | Observable",
-                image: speakers.anjana
+                name: "Angie Jones",
+                title: "Global Vice President of Developer Relations for TBD, Block",
+                image: angie
               },
               {
-                name: "Tejas Kumar",
-                title: "Director of Developer Relations | Xatabase",
-                image: speakers.tejas
+                name: "Brian Douglas",
+                title: "Founder and CEO of Open Sauced",
+                image: bdougie
               },
               {
-                name: "Ruth Ikegah",
-                title: "GitHub Star and Technical Writer",
-                image: speakers.ruth
+                name: "Jan Borchardt",
+                title: "Co-founder, design lead and community manager at Nextcloud",
+                image: jan
               },
               {
-                name: "Nader Dabit",
-                title: "Developer Relations Engineer | Edge&Node",
-                image: speakers.nader
+                name: "Regina Nkenchor",
+                title: "Board vice president at the GNOME Foundation",
+                image: regina
               },
-              {
-                name: "Prosper Otemuyiwa",
-                title: "Staff Developer Advocate | Sourcegraph",
-                image: speakers.prosper
-              },
-              {
-                name: "Stefan Thomas",
-                title: "Founder & CEO | Coil",
-                image: speakers.stefan
-              },
-              {
-                name: "Dmitry Vinnik",
-                title: "Open Source Developer Advocate | Meta",
-                image: speakers.dmitry
-              },
-              {
-                name: "Odunayo Eweniyi",
-                title: "Cofounder/COO | PiggybankNG",
-                image: speakers.odun
-              },
-              {
-                name: "Minko Gechev",
-                title: "Developer Relations Lead | Google",
-                image: speakers.minko
-              },
-              {
-                name: "Segun Adebayo",
-                title: "Creator & Maintainer | Chakra UI",
-                image: speakers.segun
-              },
-              {
-                name: "Chris Aniszczyk",
-                title: "CTO | Cloud Native Computing Foundation",
-                image: speakers.chris
-              }
             ].map((speaker) => (
-              <SwiperSlide key={speaker.name} className="">
-                {/* <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm p-1 my-2"> */}
-                  {/* TODO: name and title overlay and fix progress bar */}
-                  <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-                  {/* <div className="text-sm py-8 px-4 w-auto h-32 bg-white text-center text-black">
-                    <h3 className="font-anisette font-bold uppercase">{speaker.name}</h3>
-                    <p className="font-workSans">{speaker.title}</p>
-                  </div> */}
-                {/* </figure> */}
+              <SwiperSlide key={speaker.name}>
+                <div className="w-full h-full">
+                  <div className='object-fit h-96 lg:h-[500px] w-full bg-cover bg-center brightness-90 flex flex-row' style={{backgroundImage: `url(${speaker.image})`}}>
+                    <div className="h-20 m-4 mt-auto text-left text-white uppercase">
+                      <h3 className="font-classDisplay font-bold">{speaker.name}</h3>
+                      <p className="font-classDisplay font-light">{speaker.title}</p>
+                    </div>
+                  </div>
+                </div>
               </SwiperSlide>
             ))
           }
