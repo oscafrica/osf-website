@@ -62,20 +62,20 @@ function Nav() {
                 route: "/2023/#speakers",
                 title: "Speakers"
               },
+              // {
+              //   route: "/2023/schedule",
+              //   title: "Schedule"
+              // },
+              // {
+              //   route: "/2023/sustain-africa",
+              //   title: "Sustain Africa"
+              // },
+              // {
+              //   route: "/2023/travel",
+              //   title: "Travel"
+              // },
               {
-                route: "/2023/schedule",
-                title: "Schedule"
-              },
-              {
-                route: "/2023/sustain-africa",
-                title: "Sustain Africa"
-              },
-              {
-                route: "/2023/travel",
-                title: "Travel"
-              },
-              {
-                route: "/2023/gallery",
+                route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
                 title: "Gallery"
               }
             ].map((link) => (
