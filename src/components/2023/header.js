@@ -1,6 +1,5 @@
 import React from "react";
 import { homeBackground } from "./cloudImages";
-import title from "./title.png";
 
 
 function Header() {
@@ -41,7 +40,7 @@ function Header() {
           </div>
           <div className="z-10 flex flex-wrap items-center">
             <div className="w-full h-full mx-auto container text-white flex flex-col items-center">
-              <img alt="OSCAFest Title 2023 Sustainability For Growth" src={title} className="mb-5" />
+              <img alt="OSCAFest Title 2023 Sustainability For Growth" src={homeBackground.titleLarge} className="mb-5" />
               {/*<div className="flex flex-col mb-14 items-center lg:mb-8">*/}
               {/*  <h2 className="font-clashDisplay text-l lg:text-l tracking-widest m-0">JUNE 15TH - 17TH.</h2>*/}
               {/*  <h1 className="font-clashDisplay text-xl lg:text-2xl m-0 uppercase tracking-widest">Lagos, Nigeria.</h1>*/}

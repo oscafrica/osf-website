@@ -5,11 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import "swiper/css/pagination";
 
-// TODO: move to cloudinary
-import angie from '../../../static/speakers/angie-jones.jpg';
-import bdougie from '../../../static/speakers/bdougie.jpg';
-import jan from '../../../static/speakers/jan.jpg';
-import regina from '../../../static/speakers/regina.jpg'
+import { speakers } from './cloudImages';
 
 function Speaker() {
   return (
@@ -41,22 +37,22 @@ function Speaker() {
               {
                 name: "Angie Jones",
                 title: "Global Vice President of Developer Relations for TBD, Block",
-                image: angie
+                image: speakers.angie
               },
               {
                 name: "Brian Douglas",
                 title: "Founder and CEO of Open Sauced",
-                image: bdougie
+                image: speakers.bdougie
               },
               {
                 name: "Jan Borchardt",
                 title: "Co-founder, design lead and community manager at Nextcloud",
-                image: jan
+                image: speakers.jan
               },
               {
                 name: "Regina Nkenchor",
                 title: "Board vice president at the GNOME Foundation",
-                image: regina
+                image: speakers.regina
               },
             ].map((speaker) => (
               <SwiperSlide key={speaker.name}>

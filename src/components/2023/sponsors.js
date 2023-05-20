@@ -1,100 +1,28 @@
 import React from "react";
 
-import { sponsors } from "../2022/cloudImages";
+import { sponsors } from "../2023/cloudImages";
 
 // TODO: import the right asset svg.
 const sponsorsData = [
   {
-    tier: "headline",
+    tier: "diamond",
     name: "Google",
     image: sponsors.google,
     link: "https://opensource.google"
   },
-  {
-    tier: "headline",
-    name: "Meta",
-    image: sponsors.meta,
-    link: "https://opensource.fb.com"
-  },
-  {
-    tier: "diamond",
-    name: "Coil",
-    image: sponsors.coil,
-    link: "https://coil.com"
-  },
-  {
-    tier: "diamond",
-    name: "Sourcegragh",
-    image: sponsors.sourcegraph,
-    link: "https://sourcegraph.com"
-  },
-  {
-    tier: "diamond",
-    name: "Polygon",
-    image: sponsors.polygon,
-    link: "https://polygon.technology"
-  },
-  {
-    tier: "gold",
-    name: "AWS",
-    image: sponsors.aws,
-    link: "https://aws.amazon.com"
-  },
-  {
-    tier: "gold",
-    name: "GitHub",
-    image: sponsors.github,
-    link: "https://github.com"
-  },
-  {
-    tier: "silver",
-    name: "Postman",
-    image: sponsors.postman,
-    link: "https://postman.com"
-  },
-  {
-    tier: "silver",
-    name: "Cloud Native Computing Foundation",
-    image: sponsors.cncf,
-    link: "https://cncf.io"
-  },
-  {
-    tier: "silver",
-    name: "Edge and node",
-    image: sponsors.edgeandnode,
-    link: "https://edgeandnode.com"
-  },
-  {
-    tier: "silver",
-    name: "Fincra",
-    image: sponsors.fincra,
-    link: "https://fincra.com"
-  },
-  {
-    tier: "silver",
-    name: "Paystack",
-    image: sponsors.paystack,
-    link: "https://paystack.com"
-  },
-  {
-    tier: "bronze",
-    name: "OpenSuse",
-    image: sponsors.opensuse,
-    link: "https://opensuse.org"
-  },
-  {
-    tier: "bronze",
-    name: "The @ Company",
-    image: sponsors.atcompany,
-    link: "https://atsign.dev"
-  },
-  {
-    tier: "bronze",
-    name: "BeOpenIt",
-    image: sponsors.beopenit,
-    link: "https://www.beopenit.com"
-  }
+  // {
+  //   tier: "bronze",
+  //   name: "Cloud Native Computing Foundation",
+  //   image: sponsors.cncf,
+  //   link: "https://www.cncf.io/"
+  // },
 ];
+
+const headline = sponsorsData.filter((data) => data.tier.includes("headline"));
+const diamond = sponsorsData.filter((data) => data.tier.includes("diamond"));
+const gold = sponsorsData.filter((data) => data.tier.includes("gold"));
+const silver = sponsorsData.filter((data) => data.tier.includes("silver"));
+const bronze = sponsorsData.filter((data) => data.tier.includes("bronze"));
 
 function SponsorLogo({sponsors}) {
   return (
@@ -129,28 +57,15 @@ function Sponsors() {
         </div>
 
         <div className="my-12">
-          {/* Headline Sponsors */}
-          <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">Headline</p>
-          <SponsorLogo sponsors={sponsorsData.filter((data) => data.tier.includes("headline"))} /> 
-
-          {/* Diamond sponsors */}
-          <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">Diamond</p>
-          <SponsorLogo sponsors={sponsorsData.filter((data) => data.tier.includes("diamond"))} />
-
-          {/* Gold sponsors */}
-          <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">Gold</p>
-          <SponsorLogo sponsors={sponsorsData.filter((data) => data.tier.includes("gold"))} />
-
-          {/* Silver sponsors */}
-          <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">Silver</p>
-          <SponsorLogo sponsors={sponsorsData.filter((data) => data.tier.includes("silver"))} />
-
-          {/* Bronze sponsors */}
-          <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">Bronze</p>
-          <SponsorLogo sponsors={sponsorsData.filter((data) => data.tier.includes("bronze"))} />
-        
+          {
+            [headline, diamond, gold, silver, bronze].map((tier) => (
+              <>
+                { tier[0] && <p className="font-clashDisplay text-l lg:text-l tracking-widest font-bold uppercase">{tier[0]?.tier}</p>}
+                <SponsorLogo sponsors={tier} />  
+              </>
+            ))
+          }
         </div>
-
       </div>
     </section>
   );

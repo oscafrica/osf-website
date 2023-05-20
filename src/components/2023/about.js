@@ -1,6 +1,8 @@
 import React from "react";
 
-import aboutus from './aboutus.jpg'; // TODO: move to cloudflare
+import {aboutus} from './cloudImages'
+
+// import aboutus from './aboutus.jpg'; // TODO: move to cloudflare
 
 function About() {
   return (
@@ -9,7 +11,7 @@ function About() {
         <div className="lg:flex lg:flex-row lg:justify-between items-center mb-10">
           <h3 className="font-humane font-medium text-[10rem] lg:text-[20rem] lg:basis-1/4 lg:leading-[0.8] lg:ml-10 uppercase text-wrap lg:order-last">About Us</h3>
           <figure className="lg:grow">
-            <img alt="Osca Fest 2022 conference at Tech Zone Park" src={aboutus} className="object-fit w-full h-full"/>
+            <img alt="Osca Fest 2022 conference at Tech Zone Park" src={aboutus.groupshot} className="object-fit w-full h-full"/>
           </figure>
         </div>
         <div className="xl:w-1/2 2xl:w-1/4">
