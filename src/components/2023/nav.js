@@ -55,11 +55,11 @@ function Nav() {
           >
             {[
               {
-                route: "/2023/#about",
+                route: "/#about",
                 title: "About"
               },
               {
-                route: "/2023/#speakers",
+                route: "/#speakers",
                 title: "Speakers"
               },
               // {
