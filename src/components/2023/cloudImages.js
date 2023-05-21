@@ -26,7 +26,20 @@ const speakers = Object.freeze({
 });
 
 const sponsors = Object.freeze({
-  google: "https://res.cloudinary.com/vimoppa/image/upload/v1684617952/sponsors/google-2015_1_vlfaij.svg",
+  google: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Google_pgewvw.svg",
+  block: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Block_km4itg.svg",
+  payday: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Payday_meus1d.svg",
+  polytope: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/Polytope_gdl07n.svg",
+  uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/UVM_uuxynf.svg",
+  penpot: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/Penpot_k7j6qz.svg",
+  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/OSC_ecjjxl.svg",
+  orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Orbit_m2thek.svg",
+  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/GNOME_laeu6f.svg",
+  microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Microsoft_au9lnh.svg",
+  cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1684626495/sponsors/Cloud_Native_xz860f.svg",
+  axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
+  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Kora_a2lx9l.svg",
+  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Canonical_ovy85d.svg"
 })
 
 export { homeBackground, aboutus, gallery, speakers, sponsors };

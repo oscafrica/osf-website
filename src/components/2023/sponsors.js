@@ -10,11 +10,77 @@ const sponsorsData = [
     image: sponsors.google,
     link: "https://opensource.google"
   },
+  {
+    tier: "bronze",
+    name: "Cloud Native Computing Foundation",
+    image: sponsors.cncf,
+    link: "https://www.cncf.io/"
+  },
+  {
+    tier: "silver",
+    name: "Cannonical",
+    image: sponsors.cannonical,
+    link: "https://canonical.com/"
+  },
+  {
+    tier: "silver",
+    name: "Orbit.love",
+    image: sponsors.orbit,
+    link: "https://orbit.love/"
+  },
+  {
+    tier: "gold",
+    name: "Microsoft",
+    image: sponsors.microsoft,
+    link: "http://microsoft.com/"
+  },
+  {
+    tier: "silver",
+    name: "PayDay",
+    image: sponsors.payday,
+    link: "https://www.usepayday.com/"
+  },
+  {
+    tier: "silver",
+    name: "Penpot",
+    image: sponsors.penpot,
+    link: "https://penpot.app/"
+  },
+  {
+    tier: "silver",
+    name: "University of Vermont",
+    image: sponsors.uvm,
+    link: "https://www.uvm.edu/"
+  },
+  {
+    tier: "silver",
+    name: "Axelar",
+    image: sponsors.axelar,
+    link: "https://axelar.network/"
+  },
+  {
+    tier: "bronze",
+    name: "Polytope Lab",
+    image: sponsors.polytope,
+    link: "https://research.polytope.technology/"
+  },
+  {
+    tier: "silver",
+    name: "Gnome",
+    image: sponsors.gnome,
+    link: "https://www.gnome.org/"
+  },
+  {
+    tier: "bronze",
+    name: "Kora Pay",
+    image: sponsors.kora,
+    link: "https://korahq.com/"
+  },
   // {
   //   tier: "bronze",
-  //   name: "Cloud Native Computing Foundation",
-  //   image: sponsors.cncf,
-  //   link: "https://www.cncf.io/"
+  //   name: "ALT School",
+  //   image: "",
+  //   link: "https://www.altschoolafrica.com/"
   // },
 ];
 
