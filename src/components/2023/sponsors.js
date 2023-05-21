@@ -114,7 +114,7 @@ function SponsorLogo({sponsors}) {
 
 function Sponsors() {
   return (
-    <section id="sponsors" className="bg-[#1E1E1E]">
+    <section id="sponsors" className="bg-[#020212]">
       <div className="container lg:flex-row mx-auto my-40 text-center text-white">
         <div className="flex flex-wrap justify-center">
           <div className="mb-8 lg:mb-12 w-full lg:w-1/2">

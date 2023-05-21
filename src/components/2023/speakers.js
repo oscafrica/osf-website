@@ -5,13 +5,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import "swiper/css/pagination";
 
-import { speakers } from './cloudImages';
+import { homeBackground, speakers } from './cloudImages';
 
 function Speaker() {
+  const bgWrapperStyles = {
+    backgroundImage: `url(${homeBackground.background})`,
+    backgroundSize: "contain"
+  };
   return (
     <section
       id="speakers"
-      className="bg-[#1E1E1E]"
+      className="bg-[#1E1E1E] overflow-hidden"
+      style={bgWrapperStyles}
     >
       <div className="container mx-auto my-20">
 
