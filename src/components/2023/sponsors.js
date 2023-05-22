@@ -116,7 +116,7 @@ function Sponsors() {
       <div className="container lg:flex-row mx-auto px-5 lg:px-0 my-20 lg:my-40 text-center text-white">
         <div className="flex flex-wrap justify-center">
           <div className="mb-8 lg:mb-12 w-full lg:w-1/2">
-            <h1 className="font-humane font-medium text-[10rem] lg:text-[20rem] leading-none uppercase">Sponsors</h1>
+            <h1 className="font-humane font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">Sponsors</h1>
           </div>
         </div>
 

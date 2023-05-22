@@ -43,7 +43,7 @@ function Speaker() {
     >
       <div className="container mx-auto px-5 lg:px-0 my-10 lg:my-20">
 
-        <div className="font-humane font-medium text-[5rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
+        <div className="font-humane font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
           <div className="text-white lg:-mb-16">Meet our</div>
           <div className="text-[#F7931E] leading-none">Speakers.</div>
         </div>
