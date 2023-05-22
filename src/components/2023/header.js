@@ -71,7 +71,7 @@ function Header() {
                     <h3>When and</h3>
                     <h3>Where</h3>
                   </div>
-                  <div className="font-humane font-black text-3xl md:text-5xl lg:text-5xl m-0 tracking-wider">
+                  <div className="font-humane font-black text-4xl md:text-5xl lg:text-5xl m-0 tracking-wider">
                     <h2>JUNE 15TH - 17TH.</h2>
                     <h2>Lagos, Nigeria.</h2>
                   </div>

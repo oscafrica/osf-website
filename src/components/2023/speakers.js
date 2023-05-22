@@ -79,7 +79,7 @@ function Speaker() {
 
         <div className="lg:hidden grid sm:grid-cols-2 gap-4 text-white my-4 justify-center">
           {speakers2023.map((speaker) => (
-            <figure key={speaker.name} className="z-10 relative md:px-0 px-4 w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm">
+            <figure key={speaker.name} className="z-10 relative w-full h-full lg:w-1/3 xl:w-1/4 max-w-sm">
               <img className="w-auto mx-auto relative" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
               <div className="absolute -mt-16 mx-4 h-16 lg:h-20 mt-auto lg:mt-auto text-xs lg:text-lg text-left text-white uppercase">
                 <h3 className="font-classDisplay font-bold">{speaker.name}</h3>
