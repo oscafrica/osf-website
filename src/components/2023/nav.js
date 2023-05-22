@@ -108,7 +108,7 @@ function Nav() {
       >
         {routes.map((link) => (
           <a
-            className="font-humane tracking-wider lg:font-clashDisplay block mt-0 mb-5 text-left no-underline text-6xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase font-bold"
+            className="font-humane tracking-wider lg:font-clashDisplay block mt-0 mb-5 text-left no-underline text-6xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase"
             key={link.title}
             href={link.route}
             onClick={() => toggleExpansion(!isExpanded)}
