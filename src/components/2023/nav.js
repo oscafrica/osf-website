@@ -63,7 +63,7 @@ function Nav() {
           >
             {isExpanded ? (
               <span className="fill-current h-4 w-8" >
-                <svg  width="15" height="55" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg  width="15" height="30" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <title>Close Menu</title>
                   <path
                     d="M11.0494 1.17733L1.65261 10.5744M1.65234 1.17733L11.0494 10.5744"
@@ -76,7 +76,7 @@ function Nav() {
               </span>
             ) : (
               <span className="fill-current h-4 w-8">
-                <svg width="44" height="55" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="44" height="30" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="16" y="16.0547" width="27.9971" height="2" fill="#0B0B20"/>
                   <rect x="16" y="26.0547" width="27.9971" height="2" fill="#0B0B20"/>
                   <rect x="16" y="36.0547" width="27.9971" height="2" fill="#0B0B20"/>
