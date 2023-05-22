@@ -45,9 +45,7 @@ function Nav() {
 
   return (
     <div className="relative">
-      <div className={`${
-          isExpanded ? "relative" : "fixed"
-        } container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 px-4 lg:px-16 xl:px-10 2xl:px-64 w-[90%]`}>
+      <div className="relative lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 xl:px-10 2xl:px-64 w-[90%] lg:shadow-md" /* lg:w-[74%] */>
         <div className="bg-white flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-5 ">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
             <img

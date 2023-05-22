@@ -23,9 +23,9 @@ config.autoAddCss = false;
 function Footer() {
   return (
     <footer className="bg-white">
-      <div className="container mx-auto py-20 mt-16">
-        <div className="flex sm:flex-row flex-col z-15 justify-between text-sm mb-20">
-          <h3 className="font-humane font-medium text-sship2 lg:text-[25rem] lg:mt-[155px] uppercase tracking-wider">Thank You<span className="text-[#F7931E]">.</span></h3>
+      <div className="container mx-auto px-5 md:px-0 lg:px-0 py-10 lg:py-20 mt-20 lg:mt-16">
+        <div className="flex sm:flex-row flex-col z-15 justify-between text-sm mb-10 lg:mb-20 text-center md:text-left">
+          <h3 className="font-humane font-black h-20 lg:h-full text-sship2 md:text-[15rem] lg:text-[25rem] md:mt-24 lg:mt-[155px] uppercase tracking-wide">Thank You<span className="text-[#F7931E]">.</span></h3>
           <div className="lg:basis-1/4">
             <h1 className="font-clashDisplay font-black p-1 text-xl lg:text-3xl uppercase">❤️ from the osca team</h1>
             <div className="z-10 mt-8">
@@ -52,7 +52,7 @@ function Footer() {
                 }
               ].map((link) => (
                 <ul className="m-0 p-0" key={link.title}>
-                  <li className="pb-8 lg:pr-8 lg:pb-2 p2">
+                  <li className="lg:pr-8 pb-2">
                     <a className="font-clashDisplay no-underline text-black text-lg" href={link.route}>
                       {link.title}
                     </a>
