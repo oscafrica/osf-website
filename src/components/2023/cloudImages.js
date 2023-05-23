@@ -7,8 +7,8 @@ const homeBackground = Object.freeze({
 });
 
 const aboutus = Object.freeze({
-  groupshot: "https://res.cloudinary.com/vimoppa/image/upload/v1684618072/assets/aboutus_fcvqzj.jpg",
-})
+  groupshot: "https://res.cloudinary.com/vimoppa/image/upload/v1684618072/assets/aboutus_fcvqzj.jpg"
+});
 
 const gallery = Object.freeze({
   one: "https://res.cloudinary.com/osca/image/upload/v1651856170/osf/2022/Gallery/i0pyrz3eypqom8ub69fi.jpg",
@@ -40,6 +40,6 @@ const sponsors = Object.freeze({
   axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
   kora: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Kora_a2lx9l.svg",
   cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Canonical_ovy85d.svg"
-})
+});
 
 export { homeBackground, aboutus, gallery, speakers, sponsors };

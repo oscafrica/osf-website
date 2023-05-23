@@ -1,15 +1,21 @@
 import React from "react";
 
-import {aboutus} from './cloudImages'
+import { aboutus } from "./cloudImages";
 
 function About() {
   return (
     <section id="about" className="bg-white">
       <div className="container px-5 lg:px-0 mx-auto my-10 lg:my-20">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-5 lg:mb-10">
-          <h3 className="font-humane font-medium text-[7rem] md:text-[10rem] lg:text-[20rem] w-[20%] lg:w-full lg:basis-1/4 leading-[0.8] mb-5 lg:mb-0 lg:ml-10 uppercase text-wrap lg:order-last">About Us</h3>
+          <h3 className="font-humane font-medium text-[7rem] md:text-[10rem] lg:text-[20rem] w-[20%] lg:w-full lg:basis-1/4 leading-[0.8] mb-5 lg:mb-0 lg:ml-10 uppercase text-wrap lg:order-last">
+            About Us
+          </h3>
           <figure className="lg:grow">
-            <img alt="Osca Fest 2022 conference at Tech Zone Park" src={aboutus.groupshot} className="object-fit w-full h-full"/>
+            <img
+              alt="Osca Fest 2022 conference at Tech Zone Park"
+              src={aboutus.groupshot}
+              className="object-fit w-full h-full"
+            />
           </figure>
         </div>
         <div className="xl:w-1/2 2xl:w-1/4">

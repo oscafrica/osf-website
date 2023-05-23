@@ -28,11 +28,12 @@ const routes = [
     route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
     title: "Gallery"
   }
-]
+];
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);
-  const [navbar, setNavbar] = useState(false);
+  /* eslint-disable no-unused-vars */
+  const [_navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
     window.scrollY >= 120 ? setNavbar(true) : setNavbar(false);
@@ -45,7 +46,9 @@ function Nav() {
 
   return (
     <div className="relative">
-      <div className="relative lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 xl:px-10 2xl:px-64 w-[90%] lg:shadow-md" /* lg:w-[74%] */>
+      <div
+        className="relative lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 xl:px-10 2xl:px-64 w-[90%] lg:shadow-md" /* lg:w-[74%] */
+      >
         <div className="bg-white flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-5 ">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
             <img
@@ -57,11 +60,14 @@ function Nav() {
 
           <button
             className="block lg:hidden items-center px-3 py-2 rounded text-black"
-            onClick={() => {window.scrollTo(0,0); toggleExpansion(!isExpanded)}}
+            onClick={() => {
+              window.scrollTo(0, 0);
+              toggleExpansion(!isExpanded);
+            }}
           >
             {isExpanded ? (
-              <span className="fill-current h-4 w-8" >
-                <svg  width="15" height="30" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <span className="fill-current h-4 w-8">
+                <svg width="15" height="30" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <title>Close Menu</title>
                   <path
                     d="M11.0494 1.17733L1.65261 10.5744M1.65234 1.17733L11.0494 10.5744"
@@ -75,9 +81,9 @@ function Nav() {
             ) : (
               <span className="fill-current h-4 w-8">
                 <svg width="44" height="30" viewBox="0 0 44 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="16" y="16.0547" width="27.9971" height="2" fill="#0B0B20"/>
-                  <rect x="16" y="26.0547" width="27.9971" height="2" fill="#0B0B20"/>
-                  <rect x="16" y="36.0547" width="27.9971" height="2" fill="#0B0B20"/>
+                  <rect x="16" y="16.0547" width="27.9971" height="2" fill="#0B0B20" />
+                  <rect x="16" y="26.0547" width="27.9971" height="2" fill="#0B0B20" />
+                  <rect x="16" y="36.0547" width="27.9971" height="2" fill="#0B0B20" />
                 </svg>
               </span>
             )}
@@ -99,7 +105,7 @@ function Nav() {
           </nav>
         </div>
       </div>
-  
+
       <nav
         id="mobile-nav"
         className={`${
