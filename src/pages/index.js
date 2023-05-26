@@ -1,9 +1,16 @@
 import React from "react";
 
-import P2023 from "./2023";
+import Layout from "../components/layout";
+import SEO from "../components/SEO/seo";
+import Home from "../components/2023/home";
 
 function IndexPage() {
-  return <P2023 />;
+  return (
+    <Layout>
+      <SEO title="2023" />
+      <Home />
+    </Layout>
+  );
 }
 
 export default IndexPage;
