@@ -16,7 +16,8 @@ module.exports = {
       ubuntu: ["ubuntu"],
       anisette: ["anisette"],
       workSans: ["work-sans"],
-      clashDisplay: ["clash-display"]
+      clashDisplay: ["clash-display"],
+      humane: ["humane"]
     },
     prefix: "oc-",
     extend: {

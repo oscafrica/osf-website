@@ -40,6 +40,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Humane";
+  font-display: swap;
+  src: url("../fonts/Humane/Humane-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 
