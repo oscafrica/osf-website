@@ -58,13 +58,13 @@ function Header() {
   };
   return (
     <section id="header">
-      <div className="center flex flex-col w-screen object-cover lg:pt-10">
+      <div className="center overflow-hidden flex flex-col w-screen object-cover lg:pt-10">
         <div
-          className="px-5 md:px-10 lg:px-0 flex flex-col z-30 left-0 w-full min-h-screen lg:pt-16 overflow-hidden"
+          className="px-5 md:px-10 lg:px-0 flex flex-col z-30 left-0 w-full min-h-screen lg:pt-16 relative"
           style={bgWrapperStyles}
         >
           <span
-            className="block w-[400px] lg:w-[600px] h-[400px] lg:h-[600px] z-10 absolute blur-[54px] right-[-140px] top-[-181.36px]" /* left-[175.64px] lg:left-[850.81px] top-[-96.95px] lg:top-[-181.36px] */
+            className="lg:block w-[400px] lg:w-[600px] h-[400px] lg:h-[600px] z-5 absolute blur-[54px] right-[-170px] top-[-76.95px] lg:top-[-181.36px]" /* left-[175.64px] lg:left-[850.81px] top-[-96.95px] lg:top-[-181.36px] */
             style={{
               background:
                 "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
