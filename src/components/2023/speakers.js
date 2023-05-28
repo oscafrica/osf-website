@@ -58,7 +58,6 @@ function Speaker() {
               <SwiperSlide key={speaker.name}>
                 <figure key={speaker.name} className="z-10 relative w-full h-full">
                   <img
-                    className="w-auto mx-auto relative"
                     src={speaker.image}
                     alt={`An amazing photograph of ${speaker.name}.`}
                   />

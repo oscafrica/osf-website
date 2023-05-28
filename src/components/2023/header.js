@@ -88,11 +88,11 @@ function Header() {
                 />
                 <div className="flex flex-col mb-14 lg:mb-8 uppercase text-right lg:-mt-48 lg:-mr-20">
                   <div className="font-clashDisplay text-xs md:text-lg lg:text-base tracking-widest m-0 mb-3 text-right">
-                    <h3>When and</h3>
-                    <h3>Where</h3>
+                    <h3>June 15TH -</h3>
+                    <h3>17TH.</h3>
                   </div>
                   <div className="font-humane font-wide text-4xl md:text-5xl lg:text-5xl m-0 tracking-wider">
-                    <h2>JUNE 15TH - 17TH.</h2>
+                    <h2>Landmark Beach,</h2>
                     <h2>Lagos, Nigeria.</h2>
                   </div>
                 </div>

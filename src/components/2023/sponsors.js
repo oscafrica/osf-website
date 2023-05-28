@@ -75,13 +75,13 @@ const sponsorsData = [
     name: "Kora Pay",
     image: sponsors.kora,
     link: "https://korahq.com/"
-  }
-  // {
-  //   tier: "bronze",
-  //   name: "ALT School",
-  //   image: "",
-  //   link: "https://www.altschoolafrica.com/"
-  // },
+  },
+  {
+    tier: "bronze",
+    name: "ALT School",
+    image: sponsors.alt,
+    link: "https://www.altschoolafrica.com/"
+  },
 ];
 
 const headline = sponsorsData.filter((data) => data.tier.includes("headline"));
