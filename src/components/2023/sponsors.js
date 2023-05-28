@@ -92,14 +92,15 @@ const bronze = sponsorsData.filter((data) => data.tier.includes("bronze"));
 
 function SponsorLogo({ sponsors }) {
   return (
-    <div className="mt-4 mb-8 lg:mt-2 grid grid-cols-2 lg:flex lg:flex-wrap gap-6 lg:gap-10 justify-center">
+    <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap gap-6 lg:gap-10 justify-center">
       {sponsors.map((sponsor) => (
         <a
           href={sponsor.link}
           target="_blank"
           rel="noopener noreferrer"
           key={sponsor.name}
-          className="relative lg:w-1/4 max-w-sm p-3 border border-white/10"
+          className="relative basis-[46%] justify-self-center lg:w-1/4 max-w-sm p-3 border border-white/10"
+          /* h-[177.5px] w-[186px] */
         >
           <figure className="w-full">
             <img className="w-40 h-40 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
