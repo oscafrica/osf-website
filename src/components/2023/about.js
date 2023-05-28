@@ -18,8 +18,8 @@ function About() {
             />
           </figure>
         </div>
-        <div className="xl:w-1/2 2xl:w-1/4">
-          <blockquote className="font-clashDisplay text-black text-justify tracking-tight text-sm md:text-lg lg:text-xl">
+        <div className="lg:w-[800px]">
+          <blockquote className="font-clashDisplay text-black text-left tracking-tight text-sm md:text-lg lg:text-xl">
             Open Source Community Africa is a community aimed at creating and supporting the open source movement within
             Africa. As a community, we intend to help integrate the act of open source contribution to African
             developers whilst strongly advocating the movement of free and open source software. <br />

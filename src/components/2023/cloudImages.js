@@ -39,7 +39,8 @@ const sponsors = Object.freeze({
   cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1684626495/sponsors/Cloud_Native_xz860f.svg",
   axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
   kora: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Kora_a2lx9l.svg",
-  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Canonical_ovy85d.svg"
+  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685249868/sponsors/_Canonical_Ubuntu_2_qj1ual.svg",
+  alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg"
 });
 
 export { homeBackground, aboutus, gallery, speakers, sponsors };
