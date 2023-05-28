@@ -81,7 +81,7 @@ const sponsorsData = [
     name: "ALT School",
     image: sponsors.alt,
     link: "https://www.altschoolafrica.com/"
-  },
+  }
 ];
 
 const headline = sponsorsData.filter((data) => data.tier.includes("headline"));
