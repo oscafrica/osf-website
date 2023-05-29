@@ -55,7 +55,7 @@ function Speaker() {
           >
             {speakers2023.map((speaker) => (
               <SwiperSlide key={speaker.name}>
-                <figure key={speaker.name} className="z-10 relative w-full h-full speakers-headshot">
+                <figure key={speaker.name} className="z-10 relative w-full h-full">
                   <img src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
                   <div className="z-40 2xl:w-[80%] absolute -mt-28 mx-4 h-16 lg:h-20 text-xs lg:text-lg text-left text-white uppercase">
                     <h3 className="font-classDisplay font-bold">{speaker.name}</h3>
