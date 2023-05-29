@@ -139,7 +139,7 @@ body {
 .speakers-carousel-2023 > .swiper-scrollbar {
   left: 0px !important;
   bottom: 10px !important;
-  background-color: #232336;
+  background-color: #232336 !important;
   max-width: 1200px !important;
 }
 
@@ -150,5 +150,5 @@ body {
 }
 
 .speakers-carousel-2023 > .swiper-scrollbar > .swiper-scrollbar-drag {
-  background: #ffffff;
+  background: #ffffff !important;
 }
