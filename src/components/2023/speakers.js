@@ -1,9 +1,9 @@
 import React from "react";
-import { Pagination } from "swiper";
+import { Autoplay, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 import { homeBackground, speakers } from "./cloudImages";
 
@@ -45,20 +45,19 @@ function Speaker() {
 
         <div className="hidden lg:block">
           <Swiper
-            modules={[Pagination]}
+            modules={[Autoplay, Scrollbar]}
             navigation
             slidesPerView={3.2}
             spaceBetween={30}
-            // freeMode={true}
-            // centeredSlides={true}
-            pagination={{ clickable: true }}
-            className="carousel"
+            scrollbar={{ draggable: true, dragSize: 379.38 }}
+            className="speakers-carousel-2023 min-h-[34rem] w-full"
+            autoplay={{ delay: 10_000 }}
           >
             {speakers2023.map((speaker) => (
               <SwiperSlide key={speaker.name}>
                 <figure key={speaker.name} className="z-10 relative w-full h-full">
                   <img src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-                  <div className="z-40 lg:w-[80%] absolute -mt-28 mx-4 h-16 lg:h-20 text-xs lg:text-lg text-left text-white uppercase">
+                  <div className="z-40 2xl:w-[80%] absolute -mt-28 mx-4 h-16 lg:h-20 text-xs lg:text-lg text-left text-white uppercase">
                     <h3 className="font-classDisplay font-bold">{speaker.name}</h3>
                     <p className="font-classDisplay font-light">{speaker.title}</p>
                   </div>
