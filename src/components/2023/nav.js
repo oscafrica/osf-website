@@ -16,10 +16,10 @@ const routes = [
   //   route: "/2023/schedule",
   //   title: "Schedule"
   // },
-  // {
-  //   route: "/2023/sustain-africa",
-  //   title: "Sustain Africa"
-  // },
+  {
+    route: "/2023/sustain-africa",
+    title: "Sustain Africa"
+  },
   // {
   //   route: "/2023/travel",
   //   title: "Travel"
