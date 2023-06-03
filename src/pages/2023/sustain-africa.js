@@ -7,11 +7,13 @@ import Layout from "../../components/layout";
 import { homeBackground } from "../../components/2023/cloudImages";
 import Footer from "../../components/2023/footer";
 
-const SectionLayout = ({ children }) => <div className="mb-[56px] max-w-[795px] m-auto">{children}</div>;
+const SectionLayout = ({ children }) => (
+  <div className="mb-[56px] px-[24px] lg:px-1  max-w-[795px] m-auto">{children}</div>
+);
 const bgWrapperStyles = {
   backgroundImage: `url(${homeBackground.background})`,
   backgroundSize: "contain",
-  height: "648px"
+  objectPosition: "bottom"
 };
 
 function SustainAfrica() {
@@ -21,17 +23,17 @@ function SustainAfrica() {
       <Nav />
       <section
         id="sustain"
-        className="bg-[#1E1E1E] overflow-hidden mb-[114px] flex items-center justify-center"
+        className="bg-[#1E1E1E] h-[384px] lg:h-[648px] overflow-hidden mb-[80px] lg:pt-[114px] flex items-center justify-center"
         style={bgWrapperStyles}
       >
         <div className="font-humane mt-24 font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
-          <h1 className="text-white text-[400px] font-[500] text-center lg:-mb-16">SUSTAIN AFRICA</h1>
+          <h1 className="text-white text-[128px] lg:text-[400px] font-[500] text-center lg:-mb-16">SUSTAIN AFRICA</h1>
         </div>
       </section>
 
       <SectionLayout>
-        <h3 className="text-white uppercase font-clashDisplay font-bold text-3xl lg:text-3xl"> introduction </h3>
-        <p className="text-[#D1D1E3;] text-lg pt-[40px] leading-8 text-base">
+        <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> introduction </h3>
+        <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px]  leading-8 text-base">
           Sustain Africa is a one-day conversation for Open Source Software Sustainers. We would be talking about
           Sustainability - the sustainability of resources and the sustainability of its people. The conversation around
           the comprehensive overview of how FOSS is developed, maintained, utilized, and providing a roadmap for solving
@@ -43,12 +45,12 @@ function SustainAfrica() {
         </p>
       </SectionLayout>
 
-      <div className="w-full mb-[56px] h-[600px] max-w-[1200px] m-auto">
+      <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
         <iframe
           title="Sustain Africa 2021"
           className="w-full"
           width="100%"
-          height="600px"
+          height="100%"
           src="https://www.youtube.com/embed/voFbXUQC_8M"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -57,8 +59,8 @@ function SustainAfrica() {
       </div>
 
       <SectionLayout>
-        <h3 className="text-white uppercase font-clashDisplay font-bold text-3xl lg:text-3xl"> Goals </h3>
-        <p className="text-[#D1D1E3;] text-lg pt-[40px] leading-8 text-base">
+        <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Goals </h3>
+        <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
           {" "}
           Our overall goals at Sustain Africa are to:{" "}
         </p>
@@ -96,12 +98,12 @@ function SustainAfrica() {
       </SectionLayout>
 
       <SectionLayout>
-        <h3 className="text-white uppercase font-clashDisplay font-bold text-3xl lg:text-3xl"> Guidelines </h3>
-        <p className="text-[#D1D1E3;] text-lg pt-[40px] leading-8 text-base">
+        <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Guidelines </h3>
+        <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px]  leading-8 text-base">
           The following are some general guidelines regarding how we will run the event:
         </p>
 
-        <ol className="mt-[30px] list-decimal mx-4 text-[#D1D1E3;]">
+        <ol className="mt-[20px] lg:mt-[30px] list-decimal mx-4 text-[#D1D1E3;]">
           <li className=" text-base">
             <p className="text-lg pt-[5px] leading-8 ">
               <b className="text-white">Full participation in the program is requested: </b>
@@ -130,7 +132,7 @@ function SustainAfrica() {
           </li>
         </ol>
 
-        <p className="text-[#D1D1E3;] text-lg pt-[40px] leading-8 text-base">
+        <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
           Sessions are designed to be highly interactive. This won’t be a space where you will see any panels and
           keynote speakers. Breakout sessions will be designed to spur discussion and production. Facilitators will have
           as their primary goals enabling learning, addressing questions, and supporting peer sharing and peer
@@ -139,8 +141,8 @@ function SustainAfrica() {
       </SectionLayout>
 
       <SectionLayout>
-        <h3 className="text-white uppercase font-clashDisplay font-bold text-3xl lg:text-3xl"> Agenda </h3>
-        <p className="text-[#D1D1E3;] text-lg pt-[40px] leading-8 text-base">
+        <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Agenda </h3>
+        <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
           The event starts at 03:30 PM on <b className="text-white"> 16th June, 2023 </b>, so please arrive at 03:00 PM
           to check in. The event will last for 3 hours and will be structured as collaborative working sessions, along
           with optional activities. Sessions will be dialog and outcome-oriented rather than presentations or lecture
