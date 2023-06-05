@@ -1,44 +1,71 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { sponsors } from "../2023/cloudImages";
+import { sponsors, sponsorsColored } from "../2023/cloudImages";
 
 const sponsorsData = [
   {
     tier: "diamond",
     name: "Google",
     image: sponsors.google,
-    link: "https://opensource.google"
+    imageColored: sponsorsColored.google,
+    link: "https://opensource.google/"
   },
   {
     tier: "bronze",
     name: "Cloud Native Computing Foundation",
     image: sponsors.cncf,
+    imageColored: sponsorsColored.cncf,
     link: "https://www.cncf.io/"
+  },
+  {
+    tier: "silver",
+    name: "Paystack",
+    image: sponsors.paystack,
+    imageColored: sponsorsColored.paystack,
+    link: "https://paystack.com/"
   },
   {
     tier: "silver",
     name: "Cannonical",
     image: sponsors.cannonical,
+    imageColored: sponsorsColored.cannonical,
     link: "https://canonical.com/"
   },
   {
     tier: "silver",
     name: "Orbit.love",
     image: sponsors.orbit,
+    imageColored: sponsorsColored.orbit,
     link: "https://orbit.love/"
   },
   {
     tier: "gold",
     name: "Microsoft",
     image: sponsors.microsoft,
+    imageColored: sponsorsColored.microsoft,
     link: "http://microsoft.com/"
+  },
+  {
+    tier: "bronze",
+    name: "Block",
+    image: sponsors.block,
+    imageColored: "#", // remove grayscale
+    link: "https://block.xyz/"
   },
   {
     tier: "silver",
     name: "PayDay",
     image: sponsors.payday,
     link: "https://www.usepayday.com/"
+  },
+  // TODO: add sponsor Joseph.
+  {
+    tier: "gold",
+    name: "Open Source Collective",
+    image: sponsors.osc,
+    imageColored: sponsorsColored.osc,
+    link: "https://oscollective.org/"
   },
   {
     tier: "silver",
@@ -50,6 +77,7 @@ const sponsorsData = [
     tier: "silver",
     name: "University of Vermont",
     image: sponsors.uvm,
+    imageColored: sponsorsColored.uvm,
     link: "https://www.uvm.edu/"
   },
   {
@@ -68,12 +96,14 @@ const sponsorsData = [
     tier: "silver",
     name: "Gnome",
     image: sponsors.gnome,
+    imageColored: sponsorsColored.gnome,
     link: "https://www.gnome.org/"
   },
   {
     tier: "bronze",
     name: "Kora Pay",
     image: sponsors.kora,
+    imageColored: sponsorsColored.kora,
     link: "https://korahq.com/"
   },
   {
@@ -82,6 +112,13 @@ const sponsorsData = [
     image: sponsors.alt,
     link: "https://www.altschoolafrica.com/"
   }
+  // {
+  //   tier: "bronze",
+  //   name: "Eden",
+  //   image: sponsors.eden,
+  //   imageColored: sponsorsColored.eden,
+  //   link: "https://ouredenlife.com/"
+  // }
 ];
 
 const headline = sponsorsData.filter((data) => data.tier.includes("headline"));
@@ -99,12 +136,17 @@ function SponsorLogo({ sponsors }) {
           target="_blank"
           rel="noopener noreferrer"
           key={sponsor.name}
-          className="relative basis-[46%] justify-self-center lg:w-1/4 max-w-sm p-3 border border-white/10"
+          className="group relative basis-[46%] justify-self-center lg:w-1/4 max-w-sm p-3 border border-white/10"
           /* h-[177.5px] w-[186px] */
         >
-          <figure className="w-full">
-            <img className="w-40 h-40 mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+          <figure key={sponsor.name} className={`${sponsor?.imageColored ? "w-full group-hover:hidden" : "w-full"}`}>
+            <img key={sponsor.name} className={`${(sponsor.name === "Block" ? "w-40 h-40 mx-auto grayscale" : "w-40 h-40 mx-auto")}`} src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
           </figure>
+          {sponsor?.imageColored && 
+            <figure key={`${sponsor.name}-colored`} className="w-full hidden group-hover:block">
+              <img key={`${sponsor.name}-colored`} className={`${(sponsor.name === "Cloud Native Computing Foundation" ? "w-[10.28rem] h-40 mx-auto" : "w-40 h-40 mx-auto")}`} src={`${sponsor.name === 'Block' ? sponsor.image : sponsor.imageColored}`} alt={`${sponsor.name}'s Colored Logo.`} />
+            </figure>
+          }
         </a>
       ))}
     </div>
