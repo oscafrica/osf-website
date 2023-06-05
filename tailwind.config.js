@@ -20,6 +20,7 @@ module.exports = {
       anisette: ["anisette"],
       workSans: ["work-sans"],
       clashDisplay: ["clash-display"],
+      clashDisplayVariable: ["clash-display-variable"],
       humane: ["humane"]
     },
     prefix: "oc-",

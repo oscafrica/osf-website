@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/SEO/seo";
 import Nav from "../../components/2023/nav";
@@ -6,8 +6,8 @@ import Footer from "../../components/2023/footer";
 import Hotel from "../../images/hotel.png";
 
 const sectionStyle =
-  "[&>*]:container [&>*]:mx-auto [&>*]:px-5 pt-10 z-20 bg-primary-dark-blue leading-7 [&>*]:md:w-4/5";
-const secHeadingStyle = "font-clashDisplay font-semibold text-2xl uppercase";
+  "[&>*]:container [&>*]:mx-auto [&>*]:w-3/4 pt-10 z-20 bg-primary-dark-blue leading-7 [&>*]:md:w-4/5";
+const secHeadingStyle = "font-clashDisplayVariable font-semibold text-2xl uppercase";
 const secBodyStyle = "py-2.5";
 const accommodations = [
   {
@@ -47,18 +47,27 @@ const accommodations = [
   }
 ];
 
-const readMore = () => {};
-
 const Travel = () => {
+  const [clickMore, setClickMore] = useState({ state: false, text: "View More", listNum: 3 });
+
+  const readMore = () => {
+    if (clickMore.state === false) {
+      setClickMore({ state: !clickMore.state, text: "View Less", listNum: -1 });
+    } else {
+      setClickMore({ state: !clickMore.state, text: "View More", listNum: 3 });
+    }
+  };
+
   return (
     <Layout>
       <SEO title="2023" />
-      <Nav />
+
       <main className="text-white">
-        <header className="relative h-[55vh] flex items-center justify-center overflow-hidden md:h-[60vh] lg:mt-40">
-          <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-50%] bottom-[-110%] md:left-[-5%] md:bottom-[-110%]"></div>
+        <header className="relative h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
+          <Nav />
+          <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-60%] bottom-[-110%] md:left-[-1%] md:bottom-[-95%]"></div>
           <div
-            className="z-[-99] w-96 h-96 absolute left-[60%] top-[-50%] rounded-[50%] overflow-hidden blur-[56px]"
+            className="z-[-99] w-96 h-96 absolute left-[50%] top-[-20%] rounded-[50%] overflow-hidden blur-[56px] md:left-[65%] md:top-[-13%]"
             style={{
               background:
                 "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
@@ -74,6 +83,18 @@ const Travel = () => {
             beaches, ultra-modern city centers, houses built with opulent luxury, great architecture, scenic attraction
             sites, universities, museums, national parks, zoos, hotels, resorts and many other amenities visitors see.
           </p>
+          <div className="w-full px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
+            <iframe
+              title="Sustain Africa 2021"
+              className="w-full"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/voFbXUQC_8M"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </section>
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>COVID GUIDELINES</h2>
@@ -81,7 +102,7 @@ const Travel = () => {
             We intend to strictly observe all COVID-19 guidelines throughout the duration of the festival. Please
             endeavour to observe the following guidelines:
           </p>
-          <ol className="[&>*]:ml-7 list-decimal list-inside">
+          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside">
             <li>All attendees are to wear a nose mask during the festival.</li>
             <li>Social distancing will be maintained in all the halls used for the festival.</li>
           </ol>
@@ -91,7 +112,7 @@ const Travel = () => {
             this, you will be issued with a “permit to travel” via the portal.The following protocols are in place for
             travellers to Nigeria:
           </p>
-          <ol className="[&>*]:ml-7 list-decimal list-inside px-5">
+          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside px-5">
             <li>
               All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more than
               48 hours before departure. For passengers with multiple connections before arrival in Nigeria, the PCR
@@ -132,16 +153,13 @@ const Travel = () => {
           </p>
         </section>
         <section className={sectionStyle}>
-          <h2 className={secHeadingStyle}>
-            {" "}
-            ADVICE FOR <br /> INTERNATIONAL VISITORS{" "}
-          </h2>
+          <h2 className={secHeadingStyle}> ADVICE FOR INTERNATIONAL VISITORS </h2>
           <p className={secBodyStyle}>
             We are super excited about your visit and we can’t wait to welcome you to the OSCA FESTIVAL. Please read
             this information carefully, and check every item. Some of it is crucial and it will help you have a better
             travel process.
           </p>
-          <ol className="[&>*]:ml-7 list-decimal list-inside px-5">
+          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside px-5">
             <li>
               <span className="font-bold">Visa:</span> You may need a visa to enter Nigeria. You must check this,
               otherwise, you will likely be denied entry, or probably not even be allowed to board your plane. If you
@@ -163,7 +181,7 @@ const Travel = () => {
             <li>
               <span className="font-bold"> Arrival times: </span> We hope to co-ordinate transport on arrival at the
               airport for some groups. We might not be able to do this for everyone, but please let us know:
-              <ul className="[&>*]:ml-7 list-disc list-inside px-5">
+              <ul className="[&>*]:ml-2 [&>*]:mt-3 list-disc list-inside px-5">
                 <li>The date and time of your arrival in Nigeria</li>
                 <li>The date and time of your departure from Nigeria</li>
                 <li>Your airline and flight numbers</li>
@@ -171,7 +189,7 @@ const Travel = () => {
               </ul>
               We will help if we can, please provide this information in good time. Movies Recommendation: You can watch
               any of the following Nigerian movies on Netflix if you can to get a feel of the vibe of urban Nigeria.
-              <ul className="[&>*]:ml-7 list-disc list-inside px-5">
+              <ul className="[&>*]:ml-2 [&>*]:mt-3 list-disc list-inside px-5">
                 <li>The Wedding Party</li>
                 <li>Up North</li>
                 <li>Fifty</li>
@@ -190,11 +208,11 @@ const Travel = () => {
         </section>
         <section className={sectionStyle + " mb-16"}>
           <div className="flex flex-col flex-wrap gap-6 justify-center items-center md:flex-row">
-            {accommodations.map(({ img, key, name, price, directions }) => (
+            {accommodations.slice(0, clickMore.listNum).map(({ img, key, name, price, directions }) => (
               <div key={key} className="relative mb-8">
                 <img src={img} alt="hotel-img" />
-                <div className="absolute bottom-24 left-7 font-bold font-clashDisplay"> {name} </div>
-                <div className="font-bold font-clashDisplay mt-2">
+                <div className="absolute bottom-[25%] left-[8%] font-semibold font-clashDisplayVariable"> {name} </div>
+                <div className="font-semibold font-clashDisplayVariable mt-2">
                   {" "}
                   {price
                     .toFixed(2)
@@ -211,7 +229,7 @@ const Travel = () => {
               className="bg-orange-400 text-brown text-center uppercase w-40 p-3 text-l mb-1 shadow-md flex flex-row text-center"
               onClick={readMore}
             >
-              <span className="grow uppercase">View More</span>
+              <span className="grow uppercase">{clickMore.text}</span>
               <span className="flex items-center">
                 &nbsp; | &nbsp;
                 <span className="group-hover:hidden">
