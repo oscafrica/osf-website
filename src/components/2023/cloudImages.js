@@ -35,7 +35,6 @@ const sponsors = Object.freeze({
   polytope: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/Polytope_gdl07n.svg",
   uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/UVM_uuxynf.svg",
   penpot: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/Penpot_k7j6qz.svg",
-  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/OSC_ecjjxl.svg",
   orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Orbit_m2thek.svg",
   gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/GNOME_laeu6f.svg",
   microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Microsoft_au9lnh.svg",

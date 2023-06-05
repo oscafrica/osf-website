@@ -140,13 +140,27 @@ function SponsorLogo({ sponsors }) {
           /* h-[177.5px] w-[186px] */
         >
           <figure key={sponsor.name} className={`${sponsor?.imageColored ? "w-full group-hover:hidden" : "w-full"}`}>
-            <img key={sponsor.name} className={`${(sponsor.name === "Block" ? "w-40 h-40 mx-auto grayscale" : "w-40 h-40 mx-auto")}`} src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
+            <img
+              key={sponsor.name}
+              className={`${sponsor.name === "Block" ? "w-40 h-40 mx-auto grayscale" : "w-40 h-40 mx-auto"}`}
+              src={sponsor.image}
+              alt={`${sponsor.name}'s Logo.`}
+            />
           </figure>
-          {sponsor?.imageColored && 
+          {sponsor?.imageColored && (
             <figure key={`${sponsor.name}-colored`} className="w-full hidden group-hover:block">
-              <img key={`${sponsor.name}-colored`} className={`${(sponsor.name === "Cloud Native Computing Foundation" ? "w-[10.28rem] h-40 mx-auto" : "w-40 h-40 mx-auto")}`} src={`${sponsor.name === 'Block' ? sponsor.image : sponsor.imageColored}`} alt={`${sponsor.name}'s Colored Logo.`} />
+              <img
+                key={`${sponsor.name}-colored`}
+                className={`${
+                  sponsor.name === "Cloud Native Computing Foundation"
+                    ? "w-[10.28rem] h-40 mx-auto"
+                    : "w-40 h-40 mx-auto"
+                }`}
+                src={`${sponsor.name === "Block" ? sponsor.image : sponsor.imageColored}`}
+                alt={`${sponsor.name}'s Colored Logo.`}
+              />
             </figure>
-          }
+          )}
         </a>
       ))}
     </div>
