@@ -8,8 +8,19 @@ import { homeBackground } from "../../components/2023/cloudImages";
 import Footer from "../../components/2023/footer";
 
 const SectionLayout = ({ children }) => (
-  <div className="mb-[56px] px-[24px] lg:px-1  max-w-[795px] m-auto">{children}</div>
+  <div className="mb-[56px] px-[24px] lg:px-0  max-w-[795px] m-auto">{children}</div>
 );
+
+const GradientSectionHeader = ({ children }) => (
+  <div className="px-6 lg:px-0 mb-[37px] bg-gradient-to-r from-[#A66212] via-[#935136] to-[#600A6F]">
+    <div className="max-w-[795px] m-auto pt-8 lg:pt-0 flex flex-col items-center lg:flex-row h-[120px] lg:h-[104px]">{children}</div>
+  </div>
+);
+
+const AgendaSection = ({ children }) => (
+  <div className="max-w-[795px] mb-[21px] px-6 lg:px-0 flex flex-col lg:flex-row m-auto">{children}</div>
+);
+
 const bgWrapperStyles = {
   backgroundImage: `url(${homeBackground.background})`,
   backgroundSize: "contain",
@@ -155,6 +166,101 @@ function SustainAfrica() {
         </p>
       </SectionLayout>
 
+      <div className="text-white text-base mt-12 mb-16 lg:mb-[140px]">
+        <div className="hidden lg:inline">
+          <AgendaSection>
+            <p className="w-full lg:w-[250px] uppercase font-clashDisplay">Time (WAT)</p>
+            <p className="uppercase font-clashDisplay">Agenda</p>
+          </AgendaSection>
+        </div>
+
+        <GradientSectionHeader>
+          <p className="min-w-full lg:min-w-[250px]">03:00 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Arrivals and registration</p>
+        </GradientSectionHeader>
+
+        <AgendaSection>
+          <div className="min-w-[250px]">03:30 PM - 03:50 PM</div>
+          <div>
+            <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Opening Plenary</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              The event will be called to order with a friendly and fast-paced kickoff that includes words of welcome
+              from meeting organizers, brief participant introductions, overviews of the agenda, participation
+              guidelines, and meeting logistics.
+            </p>
+          </div>
+        </AgendaSection>
+
+        <div className="w-full border my-[37px]" />
+
+        <AgendaSection>
+          <div className="min-w-[250px]">03:50 PM - 04:50 PM</div>
+          <div>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lenses on Sustainability - Interactive Case Studies</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              The program will start with a set of discussions designed to explore the latest practices and learnings
+              around sustainability in OSS contexts.
+            </p>
+            <p className="my-2 text-[#D1D1E3;]">Topics anticipated to be covered include:</p>
+            <ul className="list-disc m-2 text-[#D1D1E3;]">
+              <li className="mx-4">Open Source Documentation</li>
+              <li className="mx-4">Open Source Design</li>
+              <li className="mx-4">Open Source Data Science</li>
+              <li className="mx-4">Open Source Marketing and Funding</li>
+              <li className="mx-4">OSS Programs and Specialized Projects</li>
+              <li className="mx-4">Burnout and Mental Health</li>
+            </ul>
+          </div>
+        </AgendaSection>
+
+        <GradientSectionHeader>
+          <p className="min-w-full lg:min-w-[250px]">04:50 PM - 05:20 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Chill and grab a food/drink!</p>
+        </GradientSectionHeader>
+
+        <AgendaSection>
+          <div className="min-w-[250px]">05:20 PM - 05:45 PM</div>
+          <div>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Strategy Sessions Share-Out</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              Outputs and results from the interactive case studies will be set up around the main meeting room, and
+              participants will be invited to “browse the gallery”, reviewing work from all sessions, providing
+              feedback, and indicating interest in any ongoing efforts.
+            </p>
+          </div>
+        </AgendaSection>
+
+        <div className="w-full border my-[37px]" />
+
+        <AgendaSection>
+          <div className="min-w-[250px]">05:30 PM - 05:45 PM</div>
+          <div>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              The group will pause before the closing plenary to take stock of the progress made to this point in the
+              meeting and to inventory action items, next steps, and other bridges to post-event collaboration.
+            </p>
+          </div>
+        </AgendaSection>
+
+        <div className="w-full border my-[37px]" />
+
+        <AgendaSection>
+          <td className="min-w-[250px]">05:45 PM - 05:50 PM</td>
+          <td>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Closing Session</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              Participants will summarize key outcomes from the event, share appreciations and bring the meeting to a
+              close.
+            </p>
+          </td>
+        </AgendaSection>
+
+        <GradientSectionHeader>
+          <p className="min-w-full lg:min-w-[250px]">05:50 PM - 06:00 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Photographs and Networking</p>
+        </GradientSectionHeader>
+      </div>
       <Footer />
     </Layout>
   );
