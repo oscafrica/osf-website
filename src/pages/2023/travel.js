@@ -5,8 +5,8 @@ import Nav from "../../components/2023/nav";
 import Footer from "../../components/2023/footer";
 import Hotel from "../../images/hotel.png";
 
-const sectionStyle =
-  "[&>*]:container [&>*]:mx-auto [&>*]:w-3/4 pt-10 z-20 bg-primary-dark-blue leading-7 [&>*]:md:w-4/5";
+const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
+// const sectionStyle = "[&>*]:container [&>*]:mx-auto [&>*]:w-3/4 [&>*]:md:w-4/5";
 const secHeadingStyle = "font-clashDisplayVariable font-semibold text-2xl uppercase";
 const secBodyStyle = "py-2.5";
 const accommodations = [
@@ -48,33 +48,32 @@ const accommodations = [
 ];
 
 const Travel = () => {
-  const [clickMore, setClickMore] = useState({ state: false, text: "View More", listNum: 3 });
+  const [clickMore, setClickMore] = useState({ state: false, text: "View More", listNum: 4 });
 
   const readMore = () => {
     if (clickMore.state === false) {
       setClickMore({ state: !clickMore.state, text: "View Less", listNum: -1 });
     } else {
-      setClickMore({ state: !clickMore.state, text: "View More", listNum: 3 });
+      setClickMore({ state: !clickMore.state, text: "View More", listNum: 4 });
     }
   };
 
   return (
     <Layout>
       <SEO title="2023" />
-
-      <main className="text-white">
-        <header className="relative h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
-          <Nav />
-          <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-60%] bottom-[-110%] md:left-[-1%] md:bottom-[-95%]"></div>
-          <div
-            className="z-[-99] w-96 h-96 absolute left-[50%] top-[-20%] rounded-[50%] overflow-hidden blur-[56px] md:left-[65%] md:top-[-13%]"
-            style={{
-              background:
-                "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
-            }}
-          ></div>
-          <h1 className="font-humane text-9xl leading-10 text-center uppercase md:text-[15rem]">Travel Guide</h1>
-        </header>
+      <header className="relative text-white h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
+        <Nav />
+        <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-60%] bottom-[-110%] md:left-[-1%] md:bottom-[-95%]"></div>
+        <div
+          className="z-[-99] w-96 h-96 absolute left-[50%] top-[-20%] rounded-[50%] overflow-hidden blur-[56px] md:left-[65%] md:top-[-13%]"
+          style={{
+            background:
+              "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
+          }}
+        ></div>
+        <h1 className="font-humane text-9xl leading-10 text-center uppercase md:text-[15rem]">Travel Guide</h1>
+      </header>
+      <main className="text-white container mx-auto w-4/5 md:w-11/12">
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>NIGERIA BASICS</h2>
           <p className={secBodyStyle}>
@@ -206,10 +205,10 @@ const Travel = () => {
             prices may change.
           </p>
         </section>
-        <section className={sectionStyle + " mb-16"}>
-          <div className="flex flex-col flex-wrap gap-6 justify-center items-center md:flex-row">
+        <section className="mb-16">
+          <div className="py-5 flex flex-col flex-wrap gap-6 justify-center items-center md:flex-row">
             {accommodations.slice(0, clickMore.listNum).map(({ img, key, name, price, directions }) => (
-              <div key={key} className="relative mb-8">
+              <div key={key} className="relative mb-8 md:w-72">
                 <img src={img} alt="hotel-img" />
                 <div className="absolute bottom-[25%] left-[8%] font-semibold font-clashDisplayVariable"> {name} </div>
                 <div className="font-semibold font-clashDisplayVariable mt-2">
