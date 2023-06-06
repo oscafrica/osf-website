@@ -13,7 +13,9 @@ const SectionLayout = ({ children }) => (
 
 const GradientSectionHeader = ({ children }) => (
   <div className="px-6 lg:px-0 mb-[37px] bg-gradient-to-r from-[#A66212] via-[#935136] to-[#600A6F]">
-    <div className="max-w-[795px] m-auto pt-8 lg:pt-0 flex flex-col items-center lg:flex-row h-[120px] lg:h-[104px]">{children}</div>
+    <div className="max-w-[795px] m-auto pt-8 lg:pt-0 flex flex-col items-center lg:flex-row h-[120px] lg:h-[104px]">
+      {children}
+    </div>
   </div>
 );
 
