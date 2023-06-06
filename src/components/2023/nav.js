@@ -17,12 +17,12 @@ const routes = [
   //   title: "Schedule"
   // },
   {
-    route: "/2023/travel",
-    title: "Travel"
-  },
-  {
     route: "/2023/sustain-africa",
     title: "Sustain Africa"
+  },
+  {
+    route: "/2023/travel",
+    title: "Travel"
   },
   {
     route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
