@@ -4,6 +4,7 @@ import SEO from "../../components/SEO/seo";
 import Nav from "../../components/2023/nav";
 import Footer from "../../components/2023/footer";
 import Hotel from "../../images/hotel.png";
+import Breadcrumb from "../../components/2023/breadcrumb";
 
 const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
 // const sectionStyle = "[&>*]:container [&>*]:mx-auto [&>*]:w-3/4 [&>*]:md:w-4/5";
@@ -61,7 +62,9 @@ const Travel = () => {
   return (
     <Layout>
       <SEO title="2023" />
-      <header className="relative text-white h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
+      <Nav />
+      <Breadcrumb name="Travel Guide" />
+      {/* <header className="relative text-white h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
         <Nav />
         <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-60%] bottom-[-110%] md:left-[-1%] md:bottom-[-95%]"></div>
         <div
@@ -72,7 +75,7 @@ const Travel = () => {
           }}
         ></div>
         <h1 className="font-humane text-9xl leading-10 text-center uppercase md:text-[15rem]">Travel Guide</h1>
-      </header>
+      </header> */}
       <main className="text-white container mx-auto w-4/5 md:w-11/12">
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>NIGERIA BASICS</h2>
