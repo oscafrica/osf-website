@@ -34,4 +34,8 @@ SchedEmbed.propTypes = {
   slug: PropTypes.string.isRequired
 };
 
+SchedEmbed.defaultProps = {
+  type: null
+};
+
 export default SchedEmbed;
