@@ -9,6 +9,9 @@ module.exports = {
     "./src/**/*.tsx"
   ],
   theme: {
+    backgroundImage: {
+      "gradient-radial": "radial-gradient(var(--tw-gradient-stops))"
+    },
     fontFamily: {
       display: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans", "clash-display"],
       body: ["source sans", "avenir", "gotham", "ubuntu", "anisette-std", "work-sans", "clash-display"],
@@ -17,6 +20,7 @@ module.exports = {
       anisette: ["anisette"],
       workSans: ["work-sans"],
       clashDisplay: ["clash-display"],
+      clashDisplayVariable: ["clash-display-variable"],
       humane: ["humane"]
     },
     prefix: "oc-",
@@ -55,11 +59,20 @@ module.exports = {
           100: "#FCFDED",
           200: "#D7D9B4"
         },
+        primary: {
+          "dark-blue": "#020212"
+        },
         "dark-green": "#B2B396",
         "trans-gray": "rgba(10, 34, 55, 0.5)",
         "circle-gray": "#E7ECF8",
         brown: "#440101",
-        "white-smoke": "#F4F4F4"
+        "white-smoke": "#F4F4F4",
+        "dark-purple": "#ff001a",
+        "light-d": ":#f5b9ff",
+        "light-blue": "#79FFBF",
+        trans: "#bbfbff",
+        "light-purple": "#ff02e6",
+        "light-trans": "#d400ff"
       },
       fontSize: {
         h1: "2.25rem",

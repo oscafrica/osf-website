@@ -34,7 +34,7 @@ function Gallery() {
         ].map((gallery) => (
           <a
             href={gallery.href}
-            key={gallery.tag}
+            key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
             className="overflow-hidden"
