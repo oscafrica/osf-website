@@ -55,6 +55,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  font-display: swap;
+  src: url("../fonts/Helvetica/Helvetica.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 

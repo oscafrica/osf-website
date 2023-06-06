@@ -9,7 +9,7 @@ import Footer from "../../components/2023/footer";
 import Breadcrumb from "../../components/2023/breadcrumb";
 
 const SectionLayout = ({ children }) => (
-  <div className="mb-[56px] px-[24px] lg:px-0  max-w-[795px] m-auto">{children}</div>
+  <div className="mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto">{children}</div>
 );
 
 const GradientSectionHeader = ({ children }) => (
