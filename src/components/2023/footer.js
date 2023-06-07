@@ -55,7 +55,10 @@ function Footer() {
               ].map((link) => (
                 <ul className="group m-0 p-0" key={link.title}>
                   <li className="lg:pr-8 pb-2">
-                    <a className="group-hover:text-[#F7931E] font-clashDisplay no-underline text-black text-lg" href={link.route}>
+                    <a
+                      className="group-hover:text-[#F7931E] font-clashDisplay no-underline text-black text-lg"
+                      href={link.route}
+                    >
                       {link.title}
                     </a>
                   </li>
