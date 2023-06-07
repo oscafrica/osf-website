@@ -5,11 +5,11 @@ import { homeBackground } from "./cloudImages";
 
 const routes = [
   {
-    route: "/#about",
+    route: "/2023/#about",
     title: "About"
   },
   {
-    route: "/#speakers",
+    route: "/2023/#speakers",
     title: "Speakers"
   },
   // {
@@ -17,11 +17,11 @@ const routes = [
   //   title: "Schedule"
   // },
   {
-    route: "/sustain-africa",
+    route: "/2023/sustain-africa",
     title: "Sustain Africa"
   },
   {
-    route: "/travel",
+    route: "/2023/travel",
     title: "Travel"
   },
   {
@@ -29,7 +29,7 @@ const routes = [
     title: "Gallery"
   },
   {
-    route: "/faq",
+    route: "/2023/faq",
     title: "FAQ"
   },
 ];

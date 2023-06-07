@@ -74,7 +74,7 @@ function Footer() {
                   key: 1,
                   label: "Twitter",
                   faIcon: ["fab", "twitter"],
-                  href: "https://twitter.com/oscafrica"
+                  href: "https://twitter.com/oscafest"
                 },
                 {
                   key: 2,
@@ -98,7 +98,7 @@ function Footer() {
                   key: 5,
                   label: "Discord",
                   faIcon: ["fab", "discord"],
-                  href: "https://discord.gg/8STPZzN"
+                  href: "https://discord.gg/open-source-community-africa-676252299093475348"
                 }
               ].map((icon) => (
                 <a

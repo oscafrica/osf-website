@@ -27,20 +27,36 @@ const speakers = Object.freeze({
 
 const sponsors = Object.freeze({
   google: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Google_pgewvw.svg",
+  eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999388/sponsors/Eden_life_dfcqjt.svg",
+  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/OSC_ecjjxl.svg",
+  paystack: "https://res.cloudinary.com/vimoppa/image/upload/v1685999524/sponsors/Paystack_drjkgt.svg",
   block: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Block_km4itg.svg",
   payday: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Payday_meus1d.svg",
   polytope: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/Polytope_gdl07n.svg",
   uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/UVM_uuxynf.svg",
   penpot: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/Penpot_k7j6qz.svg",
-  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/OSC_ecjjxl.svg",
   orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Orbit_m2thek.svg",
   gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/GNOME_laeu6f.svg",
   microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Microsoft_au9lnh.svg",
   cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1684626495/sponsors/Cloud_Native_xz860f.svg",
   axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
   kora: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Kora_a2lx9l.svg",
-  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685249868/sponsors/_Canonical_Ubuntu_2_qj1ual.svg",
+  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999372/sponsors/Canonical_inf4sr.svg",
   alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg"
 });
 
-export { homeBackground, aboutus, gallery, speakers, sponsors };
+const sponsorsColored = Object.freeze({
+  google: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Google_2x_wkwzw6.svg",
+  paystack: "https://res.cloudinary.com/vimoppa/image/upload/v1685999652/sponsors-colored/Paystack_hhme0i.svg",
+  microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Microsoft_2x_wwt4yi.svg",
+  orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Orbit_2x_vkr3hh.svg",
+  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/OSC_2x_aldknp.svg",
+  uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1685999652/sponsors-colored/UVM_2x_ebzxlm.svg",
+  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Canonical_2x_snj1va.svg",
+  cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Cloud_Native_2x_hgq7ih.svg",
+  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Kora_2x_zu3d1n.svg",
+  eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Eden_life_ai4tdz.svg",
+  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/GNOME_2x_dv7olq.svg"
+});
+
+export { homeBackground, aboutus, gallery, speakers, sponsors, sponsorsColored };
