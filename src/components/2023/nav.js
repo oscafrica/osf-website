@@ -5,31 +5,31 @@ import { homeBackground } from "./cloudImages";
 
 const routes = [
   {
-    route: "/2023/#about",
+    route: "/#about",
     title: "About"
   },
   {
-    route: "/2023/#speakers",
+    route: "/#speakers",
     title: "Speakers"
   },
   // {
   //   route: "/2023/schedule",
   //   title: "Schedule"
   // },
-  // {
-  //   route: "/2023/sustain-africa",
-  //   title: "Sustain Africa"
-  // },
-  // {
-  //   route: "/2023/travel",
-  //   title: "Travel"
-  // },
+  {
+    route: "/sustain-africa",
+    title: "Sustain Africa"
+  },
+  {
+    route: "/travel",
+    title: "Travel"
+  },
   {
     route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
     title: "Gallery"
   },
   {
-    route: "/2023/faq",
+    route: "/faq",
     title: "FAQ"
   },
 ];
