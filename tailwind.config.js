@@ -21,7 +21,8 @@ module.exports = {
       workSans: ["work-sans"],
       clashDisplay: ["clash-display"],
       clashDisplayVariable: ["clash-display-variable"],
-      humane: ["humane"]
+      humane: ["humane"],
+      helvetica: ["helvetica"]
     },
     prefix: "oc-",
     extend: {

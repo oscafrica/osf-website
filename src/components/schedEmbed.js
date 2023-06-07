@@ -4,9 +4,9 @@ import useEmbedScript from "../hooks/useEmbedScript";
 
 function SchedEmbed(props) {
   return (
-    <section className="lg:flex-row px-4 lg:px-40 pt-32 pb-24">
+    <section className="lg:flex-row px-4 lg:px-40 pt-10 lg:pt-20 pb-10 lg:pb-20">
       <div className="relative">
-        {props.type ? (
+        {props?.type ? (
           <a
             id="sched-embed"
             className="absolute inset-0 flex items-center justify-center text-2xl"
@@ -30,8 +30,12 @@ function SchedEmbed(props) {
 }
 
 SchedEmbed.propTypes = {
-  type: PropTypes.string.isRequired,
+  type: PropTypes.string,
   slug: PropTypes.string.isRequired
+};
+
+SchedEmbed.defaultProps = {
+  type: null
 };
 
 export default SchedEmbed;

@@ -4,11 +4,12 @@ import SEO from "../../components/SEO/seo";
 import Nav from "../../components/2023/nav";
 import Layout from "../../components/layout";
 
-import { homeBackground } from "../../components/2023/cloudImages";
+// import { homeBackground } from "../../components/2023/cloudImages";
 import Footer from "../../components/2023/footer";
+import Breadcrumb from "../../components/2023/breadcrumb";
 
 const SectionLayout = ({ children }) => (
-  <div className="mb-[56px] px-[24px] lg:px-0  max-w-[795px] m-auto">{children}</div>
+  <div className="mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto">{children}</div>
 );
 
 const GradientSectionHeader = ({ children }) => (
@@ -23,18 +24,19 @@ const AgendaSection = ({ children }) => (
   <div className="max-w-[795px] mb-[21px] px-6 lg:px-0 flex flex-col lg:flex-row m-auto">{children}</div>
 );
 
-const bgWrapperStyles = {
-  backgroundImage: `url(${homeBackground.background})`,
-  backgroundSize: "contain",
-  objectPosition: "bottom"
-};
+// const bgWrapperStyles = {
+//   backgroundImage: `url(${homeBackground.background})`,
+//   backgroundSize: "contain",
+//   objectPosition: "bottom"
+// };
 
 function SustainAfrica() {
   return (
     <Layout>
       <SEO title="Sustain Africa 2023" />
       <Nav />
-      <section
+      <Breadcrumb name="Sustain Africa" />
+      {/* <section
         id="sustain"
         className="bg-[#1E1E1E] h-[384px] lg:h-[648px] overflow-hidden mb-[80px] lg:pt-[114px] flex items-center justify-center"
         style={bgWrapperStyles}
@@ -42,7 +44,7 @@ function SustainAfrica() {
         <div className="font-humane mt-24 font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
           <h1 className="text-white text-[128px] lg:text-[400px] font-[500] text-center lg:-mb-16">SUSTAIN AFRICA</h1>
         </div>
-      </section>
+      </section> */}
 
       <SectionLayout>
         <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> introduction </h3>
