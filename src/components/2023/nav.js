@@ -27,7 +27,11 @@ const routes = [
   {
     route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
     title: "Gallery"
-  }
+  },
+  {
+    route: "/2023/faq",
+    title: "FAQ"
+  },
 ];
 
 function Nav() {
