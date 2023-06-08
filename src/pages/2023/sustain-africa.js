@@ -179,12 +179,12 @@ function SustainAfrica() {
         </div>
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">03:00 PM</p>
+          <p className="min-w-full lg:min-w-[250px]">11:00 AM</p>
           <p className="w-full text-2xl lg:text-3xl">Arrivals and registration</p>
         </GradientSectionHeader>
 
         <AgendaSection>
-          <div className="min-w-[250px]">03:30 PM - 03:50 PM</div>
+          <div className="min-w-[250px]">12 PM</div>
           <div>
             <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Opening Plenary</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -198,7 +198,7 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">03:50 PM - 04:50 PM</div>
+          <div className="min-w-[250px]">12:30 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lenses on Sustainability - Interactive Case Studies</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -218,12 +218,13 @@ function SustainAfrica() {
         </AgendaSection>
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">04:50 PM - 05:20 PM</p>
-          <p className="w-full text-2xl lg:text-3xl">Chill and grab a food/drink!</p>
+          <p className="min-w-full lg:min-w-[250px]">01:40 PM - 05:20 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Recess and Launch Break</p>
+          <p className="my-4 text-[#D1D1E3;]">Chill and grab a food/drink!</p>
         </GradientSectionHeader>
 
         <AgendaSection>
-          <div className="min-w-[250px]">05:20 PM - 05:45 PM</div>
+          <div className="min-w-[250px]">02:30 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Strategy Sessions Share-Out</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -237,9 +238,9 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">05:30 PM - 05:45 PM</div>
+          <div className="min-w-[250px]">02:40 PM</div>
           <div>
-            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here</p>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here?</p>
             <p className="my-4 text-[#D1D1E3;]">
               The group will pause before the closing plenary to take stock of the progress made to this point in the
               meeting and to inventory action items, next steps, and other bridges to post-event collaboration.
@@ -250,7 +251,7 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <td className="min-w-[250px]">05:45 PM - 05:50 PM</td>
+          <td className="min-w-[250px]">03:00 PM</td>
           <td>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Closing Session</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -261,9 +262,16 @@ function SustainAfrica() {
         </AgendaSection>
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">05:50 PM - 06:00 PM</p>
+          <p className="min-w-full lg:min-w-[250px]">03:10 PM</p>
           <p className="w-full text-2xl lg:text-3xl">Photographs and Networking</p>
         </GradientSectionHeader>
+
+        <AgendaSection>
+          <td className="min-w-[250px]">03:30 PM</td>
+          <td>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lights Out!</p>
+          </td>
+        </AgendaSection>
       </div>
       <Footer />
     </Layout>
