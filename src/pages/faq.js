@@ -1,12 +1,12 @@
 import React from "react";
 
-import Layout from "../../components/layout";
-import SEO from "../../components/SEO/seo";
+import Layout from "../components/layout";
+import SEO from "../components/SEO/seo";
 
-import Nav from "../../components/2023/nav";
-import Footer from "../../components/2023/footer";
+import Nav from "../components/2023/nav";
+import Footer from "../components/2023/footer";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
-import { homeBackground } from "../../components/2023/cloudImages";
+import { homeBackground } from "../components/2023/cloudImages";
 import {
   faCalendar,
   faAngleDown,
@@ -159,9 +159,15 @@ function FAQPage() {
                   transition: "0.3s ease"
                 }}
               >
-                <div onClick={() => handleDropdownSwitch(idx)} className="flex w-full justify-between h-20 items-center">
+                <div
+                  onClick={() => handleDropdownSwitch(idx)}
+                  onKeyDown={() => handleDropdownSwitch(idx)}
+                  tabIndex="0"
+                  role="button"
+                  className="flex w-full justify-between h-20 items-center"
+                >
                   <p className="text-white text-lg lg:text-3xl font-clashDisplay text-bold"> {question} </p>
-                  <div className={`text-white text-lg lg:text-3xl pl-4`}>
+                  <div className={"text-white text-lg lg:text-3xl pl-4"}>
                     <FontAwesomeIcon
                       className={openQuestion === `${idx}` ? "rotate-180" : "rotate-0"}
                       icon={"fa-angle-down"}
