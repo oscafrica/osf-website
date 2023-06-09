@@ -51,7 +51,7 @@ function Nav() {
   return (
     <div className="relative">
       <div
-        className="relative border-solid border-2 border-[#1E1E1E] lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 xl:px-10 2xl:px-64 w-[90%] lg:shadow-md" /* lg:w-[74%] */
+        className="relative border-solid border-2 border-[#1E1E1E] lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 w-[90%]" /* lg:w-[74%] */
       >
         <div className="bg-white flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-5 ">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
@@ -100,7 +100,7 @@ function Nav() {
           >
             {routes.map((link) => (
               <a
-                className="font-humane tracking-wider lg:font-clashDisplay block mt-0 mb-5 text-left no-underline text-6xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase font-bold"
+                className="hover:text-[#F7931E] transition-all ease-in-out delay-75 font-humane tracking-wider lg:font-clashDisplay block mt-0 mb-5 text-left no-underline text-6xl lg:inline-block lg:-my-2 lg:ml-8 lg:text-sm uppercase font-bold"
                 key={link.title}
                 href={link.route}
               >
@@ -114,8 +114,8 @@ function Nav() {
       <nav
         id="mobile-nav"
         className={`${
-          isExpanded ? "block" : "hidden"
-        }  z-40 flex flex-col pt-10 px-10 bg-black text-white min-h-screen min-w-full text-center absolute`}
+          isExpanded ? "visible" : "invisible"
+        }  transition-all ease-in-out delay-75 z-40 flex flex-col pt-10 px-10 bg-black text-white min-h-screen min-w-full text-center absolute`}
       >
         {routes.map((link) => (
           <a

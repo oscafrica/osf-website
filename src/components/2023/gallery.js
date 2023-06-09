@@ -37,10 +37,10 @@ function Gallery() {
             key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
-            className="overflow-hidden"
+            className="group overflow-hidden"
           >
             <img
-              className="w-auto mx-auto w-full h-full brightness-50"
+              className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto w-full h-full brightness-50"
               src={gallery.image}
               alt={`An amazing photograph from ${gallery.tag}.`}
             />

@@ -53,9 +53,12 @@ function Footer() {
                   title: "Blog"
                 }
               ].map((link) => (
-                <ul className="m-0 p-0" key={link.title}>
+                <ul className="group m-0 p-0" key={link.title}>
                   <li className="lg:pr-8 pb-2">
-                    <a className="font-clashDisplay no-underline text-black text-lg" href={link.route}>
+                    <a
+                      className="group-hover:text-[#F7931E] font-clashDisplay no-underline text-black text-lg"
+                      href={link.route}
+                    >
                       {link.title}
                     </a>
                   </li>
@@ -104,11 +107,11 @@ function Footer() {
                 <a
                   key={icon.key}
                   aria-label={icon.label}
-                  className="p-2 no-underline text-black text-lg border mr-3"
+                  className="group p-2 no-underline text-black text-lg border mr-3"
                   href={icon.href}
                 >
                   <i>
-                    <FontAwesomeIcon icon={icon.faIcon} />
+                    <FontAwesomeIcon icon={icon.faIcon} className="group-hover:text-[#F7931E]" />
                   </i>
                 </a>
               ))}
