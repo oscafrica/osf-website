@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Layout from "../../components/layout";
-import SEO from "../../components/SEO/seo";
-import Nav from "../../components/2023/nav";
-import Footer from "../../components/2023/footer";
-import Hotel from "../../images/hotel.png";
-import Breadcrumb from "../../components/2023/breadcrumb";
+import Layout from "../components/layout";
+import SEO from "../components/SEO/seo";
+import Nav from "../components/2023/nav";
+import Footer from "../components/2023/footer";
+import Hotel from "../images/hotel.png";
+import Breadcrumb from "../components/2023/breadcrumb";
 
 // const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
 const sectionStyle = "mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto";

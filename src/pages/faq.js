@@ -1,12 +1,12 @@
 import React from "react";
 
-import Layout from "../../components/layout";
-import SEO from "../../components/SEO/seo";
+import Layout from "../components/layout";
+import SEO from "../components/SEO/seo";
 
-import Nav from "../../components/2023/nav";
-import Footer from "../../components/2023/footer";
+import Nav from "../components/2023/nav";
+import Footer from "../components/2023/footer";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
-import { homeBackground } from "../../components/2023/cloudImages";
+import Breadcrumb from "../components/2023/breadcrumb";
 import {
   faCalendar,
   faAngleDown,
@@ -15,12 +15,6 @@ import {
   faMapMarkerAlt
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const bgWrapperStyles = {
-  backgroundImage: `url(${homeBackground.background})`,
-  backgroundSize: "contain",
-  objectPosition: "bottom"
-};
 
 library.add(faEnvelope, faCalendar, faAngleDown, faMapMarkerAlt, faExternalLinkAlt);
 config.autoAddCss = false;
@@ -133,16 +127,7 @@ function FAQPage() {
     <Layout>
       <SEO title="FAQ" />
       <Nav />
-
-      <section
-        id="faq-hero"
-        className="bg-[#1E1E1E] h-[384px] lg:h-[648px] overflow-hidden mb-[80px] lg:pt-[114px] flex items-center justify-center"
-        style={bgWrapperStyles}
-      >
-        <div className="font-humane mt-24 font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
-          <h1 className="text-white text-[128px] lg:text-[400px] font-[500] text-center lg:-mb-16">FAQ</h1>
-        </div>
-      </section>
+      <Breadcrumb name="Faq" />
 
       <section className="w-full max-w-[996px] my-[80px] lg:my-[120px] m-auto px-6 lg:p-0">
         <ul>
@@ -162,7 +147,8 @@ function FAQPage() {
                 <div
                   onClick={() => handleDropdownSwitch(idx)}
                   onKeyDown={() => handleDropdownSwitch(idx)}
-                  role="presentation"
+                  tabIndex="0"
+                  role="button"
                   className="flex w-full justify-between h-20 items-center"
                 >
                   <p className="text-white text-lg lg:text-3xl font-clashDisplay text-bold"> {question} </p>
