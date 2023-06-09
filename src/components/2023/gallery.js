@@ -46,7 +46,7 @@ function Gallery() {
             />
             <div className="z-0 -mt-20 px-6 w-auto h-20 text-white relative">
               <p className="font-clashDisplay p-1 text-sm lg:text-xs mb-2 table uppercase">{gallery.day}</p>
-              <h3 className="font-clashDisplay font-bold p-1 text-xl lg:text-2xl table">{gallery.tag}</h3>
+              <h1 className="font-clashDisplay font-bold p-1 text-xl lg:text-2xl table">{gallery.tag}</h1>
             </div>
           </a>
         ))}

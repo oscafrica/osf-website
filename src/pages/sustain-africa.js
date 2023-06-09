@@ -45,7 +45,7 @@ function SustainAfrica() {
           <h1 className="text-white text-[128px] lg:text-[400px] font-[500] text-center lg:-mb-16">SUSTAIN AFRICA</h1>
         </div>
       </section> */}
-
+      <span className="pt-10" />
       <SectionLayout>
         <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> introduction </h3>
         <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px]  leading-8 text-base">

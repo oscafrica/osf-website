@@ -68,6 +68,7 @@ function Nav() {
               window.scrollTo(0, 0);
               toggleExpansion(!isExpanded);
             }}
+            aria-label="mobile-nav-button"
           >
             {isExpanded ? (
               <span className="fill-current h-4 w-8">
