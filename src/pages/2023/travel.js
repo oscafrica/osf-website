@@ -6,10 +6,11 @@ import Footer from "../../components/2023/footer";
 import Hotel from "../../images/hotel.png";
 import Breadcrumb from "../../components/2023/breadcrumb";
 
-const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
-// const sectionStyle = "[&>*]:container [&>*]:mx-auto [&>*]:w-3/4 [&>*]:md:w-4/5";
+// const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
+const sectionStyle = "mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto";
 const secHeadingStyle = "font-clashDisplay font-bold text-2xl lg:text-3xl uppercase";
-const secBodyStyle = "py-2.5 font-helvetica";
+const secBodyStyle = "py-2.5 leading-8 text-lg text-[#D1D1E3] ";
+const secOlStyle = secBodyStyle + "[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside";
 const accommodations = [
   {
     key: "4232",
@@ -45,6 +46,13 @@ const accommodations = [
     price: 6500,
     img: Hotel,
     directions: "🚗 32 minutes drive to venue"
+  },
+  {
+    key: "sss3e2",
+    name: "Million Dollar Hotel",
+    price: 6500,
+    img: Hotel,
+    directions: "🚗 32 minutes drive to venue"
   }
 ];
 
@@ -64,19 +72,8 @@ const Travel = () => {
       <SEO title="2023" />
       <Nav />
       <Breadcrumb name="Travel Guide" />
-      {/* <header className="relative text-white h-[55vh] gap-[17vh] flex flex-col overflow-hidden md:h-[70vh] md:gap-[25vh] lg:gap-[60%]">
-        <Nav />
-        <div className="z-[-99] w-96 h-96 bg-neutral-950 bg-gradient-radial to-light-trans via-light-purple from-dark-purple blur-[100px] absolute left-[-60%] bottom-[-110%] md:left-[-1%] md:bottom-[-95%]"></div>
-        <div
-          className="z-[-99] w-96 h-96 absolute left-[50%] top-[-20%] rounded-[50%] overflow-hidden blur-[56px] md:left-[65%] md:top-[-13%]"
-          style={{
-            background:
-              "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
-          }}
-        ></div>
-        <h1 className="font-humane text-9xl leading-10 text-center uppercase md:text-[15rem]">Travel Guide</h1>
-      </header> */}
-      <main className="text-white container mx-auto w-4/5 md:w-11/12">
+      {/* <main className="text-white container mx-auto w-4/5 md:w-11/12"> */}
+      <main className="text-white">
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>NIGERIA BASICS</h2>
           <p className={secBodyStyle}>
@@ -85,36 +82,36 @@ const Travel = () => {
             beaches, ultra-modern city centers, houses built with opulent luxury, great architecture, scenic attraction
             sites, universities, museums, national parks, zoos, hotels, resorts and many other amenities visitors see.
           </p>
-          <div className="w-full px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
-            <iframe
-              title="Sustain Africa 2021"
-              className="w-full"
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/voFbXUQC_8M"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
         </section>
+        <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
+          <iframe
+            title="Sustain Africa 2021"
+            className="w-full"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/voFbXUQC_8M"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>COVID GUIDELINES</h2>
           <p className={secBodyStyle}>
             We intend to strictly observe all COVID-19 guidelines throughout the duration of the festival. Please
             endeavour to observe the following guidelines:
           </p>
-          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside">
+          <ol className={secOlStyle}>
             <li>All attendees are to wear a nose mask during the festival.</li>
             <li>Social distancing will be maintained in all the halls used for the festival.</li>
           </ol>
-          <p>
+          <p className={secBodyStyle}>
             For attendees and speakers travelling to Nigeria, you must complete an online declaration form, upload a
             copy of a negative PCR COVID-19 test, and book post-arrival tests via the online portal. Once you have done
             this, you will be issued with a “permit to travel” via the portal.The following protocols are in place for
             travellers to Nigeria:
           </p>
-          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside px-5">
+          <ol className={secOlStyle}>
             <li>
               All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more than
               48 hours before departure. For passengers with multiple connections before arrival in Nigeria, the PCR
@@ -161,36 +158,37 @@ const Travel = () => {
             this information carefully, and check every item. Some of it is crucial and it will help you have a better
             travel process.
           </p>
-          <ol className="[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside px-5">
+          <ol className={secOlStyle}>
             <li>
-              <span className="font-bold">Visa:</span> You may need a visa to enter Nigeria. You must check this,
-              otherwise, you will likely be denied entry, or probably not even be allowed to board your plane. If you
-              have any questions, please contact us immediately.
+              <span className="font-bold text-white">Visa:</span> You may need a visa to enter Nigeria. You must check
+              this, otherwise, you will likely be denied entry, or probably not even be allowed to board your plane. If
+              you have any questions, please contact us immediately.
             </li>
             <li>
-              <span className="font-bold">Vaccination certificate:</span> You must have yellow fever, polio vaccination,
-              and Covid19 certificate to enter Nigeria. Otherwise, you will likely be denied entry. Please ensure you
-              have this in advance, do not leave it until the last minute. Other optional certificates include Hepatitis
-              A, Tetanus, and Typhoid.
+              <span className="font-bold text-white">Vaccination certificate:</span> You must have yellow fever, polio
+              vaccination, and Covid19 certificate to enter Nigeria. Otherwise, you will likely be denied entry. Please
+              ensure you have this in advance, do not leave it until the last minute. Other optional certificates
+              include Hepatitis A, Tetanus, and Typhoid.
             </li>
             <li>
-              <span className="font-bold">Malaria precautions:</span> All of Nigeria, including Lagos, is indicated as a
-              high-risk zone for malaria. Travelers are advised to take antimalarial medication such as Malarone
-              (atovaquone/proguanil hydrochloride) and other precautions. After sunset, avoid mosquito bites by covering
-              up with clothing (long sleeves, long trousers), using insect repellents on exposed skin, and when
+              <span className="font-bold text-white">Malaria precautions:</span> All of Nigeria, including Lagos, is
+              indicated as a high-risk zone for malaria. Travelers are advised to take antimalarial medication such as
+              Malarone (atovaquone/proguanil hydrochloride) and other precautions. After sunset, avoid mosquito bites by
+              covering up with clothing (long sleeves, long trousers), using insect repellents on exposed skin, and when
               necessary: sleeping under a mosquito net. Ensure to bring the appropriate clothing and creams.
             </li>
             <li>
-              <span className="font-bold"> Arrival times: </span> We hope to co-ordinate transport on arrival at the
-              airport for some groups. We might not be able to do this for everyone, but please let us know:
+              <span className="font-bold text-white"> Arrival times: </span> We hope to co-ordinate transport on arrival
+              at the airport for some groups. We might not be able to do this for everyone, but please let us know:
               <ul className="[&>*]:ml-2 [&>*]:mt-3 list-disc list-inside px-5">
                 <li>The date and time of your arrival in Nigeria</li>
                 <li>The date and time of your departure from Nigeria</li>
                 <li>Your airline and flight numbers</li>
                 <li>Your accommodation location</li>
               </ul>
-              We will help if we can, please provide this information in good time. Movies Recommendation: You can watch
-              any of the following Nigerian movies on Netflix if you can to get a feel of the vibe of urban Nigeria.
+              We will help if we can, please provide this information in good time. <br />{" "}
+              <span className="font-bold text-white">Movies Recommendation: </span> You can watch any of the following
+              Nigerian movies on Netflix if you can to get a feel of the vibe of urban Nigeria.
               <ul className="[&>*]:ml-2 [&>*]:mt-3 list-disc list-inside px-5">
                 <li>The Wedding Party</li>
                 <li>Up North</li>
@@ -208,7 +206,7 @@ const Travel = () => {
             prices may change.
           </p>
         </section>
-        <section className="mb-16">
+        <section className="mb-16 w-full max-w-[90%] m-auto">
           <div className="py-5 flex flex-col flex-wrap gap-6 justify-center items-center md:flex-row">
             {accommodations.slice(0, clickMore.listNum).map(({ img, key, name, price, directions }) => (
               <div key={key} className="relative mb-8 md:w-72">

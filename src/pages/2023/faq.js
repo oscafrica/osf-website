@@ -159,9 +159,14 @@ function FAQPage() {
                   transition: "0.3s ease"
                 }}
               >
-                <div onClick={() => handleDropdownSwitch(idx)} className="flex w-full justify-between h-20 items-center">
+                <div
+                  onClick={() => handleDropdownSwitch(idx)}
+                  onKeyDown={() => handleDropdownSwitch(idx)}
+                  role="presentation"
+                  className="flex w-full justify-between h-20 items-center"
+                >
                   <p className="text-white text-lg lg:text-3xl font-clashDisplay text-bold"> {question} </p>
-                  <div className={`text-white text-lg lg:text-3xl pl-4`}>
+                  <div className={"text-white text-lg lg:text-3xl pl-4"}>
                     <FontAwesomeIcon
                       className={openQuestion === `${idx}` ? "rotate-180" : "rotate-0"}
                       icon={"fa-angle-down"}

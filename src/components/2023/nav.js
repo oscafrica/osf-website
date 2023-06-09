@@ -31,7 +31,7 @@ const routes = [
   {
     route: "/2023/faq",
     title: "FAQ"
-  },
+  }
 ];
 
 function Nav() {
