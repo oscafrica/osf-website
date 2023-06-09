@@ -6,7 +6,7 @@ function Breadcrumb(props) {
     <div>
       <section
         id={props.name}
-        className="relative h-[300px] lg:h-[600px] mb-10 overflow-hidden flex items-center justify-center"
+        className="relative h-[300px] lg:h-[600px] overflow-hidden flex items-center justify-center"
       >
         <div className="font-humane lg:mt-24 font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
           <h1 className="text-white text-[128px] lg:text-[400px] font-[500] text-center lg:-mb-16">{props.name}</h1>

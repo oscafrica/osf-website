@@ -76,7 +76,7 @@ const Travel = () => {
         ></div>
         <h1 className="font-humane text-9xl leading-10 text-center uppercase md:text-[15rem]">Travel Guide</h1>
       </header> */}
-      <main className="text-white container mx-auto w-4/5 md:w-11/12">
+      <main className="pt-10 text-white container mx-auto w-4/5 md:w-11/12">
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>NIGERIA BASICS</h2>
           <p className={secBodyStyle}>
