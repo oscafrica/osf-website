@@ -25,9 +25,9 @@ function Footer() {
     <footer className="bg-white">
       <div className="container mx-auto px-5 md:px-0 lg:px-0 py-10 lg:py-20 mt-20 lg:mt-16">
         <div className="flex sm:flex-row flex-col z-15 justify-between text-sm mb-10 lg:mb-20 text-center md:text-left">
-          <h3 className="font-humane font-black h-20 lg:h-full text-sship2 md:text-[15rem] lg:text-[25rem] md:mt-24 lg:mt-[155px] uppercase tracking-wide">
+          <h1 className="font-humane font-black h-20 lg:h-full text-sship2 md:text-[15rem] lg:text-[25rem] md:mt-24 lg:mt-[155px] uppercase tracking-wide">
             Thank You<span className="text-[#F7931E]">.</span>
-          </h3>
+          </h1>
           <div className="lg:basis-1/4">
             <h1 className="font-clashDisplay font-black p-1 text-xl lg:text-3xl uppercase">❤️ from the osca team</h1>
             <div className="z-10 mt-8">
