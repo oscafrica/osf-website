@@ -7,10 +7,10 @@ import Hotel from "../images/hotel.png";
 import Breadcrumb from "../components/2023/breadcrumb";
 
 // const sectionStyle = "pt-10 z-20 bg-primary-dark-blue leading-7 md:mx-auto md:w-4/5";
-const sectionStyle = "mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto";
-const secHeadingStyle = "font-clashDisplay font-bold text-2xl lg:text-3xl uppercase";
-const secBodyStyle = "py-2.5 leading-8 text-lg text-[#D1D1E3] ";
-const secOlStyle = secBodyStyle + "[&>*]:ml-2 [&>*]:mt-3 list-decimal list-inside";
+const sectionStyle = "mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto space-y-5";
+const secHeadingStyle = "font-clashDisplayVariable font-semibold text-2xl lg:text-3xl uppercase";
+const secBodyStyle = "leading-8 text-lg text-[#D1D1E3] ";
+const secOlStyle = secBodyStyle + "[&>*]:ml-2 [&>*]:mt-3 [&>*]:leading-8 list-decimal list-inside";
 const accommodations = [
   {
     key: "4232",
@@ -72,8 +72,7 @@ const Travel = () => {
       <SEO title="2023" />
       <Nav />
       <Breadcrumb name="Travel Guide" />
-      {/* <main className="text-white container mx-auto w-4/5 md:w-11/12"> */}
-      <main className="text-white">
+      <main className="text-white pt-28">
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>NIGERIA BASICS</h2>
           <p className={secBodyStyle}>
@@ -83,7 +82,7 @@ const Travel = () => {
             sites, universities, museums, national parks, zoos, hotels, resorts and many other amenities visitors see.
           </p>
         </section>
-        <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
+        <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[90%] m-auto">
           <iframe
             title="Sustain Africa 2021"
             className="w-full"
