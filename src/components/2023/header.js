@@ -33,7 +33,7 @@ function Register() {
           </span>
         </span>
       </button>
-      <div className="bg-white p-3 text-l tracking-wider shadow-md w-full absolute z-20 hidden group-hover:block">
+      <div className="bg-white p-3 text-l tracking-wider shadow-md w-full absolute z-20 invisible group-hover:visible transition-all ease-in-out delay-75">
         <a
           href="https://eventbrite.com/e/open-source-festival-2023-tickets-574820402297"
           className="flex items-center p-3"

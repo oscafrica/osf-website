@@ -14,7 +14,9 @@ function Schedule() {
       <SEO title="Schedule" />
       <Nav />
       <Breadcrumb name="Schedule" />
-      <Sched slug="oscafest23" />
+      <div className="pt-10 bg-white border-b-2">
+        <Sched slug="oscafest23" />
+      </div>
       <Footer />
     </Layout>
   );

@@ -40,7 +40,7 @@ const sponsors = Object.freeze({
   microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Microsoft_au9lnh.svg",
   cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1684626495/sponsors/Cloud_Native_xz860f.svg",
   axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
-  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Kora_a2lx9l.svg",
+  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146960/sponsors/Kora_x6n0li.svg",
   cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999372/sponsors/Canonical_inf4sr.svg",
   alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg"
 });
@@ -54,7 +54,7 @@ const sponsorsColored = Object.freeze({
   uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1685999652/sponsors-colored/UVM_2x_ebzxlm.svg",
   cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Canonical_2x_snj1va.svg",
   cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Cloud_Native_2x_hgq7ih.svg",
-  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Kora_2x_zu3d1n.svg",
+  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146916/sponsors-colored/Kora-2_gssqzl.svg",
   eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Eden_life_ai4tdz.svg",
   gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/GNOME_2x_dv7olq.svg"
 });
