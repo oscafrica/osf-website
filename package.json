@@ -91,6 +91,7 @@
     "coveralls": "^3.1.1",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.15",
+    "cypress": "^12.14.0",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv": "16.0.3",
     "enzyme": "^3.11.0",

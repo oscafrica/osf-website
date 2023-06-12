@@ -60,7 +60,7 @@ function SustainAfrica() {
         </p>
       </SectionLayout>
 
-      <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[1200px] m-auto">
+      <div className="w-full mb-[56px] px-[24px] lg:px-1 h-[233px] lg:h-[600px] max-w-[90%] m-auto">
         <iframe
           title="Sustain Africa 2021"
           className="w-full"
