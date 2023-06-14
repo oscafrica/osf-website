@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "gatsby";
 
 import { homeBackground } from "./cloudImages";
@@ -39,14 +39,21 @@ function Nav() {
   /* eslint-disable no-unused-vars */
   const [_navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
-    window.scrollY >= 120 ? setNavbar(true) : setNavbar(false);
-  };
+  const desktopListener = useCallback((x) => {
+    if (!x.matches) return;
+
+    toggleExpansion(false);
+  }, [toggleExpansion]);
 
   useEffect(() => {
-    changeBackground();
-    window.addEventListener("scroll", changeBackground);
-  });
+    const desktopScreen = window.matchMedia("(min-width: 1024px)");
+    desktopScreen.addListener(desktopListener);
+    desktopListener(desktopScreen);
+
+    return () => {
+      desktopScreen.removeListener(desktopListener);
+    };
+  }, [desktopListener]);
 
   return (
     <div className="relative">
