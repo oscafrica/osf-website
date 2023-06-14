@@ -28,6 +28,56 @@ const speakers2023 = [
     name: "Regina Nkenchor",
     title: "Board vice president at the GNOME Foundation",
     image: speakers.regina
+  },
+  {
+    name: "Edidiong Asikpo",
+    title: "Senior Developer Advocate at Ambassador Labs",
+    image: speakers.edidiong
+  },
+  {
+    name: "Rachel Onoja",
+    title: "Head of Operations at AltSchool Africa",
+    image: speakers.rachel
+  },
+  {
+    name: "Aniedi Udo-Obong",
+    title: "Program Manager, Google",
+    image: speakers.aniedi
+  },
+  {
+    name: "John Meluso",
+    title: "System Engineer and an Organization Scientist",
+    image: speakers.john
+  },
+  {
+    name: "Prosper Otemuyiwa",
+    title: "Co-founder of Forloop Africa and Eden Life",
+    image: speakers.prosper
+  },
+  {
+    name: "Sultan Akintunde",
+    title: "Co-founder and Head of Technology at AltSchool Africa",
+    image: speakers.sultan
+  },
+  {
+    name: "Adora Nwodo",
+    title: "Founder, Nexascale",
+    image: speakers.adora
+  },
+  {
+    name: "Kelvin Umechukwu",
+    title: "Founder, Consonance Club",
+    image: speakers.kelvin
+  },
+  {
+    name: "Njoku Emmanuel",
+    title: "Former Co-founder and CEO of Lazerpay",
+    image: speakers.njoku
+  },
+  {
+    name: "Oluebube Princess",
+    title: "Devrel Engineer, Spectro Cloud",
+    image: speakers.oluebube
   }
 ];
 

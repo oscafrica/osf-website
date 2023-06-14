@@ -22,7 +22,19 @@ const speakers = Object.freeze({
   angie: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/angie-jones_qopiuu.jpg",
   bdougie: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/bdougie_szfahw.jpg",
   jan: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/jan_qw6blt.jpg",
-  regina: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/regina_qatj2y.jpg"
+  regina: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/regina_qatj2y.jpg",
+  adora: "https://res.cloudinary.com/vimoppa/image/upload/v1686705079/speakers/Adora_Nwodo_kxqo7k.jpg",
+  aniedi: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Aniedi_Udo-Obong_fnuids.jpg",
+  chisom: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Chisom_Nwokwu_h8hfhf.jpg",
+  edidiong: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Edidiong_Asikpo_f6qp6p.jpg",
+  john: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/John_Meluso_omvkqe.jpg",
+  kelvin: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Kelvin_Umechukwu_v0kdhb.jpg",
+  njoku: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Njoku_Emmanuel_gf3vow.jpg",
+  oluebube: "https://res.cloudinary.com/vimoppa/image/upload/v1686705083/speakers/Oluebube_Princess_opdyeh.jpg",
+  prosper: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Prosper_Otemuyiwa_qrr5th.jpg",
+  rachel: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Rachel_Onoja_oms8n5.jpg",
+  sodiq: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Sodiq_Akinjobi_d076db.jpg",
+  sultan: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Sultan_Akintunde_k98ovb.jpg"
 });
 
 const sponsors = Object.freeze({
