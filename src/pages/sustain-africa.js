@@ -158,7 +158,7 @@ function SustainAfrica() {
       <SectionLayout>
         <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Agenda </h3>
         <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
-          The event starts at 03:30 PM on <b className="text-white"> 16th June, 2023 </b>, so please arrive at 03:00 PM
+          The event starts at 11:00 AM on <b className="text-white"> 16th June, 2023 </b>, so please arrive at 11:00 AM
           to check in. The event will last for 3 hours and will be structured as collaborative working sessions, along
           with optional activities. Sessions will be dialog and outcome-oriented rather than presentations or lecture
           format. The program is envisioned to enable deeper collaborations and learnings across the network of
