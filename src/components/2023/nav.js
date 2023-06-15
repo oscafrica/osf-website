@@ -39,11 +39,14 @@ function Nav() {
   /* eslint-disable no-unused-vars */
   const [_navbar, setNavbar] = useState(false);
 
-  const desktopListener = useCallback((x) => {
-    if (!x.matches) return;
+  const desktopListener = useCallback(
+    (x) => {
+      if (!x.matches) return;
 
-    toggleExpansion(false);
-  }, [toggleExpansion]);
+      toggleExpansion(false);
+    },
+    [toggleExpansion]
+  );
 
   useEffect(() => {
     const desktopScreen = window.matchMedia("(min-width: 1024px)");
