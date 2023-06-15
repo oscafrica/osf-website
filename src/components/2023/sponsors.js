@@ -108,17 +108,47 @@ const sponsorsData = [
   },
   {
     tier: "bronze",
+    name: "Eden",
+    image: sponsors.eden,
+    imageColored: sponsorsColored.eden,
+    link: "https://ouredenlife.com/"
+  },
+  {
+    tier: "silver",
+    name: "Outreachy",
+    image: sponsors.outreachy,
+    imageColored: sponsorsColored.outreachy,
+    link: "https://www.outreachy.org/"
+  },
+  {
+    tier: "silver",
+    name: "Celo Africa Dao",
+    image: sponsors.celo,
+    link: "https://celo.org/"
+  },
+  {
+    tier: "bronze",
+    name: "Africans Talking",
+    image: sponsors.africantalkig,
+    imageColored: sponsorsColored.africantalkig,
+    link: "https://africastalking.com/"
+  }
+];
+
+const eventPartnersData = [
+  {
+    tier: "bronze",
     name: "ALT School",
     image: sponsors.alt,
     link: "https://www.altschoolafrica.com/"
+  },
+  {
+    tier: "bronze",
+    name: "Etionary",
+    image: sponsors.etionary,
+    imageColored: sponsorsColored.etionary,
+    link: "https://etionarygroup.com/"
   }
-  // {
-  //   tier: "bronze",
-  //   name: "Eden",
-  //   image: sponsors.eden,
-  //   imageColored: sponsorsColored.eden,
-  //   link: "https://ouredenlife.com/"
-  // }
 ];
 
 const headline = sponsorsData.filter((data) => data.tier.includes("headline"));
@@ -198,6 +228,19 @@ function Sponsors() {
               <SponsorLogo sponsors={tier} />
             </>
           ))}
+        </div>
+      </div>
+      <div className="container lg:flex-row mx-auto px-5 lg:px-0 my-20 lg:my-40 text-center text-white">
+        <div className="flex flex-wrap justify-center">
+          <div className="mb-8 lg:mb-12 w-full lg:w-1/2">
+            <h1 className="font-humane font-medium text-[8rem] md:text-[10rem] lg:text-[16rem] leading-none uppercase">
+              Event Partners
+            </h1>
+          </div>
+        </div>
+
+        <div className="my-12">
+          <SponsorLogo sponsors={eventPartnersData} />
         </div>
       </div>
     </section>

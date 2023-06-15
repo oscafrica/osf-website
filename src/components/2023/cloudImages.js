@@ -54,7 +54,11 @@ const sponsors = Object.freeze({
   axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
   kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146960/sponsors/Kora_x6n0li.svg",
   cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999372/sponsors/Canonical_inf4sr.svg",
-  alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg"
+  alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg",
+  celo: "https://res.cloudinary.com/vimoppa/image/upload/v1686822152/sponsors/Celo_g7zyq8.png",
+  etionary: "https://res.cloudinary.com/vimoppa/image/upload/v1686822151/sponsors/Etionary-Properties_ufk04k.png",
+  outreachy: "https://res.cloudinary.com/vimoppa/image/upload/v1686822151/sponsors/Outreachy_dx6j5e.png",
+  africantalkig: "https://res.cloudinary.com/vimoppa/image/upload/v1686822150/sponsors/Africa_s_Talking_otrzhy.png"
 });
 
 const sponsorsColored = Object.freeze({
@@ -68,7 +72,12 @@ const sponsorsColored = Object.freeze({
   cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Cloud_Native_2x_hgq7ih.svg",
   kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146916/sponsors-colored/Kora-2_gssqzl.svg",
   eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Eden_life_ai4tdz.svg",
-  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/GNOME_2x_dv7olq.svg"
+  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/GNOME_2x_dv7olq.svg",
+  outreachy: "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Outreachy_yo2yl3.png",
+  etionary:
+    "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Etionary-Properties_mpl55b.png",
+  africantalkig:
+    "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Africa_s_Talking_q4gzev.png"
 });
 
 export { homeBackground, aboutus, gallery, speakers, sponsors, sponsorsColored };
