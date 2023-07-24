@@ -31,10 +31,10 @@ function Gallery() {
             key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
-            className="group overflow-hidden"
+            className={`group overflow-hidden p-3 ${gallery.day === "Day 0" ? "lg:col-start-1 col-end-3" : ""}`}
           >
             <img
-              className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-75"
+              className="group-hover:scale-125 transition-all ease-in-out delay-0 mx-auto h-full w-full brightness-75"
               src={gallery.image}
               alt={`An amazing photograph from ${gallery.tag}.`}
             />
