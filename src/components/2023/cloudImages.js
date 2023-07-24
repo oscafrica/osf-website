@@ -1,82 +1,90 @@
 const homeBackground = Object.freeze({
-  background: "https://res.cloudinary.com/dhuoxl63u/image/upload/v1678731661/OSCA/DESKTOP.png",
+  background: "https://res.cloudinary.com/osca/image/upload/v1690190185/osf/2023/bpfh7czlmrrggpwv1xrp.png",
   logo: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374332/osf/Logo/SVG/orange.svg",
-  title: "https://res.cloudinary.com/dhuoxl63u/image/upload/v1678731656/OSCA/sustainablity.png",
-  titleLarge: "https://res.cloudinary.com/vimoppa/image/upload/v1684618073/assets/sustainability-for-growth_dslfnx.png",
-  northeastArrow: "https://res.cloudinary.com/dhuoxl63u/image/upload/v1678791986/OSCA/nearrow.svg"
+  title: "https://res.cloudinary.com/osca/image/upload/v1690190205/osf/2023/vtrenxfs0ba3hoa5strv.png",
+  titleLarge: "https://res.cloudinary.com/osca/image/upload/v1690190358/osf/2023/l2mwdazkcucaxwijq526.png",
+  northeastArrow: "https://res.cloudinary.com/osca/image/upload/v1690190353/osf/2023/nnf0gztyck3lgcebm9q3.svg"
 });
 
 const aboutus = Object.freeze({
-  groupshot: "https://res.cloudinary.com/vimoppa/image/upload/v1684618072/assets/aboutus_fcvqzj.jpg"
+  groupshot: "https://res.cloudinary.com/osca/image/upload/v1690190463/osf/2023/exhrzc9ugtt4byofczpo.jpg"
 });
 
 const gallery = Object.freeze({
   one: "https://res.cloudinary.com/osca/image/upload/v1690189685/osf/2023/gallery/so7vetrt5fjq2q1kvr1h.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/v1690189823/osf/2023/gallery/q3ssvd2i45wctz4zn0jb.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/v1690190014/osf/2023/gallery/noxrwhvh4jpw87cj1jqm.jpg"
+  two: "https://res.cloudinary.com/osca/image/upload/v1690197301/osf/2023/gallery/lxrxztohyosqcjm198iu.jpg",
+  three: "https://res.cloudinary.com/osca/image/upload/v1690197375/osf/2023/gallery/erjzlrsogcu0ephdvjfw.jpg"
 });
 
 const speakers = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/v1645997775/osf/2022/Speakers/v0dcxtxhuhxs0iahjfgx.png",
-  angie: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/angie-jones_qopiuu.jpg",
-  bdougie: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/bdougie_szfahw.jpg",
-  jan: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/jan_qw6blt.jpg",
-  regina: "https://res.cloudinary.com/vimoppa/image/upload/v1684617894/speakers/regina_qatj2y.jpg",
-  adora: "https://res.cloudinary.com/vimoppa/image/upload/v1686705079/speakers/Adora_Nwodo_kxqo7k.jpg",
-  aniedi: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Aniedi_Udo-Obong_fnuids.jpg",
-  chisom: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Chisom_Nwokwu_h8hfhf.jpg",
-  edidiong: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Edidiong_Asikpo_f6qp6p.jpg",
-  john: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/John_Meluso_omvkqe.jpg",
-  kelvin: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Kelvin_Umechukwu_v0kdhb.jpg",
-  njoku: "https://res.cloudinary.com/vimoppa/image/upload/v1686705081/speakers/Njoku_Emmanuel_gf3vow.jpg",
-  oluebube: "https://res.cloudinary.com/vimoppa/image/upload/v1686705083/speakers/Oluebube_Princess_opdyeh.jpg",
-  prosper: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Prosper_Otemuyiwa_qrr5th.jpg",
-  rachel: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Rachel_Onoja_oms8n5.jpg",
-  sodiq: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Sodiq_Akinjobi_d076db.jpg",
-  sultan: "https://res.cloudinary.com/vimoppa/image/upload/v1686705084/speakers/Sultan_Akintunde_k98ovb.jpg"
+  angie: "https://res.cloudinary.com/osca/image/upload/v1690190733/osf/2023/speakers/kn6ss4lzaakkmqblq18i.jpg",
+  bdougie: "https://res.cloudinary.com/osca/image/upload/v1690190734/osf/2023/speakers/facmfok7k8duydqzpquu.jpg",
+  jan: "https://res.cloudinary.com/osca/image/upload/v1690190733/osf/2023/speakers/pcnn2bhk0uwlnzlsrnvj.jpg",
+  regina: "https://res.cloudinary.com/osca/image/upload/v1690190733/osf/2023/speakers/dsbdkuhijvp4ksct1f2p.jpg",
+  adora: "https://res.cloudinary.com/osca/image/upload/v1690190732/osf/2023/speakers/yqb5td4fqanynpn05xsg.jpg",
+  aniedi: "https://res.cloudinary.com/osca/image/upload/v1690190732/osf/2023/speakers/l2mt5hxz9siqwsnkuxuy.jpg",
+  chisom: "https://res.cloudinary.com/osca/image/upload/v1690190731/osf/2023/speakers/yn5xqa8oh1gg9n1zsedz.jpg",
+  edidiong: "https://res.cloudinary.com/osca/image/upload/v1690190731/osf/2023/speakers/iejjtlbek1rvb67a8g7y.jpg",
+  john: "https://res.cloudinary.com/osca/image/upload/v1690190731/osf/2023/speakers/y8kdezse5cb9j26h4zfq.jpg",
+  kelvin: "https://res.cloudinary.com/osca/image/upload/v1690190731/osf/2023/speakers/yit0dea6dnjg5hebjxf2.jpg",
+  njoku: "https://res.cloudinary.com/osca/image/upload/v1690190730/osf/2023/speakers/ujbq9tnm7eyaveeswf81.jpg",
+  oluebube: "https://res.cloudinary.com/osca/image/upload/v1690190729/osf/2023/speakers/vzjbizvbqc74eqp3bdjx.jpg",
+  prosper: "https://res.cloudinary.com/osca/image/upload/v1690190730/osf/2023/speakers/la0th3cgosh17yc8zgxw.jpg",
+  rachel: "https://res.cloudinary.com/osca/image/upload/v1690190729/osf/2023/speakers/iymtduock6cy33mb73og.jpg",
+  sodiq: "https://res.cloudinary.com/osca/image/upload/v1690190729/osf/2023/speakers/qg3dz370auadn1g1ievy.jpg",
+  sultan: "https://res.cloudinary.com/osca/image/upload/v1690190729/osf/2023/speakers/u1gtnoao1hf33fcc3idq.jpg"
 });
 
 const sponsors = Object.freeze({
-  google: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Google_pgewvw.svg",
-  eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999388/sponsors/Eden_life_dfcqjt.svg",
-  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/OSC_ecjjxl.svg",
-  paystack: "https://res.cloudinary.com/vimoppa/image/upload/v1685999524/sponsors/Paystack_drjkgt.svg",
-  block: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Block_km4itg.svg",
-  payday: "https://res.cloudinary.com/vimoppa/image/upload/v1684626500/sponsors/Payday_meus1d.svg",
-  polytope: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/Polytope_gdl07n.svg",
-  uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1684626499/sponsors/UVM_uuxynf.svg",
-  penpot: "https://res.cloudinary.com/vimoppa/image/upload/v1684626497/sponsors/Penpot_k7j6qz.svg",
-  orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/Orbit_m2thek.svg",
-  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1684626496/sponsors/GNOME_laeu6f.svg",
-  microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Microsoft_au9lnh.svg",
-  cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1684626495/sponsors/Cloud_Native_xz860f.svg",
-  axelar: "https://res.cloudinary.com/vimoppa/image/upload/v1684626494/sponsors/Axelar_luuwgx.svg",
-  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146960/sponsors/Kora_x6n0li.svg",
-  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999372/sponsors/Canonical_inf4sr.svg",
-  alt: "https://res.cloudinary.com/vimoppa/image/upload/v1685249634/sponsors/alt_school_nuitme.svg",
-  celo: "https://res.cloudinary.com/vimoppa/image/upload/v1686822152/sponsors/Celo_g7zyq8.png",
-  etionary: "https://res.cloudinary.com/vimoppa/image/upload/v1686822151/sponsors/Etionary-Properties_ufk04k.png",
-  outreachy: "https://res.cloudinary.com/vimoppa/image/upload/v1686822151/sponsors/Outreachy_dx6j5e.png",
-  africantalkig: "https://res.cloudinary.com/vimoppa/image/upload/v1686822150/sponsors/Africa_s_Talking_otrzhy.png"
+  google: "https://res.cloudinary.com/osca/image/upload/v1690190918/osf/2023/sponsors/black/l8axabiu2bkqepwh74vi.svg",
+  microsoft:
+    "https://res.cloudinary.com/osca/image/upload/v1690191124/osf/2023/sponsors/black/cerszefzqsirvlmehz3s.svg",
+  osc: "https://res.cloudinary.com/osca/image/upload/v1690191126/osf/2023/sponsors/black/tiwqzoi8jmvslu7h57tr.svg",
+  paystack: "https://res.cloudinary.com/osca/image/upload/v1690191125/osf/2023/sponsors/black/vkeyfaxfkgxapxdewcnr.svg",
+  cannonical:
+    "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/eyidgcayxwa9qi8dlhgi.svg",
+  orbit: "https://res.cloudinary.com/osca/image/upload/v1690191125/osf/2023/sponsors/black/mntfnlsqtfoscbnh39u5.svg",
+  payday: "https://res.cloudinary.com/osca/image/upload/v1690191128/osf/2023/sponsors/black/isuhzhd1juff8xzy0jp1.svg",
+  penpot: "https://res.cloudinary.com/osca/image/upload/v1690191125/osf/2023/sponsors/black/yhvtf7cizwydjqbywrsp.svg",
+  uvm: "https://res.cloudinary.com/osca/image/upload/v1690191125/osf/2023/sponsors/black/hyjgani4og6fzm3prkzx.svg",
+  axelar: "https://res.cloudinary.com/osca/image/upload/v1690191124/osf/2023/sponsors/black/msmlkhrl0ersqwashxmg.svg",
+  gnome: "https://res.cloudinary.com/osca/image/upload/v1690191125/osf/2023/sponsors/black/bstnshe4qynnmmccl8pq.svg",
+  outreachy:
+    "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/naihr2bu0nmpgkzqa57p.png",
+  celo: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/por11hc97auinw6sd7q7.png",
+  cncf: "https://res.cloudinary.com/osca/image/upload/v1690191124/osf/2023/sponsors/black/c3nprzlwrugtqbzfaa0q.svg",
+  block: "https://res.cloudinary.com/osca/image/upload/v1690191129/osf/2023/sponsors/black/vnzmwny4jclqud3clejf.svg",
+  polytope: "https://res.cloudinary.com/osca/image/upload/v1690191127/osf/2023/sponsors/black/qv3zynylzhfu0go9zplq.svg",
+  kora: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/bmc4klqnb6phx0imhhs7.svg",
+  eden: "https://res.cloudinary.com/osca/image/upload/v1690191126/osf/2023/sponsors/black/wpodowvmxhysetnfrsiq.svg",
+  africantalking:
+    "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/ks3rbn2v59dy7k0vet3n.png",
+  alt: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/y6dwwioamdregdfaoves.svg",
+  etionary: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/optcrt9o98rnxuq8z9se.png"
 });
 
 const sponsorsColored = Object.freeze({
-  google: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Google_2x_wkwzw6.svg",
-  paystack: "https://res.cloudinary.com/vimoppa/image/upload/v1685999652/sponsors-colored/Paystack_hhme0i.svg",
-  microsoft: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Microsoft_2x_wwt4yi.svg",
-  orbit: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/Orbit_2x_vkr3hh.svg",
-  osc: "https://res.cloudinary.com/vimoppa/image/upload/v1685999651/sponsors-colored/OSC_2x_aldknp.svg",
-  uvm: "https://res.cloudinary.com/vimoppa/image/upload/v1685999652/sponsors-colored/UVM_2x_ebzxlm.svg",
-  cannonical: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Canonical_2x_snj1va.svg",
-  cncf: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Cloud_Native_2x_hgq7ih.svg",
-  kora: "https://res.cloudinary.com/vimoppa/image/upload/v1686146916/sponsors-colored/Kora-2_gssqzl.svg",
-  eden: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/Eden_life_ai4tdz.svg",
-  gnome: "https://res.cloudinary.com/vimoppa/image/upload/v1685999650/sponsors-colored/GNOME_2x_dv7olq.svg",
-  outreachy: "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Outreachy_yo2yl3.png",
+  google: "https://res.cloudinary.com/osca/image/upload/v1690191567/osf/2023/sponsors/colored/qvmihr614247vcwcoaay.svg",
+  microsoft:
+    "https://res.cloudinary.com/osca/image/upload/v1690191567/osf/2023/sponsors/colored/d1dq0lgtcufn1py03r6y.svg",
+  osc: "https://res.cloudinary.com/osca/image/upload/v1690191567/osf/2023/sponsors/colored/dbktrtp6lei5yxrkalwm.svg",
+  paystack:
+    "https://res.cloudinary.com/osca/image/upload/v1690191567/osf/2023/sponsors/colored/nrvzehqjp41bx5eeimd6.svg",
+  cannonical:
+    "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/jsy2lxej5jiedzwrj9tb.svg",
+  orbit: "https://res.cloudinary.com/osca/image/upload/v1690191567/osf/2023/sponsors/colored/s8yzgqwpqt7hx5ngutms.svg",
+  uvm: "https://res.cloudinary.com/osca/image/upload/v1690191566/osf/2023/sponsors/colored/mldps2ogz9y33tsoxo3n.svg",
+  gnome: "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/tufjkzn5vfbwaltdpts9.svg",
+  outreachy:
+    "https://res.cloudinary.com/osca/image/upload/v1690191564/osf/2023/sponsors/colored/zv2j7oo6w3cw29ijirqp.png",
+  cncf: "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/tsm38rwo28y3ieiweftv.svg",
+  kora: "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/tufjkzn5vfbwaltdpts9.svg",
+  eden: "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/cehhta9hba3dsdalw5li.svg",
+  africantalking:
+    "https://res.cloudinary.com/osca/image/upload/v1690191564/osf/2023/sponsors/colored/hvjmtk65l92i2xgw4m33.png",
   etionary:
-    "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Etionary-Properties_mpl55b.png",
-  africantalkig:
-    "https://res.cloudinary.com/vimoppa/image/upload/v1686822342/sponsors-colored/Africa_s_Talking_q4gzev.png"
+    "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/upvqd8z06hcchdgfornd.png"
 });
 
 export { homeBackground, aboutus, gallery, speakers, sponsors, sponsorsColored };

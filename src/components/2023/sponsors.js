@@ -129,8 +129,8 @@ const sponsorsData = [
   {
     tier: "bronze",
     name: "Africans Talking",
-    image: sponsors.africantalkig,
-    imageColored: sponsorsColored.africantalkig,
+    image: sponsors.africantalking,
+    imageColored: sponsorsColored.africantalking,
     link: "https://africastalking.com/"
   }
 ];

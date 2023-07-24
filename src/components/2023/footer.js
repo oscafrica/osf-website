@@ -119,7 +119,7 @@ function Footer(props) {
             </div>
           </div>
         </div>
-        <Gallery showGallery={props.showGallery} />
+        {props.showGallery ? <Gallery /> : null}
       </div>
     </footer>
   );

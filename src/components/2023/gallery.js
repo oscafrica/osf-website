@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import { gallery } from "./cloudImages";
 
-function Gallery(props) {
-  return !props.showGallery ? null : (
+function Gallery() {
+  return (
     <section id="gallery" className="bg-white lg:flex-row">
       <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center text-white">
         {[
@@ -35,7 +34,7 @@ function Gallery(props) {
             className={`group overflow-hidden p-3 ${gallery.day === "Day 0" ? "lg:basis-full" : "lg:basis-1/2"}`}
           >
             <img
-              className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-50"
+              className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-75"
               src={gallery.image}
               alt={`An amazing photograph from ${gallery.tag}.`}
             />
@@ -49,13 +48,5 @@ function Gallery(props) {
     </section>
   );
 }
-
-Gallery.propTypes = {
-  showGallery: PropTypes.bool
-};
-
-Gallery.defaultProps = {
-  showGallery: true
-};
 
 export default Gallery;
