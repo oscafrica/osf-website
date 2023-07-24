@@ -237,7 +237,7 @@ const Travel = () => {
           </div>
           <div className="flex justify-center md:justify-start">
             <button
-              className="bg-orange-400 text-brown text-center uppercase w-40 p-3 text-l mb-1 shadow-md flex flex-row text-center"
+              className="bg-orange-400 text-brown uppercase w-40 p-3 text-l mb-1 shadow-md flex flex-row text-center"
               onClick={readMore}
             >
               <span className="grow uppercase">{clickMore.text}</span>
