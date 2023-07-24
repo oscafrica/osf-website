@@ -31,7 +31,7 @@ function Gallery() {
             key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
-            className={`group overflow-hidden ${gallery.day === "Day 0" ? "lg:col-start-1 lg:col-end-3" : ""}`}
+            className="group overflow-hidden"
           >
             <img
               className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-75"
