@@ -5,7 +5,7 @@ import { gallery } from "./cloudImages";
 function Gallery() {
   return (
     <section id="gallery" className="bg-white">
-      <div className="flex flex-wrap flex-col lg:flex-row justify-center text-white">
+      <div className="flex flex-wrap lg:flex-row text-white">
         {[
           {
             day: "Day 0",
