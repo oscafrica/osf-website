@@ -31,7 +31,7 @@ function Gallery() {
             key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
-            className={`p-3 ${gallery.day === "Day 0" ? "lg:basis-full" : "lg:basis-1/2"}`}
+            className={`p-3 ${gallery.day === "Day 0" ? "lg:w-full" : "gallery-images"}`}
           >
             <img
               className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-75"
