@@ -30,7 +30,7 @@ function Footer(props) {
             Thank You<span className="text-[#F7931E]">.</span>
           </h1>
           <div className="lg:basis-1/4">
-            <h1 className="font-clashDisplay font-black p-1 text-xl lg:text-3xl uppercase">❤️ from the osca team</h1>
+            <h1 className="font-clashDisplay font-black p-1 text-xl lg:text-3xl uppercase">🧡 from the osca team</h1>
             <div className="z-10 mt-8">
               {[
                 {

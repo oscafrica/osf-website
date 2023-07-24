@@ -4,8 +4,8 @@ import { gallery } from "./cloudImages";
 
 function Gallery() {
   return (
-    <section id="gallery" className="bg-white lg:flex-row">
-      <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center text-white">
+    <section id="gallery" className="bg-white">
+      <div className="grid lg:grid-cols-2 gap-4 lg:gap-6 text-white">
         {[
           {
             day: "Day 0",
@@ -31,10 +31,10 @@ function Gallery() {
             key={gallery.day}
             target="_blank"
             rel="noopener noreferrer"
-            className={`group overflow-hidden p-3 ${gallery.day === "Day 0" ? "lg:basis-full" : "lg:basis-1/2"}`}
+            className={`group overflow-hidden p-3 ${gallery.day === "Day 0" ? "lg:col-start-1 lg:col-end-3" : ""}`}
           >
             <img
-              className="group-hover:scale-125 transition-all ease-in-out delay-0 w-auto mx-auto h-full brightness-75"
+              className="group-hover:scale-125 transition-all ease-in-out delay-0 mx-auto h-full w-full brightness-75"
               src={gallery.image}
               alt={`An amazing photograph from ${gallery.tag}.`}
             />
