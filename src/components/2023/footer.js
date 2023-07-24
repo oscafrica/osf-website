@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
@@ -20,7 +21,7 @@ library.add(
 );
 config.autoAddCss = false;
 
-function Footer() {
+function Footer(props) {
   return (
     <footer className="bg-white">
       <div className="container mx-auto px-5 md:px-0 lg:px-0 py-10 lg:py-20 mt-20 lg:mt-16">
@@ -37,7 +38,7 @@ function Footer() {
                   title: "Code of Conduct"
                 },
                 {
-                  route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
+                  route: "/gallery",
                   title: "Gallery"
                 },
                 {
@@ -118,10 +119,18 @@ function Footer() {
             </div>
           </div>
         </div>
-        <Gallery />
+        <Gallery showGallery={props.showGallery} />
       </div>
     </footer>
   );
 }
+
+Footer.propTypes = {
+  showGallery: PropTypes.bool
+};
+
+Footer.defaultProps = {
+  showGallery: true
+};
 
 export default Footer;

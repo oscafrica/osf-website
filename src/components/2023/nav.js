@@ -25,7 +25,7 @@ const routes = [
     title: "Travel"
   },
   {
-    route: "https://www.flickr.com/photos/oscafrica/albums/with/72177720298698442",
+    route: "/gallery",
     title: "Gallery"
   },
   {

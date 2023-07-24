@@ -11,10 +11,9 @@ const aboutus = Object.freeze({
 });
 
 const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/v1651856170/osf/2022/Gallery/i0pyrz3eypqom8ub69fi.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/v1651876411/osf/2022/Gallery/nqkungpjjadbnqo7vwir.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/v1651856297/osf/2022/Gallery/tupq9zal6ukf84uqhoum.jpg",
-  four: "https://res.cloudinary.com/osca/image/upload/v1651875478/osf/2022/Gallery/prcayyxxkwe2xnhhhdj4.jpg"
+  one: "https://res.cloudinary.com/osca/image/upload/v1690189685/osf/2023/gallery/so7vetrt5fjq2q1kvr1h.jpg",
+  two: "https://res.cloudinary.com/osca/image/upload/v1690189823/osf/2023/gallery/q3ssvd2i45wctz4zn0jb.jpg",
+  three: "https://res.cloudinary.com/osca/image/upload/v1690190014/osf/2023/gallery/noxrwhvh4jpw87cj1jqm.jpg"
 });
 
 const speakers = Object.freeze({
