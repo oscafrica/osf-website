@@ -54,7 +54,7 @@
     "gatsby-plugin-react-helmet": "^6.8.0",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sitemap": "^6.8.0",
-    "graphql": "^16.6.0",
+    "graphql": "^16.8.1",
     "netlify-cli": "^13.2.1",
     "opencollective": "1.0.3",
     "postcss": "^8.4.21",
