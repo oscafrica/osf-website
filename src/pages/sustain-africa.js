@@ -158,12 +158,12 @@ function SustainAfrica() {
       <SectionLayout>
         <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Agenda </h3>
         <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
-          The event starts at 1:00 PM WAT on <b className="text-white"> 16th June, 2024 </b>, so please arrive at 1:00 PM WAT
-          to check in. The event will last for 3 hours, 30 minutes, and will be structured as collaborative working sessions, along
-          with optional activities. Sessions will be dialog and outcome-oriented rather than presentations or lecture
-          format. The program is envisioned to enable deeper collaborations and learnings across the network of
-          participants in order to collectively improve our skills, strategies, and impact in our respective OSS
-          efforts.
+          The event starts at 1:00 PM WAT on <b className="text-white"> 16th June, 2024 </b>, so please arrive at 1:00
+          PM WAT to check in. The event will last for 3 hours, 30 minutes, and will be structured as collaborative
+          working sessions, along with optional activities. Sessions will be dialog and outcome-oriented rather than
+          presentations or lecture format. The program is envisioned to enable deeper collaborations and learnings
+          across the network of participants in order to collectively improve our skills, strategies, and impact in our
+          respective OSS efforts.
           <br />
           <br />
           The following is a working schedule for the Sustain Africa 2024:
@@ -182,14 +182,11 @@ function SustainAfrica() {
           <div className="min-w-[250px]">09:00 AM - 12:00 PM</div>
           <div>
             <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Chapter Leads Summit</p>
-            <p className="my-4 text-[#D1D1E3;]">
-            TBA
-            </p>
+            <p className="my-4 text-[#D1D1E3;]">TBA</p>
           </div>
         </AgendaSection>
 
         <div className="w-full border my-[37px]" />
-
 
         <GradientSectionHeader>
           <p className="min-w-full lg:min-w-[250px]">12:00 PM</p>
