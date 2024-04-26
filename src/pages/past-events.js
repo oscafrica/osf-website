@@ -11,6 +11,9 @@ function PreviousEvents() {
         <a href="/2022" className="bg-orange-400 uppercase p-2 text-white tracking-wider ml-5">
           OSCAFest 2022
         </a>
+        <a href="/2023" className="bg-orange-400 uppercase p-2 text-white tracking-wider ml-5">
+          OSCAFest 2023
+        </a>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import React from "react";
 
-import SEO from "../components/SEO/seo";
-import Nav from "../components/2024/nav";
-import Layout from "../components/layout";
+import SEO from "../../components/SEO/seo";
+import Nav from "../../components/2023/nav";
+import Layout from "../../components/layout";
 
 // import { homeBackground } from "../../components/2023/cloudImages";
-import Footer from "../components/2024/footer";
-import Breadcrumb from "../components/2024/breadcrumb";
+import Footer from "../../components/2023/footer";
+import Breadcrumb from "../../components/2023/breadcrumb";
 
 const SectionLayout = ({ children }) => (
   <div className="mb-[56px] px-[24px] lg:px-0 font-helvetica  max-w-[795px] m-auto">{children}</div>
@@ -33,7 +33,7 @@ const AgendaSection = ({ children }) => (
 function SustainAfrica() {
   return (
     <Layout>
-      <SEO title="Sustain Africa 2024" />
+      <SEO title="Sustain Africa 2023" />
       <Nav />
       <Breadcrumb name="Sustain Africa" />
       {/* <section
@@ -158,15 +158,15 @@ function SustainAfrica() {
       <SectionLayout>
         <h3 className="text-white uppercase font-clashDisplay font-bold text-2xl lg:text-3xl"> Agenda </h3>
         <p className="text-[#D1D1E3;] text-lg pt-[24px] lg:pt-[40px] leading-8 text-base">
-          The event starts at 1:00 PM WAT on <b className="text-white"> 16th June, 2024 </b>, so please arrive at 1:00 PM WAT
-          to check in. The event will last for 3 hours, 30 minutes, and will be structured as collaborative working sessions, along
+          The event starts at 11:00 AM on <b className="text-white"> 16th June, 2023 </b>, so please arrive at 11:00 AM
+          to check in. The event will last for 3 hours and will be structured as collaborative working sessions, along
           with optional activities. Sessions will be dialog and outcome-oriented rather than presentations or lecture
           format. The program is envisioned to enable deeper collaborations and learnings across the network of
           participants in order to collectively improve our skills, strategies, and impact in our respective OSS
           efforts.
           <br />
           <br />
-          The following is a working schedule for the Sustain Africa 2024:
+          The following is a working schedule for the Sustain Africa 2022:
         </p>
       </SectionLayout>
 
@@ -178,26 +178,13 @@ function SustainAfrica() {
           </AgendaSection>
         </div>
 
-        <AgendaSection>
-          <div className="min-w-[250px]">09:00 AM - 12:00 PM</div>
-          <div>
-            <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Chapter Leads Summit</p>
-            <p className="my-4 text-[#D1D1E3;]">
-            TBA
-            </p>
-          </div>
-        </AgendaSection>
-
-        <div className="w-full border my-[37px]" />
-
-
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">12:00 PM</p>
+          <p className="min-w-full lg:min-w-[250px]">11:00 AM</p>
           <p className="w-full text-2xl lg:text-3xl">Arrivals and registration</p>
         </GradientSectionHeader>
 
         <AgendaSection>
-          <div className="min-w-[250px]">01:00 PM</div>
+          <div className="min-w-[250px]">12 PM</div>
           <div>
             <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Opening Plenary</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -211,7 +198,7 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">01:30 PM</div>
+          <div className="min-w-[250px]">12:30 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lenses on Sustainability - Interactive Case Studies</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -231,13 +218,13 @@ function SustainAfrica() {
         </AgendaSection>
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">02:50 PM</p>
+          <p className="min-w-full lg:min-w-[250px]">01:40 PM - 05:20 PM</p>
           <p className="w-full text-2xl lg:text-3xl">Recess and Launch Break</p>
           <p className="my-4 text-[#D1D1E3;]">Chill and grab a food/drink!</p>
         </GradientSectionHeader>
 
         <AgendaSection>
-          <div className="min-w-[250px]">03:30 PM</div>
+          <div className="min-w-[250px]">02:30 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Strategy Sessions Share-Out</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -251,7 +238,7 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">04:10 PM</div>
+          <div className="min-w-[250px]">02:40 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here?</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -264,7 +251,7 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <td className="min-w-[250px]">04:15 PM</td>
+          <td className="min-w-[250px]">03:00 PM</td>
           <td>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Closing Session</p>
             <p className="my-4 text-[#D1D1E3;]">
@@ -275,9 +262,16 @@ function SustainAfrica() {
         </AgendaSection>
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">04:30 PM</p>
-          <p className="w-full text-2xl lg:text-3xl">Photographs and Networking and Lights Out!</p>
+          <p className="min-w-full lg:min-w-[250px]">03:10 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Photographs and Networking</p>
         </GradientSectionHeader>
+
+        <AgendaSection>
+          <td className="min-w-[250px]">03:30 PM</td>
+          <td>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lights Out!</p>
+          </td>
+        </AgendaSection>
       </div>
       <Footer />
     </Layout>

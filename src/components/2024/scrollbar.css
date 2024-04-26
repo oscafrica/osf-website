@@ -1,0 +1,16 @@
+.speakers-carousel-2023 > .swiper-scrollbar {
+  left: 0px !important;
+  bottom: 10px !important;
+  background-color: #232336 !important;
+  max-width: 1200px !important;
+}
+
+@media screen and (min-width: 1500px) {
+  .speakers-carousel-2023 > .swiper-scrollbar {
+    max-width: 1363px !important;
+  }
+}
+
+.speakers-carousel-2023 > .swiper-scrollbar > .swiper-scrollbar-drag {
+  background: #ffffff !important;
+}

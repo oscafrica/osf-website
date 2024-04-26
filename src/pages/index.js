@@ -12,7 +12,7 @@ import Footer from "../components/2023/footer";
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="2023" />
+      <SEO title="2024" />
       <Nav />
       <Header />
       <About />
