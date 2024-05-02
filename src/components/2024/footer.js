@@ -1,25 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { config, library } from "@fortawesome/fontawesome-svg-core";
-import { faDiscord, faFacebookSquare, faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faCalendar, faEnvelope, faExternalLinkAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-
-import Gallery from "./gallery";
-
-library.add(
-  faEnvelope,
-  faCalendar,
-  faMapMarkerAlt,
-  faExternalLinkAlt,
-  faTwitter,
-  faFacebookSquare,
-  faInstagram,
-  faGithub,
-  faDiscord
-);
-config.autoAddCss = false;
 
 function Footer(props) {
   return (

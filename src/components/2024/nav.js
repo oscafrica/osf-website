@@ -62,7 +62,7 @@ function Nav() {
                   viewBox="0 0 13 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="bg-white p-6"
+                  className="bg-white p-6"
                 >
                   <title>Close Menu</title>
                   <path
@@ -82,7 +82,7 @@ function Nav() {
                   viewBox="0 0 44 55"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="bg-white flex"
+                  className="bg-white flex"
                 >
                   <rect x="16" y="16.0547" width="27.9971" height="2" fill="#0B0B20" />
                   <rect x="16" y="26.0547" width="27.9971" height="2" fill="#0B0B20" />
@@ -98,7 +98,7 @@ function Nav() {
             <div className="flex flex-row items-center">
               <div className="mx-2 flex justify-center sm:flex-row min-w-52 flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white border-yellow-500 items-center border-4">
                 <a
-                  href="#"
+                  href="/"
                   className="font-clashDisplay font-bold bg-white p-4 text-lg tracking-wider  mx-5 w-fit flex items-center"
                 >
                   Register &nbsp;
@@ -133,7 +133,7 @@ function Nav() {
       >
         <div className="mx-2 flex justify-center sm:flex-row min-w-52 flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white border-yellow-500 border-4">
           <a
-            href="#"
+            href="/"
             className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
             onClick={() => toggleExpansion(!isExpanded)}
           >
