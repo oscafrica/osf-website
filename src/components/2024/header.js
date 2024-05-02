@@ -1,5 +1,6 @@
 import React from "react";
 import { homeBackground } from "./cloudImages";
+import { Link } from "gatsby";
 
 function Register() {
   return (
@@ -54,76 +55,38 @@ function Register() {
 function Header() {
   const bgWrapperStyles = {
     backgroundImage: `url(${homeBackground.background})`,
-    backgroundSize: "contain"
+    backgroundSize: "cover"
   };
-  return (
-    <section id="header">
-      <div className="center overflow-hidden flex flex-col w-screen object-cover lg:pt-10">
-        <div
-          className="px-5 md:px-10 lg:px-0 flex flex-col z-30 left-0 w-full min-h-screen lg:pt-16 relative"
-          style={bgWrapperStyles}
-        >
-          <span
-            className="lg:block w-[400px] lg:w-[600px] h-[400px] lg:h-[600px] z-5 absolute blur-[54px] right-[-170px] top-[-76.95px] lg:top-[-181.36px]" /* left-[175.64px] lg:left-[850.81px] top-[-96.95px] lg:top-[-181.36px] */
-            style={{
-              background:
-                "radial-gradient(34.85% 34.85% at 50% 50%, rgba(245, 185, 255, 0.5) 0%, rgba(121, 255, 191, 0.125) 50.52%, rgba(187, 251, 255, 0.02) 100%)"
-            }}
-          ></span>
-          <div className="container mt-10 lg:mt-20 mx-auto lg:px-14 flex justify-between sm:flex-row flex-col mb-6 lg:mb-10 lg:items-center">
-            <h1 className="font-humane text-white text-4xl lg:text-6xl m-0 uppercase">
-              OPEN SOURCE FESTIVAL 2023 + SUSTAIN
-            </h1>
-            <div className="hidden lg:block">
-              <Register />
-            </div>
-          </div>
-          <div className="z-10 flex flex-wrap items-center">
-            <div className="w-full h-full mx-auto container text-white flex flex-col items-center">
-              <div>
-                <span
-                  className="lg:block w-[400px] lg:w-[600px] h-[400px] lg:h-[600px] z-10 absolute blur-[100px] left-[-252.98px] lg:left-[-48px] top-[289.83px] lg:top-[477px]"
-                  style={{
-                    background:
-                      "radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 26, 0.41) 0%, rgba(255, 2, 230, 0.27) 50.52%, rgba(212, 0, 255, 0) 100%)"
-                  }}
-                ></span>
-                <img
-                  alt="OSCAFest Title 2023 Sustainability For Growth"
-                  src={homeBackground.titleLarge}
-                  className="mb-10"
-                />
-                <div className="flex flex-col mb-14 lg:mb-8 uppercase text-right lg:-mt-48 lg:-mr-32">
-                  <div className="font-clashDisplay text-xs md:text-lg lg:text-base tracking-widest m-0 mb-3 text-right">
-                    <h3>June 15TH -</h3>
-                    <h3>17TH.</h3>
-                  </div>
-                  <div className="font-humane font-wide text-4xl md:text-5xl lg:text-5xl m-0 tracking-wider">
-                    <h2>Landmark Event Center,</h2>
-                    <h2>Lagos, Nigeria.</h2>
-                  </div>
-                </div>
-              </div>
+  const navbgWrapperStyles = {
+    backgroundImage: `url(${homeBackground.navBackground})`,
+  }
 
-              <div className="flex flex-col items-center">
-                <div className="block lg:hidden w-full mx-auto mb-3">
-                  <Register />
-                </div>
-                <div className="mb-20">
+  return (
+    <section id="home">
+      <div className="center flex flex-col flex-1 w-screen object-cover bg-no-repeat">
+        <div
+          style={bgWrapperStyles}
+          className="flex flex-col z-30 left-0 w-full min-h-screen lg:pt-16 overflow-hidden"
+        >
+          <div className="z-20 flex flex-wrap  m-auto items-center">
+            <div className="w-full h-full sm:mt-36 sm:m-auto sm:my-24 lg:mt-16 m-auto lg:w-7/12 text-white flex flex-col items-center">
+              <img Alt="OSCAFest Title 2025" src={homeBackground.title} className="mb-5 lg:px-7" />
+              <div className="flex flex-col w-full ">  
+                <text className="font-clashDisplay text-6xl text-center justify-center tracking-widest text-white0 w-full"> MAY 30TH - JUNE 1ST</text>
+              </div>
+              <div className="lg:mx-5">
+                <div className="flex sm:flex-row flex-col mt-5 sm:mb-16 md:mb-10 lg:mb-0 lg:p-0">
                   <a
-                    href="/2022"
-                    className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-white-400 uppercase p-3 text-l tracking-wider w-fit flex items-center"
+                    href="https://opencollective.com/osca/events/open-source-festival-2023-e17954c1"
+                    className="font-clashDisplay font-bold bg-white p-6 m-4 text-lg text-black tracking-wider mx-5 w-fit flex items-center"
                   >
-                    View Past Events &nbsp; | &nbsp;
-                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    Become a Sponsor &nbsp;
+                  </a>
+                  <a
+                    href="/"
+                    className="font-clashDisplay font-bold bg-yellow-500 m-4 p-6 w-fit flex items-center text-black tracking-wider text-lg mx-5"
+                  >
+                    Become a Speaker &nbsp;
                   </a>
                 </div>
               </div>

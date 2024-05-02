@@ -2,12 +2,12 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
-import Nav from "../components/2023/nav";
-import Header from "../components/2023/header";
-import About from "../components/2023/about";
-import Speakers from "../components/2023/speakers";
-import Sponsors from "../components/2023/sponsors";
-import Footer from "../components/2023/footer";
+import Nav from "../components/2024/nav";
+import Header from "../components/2024/header";
+import About from "../components/2024/about";
+import Speakers from "../components/2024/speakers";
+import Sponsors from "../components/2024/sponsors";
+import Footer from "../components/2024/footer";
 
 function IndexPage() {
   return (
@@ -15,9 +15,6 @@ function IndexPage() {
       <SEO title="2024" />
       <Nav />
       <Header />
-      <About />
-      <Speakers />
-      <Sponsors />
       <Footer />
     </Layout>
   );
