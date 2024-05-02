@@ -142,7 +142,7 @@ function Nav() {
         </div>
         <div className="mx-2 flex sm:flex-row flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white">
           <a
-            href="/past-events"
+            href="/2023"
             className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
             onClick={() => toggleExpansion(!isExpanded)}
           >
