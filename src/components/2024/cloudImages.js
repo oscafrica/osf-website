@@ -4,7 +4,8 @@ const homeBackground = Object.freeze({
   title: "https://res.cloudinary.com/osca/image/upload/v1714405436/28cf06a2-1a93-4cb7-bf65-d816b5cd790e.png",
   titleLarge: "https://res.cloudinary.com/osca/image/upload/v1690190358/osf/2023/l2mwdazkcucaxwijq526.png",
   northeastArrow: "https://res.cloudinary.com/osca/image/upload/v1690190353/osf/2023/nnf0gztyck3lgcebm9q3.svg",
-  navBackground: "https://res.cloudinary.com/osca/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1714175522/61598308-0627-4fec-96a3-62ba607267ac.png",
+  navBackground:
+    "https://res.cloudinary.com/osca/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1714175522/61598308-0627-4fec-96a3-62ba607267ac.png",
   darkNavBackground: "https://res.cloudinary.com/osca/image/upload/v1714175522/61598308-0627-4fec-96a3-62ba607267ac.png"
 });
 

@@ -25,37 +25,28 @@ function Footer(props) {
   return (
     <footer className="w-screen bg-white">
       <div className=" bottom-0 z-40 w-full items-center justify-center">
-            <div className="container flex flex-row justify-between mx-auto text-lg items-center justify-center p-5">
-              <text className="font-clashDisplay font-extrabold">Oscafest@2025</text>
-              <div className=" flex justify-between">
-                <text className="font-clashDisplay font-extrabold p-2 m-2">Connect:</text>
-                <a
-                  href="https://www.linkedin.com/company/oscafrica/"
-                  className="font-clashDisplay text-gray p-2 m-2"
-                >
-                  LinkedIn &nbsp;
-                </a>
-                <a
-                  href="https://twitter.com/oscafest"
-                  className="font-clashDisplay text-gray p-2 m-2"
-                >
-                  Twitter &nbsp;
-                </a>
-                <a
-                  href="https://www.instagram.com/oscafrica/"
-                  className="font-clashDisplay text-gray p-2 m-2"
-                >
-                  Instagram &nbsp;
-                </a>
-                <a
-                  href="https://www.youtube.com/@OpenSourceCommunityAfrica"
-                  className="font-clashDisplay text-gray p-2 m-2"
-                >
-                  Youtube &nbsp;
-                </a>
-              </div>
-            </div>
+        <div className="container flex flex-row justify-between mx-auto text-lg items-center justify-center p-5">
+          <text className="font-clashDisplay font-extrabold">Oscafest@2025</text>
+          <div className=" flex justify-between">
+            <text className="font-clashDisplay font-extrabold p-2 m-2">Connect:</text>
+            <a href="https://www.linkedin.com/company/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
+              LinkedIn &nbsp;
+            </a>
+            <a href="https://twitter.com/oscafest" className="font-clashDisplay text-gray p-2 m-2">
+              Twitter &nbsp;
+            </a>
+            <a href="https://www.instagram.com/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
+              Instagram &nbsp;
+            </a>
+            <a
+              href="https://www.youtube.com/@OpenSourceCommunityAfrica"
+              className="font-clashDisplay text-gray p-2 m-2"
+            >
+              Youtube &nbsp;
+            </a>
           </div>
+        </div>
+      </div>
     </footer>
   );
 }
