@@ -6,7 +6,13 @@ import { homeBackground } from "./cloudImages";
 function Nav() {
   const navbgWrapperStyles = {
     backgroundImage: `url(${homeBackground.darkNavBackground})`,
-    backgroundSize: "cover"
+    backgroundSize: "cover",
+    opacity: 0.7,
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0
   };
   const [isExpanded, toggleExpansion] = useState(false);
   /* eslint-disable no-unused-vars */
@@ -34,11 +40,11 @@ function Nav() {
   return (
     <div className="relative w-screen">
       <div
-        className="relative top-0 z-40 bg-white opacity-70 w-screen flex flex-wrap items-center justify-between"
-        style={navbgWrapperStyles}
+        className="relative top-0 z-40 bg-white w-screen flex flex-wrap items-center justify-between"
         /* lg:w-[74%] */
       >
-        <div className="container flex flex-row mx-auto justify-between p-5 w-screen">
+        <div style={navbgWrapperStyles} className="h-full" />
+        <div className="container flex flex-row mx-auto justify-between p-5 w-screen h-full">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
             <img
               alt="Open Source Community Africa's Logo"
