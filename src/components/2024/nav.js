@@ -44,7 +44,7 @@ function Nav() {
         /* lg:w-[74%] */
       >
         <div style={navbgWrapperStyles} className="h-full" />
-        <div className="container flex flex-row mx-auto justify-between p-5 w-screen h-full">
+        <div className="container flex flex-row mx-auto justify-between p-5 w-screen h-full z-10">
           <Link className="z-20 flex items-center no-underline text-white" to="/">
             <img
               alt="Open Source Community Africa's Logo"
@@ -63,29 +63,25 @@ function Nav() {
             {isExpanded ? (
               <span className="fill-current h-4 w-8">
                 <svg
-                  width="15"
-                  height="30"
-                  viewBox="0 0 13 12"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="bg-white p-6"
+                  className="bg-white"
                 >
-                  <title>Close Menu</title>
                   <path
-                    d="M11.0494 1.17733L1.65261 10.5744M1.65234 1.17733L11.0494 10.5744"
-                    stroke="black"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    d="M24.9825 7.61333C24.4625 7.09333 23.6225 7.09333 23.1025 7.61333L16.5825 14.12L10.0625 7.59999C9.54248 7.07999 8.70248 7.07999 8.18248 7.59999C7.66248 8.11999 7.66248 8.95999 8.18248 9.47999L14.7025 16L8.18248 22.52C7.66248 23.04 7.66248 23.88 8.18248 24.4C8.70248 24.92 9.54248 24.92 10.0625 24.4L16.5825 17.88L23.1025 24.4C23.6225 24.92 24.4625 24.92 24.9825 24.4C25.5025 23.88 25.5025 23.04 24.9825 22.52L18.4625 16L24.9825 9.47999C25.4891 8.97333 25.4891 8.11999 24.9825 7.61333Z"
+                    fill="#131517"
                   />
                 </svg>
               </span>
             ) : (
               <span className="fill-current h-9 w-9 flex flex-col items-center justify-center">
                 <svg
-                  width="44"
-                  height="30"
-                  viewBox="0 0 44 55"
+                  width="45"
+                  height="45"
+                  viewBox="0 0 55 55"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                   className="bg-white flex"
@@ -137,16 +133,7 @@ function Nav() {
           isExpanded ? "visible" : "invisible"
         }  transition-all ease-in-out delay-75 z-40 flex flex-col pt-10 px-10 min-w-full text-center absolute h-screen bg-black`}
       >
-        <div className="mx-2 flex justify-center sm:flex-row min-w-52 flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white border-yellow-500 border-4">
-          <a
-            href="/"
-            className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
-            onClick={() => toggleExpansion(!isExpanded)}
-          >
-            Register &nbsp;
-          </a>
-        </div>
-        <div className="mx-2 flex sm:flex-row flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white">
+        <div className="mx-2 flex flex-col bg-white my-5">
           <a
             href="/2023"
             className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
@@ -162,6 +149,15 @@ function Nav() {
                 strokeLinejoin="round"
               />
             </svg>
+          </a>
+        </div>
+        <div className="mx-2 flex justify-center min-w-52 bg-white border-yellow-500 border-4 my-5">
+          <a
+            href="/"
+            className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
+            onClick={() => toggleExpansion(!isExpanded)}
+          >
+            Register &nbsp;
           </a>
         </div>
       </nav>
