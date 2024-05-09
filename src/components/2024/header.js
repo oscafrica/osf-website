@@ -8,7 +8,7 @@ function Header() {
   };
 
   return (
-    <section id="home" className="flex-1 flex">
+    <section id="home" className="flex-1 flex overflow-auto">
       <div className="center flex flex-col flex-1 w-screen object-cover bg-no-repeat">
         <div style={bgWrapperStyles} className="flex flex-1 flex-col z-30 left-0 w-full lg:pt-16 overflow-hidden">
           <div className="z-20 flex flex-wrap  m-auto items-center">

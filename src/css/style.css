@@ -149,4 +149,5 @@ div .overlay {
 
 body {
   background-color: #383b3c;
+  overflow: hidden;
 }
