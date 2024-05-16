@@ -37,7 +37,7 @@ function PastEvents() {
             className="flex flex-col items-center justify-center text-center w-full h-64 px-12 rounded-md bg-white text-black"
           >
             <h1 className="font-clashDisplay font-bold text-8xl mb-6 hover:text-orange-primary">{item.year}</h1>
-            <p className="font-clashDisplay text-xl text-gray-600 uppercase">
+            <p className="font-clashDisplay text-lg text-gray-600 uppercase">
               {item.days} {item.month}, {item.year}.
             </p>
           </a>
