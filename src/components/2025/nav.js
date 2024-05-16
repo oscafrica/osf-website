@@ -40,15 +40,15 @@ function Nav() {
   return (
     <div className="relative w-screen">
       <div
-        className="relative top-0 z-40 bg-white w-screen flex flex-wrap items-center justify-between"
+        className="relative top-0 z-40 bg-neutral-900 w-screen flex flex-wrap items-center justify-between"
         /* lg:w-[74%] */
       >
         <div style={navbgWrapperStyles} className="h-full" />
         <div className="container flex flex-row mx-auto justify-between p-5 w-screen h-full z-10">
-          <Link className="z-20 flex items-center no-underline text-white" to="/">
+          <Link className="z-20 flex items-center" to="/">
             <img
               alt="Open Source Community Africa's Logo"
-              className="block mx-auto w-12 xl:w-20"
+              className="block mx-auto w-16 xl:w-20"
               src={homeBackground.logo}
             />
           </Link>
@@ -61,58 +61,54 @@ function Nav() {
             aria-label="mobile-nav-button"
           >
             {isExpanded ? (
-              <span className="fill-current h-4 w-8">
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="bg-white"
-                >
+              <span className="fill-current">
+                <svg width="69" height="48" viewBox="0 0 69 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="68" height="48" transform="translate(0.58252)" fill="white" />
                   <path
-                    d="M24.9825 7.61333C24.4625 7.09333 23.6225 7.09333 23.1025 7.61333L16.5825 14.12L10.0625 7.59999C9.54248 7.07999 8.70248 7.07999 8.18248 7.59999C7.66248 8.11999 7.66248 8.95999 8.18248 9.47999L14.7025 16L8.18248 22.52C7.66248 23.04 7.66248 23.88 8.18248 24.4C8.70248 24.92 9.54248 24.92 10.0625 24.4L16.5825 17.88L23.1025 24.4C23.6225 24.92 24.4625 24.92 24.9825 24.4C25.5025 23.88 25.5025 23.04 24.9825 22.52L18.4625 16L24.9825 9.47999C25.4891 8.97333 25.4891 8.11999 24.9825 7.61333Z"
+                    d="M42.9825 15.6133C42.4625 15.0933 41.6225 15.0933 41.1025 15.6133L34.5825 22.12L28.0625 15.6C27.5425 15.08 26.7025 15.08 26.1825 15.6C25.6625 16.12 25.6625 16.96 26.1825 17.48L32.7025 24L26.1825 30.52C25.6625 31.04 25.6625 31.88 26.1825 32.4C26.7025 32.92 27.5425 32.92 28.0625 32.4L34.5825 25.88L41.1025 32.4C41.6225 32.92 42.4625 32.92 42.9825 32.4C43.5025 31.88 43.5025 31.04 42.9825 30.52L36.4625 24L42.9825 17.48C43.4891 16.9733 43.4891 16.12 42.9825 15.6133Z"
                     fill="#131517"
                   />
                 </svg>
               </span>
             ) : (
-              <span className="fill-current h-9 w-9 flex flex-col items-center justify-center">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 55 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="bg-white flex"
-                >
-                  <rect x="16" y="16.0547" width="27.9971" height="2" fill="#0B0B20" />
-                  <rect x="16" y="26.0547" width="27.9971" height="2" fill="#0B0B20" />
-                  <rect x="16" y="36.0547" width="27.9971" height="2" fill="#0B0B20" />
+              <span className="fill-current">
+                <svg width="69" height="48" viewBox="0 0 69 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="68" height="48" transform="translate(0.5)" fill="white" />
+                  <path
+                    d="M23.8333 32H45.1667C45.9 32 46.5 31.4 46.5 30.6667C46.5 29.9333 45.9 29.3333 45.1667 29.3333H23.8333C23.1 29.3333 22.5 29.9333 22.5 30.6667C22.5 31.4 23.1 32 23.8333 32ZM23.8333 25.3333H45.1667C45.9 25.3333 46.5 24.7333 46.5 24C46.5 23.2667 45.9 22.6667 45.1667 22.6667H23.8333C23.1 22.6667 22.5 23.2667 22.5 24C22.5 24.7333 23.1 25.3333 23.8333 25.3333ZM22.5 17.3333C22.5 18.0667 23.1 18.6667 23.8333 18.6667H45.1667C45.9 18.6667 46.5 18.0667 46.5 17.3333C46.5 16.6 45.9 16 45.1667 16H23.8333C23.1 16 22.5 16.6 22.5 17.3333Z"
+                    fill="#131517"
+                  />
                 </svg>
               </span>
             )}
           </button>
           <nav
             id="desktop-nav"
-            className="relative hidden lg:block flex flex-col py-24 text-white lg:text-black min-w-full text-center lg:py-0 lg:block lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0"
+            className="relative hidden lg:block flex-col py-24 text-white lg:text-black min-w-full text-center lg:py-0 lg:flex-row lg:items-center lg:w-auto lg:min-h-0 lg:min-w-0"
           >
             <div className="flex flex-row items-center">
-              <div className="mx-2 flex justify-center sm:flex-row min-w-52 flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white border-yellow-500 items-center border-4">
+              <div className="bg-white border-4 border-yellow-500 mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
                 <a
                   href="/"
-                  className="font-clashDisplay font-bold bg-white p-4 text-lg tracking-wider  mx-5 w-fit flex items-center"
+                  className="font-clashDisplay font-bold p-4 text-lg tracking-wider mx-5 w-fit flex items-center"
                 >
-                  Register &nbsp;
+                  Register
                 </a>
               </div>
-              <div className="mx-2 flex sm:flex-row flex-col sm:mb-16 md:mb-10 lg:mb-0 bg-white">
+              <div className="bg-white mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
                 <a
-                  href="/2023"
-                  className="font-clashDisplay font-bold  p-5 text-lg tracking-wider  mx-5 w-fit flex items-center"
+                  href="/past-events"
+                  className="font-clashDisplay font-bold  p-5 text-lg tracking-wider mx-5 w-fit flex items-center"
                 >
-                  Past Events &nbsp;
-                  <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  Past Events
+                  <svg
+                    className="ml-4"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
                       stroke="black"

@@ -1,12 +1,14 @@
 const homeBackground = Object.freeze({
-  background: "https://res.cloudinary.com/osca/image/upload/v1714174889/0c02a7d7-0217-4b87-b8c5-f8ab9061b2fd.png",
+  background:
+    "https://res.cloudinary.com/osca/image/upload/v1714174889/osf/2025/0c02a7d7-0217-4b87-b8c5-f8ab9061b2fd.png",
   logo: "https://res.cloudinary.com/osca/image/upload/v1576374354/osf/Logo/PNG/white.png",
-  title: "https://res.cloudinary.com/osca/image/upload/v1714405436/28cf06a2-1a93-4cb7-bf65-d816b5cd790e.png",
-  titleLarge: "https://res.cloudinary.com/osca/image/upload/v1690190358/osf/2023/l2mwdazkcucaxwijq526.png",
+  title: "https://res.cloudinary.com/osca/image/upload/v1714620971/osf/2025/a4e2f324-ff41-4a6c-b748-aa93837dea80.png",
+  titleLarge:
+    "https://res.cloudinary.com/osca/image/upload/v1714405436/osf/2025/28cf06a2-1a93-4cb7-bf65-d816b5cd790e.png",
   northeastArrow: "https://res.cloudinary.com/osca/image/upload/v1690190353/osf/2023/nnf0gztyck3lgcebm9q3.svg",
   navBackground:
     "https://res.cloudinary.com/osca/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1714175522/61598308-0627-4fec-96a3-62ba607267ac.png",
-  darkNavBackground: "https://res.cloudinary.com/osca/image/upload/v1714175522/61598308-0627-4fec-96a3-62ba607267ac.png"
+  darkNavBackground: "https://res.cloudinary.com/osca/image/upload/v1715880195/osf/2025/fgbao9vhutlbicl3rbkc.png"
 });
 
 const aboutus = Object.freeze({
