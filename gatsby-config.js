@@ -4,7 +4,7 @@ module.exports = {
     description: "A high profile event with series of talks, workshops, and awareness of open-sourced developer tools.",
     siteUrl: "https://festival.oscafrica.org",
     image: "/og-image.png",
-    twitterUsername: "@oscafrica"
+    twitterUsername: "@oscafest"
   },
   plugins: [
     "gatsby-plugin-gtag",
@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ["/schedule/", "/travel/", "/speakers/", "/sustain-africa", "/2020"]
+        precachePages: ["/schedule/", "/travel/", "/speakers/", "/sustain-africa"]
       }
     },
     "gatsby-plugin-fontawesome-css"
