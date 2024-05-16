@@ -111,7 +111,7 @@ function Header() {
                 </div>
                 <div className="mb-20">
                   <a
-                    href="/2022"
+                    href="/past-events"
                     className="font-clashDisplay font-semibold bg-transparent text-white border-2 border-solid border-white-400 uppercase p-3 text-l tracking-wider w-fit flex items-center"
                   >
                     View Past Events &nbsp; | &nbsp;
