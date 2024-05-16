@@ -30,7 +30,7 @@ function PastEvents() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 text-white">
         {events.reverse().map((item, index) => (
           <a
-            href={`/${item.year}`}
+            href={`/${item.year === "2025" ? "" : item.year}`}
             key={index}
             target="_blank"
             rel="noopener noreferrer"
