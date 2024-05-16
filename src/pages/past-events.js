@@ -1,4 +1,5 @@
 import React from "react";
+import { homeBackground } from "../components/2025/cloudImages";
 
 function PastEvents() {
   const events = [
@@ -26,7 +27,6 @@ function PastEvents() {
 
   return (
     <section className="bg-orange-primary flex flex-col items-center justify-center lg:h-screen py-24 px-2">
-      <span className="font-clashDisplay mb-12 text-2xl">Previous Open Source Festivals:</span>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 text-white">
         {events.reverse().map((item, index) => (
           <a
@@ -43,12 +43,10 @@ function PastEvents() {
           </a>
         ))}
       </div>
-      <a
-        href="https://oscafrica.org"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-clashDisplay mt-12 text-md"
-      >
+      <a href="/" className="mt-20 mb-4">
+        <img alt="Open Source Community Africa's Logo" className="block mx-auto w-20" src={homeBackground.logo} />
+      </a>
+      <a href="https://oscafrica.org" target="_blank" rel="noopener noreferrer" className="font-clashDisplay text-md">
         &copy; Open Source Community Africa.
       </a>
     </section>
