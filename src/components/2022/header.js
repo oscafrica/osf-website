@@ -54,8 +54,6 @@ function Header() {
               </a>
               <a
                 href="/past-events"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="font-anisette text-center text-xs w-full block sm:inline-block sm:w-auto lg:mt-8 md:mt-0 px-12 py-6 bg-army-green-primary text-white uppercase hover:bg-inherit hover:outline hover:outline-white hover:outline-4 hover:text-white transition-colors duration-500"
               >
                 View past events

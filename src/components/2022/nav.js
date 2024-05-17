@@ -27,7 +27,7 @@ function Nav() {
             isExpanded ? "bg-army-green-primary" : "bg-transparent"
           } flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-10`}
         >
-          <Link className="z-20 flex items-center no-underline text-white" to="/">
+          <Link className="z-20 flex items-center no-underline text-white" to="/2022">
             <img
               alt="Open Source Community Africa's Logo"
               className="block mx-auto w-12 xl:w-20"

@@ -64,7 +64,7 @@ function Nav() {
         className="relative border-solid border-2 border-[#1E1E1E] lg:fixed container inset-x-0 mx-auto fixed top-0 z-40 bg-white mt-10 pl-4 lg:px-16 w-[90%]" /* lg:w-[74%] */
       >
         <div className="bg-white flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-5 ">
-          <Link className="z-20 flex items-center no-underline text-white" to="/">
+          <Link className="z-20 flex items-center no-underline text-white" to="/2023">
             <img
               alt="Open Source Community Africa's Logo"
               className="block mx-auto w-12 xl:w-20"

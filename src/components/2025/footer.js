@@ -7,7 +7,7 @@ function Footer(props) {
     <footer className="flex w-screen bg-white">
       <div className=" bottom-0 z-40 w-full items-center justify-center">
         <div className="container flex lg:flex-row flex-col-reverse justify-between mx-auto text-lg items-center p-5">
-          <text className="font-clashDisplayVariable font-black p-4 md:mt-0 lg:mt-0">Oscafest &copy; 2025</text>
+          <text className="font-clashDisplay font-black p-4 md:mt-0 lg:mt-0">Open Source Festival &copy; 2025</text>
           <div className=" flex justify-between flex-col lg:flex-row">
             <div className="flex justify-center align-center text-center">
               <text className="font-clashDisplayVariable font-black p-2 m-2">Connect:</text>
