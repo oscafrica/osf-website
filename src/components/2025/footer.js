@@ -14,22 +14,22 @@ function Footer(props) {
             </div>
             <div className="flex flex-row flex-wrap justify-center">
               <a
-                href="https://discord.gg/open-source-community-africa-676252299093475348"
+                href="https://oscafrica.org/discord"
                 className="font-clashDisplay text-gray p-2 m-2"
               >
                 Discord &nbsp;
               </a>
-              <a href="https://www.linkedin.com/company/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
+              <a href="https://linkedin.com/company/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
                 LinkedIn &nbsp;
               </a>
-              <a href="https://twitter.com/oscafest" className="font-clashDisplay text-gray p-2 m-2">
+              <a href="https://x.com/osca_hq" className="font-clashDisplay text-gray p-2 m-2">
                 Twitter &nbsp;
               </a>
-              <a href="https://www.instagram.com/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
+              <a href="https://instagram.com/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
                 Instagram &nbsp;
               </a>
               <a
-                href="https://www.youtube.com/@OpenSourceCommunityAfrica"
+                href="https://youtube.com/@OpenSourceCommunityAfrica"
                 className="font-clashDisplay text-gray p-2 m-2"
               >
                 Youtube &nbsp;
