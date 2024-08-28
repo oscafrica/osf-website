@@ -13,10 +13,7 @@ function Footer(props) {
               <text className="font-clashDisplayVariable font-black p-2 m-2">Connect:</text>
             </div>
             <div className="flex flex-row flex-wrap justify-center">
-              <a
-                href="https://oscafrica.org/discord"
-                className="font-clashDisplay text-gray p-2 m-2"
-              >
+              <a href="https://oscafrica.org/discord" className="font-clashDisplay text-gray p-2 m-2">
                 Discord &nbsp;
               </a>
               <a href="https://linkedin.com/company/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
@@ -28,10 +25,7 @@ function Footer(props) {
               <a href="https://instagram.com/oscafrica/" className="font-clashDisplay text-gray p-2 m-2">
                 Instagram &nbsp;
               </a>
-              <a
-                href="https://youtube.com/@OpenSourceCommunityAfrica"
-                className="font-clashDisplay text-gray p-2 m-2"
-              >
+              <a href="https://youtube.com/@OpenSourceCommunityAfrica" className="font-clashDisplay text-gray p-2 m-2">
                 Youtube &nbsp;
               </a>
             </div>

@@ -18,7 +18,7 @@ function Header() {
               <div className="flex flex-col w-full ">
                 <text className="font-clashDisplay text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center justify-center tracking-widest text-white  w-full">
                   {" "}
-                  JUNE 12 - JUNE 14, 2025
+                  JUNE 19 - JUNE 21, 2025
                 </text>
               </div>
               <div className="lg:mx-5">
