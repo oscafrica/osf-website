@@ -24,13 +24,13 @@ function Header() {
               <div className="lg:mx-5">
                 <div className="flex flex-col md:flex-row mt-5 sm:mb-16 md:mb-10 lg:mb-0 lg:p-0 items-center">
                   <a
-                    href="mailto:event@oscafrica.org"
+                    href="/sponsorship-deck-2025.pdf"
                     className="font-clashDisplay font-bold bg-white hover:bg-gray-100 m-4 p-6 mx-5 w-80 lg:w-fit text-center text-black tracking-wider text-lg"
                   >
                     Become a Sponsor
                   </a>
                   <a
-                    href="https://discord.gg/open-source-community-africa-676252299093475348"
+                    href="https://oscafrica.org/discord"
                     className="font-clashDisplay font-bold bg-yellow-500 hover:bg-yellow-400 m-4 p-6 mx-5 w-80 lg:w-fit text-center text-black tracking-wider text-lg"
                   >
                     Become a Speaker
