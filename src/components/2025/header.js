@@ -16,7 +16,7 @@ function Header() {
               <img alt="OSCAFest 2025" src={homeBackground.title} className="md:hidden mb-5 w-80" />
               <img alt="OSCAFest 2025" src={homeBackground.titleLarge} className="hidden md:flex mb-5" />
               <div className="flex flex-col w-full ">
-                <text className="font-clashDisplay text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center justify-center tracking-widest text-white  w-full">
+                <text className="font-clashDisplay text-2xl md:text-2xl lg:text-4xl xl:text-5xl text-center justify-center tracking-widest text-white  w-full">
                   {" "}
                   AUGUST 14 - AUGUST 16, 2025
                 </text>
