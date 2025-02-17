@@ -21,8 +21,8 @@ function PastEvents() {
       year: "2023"
     },
     {
-      days: "19th - 21st",
-      month: "June",
+      days: "14th - 16th",
+      month: "August",
       year: "2025"
     }
   ];
