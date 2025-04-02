@@ -30,7 +30,9 @@ function Header() {
                     Become a Sponsor
                   </a>
                   <a
-                    href="https://oscafrica.org/discord"
+                    href="https://sessionize.com/open-source-festival-2025"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="font-clashDisplay font-bold bg-yellow-500 hover:bg-yellow-400 m-4 p-6 mx-5 w-80 lg:w-fit text-center text-black tracking-wider text-lg"
                   >
                     Become a Speaker
