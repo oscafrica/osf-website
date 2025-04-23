@@ -1,3 +1,4 @@
+
 const homeBackground = Object.freeze({
   background:
     "https://res.cloudinary.com/osca/image/upload/v1714174889/osf/2025/0c02a7d7-0217-4b87-b8c5-f8ab9061b2fd.png",
@@ -66,7 +67,9 @@ const sponsors = Object.freeze({
   africantalking:
     "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/ks3rbn2v59dy7k0vet3n.png",
   alt: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/y6dwwioamdregdfaoves.svg",
-  etionary: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/optcrt9o98rnxuq8z9se.png"
+  etionary: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/optcrt9o98rnxuq8z9se.png",
+  amazon: "/sponsors/aws.png",
+  eclipsefoundation: "/sponsors/eclipse-foundation.svg"
 });
 
 const sponsorsColored = Object.freeze({
