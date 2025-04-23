@@ -89,7 +89,7 @@ function Speaker() {
   return (
     <section id="speakers" className="bg-[#1E1E1E] overflow-hidden" style={bgWrapperStyles}>
       <div className="container mx-auto px-5 lg:px-0 my-10 lg:my-20">
-        <div className="font-humane font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase">
+        <div className="font-humane font-medium text-[8rem] md:text-[10rem] lg:text-[20rem] leading-none uppercase  pl-0 lg:pl-10">
           <div className="text-white lg:-mb-16">Meet our</div>
           <div className="text-[#F7931E] leading-none">Speakers.</div>
         </div>
