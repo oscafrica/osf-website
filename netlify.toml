@@ -9,3 +9,9 @@
   to = "https://docs.google.com/document/d/12xuZtT_rzHEIxmZ5iHU4IYWcntjjCZ6aALRnf85sKAQ/edit?usp=sharing"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "/tickets"
+  to = "https://tix.africa/osf-25"
+  status = 301
+  force = true
