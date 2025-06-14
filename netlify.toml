@@ -11,7 +11,7 @@
   force = true
   
 [[redirects]]
-  from = "/tickets"
+  from = "/register"
   to = "https://tix.africa/osf-25"
   status = 301
   force = true
