@@ -96,6 +96,30 @@ function Nav() {
                 </a>
               </div>
               <div className="bg-white mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
+                <Link
+                  to="/speaker-schedule"
+                  className="font-clashDisplay font-bold whitespace-nowrap  p-5 text-lg tracking-wider mx-5 w-fit flex items-center"
+                >
+                  Speaker Schedule
+                  <svg
+                    className="ml-4"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                      stroke="black"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </Link>
+              </div>
+              <div className="bg-white mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
                 <a
                   href="/past-events"
                   className="font-clashDisplay font-bold  p-5 text-lg tracking-wider mx-5 w-fit flex items-center"
@@ -129,6 +153,24 @@ function Nav() {
           isExpanded ? "visible" : "invisible"
         }  transition-all ease-in-out delay-75 z-40 flex flex-col pt-10 px-10 min-w-full text-center absolute h-screen bg-black`}
       >
+        <div className="mx-2 flex flex-col bg-white my-5">
+          <Link
+            to="/speaker-schedule"
+            className="font-clashDisplay font-bold  p-5 text-black tracking-wider whitespace-nowrap mx-5 flex items-center justify-center"
+            onClick={() => toggleExpansion(!isExpanded)}
+          >
+            Speaker Schedule &nbsp;
+            <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.75 13.75L13.25 1.25M13.25 1.25H3.875M13.25 1.25V10.625"
+                stroke="black"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </Link>
+        </div>
         <div className="mx-2 flex flex-col bg-white my-5">
           <a
             href="/past-events"
