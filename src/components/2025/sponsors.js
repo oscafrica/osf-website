@@ -5,6 +5,17 @@ import { sponsors, sponsorsColored } from "../2025/cloudImages";
 
 const sponsorsData = [
   {
+    tier: "diamond",
+    sponsors: [
+      {
+        name: "Btrust",
+        image: sponsors.btrust,
+        imageColored: sponsorsColored.btrust,
+        link: "https://www.btrust.tech/"
+      }
+    ]
+  },
+  {
     tier: "gold",
     sponsors: [
       {
@@ -40,6 +51,12 @@ const sponsorsData = [
         image: sponsors.cncf,
         imageColored: sponsorsColored.cncf,
         link: "https://www.cncf.io/"
+      },
+      {
+        name: "Mastra",
+        image: sponsors.mastra,
+        imageColored: sponsorsColored.mastra,
+        link: "https://mastra.ai/"
       }
     ]
   }
