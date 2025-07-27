@@ -68,8 +68,10 @@ const sponsors = Object.freeze({
     "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/ks3rbn2v59dy7k0vet3n.png",
   alt: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/y6dwwioamdregdfaoves.svg",
   etionary: "https://res.cloudinary.com/osca/image/upload/v1690191123/osf/2023/sponsors/black/optcrt9o98rnxuq8z9se.png",
-  amazon: "/sponsors/aws.png",
-  eclipsefoundation: "/sponsors/ef-white.svg"
+  amazon: "/sponsors/aws.svg",
+  eclipsefoundation: "/sponsors/ef-white.svg",
+  btrust: "/sponsors/btrust.svg",
+  mastra: "/sponsors/mastra.svg"
 });
 
 const sponsorsColored = Object.freeze({
@@ -93,7 +95,9 @@ const sponsorsColored = Object.freeze({
     "https://res.cloudinary.com/osca/image/upload/v1690191564/osf/2023/sponsors/colored/hvjmtk65l92i2xgw4m33.png",
   etionary:
     "https://res.cloudinary.com/osca/image/upload/v1690191565/osf/2023/sponsors/colored/upvqd8z06hcchdgfornd.png",
-  eclipsefoundation: "/sponsors/ef-white.svg"
+  eclipsefoundation: "/sponsors/ef-white.svg",
+  btrust: "/sponsors/btrust.svg",
+  mastra: "/sponsors/mastra.svg"
 });
 
 export { homeBackground, aboutus, gallery, speakers, sponsors, sponsorsColored };
