@@ -88,58 +88,27 @@ const Travel = () => {
             className="w-full"
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/voFbXUQC_8M"
+            src="https://www.youtube.com/embed/1fiZi5mTzxI"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>
         <section className={sectionStyle}>
-          <h2 className={secHeadingStyle}>COVID GUIDELINES</h2>
-          <p className={secBodyStyle}>
-            We are excited about the opportunity for in-person meetups. For attendees and speakers travelling to
-            Nigeria, you must complete a health declaration{" "}
-            <a href="https://healthapp.ncdc.gov.ng/" alt="health-declaration">
-              {" "}
-              form
-            </a>{" "}
-            and possess a valid vaccination card.
-          </p>
-          {/* <ol className={secOlStyle}>
-            <li>All attendees are to wear a nose mask during the festival.</li>
-            <li>Social distancing will be maintained in all the halls used for the festival.</li>
-          </ol>
-          <p className={secBodyStyle}>
-            For attendees and speakers travelling to Nigeria, you must complete an online declaration form, upload a
-            copy of a negative PCR COVID-19 test, and book post-arrival tests via the online portal. Once you have done
-            this, you will be issued with a “permit to travel” via the portal.The following protocols are in place for
-            travellers to Nigeria:
-          </p>
-          <ol className={secOlStyle}>
-            <li>
-              All travellers arriving in Nigeria must present a negative COVID-19 PCR test result conducted no more than
-              48 hours before departure. For passengers with multiple connections before arrival in Nigeria, the PCR
-              test must be valid within 48 hours of boarding from the first point of departure.
-            </li>
-            <li>
-              All travellers are required to do a COVID-19 PCR test on day 2 after arrival. Unvaccinated and partially
-              vaccinated (1 dose only) travellers are required to self-isolate for 7 days and to do a COVID-19 test on
-              day 2 and day 7 after arrival in order to exit isolation.
-            </li>
-            <li>
-              All outbound travellers departing Nigeria must present evidence of full COVID-19 vaccination OR a negative
-              COVID-19 PCR test conducted no more than 48 hours before departure. This must be done regardless of the
-              entry requirements of the destination country
-            </li>
-          </ol> */}
-        </section>
-        <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>VISA INFORMATION</h2>
           <p className={secBodyStyle}>
-            Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d &apos ivoire, Gambia, Ghana?
-            Then you do not require a visa to visit Nigeria. Citizens of all other countries require a visa obtainable
-            from any Nigerian Embassy or Consulate close to them. You will also be required to have proof of polio,
-            yellow fever, and Covid19 vaccinations to enter Nigeria.
+            Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d'ivoire, Gambia, Ghana? Then
+            you do not require a visa to visit Nigeria. Citizens of all other countries{" "}
+            <a
+              href="https://immigration.gov.ng/nigerian-visa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              require visa
+            </a>{" "}
+            obtainable from any Nigerian Embassy or Consulate close to them. You will also be required to have proof of
+            yellow fever vaccination to enter Nigeria.
           </p>
         </section>
         <section className={sectionStyle}>
@@ -163,14 +132,14 @@ const Travel = () => {
           </p>
           <ol className={secOlStyle}>
             <li>
-              <span className="font-bold text-white">Visa:</span>You may need a visa to enter Nigeria. You must check
+              <span className="font-bold text-white">Visa:</span> You may need a visa to enter Nigeria. You must check
               this, otherwise, you will likely be denied entry, or probably not even be allowed to board your plane. If
               you have any questions, please contact us immediately.
             </li>
             <li>
-              <span className="font-bold text-white">Vaccination certificate:</span> You must have yellow fever, polio
-              vaccination, and Covid19 certificate to enter Nigeria. Otherwise, you will likely be denied entry. Please
-              ensure you have this in advance, do not leave it until the last minute.
+              <span className="font-bold text-white">Vaccination certificate:</span> You must have yellow fever
+              vaccination to enter Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in
+              advance, do not leave it until the last minute.
             </li>
             <li>
               <span className="font-bold text-white">Malaria precautions:</span> All of Nigeria, including Lagos, is
