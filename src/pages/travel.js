@@ -137,19 +137,19 @@ const Travel = () => {
               you have any questions, please contact us immediately.
             </li>
             <li>
-              <span className="font-bold text-white">Vaccination certificate:</span> You must have yellow fever
+              <span className="font-bold text-white">Vaccination Certificate:</span> You must have yellow fever
               vaccination to enter Nigeria. Otherwise, you will likely be denied entry. Please ensure you have this in
               advance, do not leave it until the last minute.
             </li>
             <li>
-              <span className="font-bold text-white">Malaria precautions:</span> All of Nigeria, including Lagos, is
+              <span className="font-bold text-white">Malaria Precautions:</span> All of Nigeria, including Lagos, is
               indicated as a high-risk zone for malaria. Travelers are advised to take antimalarial medication such as
               Malarone (atovaquone/proguanil hydrochloride) and other precautions. After sunset, avoid mosquito bites by
               covering up with clothing (long sleeves, long trousers), using insect repellents on exposed skin, and when
               necessary: sleeping under a mosquito net. Ensure to bring the appropriate clothing and creams.
             </li>
             <li>
-              <span className="font-bold text-white"> Arrival times: </span>We plan to coordinate transport on arrival
+              <span className="font-bold text-white"> Arrival Times: </span>We plan to coordinate transport on arrival
               at the airport for some groups. We might not be able to do this for everyone, but please let us know:
               <ul className="[&>*]:ml-2 [&>*]:mt-3 list-disc list-inside px-5">
                 <li>The date and time of your arrival in Nigeria</li>
