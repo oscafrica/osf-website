@@ -3,13 +3,19 @@
 
 [context.branch-deploy]
   command = "npm run noIndex"
-  
+
+[[redirects]]
+  from = "/faq"
+  to = "https://hackmd.io/@oscafrica/rkAGMnfVex"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/faqs"
   to = "https://hackmd.io/@oscafrica/rkAGMnfVex"
   status = 301
   force = true
-  
+
 [[redirects]]
   from = "/register"
   to = "https://tix.africa/osf-25"
