@@ -33,7 +33,7 @@ const AgendaSection = ({ children }) => (
 function SustainAfrica() {
   return (
     <Layout>
-      <SEO title="Sustain Africa 2024" />
+      <SEO title="Sustain Africa 2025" />
       <Nav />
       <Breadcrumb name="Sustain Africa" />
       {/* <section
@@ -60,7 +60,7 @@ function SustainAfrica() {
           throughout, and you will be asked to put devices away if they distract you or anyone else as facilitators take
           you through the journey of Open Source Sustainability. <br />
           <br />
-          The following is a working Schedule for Sustain Africa 2024:
+          The following is a working Schedule for Sustain Africa 2025:
         </p>
       </SectionLayout>
 
@@ -77,19 +77,19 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">12:00 PM</p>
+          <p className="min-w-full lg:min-w-[250px]">11:00 AM</p>
           <p className="w-full text-2xl lg:text-3xl">Arrivals and Registration</p>
         </GradientSectionHeader>
 
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">01:00 PM</div>
+          <div className="min-w-[250px]">12:00 PM</div>
           <div>
             <p className="text-2xl mt-2 lg:mt-0 lg:text-3xl">Opening Plenary</p>
             <p className="my-4 text-[#D1D1E3;]">
-              The event will be called to order with a friendly and fast-paced kickoff that includes words of welcome
-              from meeting organizers, brief participant introductions, overviews of the agenda, participation
+              The event will be called to order with a friendly and fast-paced kickoff that includes welcome words from
+              the meeting organizers, brief participant introductions, overviews of the agenda, participation
               guidelines, and meeting logistics.
             </p>
           </div>
@@ -98,23 +98,24 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
-          <div className="min-w-[250px]">01:30 PM</div>
+          <div className="min-w-[250px]">12:30 PM</div>
           <div>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Lenses on Sustainability - Interactive Case Studies</p>
             <p className="my-4 text-[#D1D1E3;]">
               The program will start with a set of discussions designed to explore the latest practices and learnings
-              around sustainability in OSS contexts.
+              around open source and sustainability in the African context.
             </p>
             <p className="my-2 text-[#D1D1E3;]">Topics anticipated to be covered include:</p>
             <ul className="list-disc m-2 text-[#D1D1E3;]">
-              <li className="mx-4">Open Source Software.</li>
-              <li className="mx-4">Open Source Documentation.</li>
-              <li className="mx-4">Open Source Design.</li>
-              <li className="mx-4">Open Source Data and AI.</li>
-              <li className="mx-4">Open Source Marketing and Funding.</li>
-              <li className="mx-4">Open Source Programs and Specialized Projects.</li>
-              <li className="mx-4">Open Source and Government.</li>
-              <li className="mx-4">Burnout and Mental Health.</li>
+              <li className="mx-4">Open Source Software</li>
+              <li className="mx-4">Open Source Hardware</li>
+              <li className="mx-4">Open Source Design</li>
+              <li className="mx-4">Open Source Documentation</li>
+              <li className="mx-4">Open Source Data and AI</li>
+              <li className="mx-4">Open Source Marketing and Funding</li>
+              <li className="mx-4">Open Source Programs and Program Office</li>
+              <li className="mx-4">Open Source and Government</li>
+              <li className="mx-4">Burnout and Mental Health</li>
             </ul>
           </div>
         </AgendaSection>
@@ -122,56 +123,59 @@ function SustainAfrica() {
         <div className="w-full border my-[37px]" />
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">02:50 PM</p>
-          <p className="w-full text-2xl lg:text-3xl">Recess and Lunch Break</p>
-          <p className="my-4 text-[#D1D1E3;]">Chill and grab a food/drink!</p>
+          <p className="min-w-full lg:min-w-[250px]">02:00 PM</p>
+          <div className="w-full">
+            <p className="text-2xl lg:text-3xl">Recess and Lunch Break</p>
+            <p className="my-4 text-[#D1D1E3;]">Chill and grab a food/drink!</p>
+          </div>
         </GradientSectionHeader>
+
+        <div className="w-full border my-[37px]" />
+
+        <AgendaSection>
+          <div className="min-w-[250px]">02:40 PM</div>
+          <div>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Strategy Sessions Share-Out</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              Outputs and results from the interactive case studies will be set up around the main meeting room and
+              summarised by the facilitators. Participants will be invited to &quot;browse the gallery,&quot; reviewing
+              work from all sessions, providing feedback, and indicating interest in any ongoing efforts.
+            </p>
+          </div>
+        </AgendaSection>
+
+        <div className="w-full border my-[37px]" />
+
+        <AgendaSection>
+          <div className="min-w-[250px]">03:20 PM</div>
+          <div>
+            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here?</p>
+            <p className="my-4 text-[#D1D1E3;]">
+              The entire group will pause before the closing plenary, and the moderator will take stock of the progress
+              made to this point in the meeting, inventory action items, next steps, and other bridges to post-event
+              collaboration.
+            </p>
+          </div>
+        </AgendaSection>
 
         <div className="w-full border my-[37px]" />
 
         <AgendaSection>
           <div className="min-w-[250px]">03:30 PM</div>
           <div>
-            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Strategy Sessions Share-Out</p>
-            <p className="my-4 text-[#D1D1E3;]">
-              Outputs and results from the interactive case studies will be set up around the main meeting room, and
-              participants will be invited to “browse the gallery”, reviewing work from all sessions, providing
-              feedback, and indicating interest in any ongoing efforts.
-            </p>
-          </div>
-        </AgendaSection>
-
-        <div className="w-full border my-[37px]" />
-
-        <AgendaSection>
-          <div className="min-w-[250px]">04:10 PM</div>
-          <div>
-            <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Mapping ongoing collaborations: Where from here?</p>
-            <p className="my-4 text-[#D1D1E3;]">
-              The group will pause before the closing plenary to take stock of the progress made to this point in the
-              meeting and to inventory action items, next steps, and other bridges to post-event collaboration.
-            </p>
-          </div>
-        </AgendaSection>
-
-        <div className="w-full border my-[37px]" />
-
-        <AgendaSection>
-          <td className="min-w-[250px]">04:15 PM</td>
-          <td>
             <p className="text-2xl  mt-2 lg:mt-0 lg:text-3xl">Closing Session</p>
             <p className="my-4 text-[#D1D1E3;]">
-              Participants will summarize key outcomes from the event, share appreciations and bring the meeting to a
+              Participants will summarise key outcomes from the event, share appreciation, and bring the meeting to a
               close.
             </p>
-          </td>
+          </div>
         </AgendaSection>
 
         <div className="w-full border my-[37px]" />
 
         <GradientSectionHeader>
-          <p className="min-w-full lg:min-w-[250px]">04:30 PM</p>
-          <p className="w-full text-2xl lg:text-3xl">Photographs and Networking and Lights Out!</p>
+          <p className="min-w-full lg:min-w-[250px]">03:45 PM</p>
+          <p className="w-full text-2xl lg:text-3xl">Photographs, Networking, and Lights out!</p>
         </GradientSectionHeader>
       </div>
 
