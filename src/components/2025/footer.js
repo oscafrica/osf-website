@@ -30,6 +30,14 @@ function Footer(props) {
               </a>
             </div>
           </div>
+          <div className="flex flex-row flex-wrap justify-center ">
+            <a href="https://hackmd.io/@oscafrica/rkAGMnfVex" className="font-clashDisplay text-gray p-2 m-2">
+              Code of Conduct &nbsp;
+            </a>
+            <a href="https://hackmd.io/@oscafrica/rkAGMnfVex" className="font-clashDisplay text-gray p-2 m-2">
+              FAQ &nbsp;
+            </a>
+          </div>
         </div>
       </div>
     </footer>
