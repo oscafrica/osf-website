@@ -34,10 +34,17 @@ function Footer(props) {
             <a
               href="https://docs.oscafrica.org/about/community-code-of-conduct"
               className="font-clashDisplay text-gray p-2 m-2"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Code of Conduct &nbsp;
             </a>
-            <a href="https://hackmd.io/@oscafrica/rkAGMnfVex" className="font-clashDisplay text-gray p-2 m-2">
+            <a
+              href="https://hackmd.io/@oscafrica/rkAGMnfVex"
+              className="font-clashDisplay text-gray p-2 m-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               FAQ &nbsp;
             </a>
           </div>
