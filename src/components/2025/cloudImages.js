@@ -1,4 +1,3 @@
-
 const homeBackground = Object.freeze({
   background:
     "https://res.cloudinary.com/osca/image/upload/v1714174889/osf/2025/0c02a7d7-0217-4b87-b8c5-f8ab9061b2fd.png",
@@ -17,9 +16,9 @@ const aboutus = Object.freeze({
 });
 
 const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/v1690189685/osf/2023/gallery/so7vetrt5fjq2q1kvr1h.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/v1690197301/osf/2023/gallery/lxrxztohyosqcjm198iu.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/v1690197375/osf/2023/gallery/erjzlrsogcu0ephdvjfw.jpg"
+  one: "https://live.staticflickr.com/65535/54772073172_229364df5a_h.jpg",
+  two: "https://live.staticflickr.com/65535/54772140597_4faad0df38_h.jpg",
+  three: "https://live.staticflickr.com/65535/54773232083_80eb135dca_h.jpg"
 });
 
 const speakers = Object.freeze({

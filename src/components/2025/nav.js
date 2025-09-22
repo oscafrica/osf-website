@@ -89,10 +89,10 @@ function Nav() {
             <div className="flex flex-row items-center">
               <div className="bg-white border-4 border-yellow-500 mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
                 <a
-                  href="https://festival.oscafrica.org/register"
+                  href="/gallery"
                   className="font-clashDisplay font-bold p-4 text-lg tracking-wider mx-5 w-fit flex items-center"
                 >
-                  Register
+                  Photo Gallery
                 </a>
               </div>
               <div className="bg-white mx-2 w-60 flex sm:flex-row flex-col justify-center sm:mb-16 md:mb-10 lg:mb-0">
@@ -166,11 +166,11 @@ function Nav() {
         </div>
         <div className="mx-2 flex justify-center min-w-52 bg-white border-yellow-500 border-4 my-5">
           <a
-            href="https://festival.oscafrica.org/register"
+            href="/gallery"
             className="font-clashDisplay font-bold  p-5 text-black tracking-wider w-full mx-5 w-fit flex items-center justify-center"
             onClick={() => toggleExpansion(!isExpanded)}
           >
-            Register &nbsp;
+            Photo Gallery &nbsp;
           </a>
         </div>
       </nav>
