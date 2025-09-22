@@ -11,19 +11,19 @@ function Gallery() {
             day: "Day 0",
             tag: "Sustain Africa",
             image: gallery.one,
-            href: "https://flic.kr/s/aHBqjAKNq2"
+            href: "https://flic.kr/s/aHBqjCtsym"
           },
           {
             day: "Day 1",
             tag: "Workshop + Conference",
             image: gallery.two,
-            href: "https://flic.kr/s/aHBqjANqno"
+            href: "https://flic.kr/s/aHBqjCtu4r"
           },
           {
             day: "Day 2",
             tag: "Conference",
             image: gallery.three,
-            href: "https://flic.kr/s/aHBqjANxYi"
+            href: "https://flic.kr/s/aHBqjCtoRf"
           }
         ].map((gallery) => (
           <a
