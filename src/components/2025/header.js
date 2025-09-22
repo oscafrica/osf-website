@@ -24,10 +24,10 @@ function Header() {
               <div className="lg:mx-5">
                 <div className="flex flex-col md:flex-row mt-5 sm:mb-16 md:mb-10 lg:mb-0 lg:p-0 items-center">
                   <a
-                    href="https://festival.oscafrica.org/register"
+                    href="/gallery"
                     className="font-clashDisplay font-bold bg-white hover:bg-gray-100 m-4 p-6 mx-5 w-80 lg:w-fit text-center text-black tracking-wider text-lg"
                   >
-                    Register
+                    Photo Gallery 📸
                   </a>
                   <a
                     href="/schedule"
