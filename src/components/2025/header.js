@@ -18,7 +18,7 @@ function Header() {
               <div className="flex flex-col w-full ">
                 <text className="font-clashDisplay text-2xl md:text-2xl lg:text-4xl xl:text-5xl text-center justify-center tracking-widest text-white  w-full">
                   {" "}
-                  AUGUST 14 - AUGUST 16, 2025
+                  AUGUST 14 - 16, 2025
                 </text>
               </div>
               <div className="lg:mx-5">
@@ -30,10 +30,10 @@ function Header() {
                     Photo Gallery 📸
                   </a>
                   <a
-                    href="/schedule"
+                    href="https://oscafrica.org/discord"
                     className="font-clashDisplay font-bold bg-yellow-500 hover:bg-yellow-400 m-4 p-6 mx-5 w-80 lg:w-fit text-center text-black tracking-wider text-lg"
                   >
-                    Schedule
+                    Join the Community
                   </a>
                 </div>
               </div>
