@@ -76,7 +76,7 @@
     "@mdx-js/react": "^3.0.0",
     "@storybook/addon-docs": "^6.5.16",
     "@storybook/addon-viewport": "^6.5.16",
-    "@storybook/react": "^6.5.16",
+    "@storybook/react": "^10.2.9",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
