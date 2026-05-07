@@ -64,7 +64,7 @@ npm install
 - Start the development server using the command below:
 
 ```sh
-npm run develop
+npm run dev
 ```
 
 _Gatsby will then start a hot-reloading development environment accessible by default at `localhost:8000`._

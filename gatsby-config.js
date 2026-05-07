@@ -51,7 +51,6 @@ module.exports = {
       options: {
         precachePages: ["/schedule/", "/travel/", "/speakers/", "/sustain-africa"]
       }
-    },
-    "gatsby-plugin-fontawesome-css"
+    }
   ]
 };
