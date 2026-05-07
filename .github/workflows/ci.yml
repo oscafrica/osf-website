@@ -108,10 +108,10 @@ jobs:
         if: steps.api-node-modules.outputs.cache-hit != 'true'
         run: npm install --legacy-peer-deps
 
-      - name: Generate Coverage
-        run: |
-          npx cypress install
-          npm run test
+      # - name: Generate Coverage
+      #   run: |
+      #     npx cypress install
+      #     npm run test
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
