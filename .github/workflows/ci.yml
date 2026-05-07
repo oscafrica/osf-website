@@ -76,45 +76,45 @@ jobs:
 
       - run: npm run analyze:prettier
 
-  test-and-coverage:
-    runs-on: ubuntu-latest
+  # test-and-coverage:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
 
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18"
+  #     - name: Setup node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: "18"
 
-      - name: Restore node_modules
-        uses: actions/cache@v4
-        id: api-node-modules
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-api-node-modules-${{ hashFiles('package-lock.json') }}
+  #     - name: Restore node_modules
+  #       uses: actions/cache@v4
+  #       id: api-node-modules
+  #       with:
+  #         path: node_modules
+  #         key: ${{ runner.os }}-api-node-modules-${{ hashFiles('package-lock.json') }}
 
-      - name: Restore .npm cache
-        if: steps.api-node-modules.outputs.cache-hit != 'true'
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-api-npm-cache-
+  #     - name: Restore .npm cache
+  #       if: steps.api-node-modules.outputs.cache-hit != 'true'
+  #       uses: actions/cache@v4
+  #       with:
+  #         path: ~/.npm
+  #         key: ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-api-npm-cache-
 
-      - name: Install dependencies
-        if: steps.api-node-modules.outputs.cache-hit != 'true'
-        run: npm install --legacy-peer-deps
+  #     - name: Install dependencies
+  #       if: steps.api-node-modules.outputs.cache-hit != 'true'
+  #       run: npm install --legacy-peer-deps
 
-      # - name: Generate Coverage
-      #   run: |
-      #     npx cypress install
-      #     npm run test
+  #     - name: Generate Coverage
+  #       run: |
+  #         npx cypress install
+  #         npm run test
 
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./coverage/lcov.info
+  #     - name: Coveralls
+  #       uses: coverallsapp/github-action@master
+  #       with:
+  #         github-token: ${{ secrets.GITHUB_TOKEN }}
+  #         path-to-lcov: ./coverage/lcov.info
