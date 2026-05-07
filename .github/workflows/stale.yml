@@ -23,8 +23,8 @@ jobs:
             This PR has been marked as **stale** and will be closed soon.
             Feel free to reopen it if needed 👍
 
-          stale-issue-label: 'no-issue-activity'
-          stale-pr-label: 'no-pr-activity'
+          stale-issue-label: "no-issue-activity"
+          stale-pr-label: "no-pr-activity"
 
           days-before-stale: 30
           days-before-close: 5
