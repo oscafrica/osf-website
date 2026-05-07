@@ -23,7 +23,7 @@ module.exports = ({ config }) => {
   config.module.rules[0].exclude = [/node_modules\/(?!(gatsby)\/)/];
 
   // use installed babel- which is v8.0-beta (which is meant to work with @babel/core@7)
-  config.module.rules[0].use[0]. = require.resolve("babel-");
+  config.module.rules[0].use[0].loader = require.resolve("babel-loader");
 
   // use @babel/preset-react for JSX and env (instead of staged presets)
   config.module.rules[0].use[0].options.presets = [
@@ -45,7 +45,7 @@ module.exports = ({ config }) => {
     test: /\.stories\.jsx?$/,
     s: [
       {
-        : require.resolve("@storybook/source-"),
+        loader: require.resolve("@storybook/source-"),
         options: {
           uglyCommentsRegex: [/^eslint-.*/, /^global.*/],
           prettierConfig: {
@@ -62,14 +62,14 @@ module.exports = ({ config }) => {
     test: /\.(stories|story)\.mdx$/,
     use: [
       {
-        : "babel-",
+        loader: "babel-loader",
         // may or may not need this line depending on your app's setup
         options: {
           plugins: ["@babel/plugin-transform-react-jsx"]
         }
       },
       {
-        : "@mdx-js/",
+        loader: "@mdx-js/loader",
         options: {
           compilers: [createCompiler({})]
         }
@@ -79,7 +79,7 @@ module.exports = ({ config }) => {
 
   config.module.rules.push({
     test: /\.(stories|story)\.[tj]sx?$/,
-    : require.resolve("@storybook/source-"),
+    loader: require.resolve("@storybook/source-"),
     exclude: [/node_modules/],
     enforce: "pre"
   });
@@ -90,7 +90,7 @@ module.exports = ({ config }) => {
     s: [
       //  for  to process CSS with PostCSS
       {
-        : "postcss-",
+        loader: "postcss-loader",
         options: {
           /*
             Enable Source Maps

@@ -43,15 +43,7 @@ const accommodations = [
 ];
 
 const Travel = () => {
-  const [clickMore, setClickMore] = useState({ state: false, text: "View More", listNum: 4 });
-
-  const readMore = () => {
-    if (clickMore.state === false) {
-      setClickMore({ state: !clickMore.state, text: "View Less", listNum: -1 });
-    } else {
-      setClickMore({ state: !clickMore.state, text: "View More", listNum: 4 });
-    }
-  };
+  const [clickMore] = useState({ state: false, text: "View More", listNum: 4 });
 
   return (
     <Layout>
@@ -83,8 +75,8 @@ const Travel = () => {
         <section className={sectionStyle}>
           <h2 className={secHeadingStyle}>VISA INFORMATION</h2>
           <p className={secBodyStyle}>
-            Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d'ivoire, Gambia, Ghana? Then
-            you do not require a visa to visit Nigeria. Citizens of all other countries{" "}
+            Are you a citizen of a Benin, Burkina Faso, Cameroon, Cape Verde, Chad, Côte d&apos;ivoire, Gambia, Ghana?
+            Then you do not require a visa to visit Nigeria. Citizens of all other countries{" "}
             <a
               href="https://immigration.gov.ng/nigerian-visa"
               target="_blank"
