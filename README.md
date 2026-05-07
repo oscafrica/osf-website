@@ -4,7 +4,7 @@
 
 <img src="/static/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=main)](https://coveralls.io/github/oscafrica/osf-website?branch=main) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![Coverage Status](https://coveralls.io/repos/github/oscafrica/osf-website/badge.svg?branch=main)](https://coveralls.io/github/oscafrica/osf-website?branch=main) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
