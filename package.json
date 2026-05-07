@@ -12,7 +12,7 @@
     "purgecss"
   ],
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "license": "MIT",
   "scripts": {
