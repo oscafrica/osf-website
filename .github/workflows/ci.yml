@@ -13,15 +13,15 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2-beta
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: "18"
 
       - name: Restore node_modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         id: api-node-modules
         with:
           path: node_modules
@@ -29,13 +29,12 @@ jobs:
 
       - name: Restore .npm cache
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            - ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
-            - ${{ runner.os }}-api-npm-cache-
+            ${{ runner.os }}-api-npm-cache-
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
@@ -48,15 +47,15 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2-beta
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: "18"
 
       - name: Restore node_modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         id: api-node-modules
         with:
           path: node_modules
@@ -64,13 +63,13 @@ jobs:
 
       - name: Restore .npm cache
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            - ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
-            - ${{ runner.os }}-api-npm-cache-
+            ${{ runner.os }}-api-npm-cache-
+
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
         run: npm install
@@ -82,15 +81,15 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2-beta
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.x"
+          node-version: "18"
 
       - name: Restore node_modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         id: api-node-modules
         with:
           path: node_modules
@@ -98,13 +97,12 @@ jobs:
 
       - name: Restore .npm cache
         if: steps.api-node-modules.outputs.cache-hit != 'true'
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            - ${{ runner.os }}-api-npm-cache-${{ hashFiles('package-lock.json') }}
-            - ${{ runner.os }}-api-npm-cache-
+            ${{ runner.os }}-api-npm-cache-
 
       - name: Install dependencies
         if: steps.api-node-modules.outputs.cache-hit != 'true'
