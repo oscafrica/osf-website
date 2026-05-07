@@ -30,13 +30,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-postcss",
-    {
-      resolve: "gatsby-plugin-purgecss",
-      options: {
-        tailwind: true,
-        purgeOnly: ["src/css/style.css"]
-      }
-    },
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-sitemap",
