@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/faq",
+      "destination": "https://hackmd.io/@oscafrica/rkAGMnfVex",
+      "permanent": true
+    },
+    {
+      "source": "/faqs",
+      "destination": "https://hackmd.io/@oscafrica/rkAGMnfVex",
+      "permanent": true
+    },
+    {
+      "source": "/register",
+      "destination": "https://tix.africa/osf-25",
+      "permanent": true
+    }
+  ]
+}
