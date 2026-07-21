@@ -55,7 +55,7 @@
     "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-transformer-sharp": "^5.16.0",
     "graphql": "^16.6.0",
-    "netlify-cli": "^18.1.0",
+    "netlify-cli": "^26.2.0",
     "opencollective": "1.0.3",
     "postcss-import": "15.1.0",
     "postcss-loader": "^7.1.0",
